@@ -1,0 +1,335 @@
+{
+  "targetDate": "2026-09-13",
+  "title": "9월 13일 정세브리핑",
+  "publishedText": "발행 2026.09.14 KST",
+  "generatedText": "생성 2026.09.14 KST · 정세브리핑",
+  "footnote": "민플러스는 대상일(9.13, 일요일) 발행분이 확인되지 않아 \"기사 없음\"으로 처리했다. 섹션06은 일요일이라 개별 재판·구속 기일이 없어 다음 주 예정 일정 중심으로 정리했다.",
+  "summary": {
+    "type": "summary",
+    "core": [
+      "한미 대미투자협상이 2000억달러 한도를 유지한 채 이번 주 최종 타결을 목표로 막판 조율에 들어갔다. 김정관 산업통상부 장관은 뉴욕에서 러트닉 미 상무장관과 협의를 마치고 귀국하며 이번 주 발표를 시도한다고 밝혔다.",
+      "홍해에서 예멘 후티 반군이 사우디 동서 송유관을 드론으로 타격해 가동을 중단시키고 바브엘만데브 해협 요충지를 장악했다. 세계 원유 공급의 4~5%가 걸린 위기에도 미국은 사우디의 개입 요구에 뚜렷한 대응을 하지 않고 있다는 비판이 나왔다.",
+      "북한이 한미일 '프리덤 에지' 훈련 종료 다음날 동해상으로 단거리 탄도미사일을 발사(올해 13번째)했으나, 관영매체는 최근 한 달새 4차례 발사를 모두 보도하지 않는 이례적 침묵을 이어갔다. 국가안보실은 안보리 결의 위반이라고 규탄했다."
+    ],
+    "watch": [
+      "용혜인 성평등가족부 장관 후보자가 자진사퇴하며 정치권 초점이 김승원 법무부 장관 후보자 인사청문회로 이동 — 여야 '2라운드' 공방 예고.",
+      "윤석열 전 대통령 '한덕수 재판 위증' 항소심 선고 9.16(수), 내란우두머리 항소심 16·17차 공판 9.14·9.17, 일반이적 항소심 7·8차 공판 9.18 예정.",
+      "미중 정상회담(9.24 예정)을 앞두고 중국이 미국의 대만 무기 판매 강행시 시진핑 방미를 보류하겠다고 통보했다는 일본 언론 보도 — 성사 여부 변수.",
+      "한미 대미투자 세부 쟁점(SPV 구성 등)과 호르무즈 파병·핵잠수함 도입 논의가 이번 주 외교·국방 고위급 협의에서 함께 다뤄질 전망."
+    ]
+  },
+  "sections": [
+    {
+      "type": "empty",
+      "label": "민플러스",
+      "text": "오늘은 민플러스 기사가 없습니다."
+    },
+    {
+      "type": "issues",
+      "label": "조선동향",
+      "ranking": [
+        {"name": "北 탄도미사일 발사·침묵", "pct": 30, "count": "20건"},
+        {"name": "김정은-시진핑 답전 친선", "pct": 28, "count": "19건"},
+        {"name": "김주애 후계 청년층 반발", "pct": 17, "count": "9건"},
+        {"name": "北 IT인력 위장취업 진화", "pct": 16, "count": "8건"},
+        {"name": "북러 두만강 다리 개통 여진", "pct": 9, "count": "5건"}
+      ],
+      "cards": [
+        {
+          "title": "북한, 올 들어 13번째 탄도미사일 발사…한미일 프리덤에지 훈련에 반발",
+          "url": "https://www.mk.co.kr/news/politics/12151329",
+          "media": "매일경제",
+          "time": "9.13 13:59",
+          "summary": "북한이 9월13일 한미일 연합 '프리덤 에지' 훈련 종료 하루 만에 동해상으로 단거리 탄도미사일을 발사, 올해 들어 13번째 도발을 감행했다. 정부는 안보리 결의 위반이라며 즉각 중단을 촉구했으나, 북한 관영매체는 최근 한 달새 4차례 발사를 모두 보도하지 않는 이례적 침묵을 이어갔다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "北, 미사일 4번 쏘고도 조용…이례적 침묵 왜", "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000064853", "media": "전남일보", "date": "9.13"},
+            {"title": "[영상] 군사분계선 '수상한 정황' 이은 동해 도발…핵무장 파장 (KBS)", "url": "https://www.youtube.com/watch?v=rcpUe72HUkY", "media": "KBS News(유튜브)", "date": "9.13"},
+            {"title": "국가안보실 \"북 탄도미사일 발사, 안보리 결의 위반\"", "url": "https://kookbang.dema.mil.kr/newsWeb/20260914/6/ATCE_CTGR_0010010000/view.do", "media": "국방일보", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "김정은, 시진핑에 답전…\"언제나 중국동지들과 굳게 손잡고 나아갈 것\"",
+          "url": "http://www.tongilnews.com/news/articleView.html?idxno=217439",
+          "media": "통일뉴스",
+          "time": "9.13 09:50",
+          "summary": "김정은 북한 국무위원장이 9·9절(정권수립일) 축전을 보낸 시진핑 중국 국가주석에게 답전을 보내 조중 친선협조 관계 강화 의지를 밝혔다. 노동신문은 이를 1면에 게재해 북중 밀착을 부각시켰으며, 국내 언론도 일제히 이를 보도했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "김정은 위원장, 시진핑 주석에게 답전 보내", "url": "http://www.jajusibo.com/70912", "media": "자주시보", "date": "9.13"},
+            {"title": "김정은, 시진핑에 답전…\"조중 친선협조 강화 발전\"", "url": "https://www.ajunews.com/view/20260913095232664", "media": "아주경제", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "\"우린 밭일하는데 김주애는 명품 치장\"…탈북 장교가 전한 北 청년 민심",
+          "url": "https://www.mk.co.kr/news/politics/12151270",
+          "media": "매일경제",
+          "time": "9.13 10:29",
+          "summary": "장교 출신 탈북민이 전한 증언에 따르면, 모피와 명품으로 치장한 김주애의 파격 행보를 접한 북한 청년층 사이에서 상대적 박탈감과 반발 심리가 확산되고 있다. 자기 딸만 편애하는 김정은의 행보에 대한 불만도 함께 거론됐다.",
+          "deadline": null,
+          "chips": ["클립 날짜 불일치·참고용"],
+          "related": []
+        },
+        {
+          "title": "\"김정은 욕해봐\" 검증하자 500달러 '면접 대타'…北 위장취업 진화",
+          "url": "https://www.etnews.com/20260912000026?SNS=00002",
+          "media": "전자신문",
+          "time": "9.13 06:00",
+          "summary": "미국 기업들이 채용 면접에서 \"김정은 욕해봐\" 같은 질문으로 북한 IT 위장취업자를 걸러내자, 북한 측이 외국인을 면접 대리인으로 내세우거나 실시간 얼굴 바꿔치기(딥페이크) 기술을 동원하는 등 신종 수법으로 검증을 우회하고 있는 것으로 나타났다. 건당 500달러를 주고 면접을 대신 보게 하는 방식도 확인됐다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "\"김정은 돼지XX 해봐\" 걸리자…'얼굴 바꿔치기' 새 수법 등장", "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008749917", "media": "SBS", "date": "9.12"},
+            {"title": "\"김정은 욕해봐\" 말 못하더니…北, 위장취업 새 수법 나왔다", "url": "https://www.hankyung.com/article/2026091203257", "media": "한국경제", "date": "9.12"}
+          ]
+        },
+        {
+          "title": "[아침광장] 북·러 두만강 자동차다리 개통의 지정학",
+          "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4083999",
+          "media": "경북일보",
+          "time": "9.13 16:28",
+          "summary": "지난 7~8일 준공된 북한 라선-러시아 하산 간 두만강 자동차다리 개통을 계기로, 북러 밀착이 물류·인적교류 확대로 이어지는 지정학적 의미를 짚는 논평이 9월13일 다수 게재됐다. 하루 차량 300대, 인원 2300명 규모 통행이 예상된다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "북러 잇는 두만강자동차다리 개통…양국 교류·관광 활성화 전망", "url": "http://www.jajusibo.com/70882", "media": "자주시보", "date": "9.8"},
+            {"title": "'495일 만에 놓였다'…북러 두만강 다리 개통", "url": "https://v.daum.net/v/4eNEqVZvRr", "media": "다음뉴스", "date": "9.10"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "미-동아시아",
+      "ranking": [
+        {"name": "한미 대미투자협상 최종타결 임박", "pct": 84, "count": "50건"},
+        {"name": "트럼프 호르무즈 파병 압박 가중", "pct": 68, "count": "22건"},
+        {"name": "北 미사일 발사 후 침묵 지속", "pct": 61, "count": "18건"},
+        {"name": "美中 정상회담 파기 위기감 고조", "pct": 42, "count": "11건"},
+        {"name": "美 韓 핵잠수함 도입에 견제구", "pct": 35, "count": "4건"}
+      ],
+      "cards": [
+        {
+          "title": "김정관 \"대미 투자 한도 2천억 달러 합의 지켜질 것\"",
+          "url": "https://imnews.imbc.com/news/2026/econo/article/6851503_36932.html",
+          "media": "MBC",
+          "time": "9.13 18:59",
+          "summary": "김정관 산업통상부 장관이 미국 출장에서 귀국하며 대미 투자 한도(2000억달러, 연 200억달러)는 당초 합의안대로 지켜질 것이라 밝혔고, 이번 주 화상회의로 추가 협의해 최종 타결·발표를 목표로 한다고 전함.",
+          "deadline": null,
+          "chips": ["클립 날짜 불일치·참고용"],
+          "related": [
+            {"title": "'3500억달러' 대미 투자 발표 임박…트럼프 '입김' 막을 안전판 시험대", "url": "https://www.g-enews.com/view.php?ud=202609131038067036638475ab2b_1", "media": "글로벌이코노믹", "date": "9.13"},
+            {"title": "韓美, 대미 투자 최종 조율…18일 1호 프로젝트 협약 맺나", "url": "https://www.etnews.com/20260913000082", "media": "전자신문", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "\"美는 보호 축소·이란은 경고…기로 선 韓 '호르무즈 파병'\"",
+          "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6288809",
+          "media": "뉴스1",
+          "time": "9.13 14:46",
+          "summary": "미국이 호르무즈 해협 상선 방공지원을 하루 두 차례로 줄이며 통항 규모도 급감시킨 가운데, 이란은 군사개입에 강경 경고를 이어가 한국의 파병 결정이 미국의 보호 축소와 이란의 경고 사이 딜레마에 처했다고 분석.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "'미국 압박에, 우리 아들 전쟁터로 보내나'…파병 반대 집회", "url": "https://biz.sbs.co.kr/article_hub/20000334287?division=NAVER", "media": "SBS Biz", "date": "9.13"},
+            {"title": "한미, 이번주 외교·국방 고위급 연쇄협의…대미투자·호르무즈 분수령", "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/13/2026091390047.html", "media": "TV조선", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "북, 미사일 발사 후 또 침묵…南 훈련엔 반발, 美 메시지는 '수위조절'",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=02138566645579792&mediaCodeNo=257",
+          "media": "이데일리",
+          "time": "9.13 15:54",
+          "summary": "북한이 한미일 '프리덤 에지' 훈련 종료 다음날 단거리 탄도미사일을 발사했지만 관영매체는 한 달새 네 차례 발사를 모두 미보도, 훈련엔 실사격으로 반발하면서도 트럼프의 대화 제안을 의식해 대외 메시지 수위는 조절하고 있다는 분석.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "북한, 올 들어 13번째 탄도미사일 발사…한미일 프리덤에지 훈련에 반발", "url": "https://www.mk.co.kr/article/12151329", "media": "매일경제", "date": "9.13"},
+            {"title": "北 미사일 발사로 북미·4자회담 무산 우려", "url": "https://www.fnnews.com/news/202609131816252633", "media": "파이낸셜뉴스", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "\"中, '대만에 무기 판매시 시진핑 방미 보류' 통보\"-日언론",
+          "url": "https://www.news1.kr/world/northeast-asia/6288721",
+          "media": "뉴스1",
+          "time": "9.13 11:25",
+          "summary": "일본 교도통신 보도에 따르면 중국이 미국의 대만 무기 판매 강행시 시진핑 주석의 방미를 보류하겠다고 통보, 대만 문제를 미중관계의 '레드라인'으로 못박으면서 D-10여일 남은 미중 정상회담 성사 여부에 변수로 부상.",
+          "deadline": null,
+          "chips": ["클립 날짜 불일치·참고용"],
+          "related": [
+            {"title": "24일 미중 정상회담 깨지나…中 \"대만 무기 팔면 정상회담 취소\"", "url": "https://economist.co.kr/article/view/ecn202609130017", "media": "이코노미스트", "date": "9.13"},
+            {"title": "트럼프 \"시진핑 방미 취소 우려 안 해… 中, 최근 美에 공정했다\"", "url": "https://www.news1.kr/world/usa-canada/6289007", "media": "뉴스1", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "미 \"韓 핵잠 도입, 타당한 이유 있어야\"…복잡한 '동맹 기여' 과제들",
+          "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6288815",
+          "media": "뉴스1",
+          "time": "9.13 14:56",
+          "summary": "미국이 한국의 핵추진잠수함 도입에 '타당한 이유'를 요구하며 중국 견제 명분을 강조하는 반면, 한국은 자주국방을 앞세워 입장차를 보이는 가운데 대미투자·호르무즈 파병 등과 얽혀 복합 외교 현안으로 부상.",
+          "deadline": null,
+          "chips": ["클립 날짜 불일치·참고용"],
+          "related": [
+            {"title": "美 핵잠, 韓과 日 '저울질' 하나?", "url": "https://biz.sbs.co.kr/article_hub/20000334168?division=NAVER", "media": "SBS Biz", "date": "9.13"},
+            {"title": "트럼프, 선거 지면 한국에 화풀이?…\"청구서 압박 세질 것\" 암울한 전망", "url": "https://nownews.seoul.co.kr/news/newsView.php?id=20260913601004&wlog_tag3=naver", "media": "서울신문", "date": "9.13"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "미-비동아시아",
+      "ranking": [
+        {"name": "후티발 사우디 송유관 공격", "pct": 78, "count": "9건"},
+        {"name": "이란, 클로드로 美군함 추적", "pct": 55, "count": "3건"},
+        {"name": "트럼프, 러 정유시설 공격중단 요구", "pct": 50, "count": "4건"},
+        {"name": "브릭스 이란제재 위법 선언", "pct": 45, "count": "2건"}
+      ],
+      "cards": [
+        {
+          "title": "홍해 묶이고 송유관 막힌 사우디…갈등 불붙인 미국은 '모르쇠'",
+          "url": "https://www.khan.co.kr/article/202609132047025",
+          "media": "경향신문",
+          "time": "9.13 20:47",
+          "summary": "이란 배후 후티 반군이 홍해 바브엘만데브 해협을 장악하고 이라크발 드론으로 사우디 동서 송유관까지 타격해 가동이 중단됐다. 세계 원유 공급의 4~5%가 걸린 위기 속에서도 미국은 사우디의 개입 요구에 별다른 대응을 하지 않고 있다는 비판이 나온다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "'후티 압승'으로 끝난 홍해 전투…미국·사우디 '머뭇', 예멘군 '분투'", "url": "https://www.hani.co.kr/arti/international/arabafrica/1277583.html", "media": "한겨레", "date": "9.13"},
+            {"title": "사우디 송유관 중단, 세계 원유 공급 4% 위협", "url": "https://www.newsis.com/view/NISX20260913_0003787538", "media": "뉴시스", "date": "9.13"},
+            {"title": "예멘 정부군, 반군 후티 장악 모카 공격…후티, 사우디 군사 기지에 보복", "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5218897", "media": "MBN", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "美 AI로 미 군함 위치 쫓았다…이란 연계 조직, 클로드에 표적자료 맡겼다",
+          "url": "https://www.newsis.com/view/NISX20260913_0003787000",
+          "media": "뉴시스",
+          "time": "9.13 05:00",
+          "summary": "앤트로픽은 이란 연계 조직이 자사 AI '클로드'를 이용해 미 해군 함정 위치를 추적하고 표적 선정 자료를 만든 정황을 포착해 계정을 차단했다고 밝혔다. 공개된 군인 사진·선박 트랜스폰더·상업위성 영상을 조합해 표적 핸드북을 작성했으며, 후티 반군도 별도로 클로드를 미사일 유도체계 코딩에 활용한 사실이 함께 드러났다.",
+          "deadline": null,
+          "chips": ["해외단독"],
+          "related": [
+            {"title": "Iran used Claude to target US Navy in Middle East, Anthropic says", "url": "https://www.navytimes.com/news/your-navy/2026/09/11/iran-used-claude-to-target-us-navy-in-middle-east-anthropic-says/", "media": "Navy Times", "date": "9.11"},
+            {"title": "Anthropic says Iran-linked accounts used Claude for propaganda, US naval targeting", "url": "https://www.iranintl.com/en/202609115263", "media": "Iran International", "date": "9.11"}
+          ]
+        },
+        {
+          "title": "美 경유값 6달러 돌파하자… 트럼프, 젤렌스키에 \"러 정유시설 공격 멈춰라\"",
+          "url": "https://biz.chosun.com/international/international_general/2026/09/13/LJIVGFZVJZAJRGYRQ2RUWGUAOQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "media": "조선비즈",
+          "time": "9.13 23:21",
+          "summary": "우크라이나의 잇단 러시아 정유시설 드론 공격으로 러시아 내 디젤 품귀에 이어 미국 경유 가격까지 갤런당 6달러를 넘어서자, 트럼프 대통령이 젤렌스키 대통령에게 '다른 표적은 괜찮지만 정유시설 타격은 멈추라'고 공개 요구했다. 우크라이나 지원을 대가로 자국 내 유가 부담을 관리하려는 미국의 이해관계가 드러난 장면이다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "트럼프 \"젤렌스키, 러시아 경유 시설 공격 멈춰라\"", "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008750945&plink=ORI&cooper=NAVER", "media": "SBS", "date": "9.13"},
+            {"title": "트럼프 \"젤렌스키, 러시아 경유 시설 공격 멈추라\"", "url": "https://www.ytn.co.kr/_ln/0104_202609132346285109", "media": "YTN", "date": "9.13"},
+            {"title": "Trump Demands Ukraine Halt Refinery Strikes as Diesel Surges", "url": "https://www.bloomberg.com/news/articles/2026-09-13/trump-demands-ukraine-halt-refinery-strikes-as-diesel-surges", "media": "Bloomberg", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "브릭스 \"이란 제재는 국제법 위반\" 만장일치 채택…이란·UAE 타협 끌어내",
+          "url": "https://www.khan.co.kr/article/202609131620001",
+          "media": "경향신문",
+          "time": "9.13 16:20",
+          "summary": "뉴델리에서 폐막한 브릭스 정상회의가 미국·이스라엘을 직접 지목하지는 않았지만 유엔 안보리 승인 없는 '일방적 제재'를 국제법 위반으로 규정하고 철회를 요구하는 공동선언을 만장일치로 채택했다. 이란과 UAE의 외교 갈등에도 밤샘 협상 끝에 합의에 이르렀으며, 사실상 미국의 대이란 제재와 중동 개입을 겨냥한 것이라는 해석이 나온다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "미 겨냥 \"중동 분쟁 우려\"…브릭스 '만장일치' 이끈 인도 외교력", "url": "https://www.khan.co.kr/article/202609132047005", "media": "경향신문", "date": "9.13"},
+            {"title": "BRICS summit 2026: What are the key takeaways?", "url": "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways", "media": "Al Jazeera", "date": "9.13"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "국내정치·美동향",
+      "ranking": [
+        {"name": "용혜인 사퇴·김승원 공방", "pct": 58, "count": "120건"},
+        {"name": "대미투자 2000억弗 타결", "pct": 25, "count": "55건"},
+        {"name": "사법통제부 명칭 변경", "pct": 12, "count": "12건"},
+        {"name": "호르무즈 파병 압박", "pct": 5, "count": "7건"}
+      ],
+      "cards": [
+        {
+          "title": "용혜인 사퇴로 김승원으로 초점 이동, 與野 '2라운드'…'특혜 없었다' '다음 차례는 김승원'",
+          "url": "https://www.newsis.com/view/NISX20260913_0003787324",
+          "media": "뉴시스",
+          "time": "9.13 22:01",
+          "summary": "용혜인 성평등가족부 장관 후보자가 지명 14일 만에 자진사퇴했다. 여당 우려와 김민석 대표의 사퇴 권유 속 결단이었다. 사퇴 이후 정치권 초점은 김승원 법무부 장관 후보자로 옮겨갔고, 여당은 제넨셀 임상시험 특혜 의혹에 '특혜 없음'을 강조하며 엄호, 야당은 '다음 차례는 김승원'이라며 총공세를 예고했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "기본소득당 용혜인 장관 후보 자진사퇴, 청와대 한숨 돌렸다: 김승원 법무장관 후보 둘러싼 공방 가열", "url": "https://www.huffingtonpost.kr/article/260434", "media": "허프포스트코리아", "date": "9.13"},
+            {"title": "김민석, 용혜인에 사퇴 권유… 장동혁 \"다음은 김승원\"", "url": "https://www.fnnews.com/news/202609131816261301", "media": "파이낸셜뉴스", "date": "9.13"},
+            {"title": "용혜인 결국 자진 사퇴…인사청문 '슈퍼위크' 김승원 공방 예고", "url": "https://www.mt.co.kr/politics/2026/09/13/2026091314242330092", "media": "머니투데이", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "김정관 장관 \"對美 투자 협상, 이번주 타결 목표\"",
+          "url": "https://www.fnnews.com/news/202609132114134999",
+          "media": "파이낸셜뉴스",
+          "time": "9.13 21:14",
+          "summary": "산업통상부 김정관 장관이 뉴욕에서 러트닉 美 상무장관과 막판 협상을 마치고 귀국, 전략적 투자 한도 2000억 달러·연 200억 달러 상한 유지를 재확인하며 이번주 내 최종 타결 및 발표를 시도한다고 밝혔다. SPV 구성 등 세부 쟁점은 여전히 남아 있으며, 가스복합화력·원전 등 1호 프로젝트가 이번주 공개될 전망이다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "김정관 \"대미투자 최종타결, 이번주 시도…2000억달러 한도 지킨다\"", "url": "https://biz.heraldcorp.com/article/10871773", "media": "헤럴드경제", "date": "9.13"},
+            {"title": "김정관 산업장관 \"대미투자 이번주 타결 목표…2000억달러 한도 지킨다\" [종합]", "url": "https://www.etoday.co.kr/news/view/2624890", "media": "이투데이", "date": "9.13"},
+            {"title": "김정관 \"대미 투자 2000억弗 안 넘을 것\"", "url": "https://www.segye.com/newsView/20260913511272", "media": "세계일보", "date": "9.13"}
+          ]
+        },
+        {
+          "title": "당정 \"사법통제부 '불송치사건심사부' 검토… 경찰개혁 더 강력하게\"",
+          "url": "https://www.newscj.com/news/articleView.html?idxno=3432293",
+          "media": "뉴스천지",
+          "time": "9.13 21:00",
+          "summary": "당정이 10월 2일 출범하는 공소청 직제 개선안을 논의, 논란이 된 '사법통제부' 명칭을 '불송치사건심사부'로 바꾸고 형사기획관을 폐지하는 방안을 검토하기로 했다. 김민석 민주당 대표는 경찰개혁을 검찰개혁보다 더 강력하게 추진하겠다고 밝혔다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {"title": "당정 \"'사법통제부' 명칭 '불송치 사건 심사부'로\"", "url": "https://m.skyedaily.com/news_view.html?ID=311489", "media": "스카이데일리", "date": "9.13"},
+            {"title": "당정, 공소청 직제 손질…'사법통제부' 명칭도 바꾼다 (종합)", "url": "https://www.g-enews.com/view.php?ud=202609132004353661cd0bfacc1c_1", "media": "글로벌이코노믹", "date": "9.13"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "내란청산",
+      "ranking": [
+        {"name": "尹 내란재판 이번주 슈퍼위크", "pct": 82, "count": "9건"}
+      ],
+      "cards": [
+        {
+          "title": "'이종섭 도피' 의혹 무죄 尹… '韓 재판 위증' 항소심 쏠린 눈",
+          "url": "https://www.segye.com/newsView/20260913509569",
+          "media": "세계일보",
+          "time": "9.13 19:53",
+          "summary": "윤석열 전 대통령이 이종섭 전 국방장관 도피 지시 의혹 재판(11일)에서 무죄를 선고받은 가운데, 한덕수 전 총리 재판 위증 혐의 항소심 선고가 16일로 예정돼 관심이 쏠림. 특검은 지난달 결심공판에서 1심 무죄 파기 및 벌금 1천만원을 구형했고, 판결문 검토 후 이종섭 사건 항소 여부를 결정할 예정.",
+          "deadline": "위증 항소심 선고 9.16(수)",
+          "chips": [],
+          "related": [
+            {"title": "한덕수, '위증혐의' 尹 항소심에서 증언 거부...내달 19일 결심", "url": "https://www.ajunews.com/view/20260728160432404", "media": "아주경제", "date": "7.28"},
+            {"title": "'1심 무죄' 尹 위증 혐의 항소심 재판부, 한덕수 증인으로 부른다", "url": "https://imnews.imbc.com/news/2026/society/article/6834257_36918.html", "media": "MBC", "date": "9월"}
+          ]
+        },
+        {
+          "title": "[이번주 법조 일정] 9월14일~9월19일 — 윤석열 '내란우두머리' 항소심 등",
+          "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=226257",
+          "media": "법률신문",
+          "time": "9.13 07:00",
+          "summary": "이번 주 서울고법에서 윤석열 전 대통령 등 8명의 '내란우두머리' 항소심 16·17차 공판(9.14, 9.17)과 '일반이적' 항소심 7·8차 공판(9.18)이 이어지고, 서울중앙지법에서는 새로운 '직권남용권리행사방해' 사건 1차 공판준비기일(9.16)도 열림. 같은 날 위증 혐의 항소심 선고도 겹침. 9.13(일)은 재판 없는 일요일로, 개별 인물의 그날 구속·석방·소환 등 동향은 확인되지 않았다.",
+          "deadline": "내란우두머리 항소심 16차 9.14(월)·17차 9.17(목), 일반이적 항소심 7·8차 9.18(금), 직권남용 신규 사건 공판준비기일 9.16(수)",
+          "chips": [],
+          "related": [
+            {"title": "[금주 재판일정] 尹 '재판 위증' 항소심 선고…SKT 과징금 취소소송 등", "url": "https://www.newspim.com/news/view/20260911001071", "media": "뉴스핌", "date": "9.13"}
+          ]
+        }
+      ]
+    }
+  ]
+}
