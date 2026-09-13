@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9월 10일 정세브리핑</title>
+<style>
+  :root{
+    --ink:#1d1d1f; --ink-soft:#6e6e73;
+    --paper:#ffffff; --paper-parchment:#f5f5f7; --paper-raised:#fafafc;
+    --tile-dark:#1d1d1f; --line:#e0e0e0;
+    --accent:#0066cc; --tag-bg:#d2d2d7; --warn:#8a6d1f;
+    --core-accent:#ff9f0a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f5f5f7; --ink-soft:#a1a1a6;
+      --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+      --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f5f5f7; --ink-soft:#a1a1a6;
+    --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+    --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:112.5%;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Apple SD Gothic Neo",Pretendard,system-ui,sans-serif;line-height:1.5;}
+  .page{max-width:640px;margin:0 auto;padding:0 0 3rem;}
+  .hero{padding:2rem 1.1rem 1.2rem;background:var(--paper);}
+  .hero .eyebrow{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;letter-spacing:-0.01em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .hero h1{font-weight:700;font-size:1.85rem;line-height:1.32;margin:0 0 0.6rem;letter-spacing:0;}
+  .hero .meta{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.82rem;color:var(--ink-soft);}
+
+  .tab-radio{position:absolute;opacity:0;pointer-events:none;width:0;height:0;}
+  .tabbar{display:flex;gap:0.4rem;overflow-x:auto;padding:0 1.1rem 0.8rem;
+    background:var(--paper-parchment);backdrop-filter:blur(20px);}
+  .tabbar label{flex-shrink:0;display:inline-block;color:var(--ink-soft);
+    font-family:inherit;font-size:0.85rem;padding:0.4rem 0.9rem;border-radius:999px;cursor:pointer;
+    transition:transform .1s;-webkit-tap-highlight-color:transparent;user-select:none;}
+  .tabbar label:active{transform:scale(0.95);}
+  .panels .sec-panel{display:none;padding:1.1rem;background:var(--paper);}
+  #tab-0:checked ~ .panels #sec-0,
+  #tab-1:checked ~ .panels #sec-1,
+  #tab-2:checked ~ .panels #sec-2,
+  #tab-3:checked ~ .panels #sec-3,
+  #tab-4:checked ~ .panels #sec-4,
+  #tab-5:checked ~ .panels #sec-5,
+  #tab-6:checked ~ .panels #sec-6{display:block;}
+  #tab-0:checked ~ .tabbar label[for="tab-0"],
+  #tab-1:checked ~ .tabbar label[for="tab-1"],
+  #tab-2:checked ~ .tabbar label[for="tab-2"],
+  #tab-3:checked ~ .tabbar label[for="tab-3"],
+  #tab-4:checked ~ .tabbar label[for="tab-4"],
+  #tab-5:checked ~ .tabbar label[for="tab-5"],
+  #tab-6:checked ~ .tabbar label[for="tab-6"]{background:var(--accent);color:#fff;}
+  .sec-panel h2{font-weight:700;font-size:1.22rem;margin:0 0 0.9rem;}
+  .sec-num{color:var(--accent);font-family:"SF Mono","IBM Plex Mono",monospace;margin-right:0.4rem;}
+  .rank{margin-bottom:1rem;}
+  .rank-row{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.88rem;}
+  .rank-label{width:8.6rem;flex-shrink:0;color:var(--ink-soft);}
+  .rank-bar{display:inline-block;width:120px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;}
+  .rank-bar i{display:block;height:100%;background:var(--accent);border-radius:3px;}
+  .rank-num{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.84rem;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;}
+  .issue{padding:0.9rem;margin-bottom:0.7rem;background:var(--paper-raised);
+    border:1px solid var(--line);border-radius:18px;}
+  .issue-title a{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none;}
+  .issue-byline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;color:var(--ink-soft);
+    margin:0.25rem 0 0.45rem;font-variant-numeric:tabular-nums;}
+  .issue-summary{font-size:0.98rem;color:var(--ink);margin:0 0 0.5rem;}
+  .issue-deadline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.86rem;color:var(--accent);
+    margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .issue-related{list-style:none;margin:0 0 0.5rem;padding:0;font-size:0.9rem;}
+  .issue-related li{margin-bottom:0.3rem;padding-left:0.8rem;}
+  .issue-related a{color:var(--ink);}
+  .issue-related .src{color:var(--ink-soft);font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;}
+  .chip{display:inline-block;font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.72rem;
+    padding:0.12rem 0.6rem;border-radius:999px;margin-right:0.35rem;}
+  .chip-foreign{background:color-mix(in srgb, var(--accent) 10%, transparent);color:var(--accent);}
+  .chip-warn{background:color-mix(in srgb, var(--warn) 10%, transparent);color:var(--warn);}
+  .empty{color:var(--ink-soft);font-size:0.98rem;padding:1rem 0;}
+  .tile-dark{background:var(--tile-dark);color:#f5f5f7;margin:0 0 1.1rem;
+    border-radius:18px;padding:1.1rem 1.15rem;border-top:2px solid var(--core-accent);}
+  .tile-dark:last-child{margin-bottom:0;}
+  .tile-dark .block-title{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;
+    letter-spacing:0.08em;text-transform:uppercase;color:var(--core-accent);margin:0 0 0.7rem;
+    font-weight:600;}
+  .tile-dark ul{margin:0;padding-left:1.1rem;}
+  .tile-dark li{margin-bottom:0.5rem;font-size:1.02rem;line-height:1.6;}
+  .tile-dark li::marker{color:var(--core-accent);}
+  .footnote{font-size:0.85rem;color:var(--ink-soft);margin:1.3rem 1.1rem 0;
+    padding-top:0.9rem;border-top:1px solid var(--line);}
+  .footer{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.76rem;color:var(--ink-soft);
+    margin:1.6rem 1.1rem 0;padding:0 1.1rem;background:var(--paper-parchment);padding-top:1rem;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="eyebrow">정세브리핑 · 데일리</p>
+    <h1>9월 10일 정세브리핑</h1>
+    <p class="meta">발행 2026.09.11 KST</p>
+  </header>
+
+  <input type="radio" name="sec" id="tab-0" class="tab-radio" checked>
+  <input type="radio" name="sec" id="tab-1" class="tab-radio">
+  <input type="radio" name="sec" id="tab-2" class="tab-radio">
+  <input type="radio" name="sec" id="tab-3" class="tab-radio">
+  <input type="radio" name="sec" id="tab-4" class="tab-radio">
+  <input type="radio" name="sec" id="tab-5" class="tab-radio">
+  <input type="radio" name="sec" id="tab-6" class="tab-radio">
+
+  <nav class="tabbar">
+    <label for="tab-0">축약</label>
+    <label for="tab-1">01 민플러스</label>
+    <label for="tab-2">02 조선동향</label>
+    <label for="tab-3">03 미-동아시아</label>
+    <label for="tab-4">04 미-비동아시아</label>
+    <label for="tab-5">05 국내정치·美동향</label>
+    <label for="tab-6">06 내란청산</label>
+  </nav>
+
+  <div class="panels">
+
+    <section class="sec-panel" id="sec-0">
+      <h2><span class="sec-num">00</span> 축약</h2>
+      <section class="tile-dark">
+        <p class="block-title">오늘의 핵심</p>
+        <ul>
+          <li>백악관이 지난 1일자 서한으로 청와대에 호르무즈 해협 "기여" 완료 시한을 미 중간선거 직전인 11월 1일로 못박은 사실이 확인됐다. 국회 대정부질문에서 여야 모두 신중론을 폈지만 정부는 "여러 시나리오 검토" 원론적 답변에 그쳤다.</li>
+          <li>후티 반군이 홍해 요충지 모카를 장악하며 바브엘만데브 해협까지 위협, 이란의 호르무즈 봉쇄와 겹쳐 국제유가가 배럴당 100달러를 재돌파했다. IAEA는 미·영·프·독 주도로 이란을 20년 만에 유엔 안보리에 회부했다.</li>
+          <li>계엄 종합특검 재판이 본격화됐다 — 여인형·이진우 전 사령관의 '블랙리스트'·'수호신TF' 의혹 첫 공판이 10일 열렸고, 공익제보자는 계엄군 위치추적장비 무단 차단 의혹을 국방부에 직접 고발했다.</li>
+        </ul>
+      </section>
+      <section class="tile-dark">
+        <p class="block-title">내일 지켜볼 지점</p>
+        <ul>
+          <li>9월 12일 호르무즈 파병 반대 대규모 집회 예고 — 청와대 인근까지 확산 여부.</li>
+          <li>한미 대미투자 1호 사업(원전 최대 8기·텍사스 가스발전, 1000억달러) 공식 발표 시점 — "다음주" 관측.</li>
+          <li>여인형 다음 공판준비기일 10월 22일.</li>
+          <li>조현 외교장관·루비오 미 국무장관 회담 "이달 내" 개최 여부.</li>
+          <li>용혜인 성평등가족부 장관 후보자 인사청문회 개최 여부·청와대 거취 판단.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="sec-panel" id="sec-1">
+      <h2><span class="sec-num">01</span> 민플러스</h2>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18344">"국민 믿고 파병 압박 거부하라"…청와대까지 이어진 평화행진</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.10 21:55</p>
+        <p class="issue-summary">호르무즈 파병 반대 촛불행진이 나흘째 이어지며 광화문에서 청와대까지 행진이 진행됐다. 농민·활동가·시민들이 참여해 정부가 미국의 파병 압박을 거부해야 한다고 요구했다. 발언자들은 파병이 한미 간 불평등한 관계에서 비롯됐으며 청년을 불필요한 분쟁에 내몰 것이라 경고했다. 9월 12일 대규모 집회가 예고돼 있다고 전했다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18343">농어민 "의견 듣겠다더니 입장부터 통제"…CPTPP 가입 반대</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.10 18:28</p>
+        <p class="issue-summary">정부가 CPTPP(포괄적·점진적 환태평양경제동반자협정) 가입 관련 회의를 열면서 참석한 농어민 단체에 피켓·머리띠 제거를 요구했다는 내용이다. 이에 반발한 농어민 단체들이 회의장을 이탈했다고 전한다. 정부가 "의견을 듣겠다"고 해놓고 실제로는 반대 의견 표출부터 통제했다는 문제를 제기한다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18342">[연재⑧] 16세기 단천연은법: 세계적 수준의 독자적 은 제련 기술</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.10 15:17</p>
+        <p class="issue-summary">함경도 단천 광산에서 김감불·김검동 등이 개발한 16세기 독자적 은 제련 기술(연은분리법)을 다룬 역사 연재 기사다. 세계적 수준의 독자 기술이었음을 강조하는 논조다. 시사성보다는 역사·과학기술사 소재다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18341">김정은 총비서, 공화국 창건 78주년 중앙선서모임서 연설</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.10 11:48</p>
+        <p class="issue-summary">북한 정권수립 78주년 기념 중앙선서모임에서 김정은 총비서가 연설한 내용을 전한다. 국민의 애국심과 헌신이 국가 발전을 떠받치는 "저항할 수 없는 기둥"이라 언급했다고 전한다. 부강한 사회주의 국가 건설을 위한 지속적 노력을 촉구했다는 내용이며, 발언 내용은 북한 관영매체 인용으로 추정되고 별도로 검증되지 않았다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18340">수순밟기에 들어간 호르무즈 파병, 그 중심에 위성락이 있다</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.10 10:22</p>
+        <p class="issue-summary">호르무즈 파병이 위성락 국가안보실장을 중심으로 기정사실화 수순을 밟고 있다고 지적한다. 5월 "군사옵션 검토" 발언에서 7월 "협의 확인"으로, 9월 4일 청와대 관계자의 "실질적 기여에는 군사적 기여도 포함"이라는 발언으로 이어지는 경과를 짚는다. 대통령이 "결정된 것 없다"고 부인했음에도 이미 파병이 기정사실화됐다는 문제의식이며, 미국이 파병을 요구·압박하는 주체임을 명시한다.</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-2">
+      <h2><span class="sec-num">02</span> 조선동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">MDL 침범·지뢰밭</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">9·9절 김정은 연설</span><span class="rank-bar"><i style="width:92%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">中, 북미회담 중재설</span><span class="rank-bar"><i style="width:70%"></i></span><span class="rank-num">20여건</span></div>
+        <div class="rank-row"><span class="rank-label">국정원 김주애 보고</span><span class="rank-bar"><i style="width:55%"></i></span><span class="rank-num">10여건</span></div>
+        <div class="rank-row"><span class="rank-label">IAEA 영변·강선 확장</span><span class="rank-bar"><i style="width:45%"></i></span><span class="rank-num">다수</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.globalnewsagency.kr/news/articleView.html?idxno=493341">유용원, "무너지는 군사분계선·흔들리는 군 대비태세" 집중 질타</a></p>
+        <p class="issue-byline">글로벌뉴스통신 · 2026.09.10</p>
+        <p class="issue-summary">10일 국회 대정부질문(외교·통일·안보 분야)에서 국민의힘 유용원 의원이 북한군의 군사분계선(MDL) 침범 실태를 집중 질타했다. 서부전선 한 개 사단 관할구역에서만 북한이 조성한 지뢰밭·전술도로 등이 MDL을 10~15m 넘어온 지점이 6곳에 달한다고 주장했다. 북한이 2024년 이후 국경선화 작업을 지속해왔으며 최근 한 달간 20여 차례 월선이 확인됐다고 지적했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/023/0003997725">"北, 군사분계선 넘어와 '지뢰밭' 만들고 있다"</a> <span class="src">문화일보 · 9.10</span></li>
+          <li><a href="https://www.sisajournal.com/news/articleView.html?idxno=386537">한 달 새 20여 차례 '선 넘은' 북한군…작년보다 많았다</a> <span class="src">시사저널 · 9.10</span></li>
+          <li><a href="https://www.youtube.com/watch?v=RUSd0UMS0e4">[유튜브] 유용원 "北, 지뢰밭 작업…서부전선 6곳"</a> <span class="src">TV조선 · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.nocutnews.co.kr/news/6576089">대외메시지 없는 北 9.9절…"유동적 정세 속 관망 기조 추정"</a></p>
+        <p class="issue-byline">노컷뉴스(뉴스1) · 2026.09.10</p>
+        <p class="issue-summary">북한 정권수립 78주년(9·9절)을 맞아 김정은 총비서가 평양 김일성광장 기념행사에서 "애국심과 헌신적 기여로 전진하자"고 연설했으나 대미·대남 메시지는 포함하지 않았다. 통일부는 "정상국가 이미지 부각과 내부결속 강화" 목적으로 분석했다. 전문가들은 미중·북중러 관계가 유동적인 정세 속 북한이 관망 기조를 취한 것으로 평가했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/422/0000904970">김정은, 정권 수립일에 '인민' 칭송…대미 언급 없이 '밀당'?</a> <span class="src">MBC · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/119/0003130998">北, 9·9절 이례적 시민 시가행진…'정상국가' 이미지 노렸나</a> <span class="src">문화일보 · 9.10</span></li>
+          <li><a href="https://www.youtube.com/watch?v=sGfDe-D2gKA">[유튜브] 김정은, 대외 메시지 없이 내부 결속 다지기 주력</a> <span class="src">연합뉴스TV · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609101513001/">트럼프·김정은 재회에 중국이 움직인다···"북·미 대화 적극 지원"</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.10</p>
+        <p class="issue-summary">트럼프 대통령이 김정은 위원장과 재회 의사를 거듭 밝힌 가운데, 중국이 북미 대화 재개를 "적극적·건설적으로" 지원할 뜻을 내비쳤다. 회담 장소로 11월 중국 선전에서 열리는 APEC 정상회의가 거론된다. 일부 외신은 북한이 핵보유국 지위 인정 등 높은 요구조건을 내걸 가능성을 제기했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/081/0003678904">'11월 선전 APEC'서 깜짝 북미회담?…중국 '적극적 중재' 물밑 타진</a> <span class="src">서울신문 · 9.10</span></li>
+          <li><a href="https://www.ajunews.com/view/20260910085918001">"시진핑, 트럼프·김정은 회담 성사위해 적극 노력중"</a> <span class="src">아주경제 · 9.10</span></li>
+          <li><a href="https://www.youtube.com/watch?v=RBGatv1WU-0">[유튜브] 中, 트럼프-김정은 회동 중재 의향…"적극 역할"</a> <span class="src">연합뉴스TV · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://view.asiae.co.kr/article/2026091012084233005">국정원 "김주애 오빠 있어도 후계자 될 상황 아냐"</a></p>
+        <p class="issue-byline">아시아경제 · 2026.09.10</p>
+        <p class="issue-summary">국정원이 10일 국회 정보위 비공개 업무보고에서 김주애가 여전히 후계자 내정 단계에 있으며, 성별 미상의 동생이 존재하는 것으로 파악하고 있다고 보고했다. 김주애의 '오빠' 존재 여부는 지속 확인 중이나, 설령 있더라도 후계자가 될 수 있는 상황은 아니라고 판단한다고 밝혔다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.shinailbo.co.kr/news/articleView.html?idxno=5061000">국정원 "김정은 아들 있어도 후계자 어려워"</a> <span class="src">신아일보 · 9.10</span></li>
+          <li><a href="https://www.imaeil.com/page/view/2026091019003792804">국정원 "김정은 딸 주애, 성별 미상 동생 있는 것으로 파악"</a> <span class="src">매일신문 · 9.10</span></li>
+          <li><a href="https://www.youtube.com/watch?v=O4XsmXG24R4">[유튜브] 국정원 "김주애 오빠 있어도 후계자 될 상황 아냐"</a> <span class="src">채널A · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.fnnews.com/news/202609100802514878">IAEA, "北, 영변에 2층 규모 농축 시설 신축…핵 능력 지속 확장"</a></p>
+        <p class="issue-byline">파이낸셜뉴스 · 2026.09.10</p>
+        <p class="issue-summary">IAEA가 북한 영변 핵단지에 기존보다 큰 2층 규모의 우라늄 농축시설을 새로 지었으며, 최대 28개의 원심분리기 캐스케이드를 수용할 수 있는 규모로 파악된다고 밝혔다. 평양 인근 강선 단지에서도 증축시설이 가동 중인 정황이 포착돼 동시에 농축능력이 확대되고 있다고 지적했다. 그로시 IAEA 사무총장은 이를 유엔 안보리 결의 위반으로 규정했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/119/0003131466">北 영변에 기존보다 큰 농축시설…강선 증축시설도 가동 정황</a> <span class="src">매일경제 · 9.10</span></li>
+          <li><a href="https://www.bbc.com/korean/articles/clymrkg40dzo">IAEA, "북한 2층 규모 우라늄 농축 시설 새로 건설해"</a> <span class="src">BBC코리아 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-3">
+      <h2><span class="sec-num">03</span> 미-동아시아</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">대미투자 1호 임박</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">91건</span></div>
+        <div class="rank-row"><span class="rank-label">미 해군 핵잠 차별론</span><span class="rank-bar"><i style="width:60%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">호르무즈·외교장관회담</span><span class="rank-bar"><i style="width:55%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">미중 AI기술탈취 공방</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">10건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ebn.co.kr/news/articleView.html?idxno=1723835">韓, 美 원전·가스에 134조원 투자 임박…'대미 투자 1호' 시동</a></p>
+        <p class="issue-byline">EBN · 2026.09.10 19:04</p>
+        <p class="issue-summary">한국 정부가 미국 내 원전(최대 8기)·텍사스 천연가스 발전소에 1000억달러(약 134조원) 이상을 투자하는 '대미 투자 1호' 합의가 최종 단계에 이르렀다. WSJ 보도 기준 이르면 다음주 공식 발표 가능성이 있으며, 산업통상부는 9월17일 국회에 세부내용을 보고할 예정이다. 이는 지난해 한미 관세협상 합의(3500억달러 대미투자)의 첫 이행 사업이다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/421/0009163753?sid=104">FT "3500억달러 투자약속 1년째 지연에 美불만 임계점 향해"</a> <span class="src">연합뉴스 · 9.10</span></li>
+          <li><a href="https://www.asiatime.co.kr/article/20260910500383">일본은 속도 내는데 한국은 제자리…3500억 달러 대미투자 '온도차'</a> <span class="src">아시아타임 · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/421/0009163869?sid=104">WSJ "韓, 1호 대미투자 합의 근접…이르면 내주 발표"</a> <span class="src">연합뉴스 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newspim.com/news/view/20260910001020">美해군 "日도 원잠 보유 검토해야"...韓엔 "왜 필요한지 이유 찾아라"</a></p>
+        <p class="issue-byline">뉴스핌 · 2026.09.10 15:53</p>
+        <p class="issue-summary">미 해군 관계자가 일본의 원자력추진잠수함 보유 검토에는 "이미 원전기술 보유했으니 검토해야"라며 긍정적 입장을 밝힌 반면, 한국에는 "원잠은 비용이 매우 많이 든다"며 "타당한 이유를 찾아야 한다"고 촉구했다. 미국은 한국이 한반도 인근 해역을 벗어난 활동 계획이 없다면 원잠이 필수적이지 않다는 입장이다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.todaykorea.co.kr/news/articleView.html?idxno=405942">美 해군, 韓 핵잠에 "국격 상징 안 돼···왜 필요한지 분명해야"</a> <span class="src">투데이코리아 · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/374/0000532288?sid=104">FT "美정부 불만 누적…미군철수, 핵잠 번복 가능성도"</a> <span class="src">SBS Biz · 9.10</span></li>
+        </ul>
+        <p style="margin-top:0.5rem"><a href="https://www.youtube.com/watch?v=NwNmExX6pVk" style="font-size:0.85rem">[유튜브] 미 해군 "한국, 핵잠 보유하려면 타당한 이유 있어야"</a> <span class="src" style="font-family:'SF Mono',monospace;font-size:0.78rem;color:var(--ink-soft)">연합뉴스TV · 9.10</span></p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newspim.com/news/view/20260910001176">조현 "이달 내에 한·미 외교장관회담 열릴 것...한·미 동맹은 굳건"</a></p>
+        <p class="issue-byline">뉴스핌 · 2026.09.10 18:38</p>
+        <p class="issue-summary">조현 외교부 장관이 국회 대정부질문에서 마코 루비오 미 국무장관과 이달 내 한미 외교장관회담을 개최할 예정이라고 밝혔다. "한미동맹은 기본적으로 굳건하며 문제가 있어도 협의로 해소 가능"이라 강조했다. 호르무즈 파병 요구와 관련해 여야 모두 신중론을 제기한 가운데, 대북 독자제재 해제는 국제사회와 공조해 추진하겠다는 입장도 재확인했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/422/0000904967?sid=161">정부, 호르무즈 파병 거듭 '신중' 답변…"여러 시나리오 검토"</a> <span class="src">뉴시스 · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/018/0006367096?sid=100">與 김병주 "호르무즈 파병, 신중해야... 미국에 끌려가선 안 돼"</a> <span class="src">이데일리 · 9.10</span></li>
+          <li><a href="https://www.youtube.com/watch?v=vWpC4DZpHFU">[유튜브] 정부, 호르무즈 파병 거듭 "신중" 답변</a> <span class="src">연합뉴스TV · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609092054005/">중 '기술 굴기' 겨눈 미국…"딥시크·알리바바, 미 AI 무단 복제"</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.09~10</p>
+        <p class="issue-summary">미 NSA·FBI·CISA가 공동성명으로 딥시크·문샷·알리바바 등 중국 AI기업 6곳이 2024년부터 앤트로픽·오픈AI·구글·스페이스X 등 미국 AI 모델을 '산업적 규모'로 무단 복제(증류)했다고 비판했다. 중국 상무부는 "근거·법적 기반 없는 주장"이며 미국 기업도 중국 오픈소스 모델을 대량 증류한다며 "전형적 이중잣대"라 반박했다. 이달 말 예정된 미중 정상회담을 앞두고 신경전이 고조되고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.ebn.co.kr/news/articleView.html?idxno=1723837">美 "AI 기술 탈취" 제재 경고에 中 "이중 잣대" 정면 반박</a> <span class="src">EBN · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/421/0009162471?sid=104">中, 딥시크 등 AI기업 '증류' 비판한 美에 "이중잣대 단호 대응"</a> <span class="src">연합뉴스 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-4">
+      <h2><span class="sec-num">04</span> 미-비동아시아</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">이란 유엔 안보리 회부</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">13건+</span></div>
+        <div class="rank-row"><span class="rank-label">후티, 홍해 모카 장악</span><span class="rank-bar"><i style="width:95%"></i></span><span class="rank-num">78건</span></div>
+        <div class="rank-row"><span class="rank-label">캐나다 관세 보복전</span><span class="rank-bar"><i style="width:60%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">러 드론·젤렌스키 전용기</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">베네수엘라 인접국 안보공조</span><span class="rank-bar"><i style="width:25%"></i></span><span class="rank-num">17건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609100747001/">IAEA 이사회, 20년만에 이란 핵 문제 유엔 안보리 회부 결의</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.10</p>
+        <p class="issue-summary">IAEA 이사회가 미국·영국·프랑스·독일이 공동 제출한 결의안을 표결에 부쳐(찬성 23·반대 3·기권 8) 이란을 유엔 안보리에 회부했다. 20년 만의 회부 조치로, 이란이 미신고 핵시설의 우라늄 흔적(농축 우라늄 440kg 은닉 의혹) 관련 조사에 협조하지 않았다는 것이 근거다. 중국·러시아·니제르는 반대했고, 이란은 "미국과 동맹국의 정치적 압력, 근거 없다"고 반발했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.ajunews.com/view/20260910102510353">IAEA, 이란 핵문제 20년 만에 안보리 회부…이란 "정치적 결정" 반발</a> <span class="src">아주경제 · 9.10</span></li>
+          <li><a href="https://www.nocutnews.co.kr/news/6575872">트럼프 "이란전쟁, 중간선거 직후 끝날 것"</a> <span class="src">노컷뉴스 · 9.10</span></li>
+          <li><a href="https://youtube.com/watch?v=34VsVw3zvWw">[유튜브] IAEA, 20년 만에 이란 유엔 안보리 회부…"중·러 거부권 장벽"</a> <span class="src">KBS · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://view.asiae.co.kr/article/2026091021014163204">후티, 예멘 모카 장악…원유 운송 차질 우려 확대</a></p>
+        <p class="issue-byline">아시아경제 · 2026.09.10</p>
+        <p class="issue-summary">이란의 지역 대리세력인 예멘 친이란 후티 반군이 사우디 지원 예멘 정부군과의 격전 끝에 홍해 연안 항구도시 모카를 장악, 바브엘만데브 해협 방향으로 진격했다. 이란의 호르무즈 해협 봉쇄에 이어 홍해 항로까지 위협받으며 국제유가는 브렌트유·WTI 모두 배럴당 100달러를 재돌파했다. 2022년 정전 이후 후티 최대 영토 확장으로 사우디 원유 수출까지 압박하고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.newspim.com/news/view/20260910001199">후티, 홍해 요충지 모카 장악… 바브엘만데브 해협까지 위협</a> <span class="src">뉴스핌 · 9.10</span></li>
+          <li><a href="https://www.asiatoday.co.kr/kn/view.php?key=20260911010004263">후티, 홍해 관문 50km까지 진격…호르무즈 이어 사우디 원유길 막히나</a> <span class="src">아시아투데이 · 9.10</span></li>
+          <li><a href="https://youtube.com/watch?v=G3YwzF3AZoE">[유튜브] 후티, 홍해 거점 모카 점령…"글로벌 오일로드" 꽉 막히나</a> <span class="src">연합뉴스TV · 9.10</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/020/0003747010?sid=104">캐나다 보복관세에… 트럼프 "美정부 조달서 배제" 또 보복</a></p>
+        <p class="issue-byline">동아일보 · 2026.09.10 04:32</p>
+        <p class="issue-summary">캐나다가 9월 8일 미국산 제품(약 280억 캐나다달러 규모, 최대 50%)에 보복관세를 발효하자, 트럼프 정부는 캐나다산 주류·유제품·오토바이 등 수입 전면 금지 및 정부 조달시장 배제로 재보복했다. 캐나다 내에서는 강경 여론이 형성되며 마크 카니 총리 지지율이 11%p 급등했고, 중국은 이 틈을 타 캐나다와 경협 확대를 타진하고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.hankyung.com/article/202609094929i">美, 캐나다 관세 부과→캐나다 보복관세→美 수입금지로 또 보복</a> <span class="src">한국경제 · 9.9</span></li>
+          <li><a href="https://biz.heraldcorp.com/article/10852880">9월 발효 캐나다 보복관세, 美선거 겨냥했다…공화당 경합주 정조준</a> <span class="src">헤럴드경제 · 9.10</span></li>
+          <li><a href="https://youtube.com/watch?v=J8OR4C815yQ">[유튜브] 트럼프 "술·유제품 못 들어와" 관세전쟁 확전</a> <span class="src">MBC · 9.9</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.fnnews.com/news/202609100535549392">러, 젤렌스키 암살 노렸나…"탑승 비행기, 드론과 거의 충돌할 뻔"</a></p>
+        <p class="issue-byline">파이낸셜뉴스 · 2026.09.10</p>
+        <p class="issue-summary">젤렌스키 우크라이나 대통령이 노르웨이 방문을 위해 몰도바에서 이륙하려던 시점(9/8), 러시아 드론 2대가 몰도바 영공에 진입해 전용기 이륙 시점과 겹쳤다. 야당·서방 일각에서 "암살 시도" 의혹을 제기했으나 몰도바 정부는 "직접적 위협 없었다"고 부인했고, 러시아도 개입을 부인했다. 국내에서는 이 사건이 호르무즈 파병 신중론과 맞물려 정치권 논쟁 소재로 인용됐다.</p>
+        <ul class="issue-related">
+          <li><a href="http://www.koreatimes.com/article/20260910/1629181">러 드론에 막힌 젤렌스키 전용기…"암살 시도" vs "위협은 허상"</a> <span class="src">코리아타임스 · 9.10</span></li>
+          <li><a href="https://www.newscj.com/news/articleView.html?idxno=3431760">젤렌스키 전용기 이륙 지연… "러 드론 암살 시도" 의혹</a> <span class="src">천지일보 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.shinailbo.co.kr/news/articleView.html?idxno=5060699">美 국무, 남미 국가들과 안보 공조…"마약 카르텔 해체할 것"</a></p>
+        <p class="issue-byline">신아일보 · 2026.09.10</p>
+        <p class="issue-summary">마르코 루비오 미 국무장관이 콜롬비아·에콰도르 등 남미 국가들과 안보 협력을 강화하며 마약 카르텔 해체를 공언했다. 에콰도르에 4500만 달러 안보 지원 자금을 제공하고 미군·현지군 합동 마약 단속 작전을 진행한다. 트럼프 행정부의 '미주 방어' 구상의 일환으로, 반미 성향 베네수엘라를 겨냥한 지역 포위 전략이라는 해석도 제기된다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.gukjenews.com/news/articleView.html?idxno=3670509">美특수부대, 에콰도르 마약 단속 작전 강화</a> <span class="src">국제뉴스 · 9.10</span></li>
+          <li><a href="https://www.hankyung.com/article/2026091054247">"마약 카르텔 해체할 것"…칼 뽑은 미국, 600억원 파격 지원</a> <span class="src">한국경제 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+      <p class="empty">쿠바·니카라과·벨라루스·팔레스타인·헤즈볼라: 대상일 확인된 개별 사안 없음</p>
+    </section>
+
+    <section class="sec-panel" id="sec-5">
+      <h2><span class="sec-num">05</span> 국내정치·美동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">호르무즈 파병 시한서한</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">50건+</span></div>
+        <div class="rank-row"><span class="rank-label">대미투자 1호 임박</span><span class="rank-bar"><i style="width:70%"></i></span><span class="rank-num">35건+</span></div>
+        <div class="rank-row"><span class="rank-label">용혜인 겸직·청문회 갈등</span><span class="rank-bar"><i style="width:70%"></i></span><span class="rank-num">35건+</span></div>
+        <div class="rank-row"><span class="rank-label">미 해군 핵잠 신중론</span><span class="rank-bar"><i style="width:50%"></i></span><span class="rank-num">25건+</span></div>
+        <div class="rank-row"><span class="rank-label">한미 외교장관회담 예고</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">20건+</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000549809">[단독]백악관, 청와대에 "호르무즈 기여" 서한…"11월 1일까지"</a></p>
+        <p class="issue-byline">채널A · 2026.09.10 19:39</p>
+        <p class="issue-summary">백악관이 지난 1일자로 청와대에 문서 형식 서한을 보내 호르무즈 해협 기여의 완료 시점을 11월 1일(미 중간선거 11/3 직전)로 못박은 사실이 확인됐다. 정부는 파병 외 "기술적 지원" 등 대안도 검토 중이라고 밝혔다. 미국이 시한을 못박고 압박한 사실을 명시한다.</p>
+        <ul class="issue-related">
+          <li><a href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=8660231&ref=A">국회 대정부질문 이틀째…"호르무즈 파병" 여당 신중·야당 이견</a> <span class="src">KBS · 9.10</span></li>
+          <li><a href="https://imnews.imbc.com/news/2026/politics/article/6851002_36911.html">"호르무즈 파병" 여건 살핀 조사단 귀국‥NSC에 보고</a> <span class="src">MBC · 9.10</span></li>
+          <li><a href="https://www.news1.kr/society/incident-accident/6286507">"국제 깡패 트럼프"…시민단체, "호르무즈 파병 요구" 美 규탄</a> <span class="src">뉴스1 · 9.10</span></li>
+        </ul>
+        <p style="margin-top:0.5rem"><a href="https://www.youtube.com/watch?v=sOjiCvYXj3w" style="font-size:0.85rem">[유튜브] 호르무즈 해협 파병 "신중해야"…대정부질문 둘째날</a> <span class="src" style="font-family:'SF Mono',monospace;font-size:0.78rem;color:var(--ink-soft)">KBS · 9.10</span></p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://imnews.imbc.com/news/2026/world/article/6850984_36925.html">한국, 대미투자 첫사업 합의 임박‥에너지 분야에 1천억 달러</a></p>
+        <p class="issue-byline">MBC · 2026.09.10 18:05</p>
+        <p class="issue-summary">WSJ 보도에 따르면 한국이 미국에 원전 최대 8기·천연가스 발전 등 에너지 분야에 1000억달러(약 134조원) 이상을 투자하는 대미투자 1호 사업 합의가 임박했다. 이르면 다음주 발표 전망이며, 김정관 산업통상자원부 장관이 방미 중 막판 조율을 하고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.news1.kr/world/northeast-asia/6286799">"3500억달러 對美투자 제자리…백악관 불만 고조"</a> <span class="src">뉴스1(FT 인용) · 9.10</span></li>
+          <li><a href="https://www.mk.co.kr/article/12149692">"美, 동맹국들에도 거래 강요…韓, 반도체 등 협상 지렛대 써야"</a> <span class="src">매일경제 · 9.10</span></li>
+          <li><a href="https://view.asiae.co.kr/article/2026091010393168371">김정관, 프랑스서 곧장 미국행…대미투자 1호 막판 조율</a> <span class="src">아시아경제 · 9.10</span></li>
+        </ul>
+        <p class="issue-summary" style="margin-top:0.3rem;font-size:0.85rem">※ 대상일 일치 유튜브 클립 없음(검색 시도했으나 미발견)</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://imnews.imbc.com/replay/2026/nwdesk/article/6851003_37004.html">용혜인, 사퇴 대신 정면돌파 "의원직 겸직은 법률이 허용"</a></p>
+        <p class="issue-byline">MBC(뉴스데스크) · 2026.09.10 19:46</p>
+        <p class="issue-summary">용혜인 성평등가족부 장관 후보자가 40여분 긴급 기자회견을 열고 사퇴 요구를 정면 거부, "의원직·장관 겸직은 법률이 허용한다"며 청문회 개최를 요구했다. 임명 반대 여론 73.4%, 이재명 대통령 지지율은 취임 후 최저치인 43%까지 떨어졌다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/AKR20260910042851001?input=1195m">청와대 "용혜인, 우려 많이 전달돼 상황 주시…회견 하는 줄 몰랐다"</a> <span class="src">연합뉴스 · 9.10</span></li>
+          <li><a href="https://www.khan.co.kr/article/202609102116005">국정 지지율 7%P ↓…"김승원 잘못한 인선" 47%</a> <span class="src">경향신문 · 9.10</span></li>
+          <li><a href="https://www.news1.kr/society/court-prosecution/6286988">안철수 "김승원, 국감 중 브로커와 통화"…金 측 "왜곡한 정치공세"</a> <span class="src">뉴스1 · 9.10</span></li>
+        </ul>
+        <p style="margin-top:0.5rem"><a href="https://www.youtube.com/watch?v=18SQQtciAXM" style="font-size:0.85rem">[유튜브] [LIVE] 용혜인 성평등가족부 장관 후보자 긴급 기자회견</a> <span class="src" style="font-family:'SF Mono',monospace;font-size:0.78rem;color:var(--ink-soft)">KBS · 9.10</span></p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.yna.co.kr/view/AKR20260910035700071?input=1195m">美해군 "韓, 국격 위해 핵잠 사면 안돼…타당한 이유 있어야"</a></p>
+        <p class="issue-byline">연합뉴스 · 2026.09.10 09:43</p>
+        <p class="issue-summary">미 해군 당국자가 한국의 핵추진 잠수함 도입과 관련, "국격 과시용이 아닌 한반도를 넘어선 작전 목적 등 분명한 이유가 있어야 한다"고 언급했다. 같은 시점 일본 핵잠수함 보유에는 긍정적 견해를 밝혀 대비를 이뤘다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.mt.co.kr/world/2026/09/11/2026091015193458084">우리 핵잠수함 도입 말리더니 일본엔 보유 검토...미 해군의 속내</a> <span class="src">머니투데이 · 9.10</span></li>
+          <li><a href="https://www.jeonmae.co.kr/news/articleView.html?idxno=1292091">美 해군, 韓 핵잠 도입에 "상징 아닌 분명한 목적 있어야"</a> <span class="src">전매신문 · 9.10</span></li>
+        </ul>
+        <p style="margin-top:0.5rem"><a href="https://www.youtube.com/watch?v=NwNmExX6pVk" style="font-size:0.85rem">[유튜브] 미 해군 "한국, 핵잠 보유하려면 타당한 이유 있어야"</a> <span class="src" style="font-family:'SF Mono',monospace;font-size:0.78rem;color:var(--ink-soft)">연합뉴스TV · 9.10</span></p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newspim.com/news/view/20260910001176">조현 "이달 내 한·미 외교장관회담 열릴 것...한·미 동맹은 굳건"</a></p>
+        <p class="issue-byline">뉴스핌 · 2026.09.10 18:38</p>
+        <p class="issue-summary">조현 외교부 장관이 국회 대정부질문에서 루비오 국무장관과 이달 중 회담을 가질 예정이라며 한반도 문제를 논의할 것이라고 밝혔다. 호르무즈 파병·대미투자 등으로 인한 "한미 균열" 우려에 대해 "동맹은 굳건하다"고 반박했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.ajunews.com/view/20260910140921000">조현, 네팔·프랑스 방문→대정부 질문까지…숨 가쁜 외교전</a> <span class="src">아주경제 · 9.10</span></li>
+          <li><a href="https://www.asiatoday.co.kr/kn/view.php?key=20260911010004223">한미균열 우려에… 조현 "동맹 굳건, 이달내 외교장관회담"</a> <span class="src">아시아투데이 · 9.10</span></li>
+        </ul>
+        <p class="issue-summary" style="margin-top:0.3rem;font-size:0.85rem">※ 유튜브 클립 별도 확인 안함(섹션당 상한 도달)</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-6">
+      <h2><span class="sec-num">06</span> 내란청산</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">여인형 블랙리스트 재판</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">10건+</span></div>
+        <div class="rank-row"><span class="rank-label">이진우 수호신TF 재판</span><span class="rank-bar"><i style="width:30%"></i></span><span class="rank-num">1건</span></div>
+        <div class="rank-row"><span class="rank-label">계엄군 위치추적 고발</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">3건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ajunews.com/view/20260910155030460">'방첩사 블랙리스트' 여인형 첫 재판…법무관 정치 성향 조사</a></p>
+        <p class="issue-byline">아주경제 · 2026.09.10 16:00</p>
+        <p class="issue-summary">여인형 전 국군방첩사령관이 부대원들에게 군 인사정보 수집·군 법무관 등 정치 성향 파악을 지시한 혐의(직권남용, 개인정보보호법 위반, 군사기밀 유출 등)로 종합특검에 기소돼 서울중앙지법에서 10일 첫 공판준비기일이 열렸다. 진보 성향 인물 조사, 방위사업청 근무 예비역 59명 인사자료 작성, 김병주 의원실 연관 인물 파악 지시 등이 쟁점이다. 여 전 사령관 본인은 이날 불출석했다.</p>
+        <p class="issue-deadline">⏱ 다음 공판준비기일 10.22</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/008/0005412028?sid=102">'방첩사 블랙리스트' 여인형, 재판 시작...군판사 신원조회 지시도</a> <span class="src">뉴시스 · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/448/0000638503?sid=102">종합특검 기소 '방첩사 블랙리스트 의혹' 여인형, 재판 시작</a> <span class="src">뉴스1 · 9.10</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/448/0000638509?sid=102">이진우 전 수방사령관 '수호신 TF' 의혹, 재판 시작</a></p>
+        <p class="issue-byline">뉴스1 · 2026.09.10 10:49</p>
+        <p class="issue-summary">이진우 전 수도방위사령관이 계엄 대비 조직으로 알려진 '수호신TF' 구성·운용 관련 직권남용 등 혐의로 종합특검에 기소돼(8.21 기소) 10일 첫 재판이 시작됐다. 여인형과 함께 기소된 사건이며, 다음 공판기일은 확인되지 않았다.</p>
+        <ul class="issue-related">
+          <li><span class="src">※ 네이버 전역차단으로 본문 미확인, 제목·링크만 확보</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.kukinews.com/article/view/kuk202609100088">내란 공익제보자 "계엄군 경로 은폐 증거 있어"…부진한 수사에 '직접 고발'</a></p>
+        <p class="issue-byline">쿠키뉴스 · 2026.09.10 14:44</p>
+        <p class="issue-summary">공익제보자 김현석씨가 참여연대와 함께 국방부 민원실 앞 기자회견 후 국방부 조사본부 안보수사단에 직접 고발장을 제출했다. 12·3 계엄 당시 일부 계엄군이 위치보고장비(위성 PRE)를 계엄 시작 36분 만에 끄고 지휘소 추적이 어려운 상태에서 작전을 수행했다고 주장했다. 1년 전 제보했으나 수사 미진행을 지적하며 지휘라인 규명을 촉구했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.ngonews.kr/news/articleView.html?idxno=237754">"계엄군 위치추적 장비 왜 껐나"…'12·3 작전' 지휘라인 수사 촉구</a> <span class="src">한국NGO신문 · 9.10</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/047/0002528468?sid=102">[오마이포토] '12.3 계엄군 위치추적기 끄고 출동' 국방부에 고발장 제출</a> <span class="src">오마이뉴스 · 9.10</span></li>
+        </ul>
+      </div>
+
+      <p class="empty">그날 동향이 있는 개별 인물 카드: 해당 없음 (여인형은 불출석)</p>
+    </section>
+
+  </div>
+
+  <p class="footnote">미 해군 핵잠 관련 유튜브 클립 URL은 섹션3·5에 중복 표기됨(같은 사안). 대미투자 1호·조현 외교장관회담 사안은 대상일 일치 유튜브 클립을 찾지 못해 클립 없이 기사만 실었다. 이진우 재판 관련기사는 네이버 전역차단으로 본문 확인 못함.</p>
+  <p class="footer">생성 2026.09.11 KST · 정세브리핑</p>
+</div>
+</body>
+</html>

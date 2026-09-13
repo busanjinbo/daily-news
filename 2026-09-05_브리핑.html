@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9월 5일 정세브리핑</title>
+<style>
+  :root{
+    --ink:#1d1d1f; --ink-soft:#6e6e73;
+    --paper:#ffffff; --paper-parchment:#f5f5f7; --paper-raised:#fafafc;
+    --tile-dark:#1d1d1f; --line:#e0e0e0;
+    --accent:#0066cc; --tag-bg:#d2d2d7; --warn:#8a6d1f;
+    --core-accent:#ff9f0a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f5f5f7; --ink-soft:#a1a1a6;
+      --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+      --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f5f5f7; --ink-soft:#a1a1a6;
+    --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+    --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:112.5%;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Apple SD Gothic Neo",Pretendard,system-ui,sans-serif;line-height:1.5;}
+  .page{max-width:640px;margin:0 auto;padding:0 0 3rem;}
+  .hero{padding:2rem 1.1rem 1.2rem;background:var(--paper);}
+  .hero .eyebrow{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;letter-spacing:-0.01em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .hero h1{font-weight:700;font-size:1.85rem;line-height:1.32;margin:0 0 0.6rem;letter-spacing:0;}
+  .hero .meta{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.82rem;color:var(--ink-soft);}
+
+  .tab-radio{position:absolute;opacity:0;pointer-events:none;width:0;height:0;}
+  .tabbar{display:flex;gap:0.4rem;overflow-x:auto;padding:0 1.1rem 0.8rem;
+    background:var(--paper-parchment);backdrop-filter:blur(20px);}
+  .tabbar label{flex-shrink:0;display:inline-block;color:var(--ink-soft);
+    font-family:inherit;font-size:0.85rem;padding:0.4rem 0.9rem;border-radius:999px;cursor:pointer;
+    transition:transform .1s;-webkit-tap-highlight-color:transparent;user-select:none;}
+  .tabbar label:active{transform:scale(0.95);}
+  .panels .sec-panel{display:none;padding:1.1rem;background:var(--paper);}
+  #tab-0:checked ~ .panels #sec-0,
+  #tab-1:checked ~ .panels #sec-1,
+  #tab-2:checked ~ .panels #sec-2,
+  #tab-3:checked ~ .panels #sec-3,
+  #tab-4:checked ~ .panels #sec-4,
+  #tab-5:checked ~ .panels #sec-5,
+  #tab-6:checked ~ .panels #sec-6{display:block;}
+  #tab-0:checked ~ .tabbar label[for="tab-0"],
+  #tab-1:checked ~ .tabbar label[for="tab-1"],
+  #tab-2:checked ~ .tabbar label[for="tab-2"],
+  #tab-3:checked ~ .tabbar label[for="tab-3"],
+  #tab-4:checked ~ .tabbar label[for="tab-4"],
+  #tab-5:checked ~ .tabbar label[for="tab-5"],
+  #tab-6:checked ~ .tabbar label[for="tab-6"]{background:var(--accent);color:#fff;}
+  .sec-panel h2{font-weight:700;font-size:1.22rem;margin:0 0 0.9rem;}
+  .sec-num{color:var(--accent);font-family:"SF Mono","IBM Plex Mono",monospace;margin-right:0.4rem;}
+  .rank{margin-bottom:1rem;}
+  .rank-row{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.88rem;}
+  .rank-label{width:8.6rem;flex-shrink:0;color:var(--ink-soft);}
+  .rank-bar{display:inline-block;width:120px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;}
+  .rank-bar i{display:block;height:100%;background:var(--accent);border-radius:3px;}
+  .rank-num{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.84rem;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;}
+  .issue{padding:0.9rem;margin-bottom:0.7rem;background:var(--paper-raised);
+    border:1px solid var(--line);border-radius:18px;}
+  .issue-title a{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none;}
+  .issue-byline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;color:var(--ink-soft);
+    margin:0.25rem 0 0.45rem;font-variant-numeric:tabular-nums;}
+  .issue-summary{font-size:0.98rem;color:var(--ink);margin:0 0 0.5rem;}
+  .issue-deadline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.86rem;color:var(--accent);
+    margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .issue-related{list-style:none;margin:0 0 0.5rem;padding:0;font-size:0.9rem;}
+  .issue-related li{margin-bottom:0.3rem;padding-left:0.8rem;}
+  .issue-related a{color:var(--ink);}
+  .issue-related .src{color:var(--ink-soft);font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;}
+  .chip{display:inline-block;font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.72rem;
+    padding:0.12rem 0.6rem;border-radius:999px;margin-right:0.35rem;}
+  .chip-foreign{background:color-mix(in srgb, var(--accent) 10%, transparent);color:var(--accent);}
+  .chip-warn{background:color-mix(in srgb, var(--warn) 10%, transparent);color:var(--warn);}
+  .empty{color:var(--ink-soft);font-size:0.98rem;padding:1rem 0;}
+  .tile-dark{background:var(--tile-dark);color:#f5f5f7;margin:0 0 1.1rem;
+    border-radius:18px;padding:1.1rem 1.15rem;border-top:2px solid var(--core-accent);}
+  .tile-dark:last-child{margin-bottom:0;}
+  .tile-dark .block-title{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;
+    letter-spacing:0.08em;text-transform:uppercase;color:var(--core-accent);margin:0 0 0.7rem;
+    font-weight:600;}
+  .tile-dark ul{margin:0;padding-left:1.1rem;}
+  .tile-dark li{margin-bottom:0.5rem;font-size:1.02rem;line-height:1.6;}
+  .tile-dark li::marker{color:var(--core-accent);}
+  .footnote{font-size:0.85rem;color:var(--ink-soft);margin:1.3rem 1.1rem 0;
+    padding-top:0.9rem;border-top:1px solid var(--line);}
+  .footer{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.76rem;color:var(--ink-soft);
+    margin:1.6rem 1.1rem 0;padding:0 1.1rem;background:var(--paper-parchment);padding-top:1rem;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="eyebrow">정세브리핑 · 데일리</p>
+    <h1>9월 5일 정세브리핑</h1>
+    <p class="meta">발행 2026.09.06 KST</p>
+  </header>
+
+  <input type="radio" name="sec" id="tab-0" class="tab-radio" checked>
+  <input type="radio" name="sec" id="tab-1" class="tab-radio">
+  <input type="radio" name="sec" id="tab-2" class="tab-radio">
+  <input type="radio" name="sec" id="tab-3" class="tab-radio">
+  <input type="radio" name="sec" id="tab-4" class="tab-radio">
+  <input type="radio" name="sec" id="tab-5" class="tab-radio">
+  <input type="radio" name="sec" id="tab-6" class="tab-radio">
+
+  <nav class="tabbar">
+    <label for="tab-0">축약</label>
+    <label for="tab-1">01 민플러스</label>
+    <label for="tab-2">02 조선동향</label>
+    <label for="tab-3">03 미-동아시아</label>
+    <label for="tab-4">04 미-비동아시아</label>
+    <label for="tab-5">05 국내정치·美동향</label>
+    <label for="tab-6">06 내란청산</label>
+  </nav>
+
+  <div class="panels">
+
+    <section class="sec-panel" id="sec-0">
+      <h2><span class="sec-num">00</span> 축약</h2>
+      <section class="tile-dark">
+        <p class="block-title">오늘의 핵심</p>
+        <ul>
+          <li>미국이 호르무즈 파병(비전투 자산)과 천궁-Ⅱ 우크라 판매를 동시에 압박하는 가운데, 이란은 "한국의 개입은 전쟁 참여로 간주"한다고 경고 — 한국 정부는 여러 선택지를 검토 중이라는 원론적 입장만 유지.</li>
+          <li>미군이 이란 혁명수비대의 미 군함 공격에 대응해 이란 유조선 3척을 타격, 호르무즈·바브엘만데브 해협 정세가 동시에 악화되며 국제유가가 5거래일 연속 상승.</li>
+          <li>내란 관련해서는 윤석열 1심 재판장이었던 지귀연 부장판사가 청탁금지법 위반으로 기소되며 공수처 수사권 범위 논란이 확산, 선관위 특검은 IT·검찰 인력을 배치해 정식 출범.</li>
+        </ul>
+      </section>
+      <section class="tile-dark">
+        <p class="block-title">내일 지켜볼 지점</p>
+        <ul>
+          <li>정부의 호르무즈 해협 군사 기여 최종 결정 시점 — 이란의 "전쟁 참여 간주" 경고가 실제 파병 범위 축소로 이어질지</li>
+          <li>미 특사단(위트코프·쿠슈너)의 9/6 키이우 방문, 젤렌스키 면담 결과 및 러시아의 사흘간 공습 중단 이행 여부</li>
+          <li>9월 24일 예정된 시진핑 방미 준비 동향, 미중 AI 안전 대화 개최 여부</li>
+          <li>김승원·용혜인 인사청문 정국 확전 여부, 지귀연 청탁금지법 기소 관련 법조계 반발</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="sec-panel" id="sec-1">
+      <h2><span class="sec-num">01</span> 민플러스</h2>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18320">"침략전쟁에 파병이라니"…시민사회, 호르무즈 파병 검토 중단 촉구</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.05 20:08</p>
+        <p class="issue-summary">정부가 호르무즈 해협에 한국군·군사자산 파견을 검토하자 자주통일평화연대·전국민중행동 등이 5일 청와대 앞에서 기자회견을 열고 파병 검토 철회를 촉구했다. 비전투 자산이라도 미군에 군수지원·감시정찰을 제공하면 사실상 전쟁 개입이자 한국을 전쟁 당사자로 만든다는 것이 문제 제기의 핵심이다. 민주노총, 진보당, 청년단체 등도 참여해 이라크 파병 전례를 들며 군사적 연루 확대 우려와 국민 생명·안보를 볼모로 한 정부 태도를 비판했다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18319">김정은 총비서, 전국교원대회 참가자들과 기념사진…"국가부흥, 교정에서부터 시작"</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.05 10:20</p>
+        <p class="issue-summary">로동신문 보도를 인용해 김정은 총비서가 9월 4일 제15차 전국교원대회 참가자들과 기념사진을 촬영했다고 5일 전했다. 김 총비서는 "국가부흥의 모든 기적과 승리가 온 나라의 교정에서부터 시작되게 하자"는 것이 당의 구상이라며 교육혁명 확대심화를 강조하고 교원들의 헌신을 평가했다. 대회는 지난 7년간 교육정책 집행 상황을 총화하고 제2차 전반적 12년제 의무교육강령 집행 등 향후 교육발전 방안을 논의했다는 내용도 담겼다(민플러스 자체 취재가 아닌 로동신문 보도 인용).</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18318">"지금도 악몽을 꾼다"…강제징집과 밀정 공작 파헤친 김창현 장편소설 『프락치』 출간</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.05 10:19</p>
+        <p class="issue-summary">4일 서울 마포구에서 열린 김창현 작가의 장편소설 『프락치』 출판기념회를 다룬 기사. 소설은 1970~80년대 군사정권의 강제징집·녹화사업·프락치(밀정) 공작으로 짓밟힌 청년들의 삶을 다루며, 작가 본인도 강제징집 피해 당사자임을 밝힌다. 국가폭력의 피해 규명과 함께, '운동권'이라는 말이 조롱거리가 된 현실 속에서 이름 없이 살아온 그 세대를 기억해달라는 메시지를 짚었다.</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-2">
+      <h2><span class="sec-num">02</span> 조선동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">北 간첩 실형 선고</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">23건</span></div>
+        <div class="rank-row"><span class="rank-label">교원대회·총련 접견</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">60건+</span></div>
+        <div class="rank-row"><span class="rank-label">유엔총회 차관급 파견</span><span class="rank-bar"><i style="width:70%"></i></span><span class="rank-num">16건</span></div>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ajunews.com/view/20260905170315445">북 공작원 지령받고 탈북민·軍 정보 넘긴 40대…가상화폐 6억 받았다</a></p>
+        <p class="issue-byline">아주경제 · 2026.09.05 20:27</p>
+        <p class="issue-summary">가상자산 투자회사를 운영하던 A씨(43)가 북한 공작원 지령을 받아 탈북민·군 인원 정보를 수집해 넘긴 혐의(국가보안법 위반)로 서울중앙지법에서 징역 5년·자격정지 5년을 선고받음. 재판부는 수집 정보가 탈북민 추적·보복에 악용될 수 있다고 지적.</p>
+        <ul class="issue-related">
+          <li><a href="#">북한서 6억 넘게 받고 탈북민·현역 군인 정보 넘긴 40대 간첩, 징역 5년</a> <span class="src">인사이트 · 9.5</span></li>
+          <li><a href="#">北공작원 지령받고 탈북민·군인 정보수집한 40대…6억대 가상화폐 받아</a> <span class="src">헤럴드비즈 · 9.5</span></li>
+          <li><a href="#">텔레그램서 北 지령 받고…탈북민-軍 정보 넘긴 40대 징역 5년</a> <span class="src">세계일보 · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18319">김정은 총비서, 전국교원대회 참가자들과 기념사진…"국가부흥, 교정에서부터 시작"</a></p>
+        <p class="issue-byline">현장언론 민플러스 · 2026.09.05</p>
+        <p class="issue-summary">김정은 총비서가 9월4일 제15차 전국교원대회 참가자들과 기념촬영을 하며 "국가부흥의 모든 기적과 승리가 온 나라의 교정에서부터 시작되게 하자"고 발언. 교육자들의 헌신을 평가하고 학생들을 유능한 인재로 키워달라고 당부.</p>
+        <ul class="issue-related">
+          <li><a href="#">김정은 위원장 "유능한 인재 알차게 키워야"...전국교원대회 참가자들과 기념사진</a> <span class="src">자주시보 · 9.5</span></li>
+          <li><a href="#">김정은, 제15차 전국교원대회 참가자들과 기념촬영</a> <span class="src">통일뉴스 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=mmamD40v8t0">[유튜브] 김정은동지께서 제15차 전국교원대회 참가자들과 기념사진을 찍으시였다</a> <span class="src">메아리 · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.obsnews.co.kr/news/articleView.html?idxno=1536453">북, 이달 유엔총회에 차관급 파견…28일 연설할 듯</a></p>
+        <p class="issue-byline">OBS경인TV · 2026.09.05</p>
+        <p class="issue-summary">트럼프 대통령의 대화 제안 속 북한이 9월22일 개막하는 제81차 유엔총회 고위급 회기에 차관급 인사를 파견, 마지막날인 28일 연단에서 연설할 예정이라고 유엔사무국이 확인. 지난해 비핵화 거부 입장을 밝힌 김선경 외무성 부상의 참석 가능성이 주목됨.</p>
+        <ul class="issue-related">
+          <li><a href="#">이달 유엔총회에 北 차관급 파견...메시지 낼까</a> <span class="src">연합뉴스 · 9.5</span></li>
+          <li><a href="#">북한, 유엔총회에 차관급 파견…'북미 대화' 언급할까</a> <span class="src">연합뉴스 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=NRjtd-D1UqM">[유튜브] 북한, 이달 유엔총회에 차관급 인사 파견</a> <span class="src">연합뉴스TV · 9.5</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-3">
+      <h2><span class="sec-num">03</span> 미-동아시아</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">호르무즈 파병 압박</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">80건+</span></div>
+        <div class="rank-row"><span class="rank-label">천궁-Ⅱ 우크라 판매론</span><span class="rank-bar"><i style="width:25%"></i></span><span class="rank-num">20건+</span></div>
+        <div class="rank-row"><span class="rank-label">시진핑 9.24 방미 확정</span><span class="rank-bar"><i style="width:19%"></i></span><span class="rank-num">15건+</span></div>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.pennmike.com/news/articleView.html?idxno=127183">美 "기다리고 있다" 이란 "참전 간주"…호르무즈 파병 딜레마 빠진 李정부</a></p>
+        <p class="issue-byline">펜앤드마이크 · 2026.09.05 23:44</p>
+        <p class="issue-summary">이란 고위 당국자가 한국의 호르무즈 해협 파병을 "미국 군사작전 관여는 전쟁 직접 참여와 같다"며 침략행위로 간주하겠다고 경고했다. 반면 미국은 "중동 원유 최대 고객인 한국의 자원 전개를 기다리고 있다"며 파병을 압박하고 있다. 이재명 정부는 비전투 임무(해상초계기·군수지원함 등) 중심으로 검토 중이며, 청와대는 전투 참여 포함 여러 선택지를 살펴보는 단계라고 밝혔다. 노무현 정부 이라크 파병 사례가 재소환되며 지지층 이탈과 국익 사이 딜레마에 처했다는 프레임이다.</p>
+        <ul class="issue-related">
+          <li><a href="#">이란 "한국 호르무즈 파병시 전쟁 참여 간주…좌시 안해"</a> <span class="src">뉴시스 · 9.5</span></li>
+          <li><a href="https://www.voakorea.com/a/white-house-rok-hormuz-contribution-090426/8194234.html">한국 '호르무즈 군사 기여 검토'에 백악관 "자원 투입 기다려"</a> <span class="src">VOA코리아 · 9.5</span></li>
+          <li><a href="#">미 행정부, 한국 파병 검토에 "여전히 기다리는 중"…압박 수위 높여</a> <span class="src">국민일보 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=h1YBrSCZs5I">[유튜브] 22년 전 데자뷔?…한국군 호르무즈 가나?</a> <span class="src">KBS News · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.m-economynews.com/news/article.html?no=70461">美서 커지는 '천궁-Ⅱ 우크라 지원론'...트럼프도 관련 칼럼 공유</a></p>
+        <p class="issue-byline">머니economy · 2026.09.05</p>
+        <p class="issue-summary">트럼프 미국 대통령이 4일(현지시간) 한국산 중거리지대공유도무기 천궁-Ⅱ를 우크라이나에 판매하도록 한국을 압박해야 한다는 취지의 칼럼을 자신의 트루스소셜에 공유했다. 별도 코멘트는 없었으나, 한국에 대한 동맹 차원의 추가 기여 요구로 해석되며 안보 청구서 성격의 우회 압박으로 받아들여진다.</p>
+        <ul class="issue-related">
+          <li><a href="#">"천궁-Ⅱ 우크라에 팔도록 한국 압박해야"…트럼프가 공유한 칼럼</a> <span class="src">뉴시스 · 9.5</span></li>
+          <li><a href="#">트럼프, '한국산 천궁-Ⅱ 우크라로' 칼럼 SNS 공유…韓 우회 압박</a> <span class="src">SBS Biz · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=L-tkc4dpdRA">[유튜브] '천궁-II 우크라로' 칼럼 공유한 트럼프, 韓 압박?</a> <span class="src">연합뉴스TV · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.aitimes.com/news/articleView.html?idxno=214879">시진핑, 9월 방미에 대규모 CEO 대표단 동행...미중 경제·AI 협력 모색</a></p>
+        <p class="issue-byline">AI타임스 · 2026.09.05</p>
+        <p class="issue-summary">시진핑 중국 국가주석이 9월 24일 워싱턴에서 트럼프 대통령과 정상회담을 갖는다. 중국은 대규모 기업 CEO 대표단 동행을 준비 중이며 명단은 미확정. 미국의 강화된 투자·기술 규제 국면에서 경제 협력 의지를 전달하고, AI 안전 협력이 핵심 의제로 부상해 9월 중순 첫 미중 양자 AI 안전 대화 개최가 논의되고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="#">트럼프 "시진핑 부부, 24일 미국 방문…국빈만찬 열 것"</a> <span class="src">뉴시스 · 9.5</span></li>
+          <li><a href="https://www.pennmike.com/news/articleView.html?idxno=127173">美 트럼프 "中 시진핑, 오는 24일 미국 방문...백악관서 만찬 개최"</a> <span class="src">펜앤드마이크 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=7Sx-0qS3T3c">[유튜브] [속보] 트럼프 "中 대표단과 생산적 대화"…9월 24일 시진핑 부부 백악관 초청</a> <span class="src">연합뉴스TV</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-4">
+      <h2><span class="sec-num">04</span> 미-비동아시아</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">미군, 이란 유조선 타격</span><span class="rank-bar"><i style="width:55%"></i></span><span class="rank-num">11건+</span></div>
+        <div class="rank-row"><span class="rank-label">러-우 종전협상 재시동</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">20건+</span></div>
+        <div class="rank-row"><span class="rank-label">예멘 후티 홍해 위협</span><span class="rank-bar"><i style="width:75%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">베네수 유전 지분 논란</span><span class="rank-bar"><i style="width:30%"></i></span><span class="rank-num">6건</span></div>
+        <div class="rank-row"><span class="rank-label">미, 쿠바 카스트로가 제재</span><span class="rank-bar"><i style="width:5%"></i></span><span class="rank-num">1건</span></div>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.sedaily.com/article/20087550">[영상] 미군, 이란 유조선 3척 보복 타격…"공격받으면 더 큰 대가 치를 것"</a></p>
+        <p class="issue-byline">서울경제 · 2026.09.05 23:40</p>
+        <p class="issue-summary">미 중부사령부(CENTCOM)가 이란 혁명수비대(IRGC)의 미 군함 2척 겨냥 탄도미사일 공격에 대응해 이란 유조선 3척(다우니호·스타크1호·카일로호)을 무력화했다. 브래드 쿠퍼 중부사령관은 "우리 선박을 공격하면 더 큰 경제적 대가를 치르게 하겠다"며 이란 원유 수송 선단 전체 파괴 가능성도 경고했다. 이란 측은 하르그섬·자스크 인근 폭발음을 자국 매체를 통해 확인했다.</p>
+        <ul class="issue-related">
+          <li><a href="#">미군 "이란 미사일 공격 대응해 유조선 3척 타격"</a> <span class="src">MBN · 9.5</span></li>
+          <li><a href="#">미 중부사령부, 이란 석유선단 타격 가능성 경고</a> <span class="src">토큰포스트 · 9.5</span></li>
+          <li><a href="#">이란 "韓, 호르무즈 개입시 전쟁 참여로 간주" 경고</a> <span class="src">9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=kylE-MHUTO4">[유튜브] IRGC가 미 해군 군함 2척을 공격한 후 이란 유조선 3척을 타격한 미국</a> <span class="src">APT</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.hankyung.com/article/2026090560547">트럼프 사위 만나는 푸틴…키이우 공습 사흘 멈춘다</a></p>
+        <p class="issue-byline">한국경제 · 2026.09.05 21:38</p>
+        <p class="issue-summary">트럼프 특사 스티브 위트코프와 사위 재러드 쿠슈너가 9월 5일 모스크바 브누코보 공항에 도착, 푸틴을 예방했다. 크렘린은 우크라이나 측과의 준비·접촉을 이유로 자정부터 사흘간 키이우 공격 보류를 지시했다고 밝혔다. 특사단은 6일 키이우로 이동해 젤렌스키 대통령을 만날 예정이다. 다만 방문 직전 러시아는 키이우·보리스필 공항을 공습해 "우크라이나에 전황이 불리하다는 점을 미국이 고려해야 한다"는 메시지를 낸 것으로 해석됐다.</p>
+        <ul class="issue-related">
+          <li><a href="#">러, 미국 특사 방문 직전 키이우 공항 공습 "우크라에 전황 불리"</a> <span class="src">9.5</span></li>
+          <li><a href="#">러 외무부, 美 특사 방문에 "우크라 분쟁서 전장 현실 고려해야"</a> <span class="src">9.5</span></li>
+          <li><a href="#">러시아, 우크라 정보기관 본부에 첫 공습…보안국장 집무실 정조준</a> <span class="src">9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=q-1IcNT3Cxs">[유튜브] 미국의 비밀 외교! 위트코프와 쿠슈너, 키이우 평화 방문 전 모스크바행</a> <span class="src">TSN Social</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.voakorea.com/a/yemen-clashes-raise-concern-of-iran-backed-houthi-effort-to-further-threaten-bab-el-mandeb-shipping-090426/8194289.html">예멘 교전 격화…이란 지원 후티, 바브엘만데브 해협 선박 운항 추가 위협</a></p>
+        <p class="issue-byline">VOA코리아 · 2026.09.05</p>
+        <p class="issue-summary">예멘 내전이 격화돼 129명이 사망한 가운데, 이란의 지원을 받는 후티 반군이 바브엘만데브 해협을 지나는 선박 운항을 추가로 위협하고 나섰다. 호르무즈 해협 봉쇄에 이어 홍해 길목까지 불안해지면서 국제유가가 5거래일 연속 상승, WTI는 이번 주에만 약 10% 올랐다.</p>
+        <ul class="issue-related">
+          <li><a href="#">이란 전쟁서 예멘 내전으로…129명 사망</a> <span class="src">9.5</span></li>
+          <li><a href="#">바브엘만데브 해협까지 전운 확산…국제유가 5일째 상승</a> <span class="src">9.5</span></li>
+          <li><a href="#">[국제유가] 바브엘만데브 해협 충돌에 상승세 지속</a> <span class="src">세계비즈 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=lHJb8EXRE1g">[유튜브] 예멘 후티 반군의 수에즈 운하 가는 바닷길 위협</a> <span class="src">YTN</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.tokenpost.kr/news/international/402991">650억 배럴 베네수엘라 유전, 미 정부 지분 논란</a></p>
+        <p class="issue-byline">토큰포스트 · 2026.09.05 19:32</p>
+        <p class="issue-summary">트럼프 행정부가 베네수엘라와 매장량 650억 배럴 규모의 "세계 최대 석유 거래"를 성사시켜 신설 석유회사 지분(약 35%) 확보에 나섰다. 야권 지도자 마리아 코리나 마차도는 "불법 정권은 자원을 넘길 권한이 없다"며 반발했고, 중국도 자국 자본이 개입된 유전이 포함돼 반발했다. 미 법무부는 별도로 베네수엘라 석유거래 조력자 수사를 종결한다고 발표했다.</p>
+        <ul class="issue-related">
+          <li><a href="#">"트럼프 지원 베네수 석유기업, 선지급 100억달러 확보해 유전개발 추진"</a> <span class="src">9.5</span></li>
+          <li><a href="#">"미 법무부, 베네수엘라 석유거래 조력자 수사 종결"</a> <span class="src">9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=4KEBwB6GWKg">[유튜브] 트럼프, 이번엔 '석유왕' 되나…베네수엘라 650억 배럴에 과반 통제권</a> <span class="src">연합뉴스TV · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.voakorea.com/a/us-adds-new-cuba-sanctions-including-on-grandson-of-former-leader-raul-castro-090426/8194295.html">미국, 새로운 '쿠바 제재'…전 지도자 라울 카스트로의 손자 등 추가</a></p>
+        <p class="issue-byline">VOA코리아 · 2026.09.05</p>
+        <p class="issue-summary">미국이 라울 카스트로 전 쿠바 대통령의 손자 피델 에르네스토 카스트로, 쿠바 국영 대외은행, 광업·에너지 부문 관련 여러 기업을 새로 제재 대상에 올렸다. 마코 루비오 국무장관은 대상자들이 "부패한 금융·정보망의 일부"라고 밝혔고, 쿠바 외무장관은 "쿠바 국민을 향한 잔인하고 무자비한 침략"이라며 반박했다.</p>
+        <ul class="issue-related">
+          <li><a href="#">美국무부, 쿠바 국영기업·민병대·관광부 추가 제재…압박 강화</a> <span class="src">뉴스1</span></li>
+          <li><a href="https://www.youtube.com/watch?v=WPMqZ9z89O8">[유튜브] 미국, 라울 카스트로 전 쿠바 대통령 손자 제재</a> <span class="src">NTD News</span></li>
+        </ul>
+        <span class="chip chip-foreign">해외단독</span>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+      <p class="empty">시리아-美 / 니카라과-美 / 벨라루스-美 / 헤즈볼라-美: 오늘 해당 사안 없음</p>
+    </section>
+
+    <section class="sec-panel" id="sec-5">
+      <h2><span class="sec-num">05</span> 국내정치·美동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">김승원·용혜인 청문정국</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">40건+</span></div>
+        <div class="rank-row"><span class="rank-label">현대제철 美착공 산업협력</span><span class="rank-bar"><i style="width:87%"></i></span><span class="rank-num">35건+</span></div>
+        <div class="rank-row"><span class="rank-label">천궁 우크라 판매 압박</span><span class="rank-bar"><i style="width:37%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">이란, 호르무즈 개입 경고</span><span class="rank-bar"><i style="width:37%"></i></span><span class="rank-num">15건+</span></div>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.hankookilbo.com/news/article/A2026090514140003981">"승원 오빠가 복지부에 푸시" 녹취 공개 한동훈에 與 "검찰이 줬냐"</a></p>
+        <p class="issue-byline">한국일보 · 2026.09.05 14:50</p>
+        <p class="issue-summary">무소속 한동훈 의원이 김승원 법무부 장관 후보자와 신약 임상 청탁 브로커, 담당 판사가 함께 찍은 2022년 사진과 "보고 싶어 눈물 나네" "복지부에도 푸시해줄까" 등 통화 녹취를 공개했다. 김승원 측은 "우연한 만남"이라 해명했으나 녹취 내용이 이를 반박한다는 지적이 나왔다. 국민의힘은 "지명 철회"를, 민주당은 "검찰 수사자료 유출·정치공세"라며 역공했다. 같은 날 용혜인 성평등가족부 후보자 논란도 청와대 배후설로 확전됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.mk.co.kr/news/politics/12145087">장동혁 "그냥 나온 용혜인 아냐"…민주당 "근거 없는 음모론"</a> <span class="src">매일경제 · 9.5</span></li>
+          <li><a href="https://biz.heraldcorp.com/article/10863705">홍준표 '신약 청탁 의혹' 김승원에…"부인 청문회 당해야"</a> <span class="src">헤럴드경제 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=dgKeJGZAaPg">[유튜브] "보고싶어 눈물" "오빠 달려갈게"…한동훈, '김승원 녹취록' 공개</a> <span class="src">연합뉴스TV · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://biz.heraldcorp.com/article/10863604">정의선 "HPLS, 韓美 모두에 긍정적…저탄소강으로 車품질 제고"</a></p>
+        <p class="issue-byline">헤럴드경제 · 2026.09.05</p>
+        <p class="issue-summary">현대제철이 미국 루이지애나주에 8조원(58억달러)을 투입해 전기로(HPLS) 제철소 착공식을 열었다. 2029년부터 연 270만t 규모 탄소저감 자동차강판을 현지 생산할 계획이며, 정의선 회장은 스페이스X 로켓·현대차 로봇 '아틀라스'에도 철강을 공급하겠다는 구상을 밝혔다. 김정관 산업통상자원부 장관은 "한미 산업협력의 새 모델"이라 평가했다. 트럼프발 관세 압박 속 현지 생산 체제 구축이라는 성격이 강조됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://mbiz.heraldcorp.com/article/10863612">"HPLS는 韓美동맹의 새 상징"…양국 정관계 인사 '협력' 강조</a> <span class="src">헤럴드경제 · 9.5</span></li>
+          <li><a href="https://biz.heraldcorp.com/article/10863609">車강판부터 로봇·로켓까지…현대제철, 美서 저탄소 생산시대 열었다</a> <span class="src">헤럴드경제 · 9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=Q_TY-odSD10">[유튜브] 현대제철, 루이지애나에 제철소 착공…"강판부터 자동차까지 현지 생산"</a> <span class="src">KBS News · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://biz.heraldcorp.com/article/10863527">트럼프, '천궁-Ⅱ 우크라로' 칼럼 SNS에 공유…韓압박 가능성</a></p>
+        <p class="issue-byline">헤럴드경제 · 2026.09.05 11:24</p>
+        <p class="issue-summary">트럼프 대통령이 4일(현지시간) 트루스소셜에 "한국이 '한국판 패트리엇' 천궁-Ⅱ를 우크라이나에 팔도록 압박해야 한다"는 취지의 워싱턴포스트 칼럼을 공유했다. 별도 발언 없이 칼럼만 공유했지만, 호르무즈 파병 압박에 이어 무기 수출까지 요구하는 새로운 '안보 청구서' 카드로 해석됐다.</p>
+        <ul class="issue-related">
+          <li><a href="#">"우크라에 천궁 팔아라" 칼럼 공유‥한국 압박</a> <span class="src">MBC · 9.5</span></li>
+          <li><a href="#">트럼프, '천궁-Ⅱ우크라 판매 압박' 칼럼 공유</a> <span class="src">9.5</span></li>
+          <li><a href="https://www.youtube.com/watch?v=JEU7Lnk8jEA">[유튜브] Trump Shares Column Urging "Sell Cheongung to Ukraine"</a> <span class="src">MBC NEWS · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.jnilbo.com/news/articleView.html?idxno=90000062747">이란 "한국 호르무즈 개입, 전쟁 간주" 경고</a></p>
+        <p class="issue-byline">전남일보 · 2026.09.05 21:51</p>
+        <p class="issue-summary">이란 고위 당국자가 한국이 미국 주도 호르무즈 해협 파병에 나설 경우 "직접적인 전쟁 참여로 간주하고 좌시하지 않겠다"고 경고했다. 정부가 미국 압박 속 파병 검토를 구체화하는 시점에 나온 경고로, 청와대는 "대비태세 손상 없는 범위에서 다양한 방식을 검토 중"이라는 원론적 입장을 유지했다. 국민의힘은 정부가 배경을 투명하게 공개하지 않는다고 압박했고, 범여권 일각과 시민사회는 파병 반대 목소리를 냈다.</p>
+        <ul class="issue-related">
+          <li><a href="http://www.samdanews.com/news/articleView.html?idxno=52946">정부, 호르무즈 해협 군사 기여 검토</a> <span class="src">삼당뉴스 · 9.5</span></li>
+          <li><a href="https://www.mk.co.kr/news/politics/12144700">국힘 "정부, '호르무즈 파병' 검토 단계?…여론·야당 간보나"</a> <span class="src">매일경제 · 9.4</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-6">
+      <h2><span class="sec-num">06</span> 내란청산</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">지귀연 청탁금지법 기소</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">선관위 특검 정식 출범</span><span class="rank-bar"><i style="width:33%"></i></span><span class="rank-num">5건</span></div>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="http://www.newstomato.com/ReadNews.aspx?no=1312563&inflow=N">지귀연 '뇌물' 왜 뺐나…청탁금지법 기소 강행에 '공수처 권한' 도마</a></p>
+        <p class="issue-byline">뉴스토마토 · 2026.09.04 19:07(09.05 10:18 수정)</p>
+        <p class="issue-summary">윤석열 전 대통령 내란우두머리 사건 1심 재판장이었던 지귀연 서울북부지법 부장판사가 2023년 강남 주점에서 변호사들로부터 409만 원 상당 향응을 받은 혐의로 청탁금지법 위반 불구속 기소됐다. 공수처는 대가성 입증이 어렵다며 뇌물수수 혐의는 제외했는데, 청탁금지법이 공수처의 직접 수사·기소 대상 범죄가 아니라는 점에서 기소 적법성 논란이 커지고 있다. 공수처가 '관련범죄' 조항만으로 기소한 것은 처음이며, 법조계에서는 권한 범위를 명확히 해야 한다는 지적이 나온다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=225897">공수처의 판사 기소… 청탁금지법 수사권 없어 법 적용 논란</a> <span class="src">법률신문 · 9.5</span></li>
+          <li><a href="https://www.hankookilbo.com/news/article/A2026090409350000293">공수처, '룸살롱 접대 의혹' 지귀연 기소… 뇌물은 '성립 어렵다' 판단</a> <span class="src">한국일보 · 9.4</span></li>
+          <li><a href="#">[유튜브] Indicted Judge Ji Gwi-yeon: "I left early… We split the bill"</a> <span class="src">MBC NEWS · 9.5</span></li>
+        </ul>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://m.ekn.kr/view.php?key=20260905024120681">닻 올린 선관위 특검…'IT·검찰 출신' 전면 배치, 전산망부터 캔다</a></p>
+        <p class="issue-byline">에너지경제신문 · 2026.09.05 09:03</p>
+        <p class="issue-summary">6·3 지방선거 투표용지 부족 사태 등 선관위 의혹을 수사할 특별검사팀이 출범했다. 특검보 5명 중 4명이 검사 출신이며 IT·보안 전문가도 배치됐다. 팀은 기존 합동수사본부 수사기록 검토와 선관위 전산망 검증에 주력할 방침이며, 파견검사 20여 명 인선이 마무리되는 대로 본격 수사에 착수한다.</p>
+        <ul class="issue-related">
+          <li><a href="#">선관위 특검, 출범 'D-2'...'순항' 이어갈까</a> <span class="src">뉴시스 · 9.5</span></li>
+          <li><a href="#">'부정선거 음모론' 해소할까…선관위 특검 앞 난관들</a> <span class="src">노컷뉴스 · 9.5</span></li>
+          <li><a href="#">[유튜브] 선관위 특검, 출범 'D-2'...'순항' 이어갈까</a> <span class="src">YTN · 9.5</span></li>
+        </ul>
+      </div>
+
+      <h2 style="margin-top:1.4rem;"><span class="sec-num">👤</span> 인물 동향</h2>
+      <div class="issue">
+        <p class="issue-title" style="color:var(--ink);font-weight:700;">지귀연 (서울북부지법 부장판사, 윤석열 내란우두머리 사건 1심 재판장)</p>
+        <p class="issue-summary">청탁금지법 위반 불구속 기소(9/4 발표)에 이어 9/5 파장 지속. 변호인단은 "비용은 각자 계산했다"며 청탁금지법 위반 요건 미충족을 주장, 기소 적법성을 반박했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=225897">공수처의 판사 기소… 청탁금지법 수사권 없어 법 적용 논란</a> <span class="src">법률신문 · 9.5</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <p class="footnote">섹션 1~5 관련기사 URL 일부는 원문 링크 미확보로 '#' 처리(제목·매체·날짜는 확인됨). 섹션 3·4·5 일부 유튜브 클립은 검색 시점상 날짜 재확인이 필요해 참고용으로 표시. 섹션 2 조원대회 영상은 북 관영매체(메아리) 자체 게시분.</p>
+  <p class="footer">생성 2026.09.06 KST · 정세브리핑</p>
+</div>
+</body>
+</html>

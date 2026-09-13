@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>8월 28일 정세브리핑</title>
+<style>
+  :root{
+    --ink:#1d1d1f; --ink-soft:#6e6e73;
+    --paper:#ffffff; --paper-parchment:#f5f5f7; --paper-raised:#fafafc;
+    --tile-dark:#1d1d1f; --line:#e0e0e0;
+    --accent:#0066cc; --tag-bg:#d2d2d7; --warn:#8a6d1f;
+    --core-accent:#ff9f0a; /* 축약(오늘의 핵심/내일 지켜볼 지점) 전용 강조색(뉴스 섹션의 --accent와 구분) */
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f5f5f7; --ink-soft:#a1a1a6;
+      --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+      --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f5f5f7; --ink-soft:#a1a1a6;
+    --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+    --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:112.5%;} /* 16px -> 18px 기준, 전체 rem 비례 확대(가독성) */
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Apple SD Gothic Neo",Pretendard,system-ui,sans-serif;line-height:1.5;}
+  .page{max-width:640px;margin:0 auto;padding:0 0 3rem;}
+  .hero{padding:2rem 1.1rem 1.2rem;background:var(--paper);}
+  .hero .eyebrow{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;letter-spacing:-0.01em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .hero h1{font-weight:700;font-size:1.85rem;line-height:1.32;margin:0 0 0.6rem;letter-spacing:0;}
+  .hero .meta{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.82rem;color:var(--ink-soft);}
+
+  /* 탭 전환 — JS 없이 라디오+CSS만으로 동작(텔레그램 문서 미리보기 등 JS 비활성 뷰어 대응) */
+  .tab-radio{position:absolute;opacity:0;pointer-events:none;width:0;height:0;}
+  .tabbar{display:flex;gap:0.4rem;overflow-x:auto;padding:0 1.1rem 0.8rem;
+    background:var(--paper-parchment);backdrop-filter:blur(20px);}
+  .tabbar label{flex-shrink:0;display:inline-block;color:var(--ink-soft);
+    font-family:inherit;font-size:0.85rem;padding:0.4rem 0.9rem;border-radius:999px;cursor:pointer;
+    transition:transform .1s;-webkit-tap-highlight-color:transparent;user-select:none;}
+  .tabbar label:active{transform:scale(0.95);}
+  .panels .sec-panel{display:none;padding:1.1rem;background:var(--paper);}
+  #tab-0:checked ~ .panels #sec-0,
+  #tab-1:checked ~ .panels #sec-1,
+  #tab-2:checked ~ .panels #sec-2,
+  #tab-3:checked ~ .panels #sec-3,
+  #tab-4:checked ~ .panels #sec-4,
+  #tab-5:checked ~ .panels #sec-5,
+  #tab-6:checked ~ .panels #sec-6{display:block;}
+  #tab-0:checked ~ .tabbar label[for="tab-0"],
+  #tab-1:checked ~ .tabbar label[for="tab-1"],
+  #tab-2:checked ~ .tabbar label[for="tab-2"],
+  #tab-3:checked ~ .tabbar label[for="tab-3"],
+  #tab-4:checked ~ .tabbar label[for="tab-4"],
+  #tab-5:checked ~ .tabbar label[for="tab-5"],
+  #tab-6:checked ~ .tabbar label[for="tab-6"]{background:var(--accent);color:#fff;}
+
+  .sec-panel h2{font-weight:700;font-size:1.22rem;margin:0 0 0.9rem;}
+  .sec-num{color:var(--accent);font-family:"SF Mono","IBM Plex Mono",monospace;margin-right:0.4rem;}
+  .rank{margin-bottom:1rem;}
+  .rank-row{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.88rem;}
+  .rank-label{width:8.6rem;flex-shrink:0;color:var(--ink-soft);}
+  .rank-bar{display:inline-block;width:120px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;}
+  .rank-bar i{display:block;height:100%;background:var(--accent);border-radius:3px;}
+  .rank-num{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.84rem;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;}
+  .issue{padding:0.9rem;margin-bottom:0.7rem;background:var(--paper-raised);
+    border:1px solid var(--line);border-radius:18px;}
+  .issue-title a{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none;}
+  .issue-byline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;color:var(--ink-soft);
+    margin:0.25rem 0 0.45rem;font-variant-numeric:tabular-nums;}
+  .issue-summary{font-size:0.98rem;color:var(--ink);margin:0 0 0.5rem;}
+  .issue-deadline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.86rem;color:var(--accent);
+    margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .issue-related{list-style:none;margin:0 0 0.5rem;padding:0;font-size:0.9rem;}
+  .issue-related li{margin-bottom:0.3rem;padding-left:0.8rem;}
+  .issue-related a{color:var(--ink);}
+  .issue-related .src{color:var(--ink-soft);font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;}
+  .chip{display:inline-block;font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.72rem;
+    padding:0.12rem 0.6rem;border-radius:999px;margin-right:0.35rem;}
+  .chip-foreign{background:color-mix(in srgb, var(--accent) 10%, transparent);color:var(--accent);}
+  .chip-warn{background:color-mix(in srgb, var(--warn) 10%, transparent);color:var(--warn);}
+  .empty{color:var(--ink-soft);font-size:0.98rem;padding:1rem 0;}
+  .tile-dark{background:var(--tile-dark);color:#f5f5f7;margin:0 0 1.1rem;
+    border-radius:18px;padding:1.1rem 1.15rem;border-top:2px solid var(--core-accent);}
+  .tile-dark:last-child{margin-bottom:0;}
+  .tile-dark .block-title{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;
+    letter-spacing:0.08em;text-transform:uppercase;color:var(--core-accent);margin:0 0 0.7rem;
+    font-weight:600;}
+  .tile-dark ul{margin:0;padding-left:1.1rem;}
+  .tile-dark li{margin-bottom:0.5rem;font-size:1.02rem;line-height:1.6;}
+  .tile-dark li::marker{color:var(--core-accent);}
+  .footnote{font-size:0.85rem;color:var(--ink-soft);margin:1.3rem 1.1rem 0;
+    padding-top:0.9rem;border-top:1px solid var(--line);}
+  .footer{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.76rem;color:var(--ink-soft);
+    margin:1.6rem 1.1rem 0;padding:0 1.1rem;background:var(--paper-parchment);padding-top:1rem;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="eyebrow">정세브리핑 · 데일리</p>
+    <h1>8월 28일 정세브리핑</h1>
+    <p class="meta">발행 2026.08.29 13:36 KST</p>
+  </header>
+
+  <input type="radio" name="sec" id="tab-0" class="tab-radio" checked>
+  <input type="radio" name="sec" id="tab-1" class="tab-radio">
+  <input type="radio" name="sec" id="tab-2" class="tab-radio">
+  <input type="radio" name="sec" id="tab-3" class="tab-radio">
+  <input type="radio" name="sec" id="tab-4" class="tab-radio">
+  <input type="radio" name="sec" id="tab-5" class="tab-radio">
+  <input type="radio" name="sec" id="tab-6" class="tab-radio">
+
+  <nav class="tabbar">
+    <label for="tab-0">축약</label>
+    <label for="tab-1">01 민플러스</label>
+    <label for="tab-2">02 조선동향</label>
+    <label for="tab-3">03 미-동아시아</label>
+    <label for="tab-4">04 미-비동아시아</label>
+    <label for="tab-5">05 국내정치·美동향</label>
+    <label for="tab-6">06 내란청산</label>
+  </nav>
+
+  <div class="panels">
+
+    <section class="sec-panel" id="sec-0">
+      <h2><span class="sec-num">00</span> 축약</h2>
+      <section class="tile-dark">
+        <p class="block-title">오늘의 핵심</p>
+        <ul>
+          <li>내란특검이 한덕수 전 총리에게 헌법재판관 미임명 혐의로 징역 5년을 구형했고(1심 선고 10월 26일), 전날 국회봉쇄 지휘관들의 무더기 실형·법정구속 후폭풍이 이어졌다.</li>
+          <li>미국은 한미연합연습은 축소하면서도 대중국 억제용 한미일 '프리덤 에지' 훈련은 예정대로 강행하고, 대미투자 1호 사업비 7조원 추가 증액을 요구하는 등 대한(對韓) 압박을 병행했다.</li>
+          <li>CIA 국장의 극비 방러(종전협상 압박)와 온타리오호 '아메리카호' 개명 강행이 국제정세 보도량을 압도했고, 위성락 안보실장은 북미대화 재개 국면에서 "한국 패싱 없도록 하겠다"고 밝혔다.</li>
+        </ul>
+      </section>
+      <section class="tile-dark">
+        <p class="block-title">내일 지켜볼 지점</p>
+        <ul>
+          <li>8월 31일 조희대 대법원장의 국회 법사위 현안질의 불출석 처리 결과 및 대법관 재제청 정국의 향방.</li>
+          <li>9월 7~11일 제주 동남방 한미일 '프리덤 에지' 훈련 개시 여부와 중·러 반응.</li>
+          <li>홍장원 등 종합특검 기소 사건의 9월 서울중앙지법 공판 시작 일정 구체화.</li>
+          <li>시진핑 방미를 앞둔 미중 무역휴전 1년 연장 협상의 최종 타결 여부.</li>
+          <li>美 대미투자 1호 사업비 7조원 증액 요구에 대한 한국 정부의 대응.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="sec-panel" id="sec-1">
+      <h2><span class="sec-num">01</span> 민플러스</h2>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18282">한미훈련은 줄이고 '프리덤 에지'는 그대로…미국의 계산은</a></p>
+        <p class="issue-byline">민플러스 · 2026.08.28 17:54</p>
+        <p class="issue-summary">을지프리덤실드는 일정 절반 축소, 쌍룡훈련은 취소됐지만 한미일 3국 훈련 '프리덤 에지'는 9월 7~11일 제주 동남방 공해상에서 예정대로 진행된다. 미군 직접 병력 투입 없이 한국군·일본 자위대 전력을 엮어 상호운용성을 높이려는 미국의 전략적 계산으로 규정하며, 제1도련선에서 대중국 억제력을 강화하려는 의도라고 짚는다. ("미국의 계산"이라는 프레임 자체는 민플러스 해석이며 별도 확인 안 됨.)</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18280">사용자의 책임 회피로 퇴직금 못 받는 노동 869만</a></p>
+        <p class="issue-byline">민플러스 · 2026.08.28 17:47</p>
+        <p class="issue-summary">특수고용직·플랫폼노동자·프리랜서 등 인적용역 사업소득자 869만 명이 개인사업자로 분류돼 퇴직금·유급휴가 등에서 배제되는 문제를 지적한다. 플랫폼 기업이 "단순 중개자"를 자처하며 사용자 책임을 회피해 비용이 노동자·국가에 전가된다고 비판하고, 정부 'K-노동복지회의소' 구상이 실효를 가지려면 플랫폼·원청의 의무 부담이 필요하다고 주장한다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18281">미국 국채 금리 충격과 부채의 늪에 빠진 주요국의 경제위기 2</a></p>
+        <p class="issue-byline">민플러스(외부 필자) · 2026.08.28 17:45</p>
+        <p class="issue-summary">EU와 일본의 재정위기를 분석한 기고 2편. EU는 단일통화 한계·에너지 가격 상승·고금리로 침체 국면이며 유로존 부채비율은 2027년 91.2% 전망. 일본은 국가부채가 GDP의 204%(세계 1위)로 2026년 예산의 26%가 국채 상환에 쓰이는 등 장기금리 상승·엔저의 악순환에 빠졌다고 지적한다. (1편의 대상국은 본문에서 명확히 확인되지 않음)</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18278">"국고 지원받으며 사적 운영 안 돼"… 동명대 일방적 단협 해지에 전국 노동자 집결</a></p>
+        <p class="issue-byline">민플러스 · 2026.08.28 13:17</p>
+        <p class="issue-summary">동명대학교가 단체협약을 일방적으로 해지한 데 항의하는 전국 규모 결의대회가 열렸다. 전국대학노동조합·민주노총 부산본부는 학교 족벌 경영진의 노조 무력화 시도를 규탄하며, 국고 지원을 받는 기관의 사적 단협 해지 결정이 부당하다고 지적했다. 노조는 단협 철회와 총장 퇴진 투쟁을 예고했다.</p>
+      </div>
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18277">어쩔 수가 없다면 헤어질 결심도 할 줄 알아야</a></p>
+        <p class="issue-byline">민플러스(오피니언) · 2026.08.28 07:18</p>
+        <p class="issue-summary">캐나다 마크 카니 총리가 미국의 과도한 무역 요구에 보복 관세로 맞선 사례를 들어, 한국도 미국에 대한 "굴종적 태도"를 버리고 협상력을 자각해야 한다고 주장하는 칼럼. 국익이 걸린 사안에서는 미국과의 단절도 감수할 수 있어야 한다고 촉구한다. (오피니언으로 팩트 검증 대상은 아님)</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-2">
+      <h2><span class="sec-num">02</span> 조선동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">위성락 "한국패싱 없도록"</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">41건</span></div>
+        <div class="rank-row"><span class="rank-label">北 청년절 청년 결속</span><span class="rank-bar"><i style="width:41%"></i></span><span class="rank-num">17건</span></div>
+        <div class="rank-row"><span class="rank-label">명사십리역 준공</span><span class="rank-bar"><i style="width:37%"></i></span><span class="rank-num">15건</span></div>
+        <div class="rank-row"><span class="rank-label">김정은 수해 위문전문</span><span class="rank-bar"><i style="width:22%"></i></span><span class="rank-num">9건</span></div>
+        <div class="rank-row"><span class="rank-label">탈북민 손배소 승소</span><span class="rank-bar"><i style="width:22%"></i></span><span class="rank-num">9건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202608281441001">위성락 "북·미 대화 재개 지원···'한국 패싱' 없도록 유의···미국 신뢰 구축 지원"</a></p>
+        <p class="issue-byline">경향신문 · 2026.08.28 14:41</p>
+        <p class="issue-summary">위성락 국가안보실장이 트럼프 대통령의 북미정상회담 재추진 발언에 "북·미 대화 재개를 지원하되 한국이 패싱되는 일이 없도록 하겠다"고 밝혔다. 북핵 문제의 실질적 진전을 위한 한미 공조, 안보태세 유지를 강조했고, 왕이 중국 외교부장과의 회담으로 한중 안보대화 채널도 5년 만에 재개했다고 덧붙였다.</p>
+        <ul class="issue-related">
+          <li><a href="http://www.yonhapnewstv.co.kr/news/MYH20260828213143YxY">위성락 "북미대화 재개 지원…韓 패싱 없도록"</a> <span class="src">연합뉴스TV · 8.28</span></li>
+          <li><a href="http://www.newstomato.com/ReadNews.aspx?no=1311779">위성락, 한중 안보대화 5년만 재개 확인</a> <span class="src">뉴스토마토 · 8.28</span></li>
+          <li><a href="https://www.youtube.com/watch?v=NuLTDLKsSQ4">[유튜브] 위성락 "북미대화 재개 지원…'韓 패싱' 없도록"</a> <span class="src">연합뉴스TV · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.news1.kr/nk/politics-diplomacy/6272628">北, 청년절 맞아 미래세대 역할 부각…"모든 중심에 청년"</a></p>
+        <p class="issue-byline">뉴스1 · 2026.08.28 14:26</p>
+        <p class="issue-summary">노동신문이 청년절(8·28)을 맞아 청년층을 사회 발전의 중심으로 내세웠다. 당·정 간부들이 생산 현장을 찾아 축하했고, 청년중앙예술선전대 공연도 열렸다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/PYH20260828148000042">북한 당·정 간부들, 청년절 맞아 청년들 축하</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://www.yna.co.kr/view/PYH20260828148100042">휴대폰 불빛 켜고 공연 관람하는 북한 청년들</a> <span class="src">연합뉴스 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="http://www.tongilnews.com/news/articleView.html?idxno=217315">북, 원산갈마해안관광지구에 명사십리역 준공</a></p>
+        <p class="issue-byline">통일뉴스 · 2026.08.28 12:20</p>
+        <p class="issue-summary">원산갈마해안관광지구 내 '명사십리역'이 8월 27일 준공됐다고 조선중앙통신이 28일 보도했다. 연건축면적 약 7,000㎡ 규모로, 지난해 개건된 원산 갈마역에 이은 관광 교통 인프라 확충으로 평가된다. 통일부는 6월 김정은 현지지도 지적사항이 반영된 것으로 추정한다는 브리핑을 냈다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/PYH20260828148700042">북한 원산갈마관광지구에 '명사십리역' 준공</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://www.newsis.com/view/NISX20260828_0003766883">명사십리역 준공 관련 보도</a> <span class="src">뉴시스 · 8.28</span></li>
+          <li><a href="https://www.youtube.com/watch?v=aMFY5b8cjRc">[유튜브] 통일부 "김정은 지적 '원산갈마역' 준공 추정"</a> <span class="src">부처브리핑 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.etoday.co.kr/news/view/2619530">北 김정은, 네팔 대통령·시진핑에 위문전문…홍수·산사태 피해 위로</a></p>
+        <p class="issue-byline">이투데이 · 2026.08.28 23:24</p>
+        <p class="issue-summary">김정은 국무위원장이 티베트자치구 산사태 피해를 입은 시진핑 중국 국가주석과, 국경지역 홍수 피해를 입은 파우델 네팔 대통령에게 각각 위문전문을 보냈다. 네팔 홍수는 사망 500여 명, 실종 1,500명 이상으로 보도됨.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.nocutnews.co.kr/news/6570027">김정은 위문전문 관련 보도</a> <span class="src">노컷뉴스 · 8.28</span></li>
+          <li><a href="https://www.kmib.co.kr/article/view.asp?arcid=9000007178">김정은 위문전문 관련 보도</a> <span class="src">국민일보 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.dailian.co.kr/news/view/1683725/?sc=Naver">"북한서 인권침해"… 탈북민 '김정은 상대 첫 손배소' 1심 승소</a></p>
+        <p class="issue-byline">데일리안 · 2026.08.28 14:36</p>
+        <p class="issue-summary">서울중앙지법이 탈북민(북한감금피해자가족회 대표)이 북한을 상대로 낸 손해배상 소송에서 원고 전부 승소 판결, 5,000만원 배상을 명령했다. 원고는 2008년 강제북송 후 함경북도 온성 보위부 등에서 성적 가학행위·폭력·비인도적 고문을 당했다고 주장했으며, 북한 태생 인권침해 피해자에 의한 최초 소송으로 평가된다. 다만 실제 배상금 수령 가능성은 낮다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.munhwa.com/article/11612892">탈북민 손배소 승소 관련 보도</a> <span class="src">문화일보 · 8.28</span></li>
+          <li><a href="https://www.news1.kr/society/court-prosecution/6272564">탈북민 손배소 승소 관련 보도</a> <span class="src">뉴스1 · 8.28</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-3">
+      <h2><span class="sec-num">03</span> 미국-동아시아 정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">위성락 안보실장 발언</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">'프리덤 에지' 정상시행</span><span class="rank-bar"><i style="width:50%"></i></span><span class="rank-num">8건+</span></div>
+        <div class="rank-row"><span class="rank-label">미중 무역휴전 연장 협상</span><span class="rank-bar"><i style="width:25%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">쿠팡 겨냥 301조 촉구</span><span class="rank-bar"><i style="width:8%"></i></span><span class="rank-num">소수</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.hani.co.kr/arti/politics/defense/1275087.html">한·미·일, 중국 겨냥 '프리덤 에지' 내달 7~11일 제주 동남쪽서 실시</a></p>
+        <p class="issue-byline">한겨레 · 2026.08.28 09:54 (참조: KBS 08.28 21:49, 본문 접근 차단)</p>
+        <p class="issue-summary">합참은 트럼프 지시로 축소된 한미연합연습(UFS)과 대조적으로, 한·미·일 3국 다영역훈련 '프리덤 에지'는 9월 7~11일 제주 동남방 공해상에서 예정대로 실시한다고 발표했다. 해상·공중·사이버 작전을 포함하며 중·러 억제에 방점을 둔다. "한미훈련은 줄이고 한미일훈련은 유지"한다는 구도가 논란 포인트로 부각됐다. 같은 날 위성락 국가안보실장은 "북·미 대화 재개를 지원하되 한국 패싱이 없도록 하겠다"고 밝혔다(섹션2 참조).</p>
+        <ul class="issue-related">
+          <li><a href="https://www.kmib.co.kr/article/view.asp?arcid=9000007094&cp=nv">UFS 줄인 美, 한·미·일 '프리덤 에지'는 예정대로</a> <span class="src">국민일보 · 8.28</span></li>
+          <li><a href="https://www.nocutnews.co.kr/news/6569526">한미훈련은 취소한 美, 한미일 '프리덤 에지'는 정상 시행</a> <span class="src">노컷뉴스 · 8.28</span></li>
+          <li><a href="https://www.youtube.com/watch?v=Usofr2dEqEo">[유튜브] 한미연습 '반토막' 직후 한미일 훈련은 '정상 시행' 왜?</a> <span class="src">KBS 9시뉴스 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.mt.co.kr/world/2026/08/28/2026082808305931036">시진핑 방미, 미중 '무역휴전' 1년 연장 유력…中 기업인 동행 가능성도</a></p>
+        <p class="issue-byline">머니투데이 · 2026.08.28 09:12</p>
+        <p class="issue-summary">시진핑 주석 방미를 앞두고 미중이 무역휴전 기간을 1년 추가 연장하는 쪽으로 가닥을 잡고 있다. 동시에 트럼프 대통령은 이란 제재 국면에서 중국 은행 제재 가능성을 시사, 정상회담을 앞두고 대중(對中) 압박 카드를 병행하는 양면 전략을 보이고 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/AKR20260828070500089">美, 정상회담 앞두고 '中겨냥' 제재 강화…"효과 의문" 지적</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://www.yna.co.kr/view/AKR20260828012800009">엔비디아 "중국 AI도 우리 칩에서 최고 성능"…미 규제 리스크</a> <span class="src">연합뉴스 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.kukinews.com/article/view/kuk202608280006">美상원의원 "韓정부, 배은망덕하게 미국 기업 차별…무역법 301조 조사"</a></p>
+        <p class="issue-byline">쿠키뉴스 · 2026.08.28 07:38</p>
+        <p class="issue-summary">모레노 미 공화당 상원의원이 쿠팡을 겨냥한 한국 정부 조치를 "배은망덕"이라 규정하며 USTR에 무역법 301조 조사를 촉구했다. 한미 경제마찰 프레임의 사례로, 섹션5의 대미투자 압박 흐름과 맥락이 이어진다.</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-4">
+      <h2><span class="sec-num">04</span> 미국-비동아시아 국제정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">CIA국장 극비 방러</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">40건+</span></div>
+        <div class="rank-row"><span class="rank-label">'아메리카호' 개명 강행</span><span class="rank-bar"><i style="width:95%"></i></span><span class="rank-num">38건+</span></div>
+        <div class="rank-row"><span class="rank-label">이란전쟁 6개월 특집</span><span class="rank-bar"><i style="width:45%"></i></span><span class="rank-num">18건</span></div>
+        <div class="rank-row"><span class="rank-label">베네수엘라 유전 빅딜</span><span class="rank-bar"><i style="width:38%"></i></span><span class="rank-num">15건</span></div>
+        <div class="rank-row"><span class="rank-label">이란 AI 여론공작</span><span class="rank-bar"><i style="width:13%"></i></span><span class="rank-num">5건</span></div>
+        <div class="rank-row"><span class="rank-label">팔레스타인액션 지정</span><span class="rank-bar"><i style="width:5%"></i></span><span class="rank-num">2건</span></div>
+        <div class="rank-row"><span class="rank-label">사우디-후티 전면전 태세</span><span class="rank-bar"><i style="width:3%"></i></span><span class="rank-num">1건</span></div>
+        <div class="rank-row"><span class="rank-label">시리아 카드결제 재개</span><span class="rank-bar"><i style="width:3%"></i></span><span class="rank-num">1건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://imnews.imbc.com/news/2026/world/article/6847990_36925.html">CIA국장, 러시아에 절망적 전황 전하며 종전협상 촉구</a></p>
+        <p class="issue-byline">MBC · 2026.08.28 10:26</p>
+        <p class="issue-summary">랫클리프 CIA 국장이 극비리에 모스크바를 방문해 우크라이나 최전방 병사 생존시간이 35분에 불과하다는 등 러시아에 불리한 전황을 전달하며 종전협상을 압박했다. 트럼프는 언급을 회피하면서도 "푸틴이 나토 영토는 공격하지 않을 것"이라고 방러의 의미를 축소했다. 배경에는 이란전쟁으로 미국의 화력·패트리엇 재고가 바닥나 유럽 방공이 약화됐다는 평가(푸틴 측 "미국 약화" 판단)가 깔려 있다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/AKR20260828045100009">이란전에 美 약화했다는 게 푸틴 판단</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://www.khan.co.kr/article/202608280813001">트럼프, CIA국장 극비 방러 언급 회피</a> <span class="src">경향신문 · 8.28</span></li>
+          <li><a href="https://www.news1.kr/world/europe/6273013">CIA국장·교황청 외교수장 동시 방러</a> <span class="src">뉴스1 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://imnews.imbc.com/replay/2026/nwdesk/article/6848149_37004.html">무역전쟁 뒤끝 '아메리카호'로 이름 바꿔‥이젠 태평양·대서양도?</a></p>
+        <p class="issue-byline">MBC · 2026.08.28 20:30</p>
+        <p class="issue-summary">트럼프 대통령이 캐나다와 접한 온타리오호를 '아메리카호'로 개명하는 행정명령에 서명했다. 관세를 둘러싼 미-캐 무역전쟁의 연장선으로, 태평양·대서양 개명까지 검토한다고 위협했다. 캐나다는 "400년 넘은 원주민 이름"이라 반발하며 오타와의 '트럼프 거리'를 '타코 거리'로 바꾸는 맞불을 추진 중이다.</p>
+        <ul class="issue-related">
+          <li><a href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=8649314">'온타리오→아메리카호' 개명 강행</a> <span class="src">KBS · 8.28</span></li>
+          <li><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1008726295">"왜 적대국 말고 동맹 때려" 캐나다 반발</a> <span class="src">SBS · 8.28</span></li>
+          <li><a href="https://www.hani.co.kr/arti/international/america/1275152.html">'400년 전통' 뒤집은 트럼프</a> <span class="src">한겨레 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.yna.co.kr/view/AKR20260828002900071">이란전쟁 6개월…비핵화 진전은커녕 열렸던 호르무즈 되레 경색</a></p>
+        <p class="issue-byline">연합뉴스 · 2026.08.28 02:56</p>
+        <p class="issue-summary">미국이 이란 비핵화를 내걸고 시작한 전쟁이 6개월째 이어지고 있다. 핵 위협 제거라는 당초 목표는 사라지고 호르무즈 해협 봉쇄만 남았으며, 미 해군은 전쟁비용에 쪼들려 급여예산까지 돌려막는 상황이다. 유럽 배치 패트리엇 재고 부족으로 러시아 위협 대응력이 약화됐고, "제재로 이란 굴복은 어렵다, 트럼프의 가짜전쟁"이라는 비판도 나온다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/001/0016277129">세계 안보·경제 흔들 "한반도에도 그림자"</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://www.joongang.co.kr/article/25457061">核폐기 사라지고 호르무즈만 닫혔다</a> <span class="src">중앙일보 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.sedaily.com/article/20084655">美, 베네수엘라 OPEC 탈퇴 조건으로 '유전 100년 임대' 빅딜</a></p>
+        <p class="issue-byline">서울경제 · 2026.08.28 19:06</p>
+        <p class="issue-summary">트럼프 행정부가 베네수엘라와 유전 지분·100년 장기임대 협상을 진행 중이며, 협정 체결 조건으로 베네수엘라의 OPEC 탈퇴를 추진하고 있다. 이란전쟁발 호르무즈 봉쇄로 원유 확보가 급해진 미국이 60년 역사의 OPEC 구도 자체를 흔드는 모습이다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.munhwa.com/article/11612842">美 원유비축량 2배 늘어나나</a> <span class="src">문화일보 · 8.28</span></li>
+          <li><a href="https://www.khan.co.kr/article/202608280943001">이탈 시 트럼프 정치적 승리</a> <span class="src">경향신문 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-foreign">해외단독(국내 클립 없음)</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/001/0016275779">이란, 美중간선거 겨냥 'AI 여론 공작'…메타, 계정삭제 조치</a></p>
+        <p class="issue-byline">연합뉴스 계열 · 2026.08.28 05:10</p>
+        <p class="issue-summary">메타가 미국 중간선거를 앞두고 반공화당 여론을 퍼뜨리려던 이란 연계 AI 밈 계정을 삭제했다. 이란의 대미 선거 개입 시도가 확인된 사례다.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.news1.kr/world/usa-canada/6272122">유엔, 美 '팔레스타인 액션' 테러단체 지정 비판…"표현의 자유 제한"</a></p>
+        <p class="issue-byline">뉴스1 · 2026.08.28 09:04</p>
+        <p class="issue-summary">미 국무부가 영국 팔레스타인 액션 등 유럽 3개 단체를 대테러 제재 대상으로 지정, 미국 내 자산을 동결했다. 유엔은 표현의 자유 제한이라 비판했다. 미 상원의원 45명은 네타냐후 총리에게 서안지구 정착민 폭력 단속을 촉구하는 서한을 보냈다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.g-enews.com/view.php?ud=2026082808565013422bd56fbc3c_1">미 상원의원 45명 네타냐후에 서한</a> <span class="src">G-News · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/003/0014153718">사우디, 후티 반군과 전면전 준비한다</a></p>
+        <p class="issue-byline">뉴시스 · 2026.08.28 07:42</p>
+        <p class="issue-summary">친이란 후티 반군의 대규모 공습(미사일·드론)에 사우디가 전면전 태세로 전환했다. 미국의 대이란 압박 정책과 연동된 사안이다.</p>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-5">
+      <h2><span class="sec-num">05</span> 국내 정치동향 + 미국 동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">대법관 재제청 충돌</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">한덕수 징역5년 구형</span><span class="rank-bar"><i style="width:80%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">美, 대미투자 7조 증액요구</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">단독</span></div>
+        <div class="rank-row"><span class="rank-label">광주 군공항 무안 확정</span><span class="rank-bar"><i style="width:30%"></i></span><span class="rank-num">보도있음</span></div>
+        <div class="rank-row"><span class="rank-label">美측근 "배은망덕한 韓"</span><span class="rank-bar"><i style="width:20%"></i></span><span class="rank-num">단독</span></div>
+        <div class="rank-row"><span class="rank-label">주한美대사 풀브라이트 발언</span><span class="rank-bar"><i style="width:15%"></i></span><span class="rank-num">단신</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newsfreezone.co.kr/news/articleView.html?idxno=706342">靑, 손봉기 대법관 후보자 재제청 요구…대법원과 '인선 충돌'</a></p>
+        <p class="issue-byline">뉴스프리존 · 2026.08.28 19:49</p>
+        <p class="issue-summary">대통령실이 이재명 정부 출범 후 첫 대법관 인선에서 손봉기 후보자 임명동의안을 국회에 제출하지 않고 대법원에 재제청을 요구했다. 강유정 수석대변인은 "1월 추천 후 7개월 넘게 방치하다 8월 18일 협의 없이 일방적으로 서면 제청했다"고 절차 문제를 지적했다. 조희대 대법원장은 반발해 31일 국회 법사위 현안질의에 불출석 의견서를 냈고("대법관 제청권은 헌법상 독립적 권한"), 국민의힘은 "삼권분립 파괴·사법부 장악, 탄핵 사유"라며 청와대를 비판했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.kukinews.com/article/view/kuk202608280169">曺대법원장, 법사위 불출석 통보…"군림이자 독단" 여당 부글부글</a> <span class="src">쿠키뉴스 · 8.28</span></li>
+          <li><a href="https://www.amn.kr/59013">초유의 대법관 제청 반려…대법관 공백 우려</a> <span class="src">AMN · 8.29</span></li>
+          <li><a href="#">[유튜브] 靑, 손봉기 임명동의안 제출 않기로</a> <span class="src">MBC뉴스속보 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ngonews.kr/news/articleView.html?idxno=236666">한덕수 징역 5년 구형…"헌정질서 훼손" vs "정치적 기소" 정면충돌</a></p>
+        <p class="issue-byline">NGO뉴스 · 2026.08.28</p>
+        <p class="issue-summary">내란특검이 한덕수 전 총리에게 직무유기·직권남용 혐의로 징역 5년 구형했다. 함께 정진석 전 비서실장(4년), 김주현 전 민정수석(4년), 이원모 전 공직기강비서관(3년)이 구형됐다. 특검은 헌법재판관 임명 거부·후보자 지명이 "국민의 선택을 막고 앞으로의 선택을 미리 선점하려 한 것"이라 규정했고, 변호인 측은 "정치적 기소"라며 반박했다. 1심 선고는 10월 26일 오후 2시.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/421/0009138833">특검, '헌법재판관 미임명' 한덕수 1심 징역 5년 구형…10월26일 선고</a> <span class="src">뉴스1 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">일부 원문 접근 제한</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">美, 대한(對韓) 대미투자 1호 사업비 7조원 증액 일방 요구</p>
+        <p class="issue-byline">매일경제 · 2026.08.28 17:50~17:51</p>
+        <p class="issue-summary">미국 정부(트럼프 행정부)가 한국 정부에 대미투자 1호 사업 규모를 7조원 추가 증액하라고 통보했다. 한국 정부는 "상업적 합리성"을 이유로 난색을 표하고 있다. 같은 맥락에서 미국의 반도체 관세 압박이 본격화하며 SK하이닉스 현지(美) 공장 착공, 삼성전자 부담 가중 보도가 이어졌다. (원문이 네이버 단독 유통이라 직접 링크 제시 불가)</p>
+        <span class="chip chip-warn">유튜브 클립 없음</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/277/0005808889">광주 군공항 이전 후보지에 무안 선정…12년만에 최종 결정 수순</a></p>
+        <p class="issue-byline">국제신문 · 2026.08.28</p>
+        <p class="issue-summary">12년째 표류하던 광주 군공항 이전 사업이 전남 무안을 후보지로 선정하며 급물살을 탔다. 지역 정치권 이해관계가 얽힌 국방·지역 현안이다.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">트럼프 측근 "6·25 도왔는데 배은망덕한 한국" 발언 논란</p>
+        <p class="issue-byline">이데일리 · 2026.08.28</p>
+        <p class="issue-summary">트럼프 측근 인사가 한미 방위비·대미투자 관련 불만 맥락에서 "은혜를 저버린 한국"이라는 취지로 발언해 논란이 됐다. 미국의 대한 청구서 압박 기조가 이어지는 흐름으로 해석된다. (원문이 네이버 단독 유통이라 직접 링크 제시 불가)</p>
+        <span class="chip chip-warn">유튜브 클립 없음</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">스틸 주한미국대사, 풀브라이트 장학생 초청 조찬 발언</p>
+        <p class="issue-byline">VOA코리아 · 2026.08.28 11:00</p>
+        <p class="issue-summary">미셸 스틸 주한미국대사가 "미한동맹의 미래에 풀브라이트 프로그램이 중요한 역할을 한다"고 발언했다. (원문 WebFetch 접근 실패, 검색 스니펫으로 날짜·제목만 교차 확인)</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-6">
+      <h2><span class="sec-num">06</span> 내란청산 동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">한덕수 징역5년 구형</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">국회봉쇄 지휘관 실형 후폭풍</span><span class="rank-bar"><i style="width:80%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">홍장원 등 재판 서울중앙 이송</span><span class="rank-bar"><i style="width:60%"></i></span><span class="rank-num">보도있음</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/003/0014155619?sid=102">특검, '헌법재판관 미임명' 한덕수에 징역 5년 구형…10월 26일 선고(종합)</a></p>
+        <p class="issue-byline">연합뉴스 · 2026.08.28 18:47</p>
+        <p class="issue-summary">내란특검(권창영 특검팀)이 서울중앙지법 결심공판에서 한덕수 전 국무총리에게 징역 5년을 구형했다. 혐의는 대통령 권한대행 시절 국회 추천 헌법재판관 후보자 임명을 고의로 미루고, 대통령 몫 후보자는 검증 없이 졸속 지명했다는 것이다. 함께 기소된 정진석 전 비서실장·김주현 전 민정수석에게 각 4년, 이원모 전 공직기강비서관에게 3년이 구형됐다. 특검 측은 "국민이 이미 결정한 것은 막고, 앞으로 결정할 것은 먼저 빼앗으려 했다"고 주장했고, 한덕수 측은 "탄핵에 영향을 미치려 임명을 늦춘 사실 없다"고 반박했다.</p>
+        <p class="issue-deadline">⏱ 1심 선고기일: 2026년 10월 26일 오후 2시(서울중앙지법)</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/001/0016277419?sid=102">'헌법재판관 미임명·졸속 지명' 한덕수 1심 10월 26일 선고</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/052/0002399645?sid=102">'헌법재판관 미임명' 한덕수, 1심 징역 5년 구형..."헌정질서 침해"</a> <span class="src">뉴시스 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/437/0000508292?sid=102">12·3 내란 지휘관 첫 선고…김현태 12년 등 잇따라 중형</a></p>
+        <p class="issue-byline">노컷뉴스 · 2026.08.28 08:51 (선고는 8.27, 후속 반응은 8.28)</p>
+        <p class="issue-summary">서울중앙지법이 8월 27일 국회 봉쇄를 지휘한 김현태 전 707특임단장에게 징역 12년(법정구속), 이상현 전 1공수여단장에게 징역 10년, 김대우 전 방첩사 수사단장에게 징역 5년을 선고했다. 반면 선관위 서버 촬영 혐의를 받은 고동희 전 정보사 계획처장은 무죄를 받았다. 재판부는 "국회 봉쇄와 정치인 체포 시도는 자유민주주의 국가에서 용납할 수 없는 내란 범행"이라 질타했고, 김현태 측은 즉시 항소했다. 8월 28일에는 전한길씨가 유튜브에서 "구독료로 김현태 장군님 가족을 부양하겠다"는 발언으로 후원금 모금 논란이 확산됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.cnbnews.com/news/articleView.html?idxno=1013236">내란 가담 군지휘관 줄줄이 법정구속 "왜"</a> <span class="src">CNB뉴스 · 8.28</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/028/0002820589?sid=102">내란 때 '선관위 서버 촬영' 전 정보사 대령 무죄</a> <span class="src">한겨레 · 8.28</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/009/0005727401?sid=102">전한길 "김현태, 구속됐으니 장군으로 승진…후원금으로 가족 부양하겠다"</a> <span class="src">매일경제 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/421/0009137710?sid=102">종합특검 기소 사건, 줄줄이 공판 진행…총 26건 서울중앙지법으로</a></p>
+        <p class="issue-byline">뉴스1 · 2026.08.28 11:07</p>
+        <p class="issue-summary">홍장원 전 국정원 1차장은 내란중요임무종사·국정원법 위반(직권남용) 혐의로 기소된 상태이며, 관련 사건들이 서울중앙지법으로 이송돼 9월부터 재판이 본격 시작된다. 종합특검은 홍 전 차장이 계엄 직후 방첩사·경찰청 간 연락체계를 구축하고 계엄 다음날 계엄을 정당화하는 메시지를 미 CIA에 전달하는 과정에 관여했다고 주장하며, 홍 측은 "조태용 전 원장 지시를 단순 전달했을 뿐"이라 반박한다.</p>
+        <p class="issue-deadline">⏱ 9월 중 공판 시작 예정(구체 기일 미확정)</p>
+        <ul class="issue-related">
+          <li><a href="https://www.naeil.com/news/read/600416?ref=naver">'종합특검 기소' 조성현·홍장원 재판 내달부터</a> <span class="src">내일신문 · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">인물 카드 — 한덕수 (전 국무총리, 대통령 권한대행)</p>
+        <p class="issue-summary">2026년 8월 28일 서울중앙지법 결심공판에 피고인으로 출석, 내란특검으로부터 헌법재판관 미임명·졸속 지명 혐의로 징역 5년을 구형받았다. 법정에서 "탄핵에 영향을 주려 임명을 늦춘 사실 없다"며 자신의 결정이 헌법과 법률에 따른 것이었다고 항변했다. 1심 선고는 2026년 10월 26일 오후 2시로 지정됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/003/0014155619?sid=102">연합뉴스 종합 보도</a> <span class="src">연합뉴스 · 8.28</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/052/0002399645?sid=102">뉴시스 보도</a> <span class="src">뉴시스 · 8.28</span></li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <p class="footnote">한계: 섹션3의 정확한 국내 보도 건수는 검색 리소스 제약으로 일부 추정치이며, 매일경제·이데일리발 대미투자·발언 관련 두 건은 원문이 네이버 단독 유통이라 직접 링크를 제시하지 못했다. 쿠바·니카라과·벨라루스는 개별 키워드 검색 결과 대상일 관련 사안이 확인되지 않았다.</p>
+  <p class="footer">생성 2026.08.29 13:36 KST · 정세브리핑</p>
+</div>
+</body>
+</html>

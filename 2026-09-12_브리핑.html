@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>9월 12일 정세브리핑</title>
+<style>
+  :root{
+    --ink:#1d1d1f; --ink-soft:#6e6e73;
+    --paper:#ffffff; --paper-parchment:#f5f5f7; --paper-raised:#fafafc;
+    --tile-dark:#1d1d1f; --line:#e0e0e0;
+    --accent:#0066cc; --tag-bg:#d2d2d7; --warn:#8a6d1f;
+    --core-accent:#ff9f0a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f5f5f7; --ink-soft:#a1a1a6;
+      --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+      --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f5f5f7; --ink-soft:#a1a1a6;
+    --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+    --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:112.5%;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Apple SD Gothic Neo",Pretendard,system-ui,sans-serif;line-height:1.5;}
+  .page{max-width:640px;margin:0 auto;padding:0 0 3rem;}
+  .hero{padding:2rem 1.1rem 1.2rem;background:var(--paper);}
+  .hero .eyebrow{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;letter-spacing:-0.01em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .hero h1{font-weight:700;font-size:1.85rem;line-height:1.32;margin:0 0 0.6rem;letter-spacing:0;}
+  .hero .meta{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.82rem;color:var(--ink-soft);}
+
+  .tab-radio{position:absolute;opacity:0;pointer-events:none;width:0;height:0;}
+  .tabbar{display:flex;gap:0.4rem;overflow-x:auto;padding:0 1.1rem 0.8rem;
+    background:var(--paper-parchment);backdrop-filter:blur(20px);}
+  .tabbar label{flex-shrink:0;display:inline-block;color:var(--ink-soft);
+    font-family:inherit;font-size:0.85rem;padding:0.4rem 0.9rem;border-radius:999px;cursor:pointer;
+    transition:transform .1s;-webkit-tap-highlight-color:transparent;user-select:none;}
+  .tabbar label:active{transform:scale(0.95);}
+  .panels .sec-panel{display:none;padding:1.1rem;background:var(--paper);}
+  #tab-0:checked ~ .panels #sec-0,
+  #tab-1:checked ~ .panels #sec-1,
+  #tab-2:checked ~ .panels #sec-2,
+  #tab-3:checked ~ .panels #sec-3,
+  #tab-4:checked ~ .panels #sec-4,
+  #tab-5:checked ~ .panels #sec-5,
+  #tab-6:checked ~ .panels #sec-6{display:block;}
+  #tab-0:checked ~ .tabbar label[for="tab-0"],
+  #tab-1:checked ~ .tabbar label[for="tab-1"],
+  #tab-2:checked ~ .tabbar label[for="tab-2"],
+  #tab-3:checked ~ .tabbar label[for="tab-3"],
+  #tab-4:checked ~ .tabbar label[for="tab-4"],
+  #tab-5:checked ~ .tabbar label[for="tab-5"],
+  #tab-6:checked ~ .tabbar label[for="tab-6"]{background:var(--accent);color:#fff;}
+  .sec-panel h2{font-weight:700;font-size:1.22rem;margin:0 0 0.9rem;}
+  .sec-num{color:var(--accent);font-family:"SF Mono","IBM Plex Mono",monospace;margin-right:0.4rem;}
+  .rank{margin-bottom:1rem;}
+  .rank-row{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.88rem;}
+  .rank-label{width:8.6rem;flex-shrink:0;color:var(--ink-soft);}
+  .rank-bar{display:inline-block;width:120px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;}
+  .rank-bar i{display:block;height:100%;background:var(--accent);border-radius:3px;}
+  .rank-num{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.84rem;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;}
+  .issue{padding:0.9rem;margin-bottom:0.7rem;background:var(--paper-raised);
+    border:1px solid var(--line);border-radius:18px;}
+  .issue-title a{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none;}
+  .issue-byline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;color:var(--ink-soft);
+    margin:0.25rem 0 0.45rem;font-variant-numeric:tabular-nums;}
+  .issue-summary{font-size:0.98rem;color:var(--ink);margin:0 0 0.5rem;}
+  .issue-deadline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.86rem;color:var(--accent);
+    margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .issue-related{list-style:none;margin:0 0 0.5rem;padding:0;font-size:0.9rem;}
+  .issue-related li{margin-bottom:0.3rem;padding-left:0.8rem;}
+  .issue-related a{color:var(--ink);}
+  .issue-related .src{color:var(--ink-soft);font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;}
+  .chip{display:inline-block;font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.72rem;
+    padding:0.12rem 0.6rem;border-radius:999px;margin-right:0.35rem;}
+  .chip-foreign{background:color-mix(in srgb, var(--accent) 10%, transparent);color:var(--accent);}
+  .chip-warn{background:color-mix(in srgb, var(--warn) 10%, transparent);color:var(--warn);}
+  .empty{color:var(--ink-soft);font-size:0.98rem;padding:1rem 0;}
+  .tile-dark{background:var(--tile-dark);color:#f5f5f7;margin:0 0 1.1rem;
+    border-radius:18px;padding:1.1rem 1.15rem;border-top:2px solid var(--core-accent);}
+  .tile-dark:last-child{margin-bottom:0;}
+  .tile-dark .block-title{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;
+    letter-spacing:0.08em;text-transform:uppercase;color:var(--core-accent);margin:0 0 0.7rem;
+    font-weight:600;}
+  .tile-dark ul{margin:0;padding-left:1.1rem;}
+  .tile-dark li{margin-bottom:0.5rem;font-size:1.02rem;line-height:1.6;}
+  .tile-dark li::marker{color:var(--core-accent);}
+  .footnote{font-size:0.85rem;color:var(--ink-soft);margin:1.3rem 1.1rem 0;
+    padding-top:0.9rem;border-top:1px solid var(--line);}
+  .footer{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.76rem;color:var(--ink-soft);
+    margin:1.6rem 1.1rem 0;padding:0 1.1rem;background:var(--paper-parchment);padding-top:1rem;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="eyebrow">정세브리핑 · 데일리</p>
+    <h1>9월 12일 정세브리핑</h1>
+    <p class="meta">발행 2026.09.13 KST</p>
+  </header>
+
+  <input type="radio" name="sec" id="tab-0" class="tab-radio" checked>
+  <input type="radio" name="sec" id="tab-1" class="tab-radio">
+  <input type="radio" name="sec" id="tab-2" class="tab-radio">
+  <input type="radio" name="sec" id="tab-3" class="tab-radio">
+  <input type="radio" name="sec" id="tab-4" class="tab-radio">
+  <input type="radio" name="sec" id="tab-5" class="tab-radio">
+  <input type="radio" name="sec" id="tab-6" class="tab-radio">
+
+  <nav class="tabbar">
+    <label for="tab-0">축약</label>
+    <label for="tab-1">01 민플러스</label>
+    <label for="tab-2">02 조선동향</label>
+    <label for="tab-3">03 미-동아시아</label>
+    <label for="tab-4">04 미-비동아시아</label>
+    <label for="tab-5">05 국내정치·美동향</label>
+    <label for="tab-6">06 내란청산</label>
+  </nav>
+
+  <div class="panels">
+
+    <section class="sec-panel" id="sec-0">
+      <h2><span class="sec-num">00</span> 축약</h2>
+      <section class="tile-dark">
+        <p class="block-title">오늘의 핵심</p>
+        <ul>
+          <li>미국의 호르무즈 파병 압박에 540여 종교·시민단체가 서울 종로에서 주한미대사관~청와대까지 대행진하며 파병 거부를 촉구했다. 파병 여부는 아직 미확정이나 국방부는 UAE 현지조사단 파견 등 준비 절차를 밟고 있다.</li>
+          <li>한미일 연합훈련 '프리덤 에지' 종료 다음날 새벽, 북한이 원산 일대에서 동해상으로 단거리 탄도미사일을 발사(약 250km 비행, 23일 만·올해 13번째). 청와대는 안보리 결의 위반이라며 긴급안보점검회의를 열었다.</li>
+          <li>이란과의 전쟁 중 사우디 우회 송유관이 드론 공격으로 가동 중단되고 후티가 바브엘만데브 해협 요충지를 장악, 확전 양상이 커졌다. 트럼프는 근거 없이 "전쟁이 11월 중간선거 직후 끝날 것"이라 주장했다.</li>
+        </ul>
+      </section>
+      <section class="tile-dark">
+        <p class="block-title">내일 지켜볼 지점</p>
+        <ul>
+          <li>법무부장관 후보자 김승원 인사청문회 9/15 개최 확정, 성평등가족부장관 후보자 용혜인은 여야 날짜(18일 vs 21·22일) 대치 지속.</li>
+          <li>시진핑 주석 9/24 백악관 방문(국빈만찬) 예정 — 트럼프의 "중국차 미국 내 생산시 허용" 발언 후 미중 유화 국면 지속 여부.</li>
+          <li>이스라엘-레바논 '로마 협상'은 10월로 연기, 다음주 워싱턴에서 대사급 접촉 예정.</li>
+          <li>브릭스 '뉴델리 선언' 채택 이후 미국의 일방제재·관세에 대한 반제재 공동전선 후속 움직임.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="sec-panel" id="sec-1">
+      <h2><span class="sec-num">01</span> 민플러스</h2>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18350">"미국의 전쟁에 한국군 보내지 말라"…전국서 호르무즈 파병 반대 행동</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.12 21:43</p>
+        <p class="issue-summary">540여 개 종교·시민·정치 단체가 전국에서 호르무즈 파병 반대 공동 행동을 벌였다. 불교 지도자, 진보정당 인사, 입대 자녀를 둔 가족 등이 참여해 "어떤 국익이나 동맹도 목숨을 대가로 할 수 없다"고 주장했다. 주최 측은 전투·비전투 형태를 불문하고 미군 작전 지원 자체가 헌법상 침략전쟁 금지 원칙을 위반한다고 지적하며, 파병이 한국 청년과 중동 거주 교민, 국내 안전에 위험을 초래한다고 경고했다.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18348">"침략전쟁에 파병 강요하는 미국을 규탄한다!" 서울대 긴급행동 열려</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.12 13:04</p>
+        <p class="issue-summary">서울대 학생들이 호르무즈 파병을 이란에 대한 미국의 침략전쟁 가담으로 규정하며 긴급 규탄 집회를 열었다. 학생 대표들은 파병이 헌법상 평화주의 원칙을 위반하며, 미국-이란 갈등을 불법적 침공으로 본다고 주장했다. 전국대학생긴급위원회가 주최한 이번 집회는 미국의 압박을 거부하고 청년들이 해외 분쟁의 "총알받이"가 되는 것을 막아야 한다고 촉구했다.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.minplusnews.com/news/articleView.html?idxno=18349">[조선의 오늘] 지방도시에 불고기전문식당 잇따라 개점…'논판양어' 본격 수확</a></p>
+        <p class="issue-byline">민플러스 · 2026.09.12 13:03</p>
+        <p class="issue-summary">북한이 강계·평성·신의주 등 지방 도시에 불고기 전문식당을 잇달아 개점하며 지역 개발을 확대하고 있다고 전한다. 논에서 메기를 함께 기르는 '논판양어'로 헥타르당 약 1.5톤의 작물 증수와 100톤 이상의 물고기 생산을 달성했다고 소개한다. 아울러 1,600건의 발명·특허를 소개하는 지식재산권 전시회, 24개국의 정권수립 기념 축전, 노동단체 관련 예정 행사 등도 함께 보도했다.</p>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-2">
+      <h2><span class="sec-num">02</span> 조선동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">北 탄도미사일 발사</span><span class="rank-bar"><i style="width:49%"></i></span><span class="rank-num">91건</span></div>
+        <div class="rank-row"><span class="rank-label">北-러 파병 산케이보도</span><span class="rank-bar"><i style="width:9%"></i></span><span class="rank-num">16건</span></div>
+        <div class="rank-row"><span class="rank-label">北, 사상 첫 日AG출전</span><span class="rank-bar"><i style="width:8%"></i></span><span class="rank-num">15건</span></div>
+        <div class="rank-row"><span class="rank-label">北 IT인력 대리면접</span><span class="rank-bar"><i style="width:8%"></i></span><span class="rank-num">14건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=8661766&ref=A">군 "북 탄도미사일 사거리 250km"…청 "안보리 결의 위반"</a></p>
+        <p class="issue-byline">KBS(자체도메인, 본문 YTN 근거) · 2026.09.12 12:03</p>
+        <p class="issue-summary">12일 새벽 5시20분경 북한이 강원도 원산 일대에서 동해상으로 단거리 탄도미사일 수 발을 발사, 약 250km를 비행했다. 한미일 '프리덤 에지' 연합훈련 종료 직후, 23일 만의 도발이자 올해 13번째 발사다. 청와대는 안보리 결의 위반이라며 즉각 중단을 촉구하고 긴급안보점검회의를 열었다. 미 태평양사령부는 "즉각적 위협은 아니다"라고 평가했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.newsis.com/view/NISX20260912_0003786834">北, 한미일 '프리덤 에지' 마치자 미사일 도발</a> <span class="src">뉴시스 · 9.12</span></li>
+          <li><a href="https://news.sbs.co.kr/news/endPage.do?news_id=N1008749813">북한, 23일 만에 또 탄도미사일 발사…250㎞ 비행</a> <span class="src">SBS · 9.12</span></li>
+          <li><a href="https://www.shinailbo.co.kr/news/articleView.html?idxno=5061425">청와대, '北 탄도미사일' 발사에 "안보리 위반 즉각 중단 촉구"</a> <span class="src">신아일보 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=lDPe9NYNAvc">[유튜브] [한반도 리뷰] 북, '프리덤 에지' 다음 날 단거리 탄도미사일 발사</a> <span class="src">YTN · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.news1.kr/world/northeast-asia/6288380">산케이 "러, 2023년 7월 김정은에 파병 요청…北전사자 2288명"</a></p>
+        <p class="issue-byline">뉴스1 · 2026.09.12 14:38</p>
+        <p class="issue-summary">일본 산케이신문이 러시아가 2023년 7월 쇼이구 국방장관의 평양 방문을 계기로 북한에 병력 지원을 요청했다고 보도. 북러 동맹조약(2024년 체결) 체결 1년 전부터 파병 협상이 시작된 것으로, 우크라이나 전쟁 참전 북한군 전사자는 2,288명에 달한다고 전했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.seoul.co.kr/news/politics/north/2026/09/12/20260912500068">"자폭에 드론 공격까지"…러시아 보낸 북한 청년 2288명은 왜 돌아오지 못했나</a> <span class="src">서울신문 · 9.12</span></li>
+          <li><a href="https://view.asiae.co.kr/article/2026091215263489840">"북·러, 2023년부터 파병 협상…북한군 사망자 2288명"</a> <span class="src">아시아경제 · 9.12</span></li>
+          <li><a href="https://www.mk.co.kr/article/12151045">"북·러, 2023년부터 파병 협상…북한군 사망자 2000여명"</a> <span class="src">매경 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 없음</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609121359001">"1958년엔 못 왔고 1994년엔 안 왔다"…북한, 사상 첫 '일본 아시안게임' 입성</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.12 13:59</p>
+        <p class="issue-summary">북한 축구대표팀이 9월 11일 오사카 간사이국제공항을 통해 입국, 아시안게임 역사상 처음으로 일본 개최 대회에 참가한다. 14개 종목 180여 명 규모의 선수단을 파견했다. 일본 정부는 대북 제재를 유지하면서도 예외적 입국을 허용했으며, 1974년 테헤란 대회 이후 최대 규모의 국제 스포츠 활동이라는 상징성을 갖는다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.yna.co.kr/view/AKR20260912022300007">[아시안게임] 대회 역사상 처음 일본 땅 밟은 북한…68년 만에 풀린 빗장</a> <span class="src">연합뉴스 · 9.12</span></li>
+          <li><a href="https://www.nocutnews.co.kr/news/6577127">'北, 역대 최초 日 AG 출전' 180명 11일 오사카 입국…사격, 역도 강세</a> <span class="src">노컷뉴스 · 9.12</span></li>
+          <li><a href="#">"보트 빌려달라" 北, 아시안게임 앞두고 한국 측 인사에 직접 요청</a> <span class="src">연합뉴스 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=SoY8ghGTITE">[유튜브] 북한 선수단, AG 역사상 처음 일본 땅 밟아</a> <span class="src">연합뉴스TV · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://news.kbs.co.kr/news/pc/view/view.do?ncd=8661809&ref=A">"북한, 서방 IT기업 위장취업 단속에 외국인 꾀어 대리면접"</a></p>
+        <p class="issue-byline">KBS(자체도메인, 본문 YTN 근거) · 2026.09.12 17:25</p>
+        <p class="issue-summary">북한이 강화된 신원 검증(즉석 질문)을 피하기 위해 이란·시리아·레바논 등 제3국 인력을 동원해 화상 면접을 대신 보게 하는 방식으로 진화했다. 보안업체 플레어에 따르면 2024년 이후 최소 14명의 이란인이 대리면접에 모집됐다. 미 국무부는 북한이 위장취업으로 2024년 최대 8억 달러를 벌어들인 것으로 추정한다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.kmib.co.kr/article/view.asp?arcid=9000011351">"김정은 욕해봐" 美기업 검증 강화에… 北, 외국인에 '면접 하청'</a> <span class="src">국민일보 · 9.12</span></li>
+          <li><a href="https://www.news1.kr/world/usa-canada/6288449">"北, 외국인 내세워 서방기업 '대리면접'…위장취업 단속 우회"</a> <span class="src">뉴스1 · 9.12</span></li>
+          <li><a href="https://www.etoday.co.kr/news/view/2624730">북한, 외국인 대리면접으로 서방 취업 단속 우회…2024년 8억 달러 벌어</a> <span class="src">이투데이 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=mMXUMpLz_NM">[유튜브] "김정은 돼지XX 해봐" 걸리자..'얼굴 바꿔치기' 새 수법 등장(자막뉴스)</a> <span class="src">SBS · 9.12</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-3">
+      <h2><span class="sec-num">03</span> 미국-동아시아 정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">北, 프리덤에지 후 도발</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">약100건</span></div>
+        <div class="rank-row"><span class="rank-label">트럼프 파병압박·반발</span><span class="rank-bar"><i style="width:39%"></i></span><span class="rank-num">약97건</span></div>
+        <div class="rank-row"><span class="rank-label">트럼프-시진핑 유화신호</span><span class="rank-bar"><i style="width:21%"></i></span><span class="rank-num">약51건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://view.asiae.co.kr/article/2026091208340984645">北, 탄도미사일 발사‥ 한미일 '프리덤에지' 훈련 반발</a></p>
+        <p class="issue-byline">아시아경제 · 2026.09.12 08:34</p>
+        <p class="issue-summary">한미일 3국이 9월 7~11일 실시한 다영역 연합훈련 '프리덤 에지'가 종료된 다음 날 새벽, 북한이 원산 일대에서 단거리 탄도미사일을 발사(약 250km, 올해 13번째). 정부는 "안보리 결의 위반"으로 규정. 민플러스 등 진보매체는 프리덤 에지 등 한미(일) 훈련 자체를 "대중국 봉쇄·선제공격 전쟁연습"으로 규정하며 훈련 강화가 긴장을 격화시켰다는 프레임을 취함(주류 보도의 "北 도발" 프레임과 대비). 발사체 종류는 군 당국이 정밀분석 중으로 미확정.</p>
+        <ul class="issue-related">
+          <li><a href="#">"北, 탄도미사일 발사…'한미일 프리덤에지' 활동 종료 1일 만"</a> <span class="src">아주경제 · 9.12</span></li>
+          <li><a href="#">'프리덤 에지 끝난 다음날'…북한, 동해상 탄도미사일 발사</a> <span class="src">전남일보 · 9.12</span></li>
+          <li><a href="#">北, 한미일 '프리덤에지' 끝나자마자 도발… 동해상으로 탄도미사일</a> <span class="src">뉴데일리 · 9.12</span></li>
+          <li><a href="https://youtu.be/IwLqKgGZJoA">[유튜브] 북, 프리덤에지 직후 탄도미사일 발사…초대형 방사포 가능성</a> <span class="src">KBS News · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.mt.co.kr/society/2026/09/12/2026091217153176252">"트럼프 전쟁에 왜 한국 청년이"…540개 단체, 호르무즈 파병 반대</a></p>
+        <p class="issue-byline">머니투데이 · 2026.09.12 17:15</p>
+        <p class="issue-summary">미국(트럼프 행정부)이 대이란 군사작전과 관련해 한국에 호르무즈해협 파병을 요구·압박하는 가운데, 참여연대·자주통일평화연대 등 540여 시민단체가 주한미대사관~청와대까지 행진하며 파병 거부를 촉구. 시민단체는 "미국의 침략전쟁 가담"으로 규정(민플러스 등 진보매체와 같은 프레임: 미국=파병을 강요하는 압박 주체). 일부 보수 측은 "한미동맹 신뢰"·"대가 없는 안보는 없다" 프레임으로 반박 — 프레임 갈림. 정부는 "결정된 바 없다"는 입장이나 국방부는 UAE 현지조사단을 파견했다.</p>
+        <ul class="issue-related">
+          <li><a href="#">"시민단체, 호르무즈 파병 반대 행진…'한국 정부, 파병 거부해야'"</a> <span class="src">아시아투데이 · 9.12</span></li>
+          <li><a href="#">'호르무즈 파병 요구 거부해야'…시민사회단체, 청와대까지 행진</a> <span class="src">세계일보 · 9.12</span></li>
+          <li><a href="#">尹도 감히 못 했는데 李에 배신감…시민단체 540곳 분노</a> <span class="src">한국경제 · 9.12</span></li>
+          <li><a href="https://youtu.be/6VKfKQds1wc">[유튜브] 호르무즈 파병반대 촛불집회 2026.09.12</a> <span class="src">0824TV · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://biz.heraldcorp.com/article/10871226">트럼프, 中자동차 길 터주나…"미국 내 생산이면 오케이"</a></p>
+        <p class="issue-byline">헤럴드경제 · 2026.09.12</p>
+        <p class="issue-summary">트럼프 대통령이 폭스뉴스 인터뷰에서 "중국 자동차 업체가 미국에 공장을 짓고 미국인을 고용하면 괜찮다"고 발언, 우회생산·수출 방식은 불허한다고 선을 그음. 9월 24일 예정된 시진핑 백악관 방문(국빈만찬)을 앞둔 유화 제스처로 해석됨. 미국 완성차 업계는 중국차의 미국시장 진입을 영구 차단하는 법안을 요구하며 반발 — 트럼프 행정부와 미 업계 간 프레임이 갈림. 시진핑 방미 확정 여부와 최종 의제는 유동적.</p>
+        <ul class="issue-related">
+          <li><a href="#">트럼프 '中 자동차, 미국서 만들면 OK'...완성차업계는 '빗장' 요구</a> <span class="src">파이낸셜뉴스 · 9.12</span></li>
+          <li><a href="#">美업체 반발에도 트럼프 '中자동차, 미국서 생산 OK'</a> <span class="src">아시아경제 · 9.12</span></li>
+          <li><a href="#">트럼프 '중국차, 미국서 생산하면 OK'…미 차업계와 엇박자</a> <span class="src">뉴스토마토 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치·참고용</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-4">
+      <h2><span class="sec-num">04</span> 미국-비동아시아 국제정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">美-이란전쟁 확전</span><span class="rank-bar"><i style="width:52%"></i></span><span class="rank-num">27건</span></div>
+        <div class="rank-row"><span class="rank-label">브릭스, 美일방제재 반대</span><span class="rank-bar"><i style="width:17%"></i></span><span class="rank-num">9건</span></div>
+        <div class="rank-row"><span class="rank-label">이란연계, AI로 美軍공격</span><span class="rank-bar"><i style="width:15%"></i></span><span class="rank-num">8건</span></div>
+        <div class="rank-row"><span class="rank-label">이스라엘-헤즈볼라 폭파</span><span class="rank-bar"><i style="width:6%"></i></span><span class="rank-num">3건</span></div>
+        <div class="rank-row"><span class="rank-label">美-캐나다 무역갈등</span><span class="rank-bar"><i style="width:6%"></i></span><span class="rank-num">3건</span></div>
+        <div class="rank-row"><span class="rank-label">美, 베네수엘라 원유확보</span><span class="rank-bar"><i style="width:4%"></i></span><span class="rank-num">2건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.edaily.co.kr">사우디 우회 송유관 피격 중단…후티, 홍해 요충지 장악</a></p>
+        <p class="issue-byline">이데일리 외 · 2026.09.12</p>
+        <p class="issue-summary">이란의 호르무즈 해협 봉쇄에 이어 사우디아라비아가 우회 수송로로 쓰던 '동서 파이프라인'이 드론 공격으로 가동 중단됐다. 예멘 후티 반군은 바브엘만데브 해협 요충지 페림섬까지 장악해 홍해 통제권을 확보(세계 해상 원유 물동량 약 12% 경유). 트럼프는 근거 제시 없이 "전쟁이 11월 중간선거 직후 끝날 것이며 유가도 급락할 것"이라 주장, 이란이 선거를 복잡하게 만들려 전쟁을 끌고 있다고 주장했다. 미국은 사우디의 지원 요청은 거부했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.edaily.co.kr">후티, 홍해 '원유 길목' 장악…사우디 우회 송유관마저 멈췄다</a> <span class="src">이데일리 · 9.12</span></li>
+          <li><a href="https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003266735">사우디 두 바닷길 이어 육로 송유관도 위협…이라크발 드론 지목</a> <span class="src">오마이뉴스 · 9.12</span></li>
+          <li><a href="https://www.hankyung.com/article/2026091204177">"유가 급락할 것"…트럼프, 이란 전쟁 종식 자신한 이유</a> <span class="src">한국경제 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=Bh99bejTFmE">[유튜브] 사우디 '생명줄' 송유관 피격 중단..후티, 마윤섬까지 점령</a> <span class="src">MBC뉴스 · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.nocutnews.co.kr/news/6577160">브릭스 정상들 "국제법 위반한 일방 제재 반대"…미국 겨냥</a></p>
+        <p class="issue-byline">노컷뉴스 · 2026.09.12</p>
+        <p class="issue-summary">인도 뉴델리 제18차 브릭스 정상회의에서 "뉴델리 선언" 만장일치 채택. 중동 확전에 "최대한의 자제" 촉구, 국제법 위반 일방적 강압조치(제재) 반대, WTO 규정 위반 일방 관세 규탄 — 지난 2월 말부터 이란과 전쟁 중인 미국을 겨냥한 것으로 해석됨(성명 자체는 특정국 미지칭). 시진핑은 "모든 보호무역주의 배격" 강조.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.hankyung.com/article/2026091204487">[속보] 브릭스 "국제법 위반한 일방 제재 반대…중동서 자제 촉구"</a> <span class="src">한국경제 · 9.12</span></li>
+          <li><a href="https://www.ajunews.com/view/20260912213305537">브릭스, '뉴델리 선언' 만장일치 채택…"일방 제재·관세 반대"</a> <span class="src">아주경제 · 9.12</span></li>
+          <li><a href="https://www.newscj.com/news/articleView.html?idxno=3432156">브릭스 회원국, 공동 성명 채택… "국제법 위반 일방적 제재 반대"</a> <span class="src">천지일보 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=Gtf5mqLx2YY">[유튜브] BRICS, 제18차 정상회의에서 '뉴델리 선언' 채택</a> <span class="src">CNBC-TV18 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-foreign">해외단독</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://view.asiae.co.kr/article/2026091210430493890">이란 연계 단체, 앤트로픽 AI로 美군함 공격 시도</a></p>
+        <p class="issue-byline">아시아경제 · 2026.09.12</p>
+        <p class="issue-summary">앤트로픽이 'AI 오남용 감지·대응' 보고서 발표. 이란 연계 위협조직(GTG-30005)이 클로드를 활용해 공개 군사·위성사진으로 중동 주둔 미 해군 함정 동선을 추적하고 통신·제어시스템 보안취약점을 연구했다. 앤트로픽은 사전 적발 후 계정 정지, 정부와 위협정보 공유. 예멘 후티 연계조직(GTG-87001)은 클로드로 탄도미사일·극초음속 활공체 소프트웨어 개발을 시도했고, 중국·러시아 연계 세력의 악용 사실도 함께 공개됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.navytimes.com/news/your-navy/2026/09/11/iran-used-claude-to-target-us-navy-in-middle-east-anthropic-says/">Iran used Claude to target US Navy in Middle East, Anthropic says</a> <span class="src">Navy Times · 9.11</span></li>
+          <li><a href="https://www.aitimes.com/news/articleView.html?idxno=215180">"미사일부터 스파이 활동까지"…앤트로픽 '클로드', 군사 악용에 비상</a> <span class="src">AI타임스 · 9.12</span></li>
+          <li><a href="https://www.wikileaks-kr.org/news/articleView.html?idxno=191927">"미군 함정 동선 뚫으려 AI 썼다"… 이란 연계 세력, 클로드 악용 적발</a> <span class="src">위키리크스한국 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 없음</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.imaeil.com/page/view/2026091207211523936">이스라엘, 헤즈볼라 레바논 지하 기지 폭파…폭약 1100t·규모 4.1 지진</a></p>
+        <p class="issue-byline">매일신문 · 2026.09.12</p>
+        <p class="issue-summary">이스라엘군이 레바논 남부 알리 타헤르 능선 지하 헤즈볼라 대형 터널기지를 폭약 1100t으로 폭파, 규모 4.1 지진(USGS 기준) 발생. 군은 총 5.4km·8개 터널로 구성된 터널망 파괴작전을 모두 완료했다고 발표(20년에 걸쳐 구축된 시설). 별도로 이스라엘-레바논 '로마 협상'은 10월로 연기, 다음주 워싱턴에서 대사급 접촉 예정이다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.upi.com/Top_News/World-News/2026/09/11/lebanon-hezbollah/8431789169026">이스라엘군, 헤즈볼라 레바논 지하요새 폭파…규모 4.1 지진파 발생</a> <span class="src">UPI · 9.11</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.fnnews.com/news/202609110735523192">카니 캐나다 총리 "최근 트럼프와 통화… 양국 무역협정 체결 준비돼 있어"</a></p>
+        <p class="issue-byline">파이낸셜뉴스 · 2026.09.11~12</p>
+        <p class="issue-summary">캐나다는 지난달 미국측 제시안을 거부하며 협상을 중단했고, 트럼프는 응징성 관세를 부과, 캐나다도 지난 8일부터 약 200억달러 규모 미국산 제품에 15~50% 보복관세로 대응 — 이 여파로 캐나다 내 "미국산 절대 안 산다" 여론이 확산 중이다(2026-09-12 보도). 트럼프는 "캐나다가 무역합의를 원해 곧 나올 것"이라 언급, 마감시한을 앞두고 협상 재개 국면.</p>
+        <ul class="issue-related">
+          <li><a href="https://abcnews.com/Politics/wireStory/trump-us-canada-trade-deal-key-terms-remain-135785816">Trump says US and Canada have a trade deal, but key terms remain unclear</a> <span class="src">ABC News</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.edaily.co.kr/News/Read?newsId=02010646645579464">트럼프, 치솟는 기름값에 DPA 카드…美 정유능력 확대 검토</a></p>
+        <p class="issue-byline">이데일리 · 2026.09.11~12</p>
+        <p class="issue-summary">미국 디젤 전국평균가 사상 첫 갤런당 6달러 돌파. 백악관이 이란과의 전쟁으로 촉발된 원유공급 불안 대응을 위해 국방물자생산법(DPA)을 정제능력 확충에 적용하는 조치를 검토 중이다. 동시에 미 국방부 산하 전략자본국이 매장량 약 650억 배럴 규모 베네수엘라 유전 17곳 개발권을 보유한 민간 석유기업과 협정을 타결했다(코인베이스 창업자 브라이언 암스트롱도 별도로 베네수엘라 PDVSA 원유계약 체결 보도).</p>
+        <ul class="issue-related">
+          <li><a href="https://www.g-enews.com/article/Global-Biz/2026/09/2026091206043374862bd56fbc3c_1">디젤 갤런당 6달러 첫 돌파…백악관, 국방물자생산법으로 정제 능력 확대 검토</a> <span class="src">글로벌이코노믹 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 없음</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-5">
+      <h2><span class="sec-num">05</span> 국내 정치동향 + 美 동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">호르무즈 파병반대 대행진</span><span class="rank-bar"><i style="width:42%"></i></span><span class="rank-num">97건</span></div>
+        <div class="rank-row"><span class="rank-label">김승원·용혜인 청문공방</span><span class="rank-bar"><i style="width:39%"></i></span><span class="rank-num">90건</span></div>
+        <div class="rank-row"><span class="rank-label">北, 프리덤에지 후 미사일</span><span class="rank-bar"><i style="width:10%"></i></span><span class="rank-num">23건</span></div>
+        <div class="rank-row"><span class="rank-label">尹 이종섭도피 1심 무죄</span><span class="rank-bar"><i style="width:6%"></i></span><span class="rank-num">14건</span></div>
+        <div class="rank-row"><span class="rank-label">美의원, 北여행금지 반대</span><span class="rank-bar"><i style="width:3%"></i></span><span class="rank-num">8건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609121937001/">"호르무즈 가는 순간 한국은 전쟁 당사국"…전국 곳곳서 '파병 반대' 집회</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.12 19:37</p>
+        <p class="issue-summary">12일 오후 종교·시민단체 540여 곳(참여연대, 자주통일평화연대 등)이 서울 종로구 르메이에르빌딩 앞에서 '호르무즈 파병 반대 시민대행진' 집회를 열고 주한미국대사관을 거쳐 청와대 앞까지 행진. "미국은 침략전쟁 중단하라", "정부는 파병 요구 단호히 거부하라" 구호가 이어졌고 전국 각지에서도 동시 집회가 진행됐다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.segye.com/newsView/20260912505023">"호르무즈 파병 요구 거부해야"…시민사회단체, 청와대까지 행진</a> <span class="src">세계일보 · 9.12</span></li>
+          <li><a href="https://www.gokorea.kr/news/articleView.html?idxno=878138">서울 중심가 집회, 호르무즈 파병 반대 외침 속 시민단체들의 강력한 호소</a> <span class="src">공감신문 · 9.12</span></li>
+          <li><a href="https://www.youtube.com/watch?v=cBLJZla8cZs">[유튜브] [현장라이브] "호르무즈 파병 반대" 시민들 거리로…종로에서 청와대까지</a> <span class="src">뉴탐사 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">참고용(지정 5대 방송사 클립 미확인)</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.news1.kr/politics/assembly/6280660">김승원 인사청문회 15일 개최…용혜인은 與 18일 vs 野 21일 또는 22일</a></p>
+        <p class="issue-byline">뉴스1 · 2026.09.12</p>
+        <p class="issue-summary">법무부장관 후보자 김승원(신약 임상시험 청탁 의혹)과 성평등가족부장관 후보자 용혜인(비례대표 겸직 논란)을 둘러싼 여야 공방이 격화. 김승원 청문회는 9/15로 확정, 용혜인은 여야가 날짜(與18일 vs 野21·22일)를 놓고 대치 중이다. 한동훈·김민석 등이 SNS·라디오에서 직접 충돌했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://biz.heraldcorp.com/article/10869713">국힘, "용혜인, 적반하장 회견"…김승원엔 "국감中 청탁전화" 맹공</a> <span class="src">헤럴드경제 · 9.12</span></li>
+          <li><a href="https://www.etoday.co.kr/news/view/2624517">김승원·이형일 등 줄줄이 검증대…국회, 내주 '청문회 슈퍼위크'</a> <span class="src">이투데이 · 9.12</span></li>
+          <li>[유튜브] [정관용의 시사본부] 김승원 "볼수록 잘 된 인사" vs "공소취소 행동대장" <span class="src">KBS 1라디오 · 9.12</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.khan.co.kr/article/202609120909001/">북한, 한·미·일 훈련 끝나자마자 미사일 도발…청와대 "안보리 결의 위반"</a></p>
+        <p class="issue-byline">경향신문 · 2026.09.12 09:09</p>
+        <p class="issue-summary">한미일 '프리덤 에지'(9/7~11) 종료 다음날인 12일 오전 5시20분경 북한이 원산 일대에서 동해상으로 단거리 탄도미사일 수 발(약 250km 비행) 발사. 청와대 국가안보실이 긴급안보상황점검회의를 열어 "유엔 안보리 결의 위반"이라며 즉각 중단을 촉구했다. 프리덤에지 훈련에 대한 반발 성격으로 분석된다.</p>
+        <ul class="issue-related">
+          <li><a href="#">北, '프리덤 에지' 종료 하루 만에 탄도미사일 도발…긴급안보점검회의</a> <span class="src">쿠키뉴스 · 9.12</span></li>
+          <li><a href="https://www.fnnews.com/news/202609120835313472">北 원산 일대서 SRBM 수발 발사, 동해상 250Km 비행(종합2)</a> <span class="src">파이낸셜뉴스 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 없음</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://imnews.imbc.com/news/2026/society/article/6851206_36918.html">'이종섭 호주 도피' 윤석열 1심 무죄‥법원 "수사방해 의도 단정 못 해"</a></p>
+        <p class="issue-byline">MBC(자체도메인) · 2026.09.11 15:02</p>
+        <p class="issue-summary">서울중앙지법 형사22부가 이종섭 전 국방부장관 호주대사 도피(범인도피) 혐의로 기소된 윤석열 전 대통령에게 무죄 선고. "국가원수 인사권 행사로 볼 여지가 있어 수사 방해 의도로 단정 못 해"라고 판단했다. 조태용·박성재 등 함께 기소된 5명도 전원 무죄. 선고는 9/11이나 후속 반응·분석 보도가 9/12까지 이어졌다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.lawtimes.co.kr/news/articleView.html?idxno=226248">윤석열, '이종섭 호주 도피' 1심 무죄… "도피 의사 있다고 보기 어려워"</a> <span class="src">법률신문 · 9.11</span></li>
+          <li><a href="https://www.ytn.co.kr/_ln/0103_202609112142394351">윤석열 '이종섭 도피' 1심 무죄 선고..."도피 행위 아냐"</a> <span class="src">YTN · 9.11</span></li>
+          <li><a href="#">[유튜브] [속보] 윤석열 '이종섭 호주도피 의혹' 1심 무죄 선고</a> <span class="src">MBC뉴스 · 9.12 업로드</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜불일치(선고 9/11)</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.pinpointnews.co.kr/news/articleView.html?idxno=486347">10년째 막힌 북한행… 美 의원 "한국계 10만명 가족 만나게 해달라"</a></p>
+        <p class="issue-byline">핀포인트뉴스 · 2026.09.12</p>
+        <p class="issue-summary">미 하원 외교위 소속 브래드 셔먼(민주·캘리포니아) 의원이 11일(현지시간) 성명을 내고, 마코 루비오 국무장관이 미국 시민의 북한 여행금지를 또 1년 연장한 데 대해 해제를 촉구. 한국계 미국인 약 10만명이 북한 내 고령 친척과의 이산가족 상봉·장례 참석이 막혀 있다며 인도적 예외 확대를 요구했다.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.nocutnews.co.kr/news/6577107">'反트럼프' 美하원 셔먼 "미국민의 북한 여행 허용하라"</a> <span class="src">노컷뉴스 · 9.12</span></li>
+          <li><a href="https://www.spnews.co.kr/news/articleView.html?idxno=110685">美 하원 의원, 10년째 연장된 '북한 여행 금지' 해제 촉구</a> <span class="src">SPN서울평양뉴스 · 9.12</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 없음</span>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-6">
+      <h2><span class="sec-num">06</span> 내란청산 동향</h2>
+      <p class="empty">오늘 해당 사안 없음</p>
+    </section>
+
+  </div>
+
+  <p class="footnote">섹션6(내란청산)은 다수 키워드 조회 결과 대상일 발행분에서 확인된 사안이 없어 "없음"으로 처리했다. 섹션3·4 일부 관련기사는 URL 미확보로 링크를 채우지 못했다.</p>
+  <p class="footer">생성 2026.09.13 KST · 정세브리핑</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>8월 29일 정세브리핑</title>
+<style>
+  :root{
+    --ink:#1d1d1f; --ink-soft:#6e6e73;
+    --paper:#ffffff; --paper-parchment:#f5f5f7; --paper-raised:#fafafc;
+    --tile-dark:#1d1d1f; --line:#e0e0e0;
+    --accent:#0066cc; --tag-bg:#d2d2d7; --warn:#8a6d1f;
+    --core-accent:#ff9f0a;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ink:#f5f5f7; --ink-soft:#a1a1a6;
+      --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+      --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+    }
+  }
+  :root[data-theme="dark"]{
+    --ink:#f5f5f7; --ink-soft:#a1a1a6;
+    --paper:#000000; --paper-parchment:#161617; --paper-raised:#1e2126;
+    --line:#2d2d2f; --accent:#2997ff; --tag-bg:#292b30; --warn:#d6b24f;
+  }
+  *{box-sizing:border-box;}
+  html{font-size:112.5%;}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font-family:"Apple SD Gothic Neo",Pretendard,system-ui,sans-serif;line-height:1.5;}
+  .page{max-width:640px;margin:0 auto;padding:0 0 3rem;}
+  .hero{padding:2rem 1.1rem 1.2rem;background:var(--paper);}
+  .hero .eyebrow{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;letter-spacing:-0.01em;
+    text-transform:uppercase;color:var(--accent);margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .hero h1{font-weight:700;font-size:1.85rem;line-height:1.32;margin:0 0 0.6rem;letter-spacing:0;}
+  .hero .meta{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.82rem;color:var(--ink-soft);}
+
+  .tab-radio{position:absolute;opacity:0;pointer-events:none;width:0;height:0;}
+  .tabbar{display:flex;gap:0.4rem;overflow-x:auto;padding:0 1.1rem 0.8rem;
+    background:var(--paper-parchment);backdrop-filter:blur(20px);}
+  .tabbar label{flex-shrink:0;display:inline-block;color:var(--ink-soft);
+    font-family:inherit;font-size:0.85rem;padding:0.4rem 0.9rem;border-radius:999px;cursor:pointer;
+    transition:transform .1s;-webkit-tap-highlight-color:transparent;user-select:none;}
+  .tabbar label:active{transform:scale(0.95);}
+  .panels .sec-panel{display:none;padding:1.1rem;background:var(--paper);}
+  #tab-0:checked ~ .panels #sec-0,
+  #tab-1:checked ~ .panels #sec-1,
+  #tab-2:checked ~ .panels #sec-2,
+  #tab-3:checked ~ .panels #sec-3,
+  #tab-4:checked ~ .panels #sec-4,
+  #tab-5:checked ~ .panels #sec-5,
+  #tab-6:checked ~ .panels #sec-6{display:block;}
+  #tab-0:checked ~ .tabbar label[for="tab-0"],
+  #tab-1:checked ~ .tabbar label[for="tab-1"],
+  #tab-2:checked ~ .tabbar label[for="tab-2"],
+  #tab-3:checked ~ .tabbar label[for="tab-3"],
+  #tab-4:checked ~ .tabbar label[for="tab-4"],
+  #tab-5:checked ~ .tabbar label[for="tab-5"],
+  #tab-6:checked ~ .tabbar label[for="tab-6"]{background:var(--accent);color:#fff;}
+  .sec-panel h2{font-weight:700;font-size:1.22rem;margin:0 0 0.9rem;}
+  .sec-num{color:var(--accent);font-family:"SF Mono","IBM Plex Mono",monospace;margin-right:0.4rem;}
+  .rank{margin-bottom:1rem;}
+  .rank-row{display:flex;align-items:center;gap:0.5rem;margin-bottom:0.4rem;font-size:0.88rem;}
+  .rank-label{width:8.6rem;flex-shrink:0;color:var(--ink-soft);}
+  .rank-bar{display:inline-block;width:120px;height:6px;background:var(--line);border-radius:3px;overflow:hidden;}
+  .rank-bar i{display:block;height:100%;background:var(--accent);border-radius:3px;}
+  .rank-num{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.84rem;color:var(--ink-soft);
+    font-variant-numeric:tabular-nums;}
+  .issue{padding:0.9rem;margin-bottom:0.7rem;background:var(--paper-raised);
+    border:1px solid var(--line);border-radius:18px;}
+  .issue-title a{font-weight:700;font-size:1.05rem;color:var(--accent);text-decoration:none;}
+  .issue-byline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;color:var(--ink-soft);
+    margin:0.25rem 0 0.45rem;font-variant-numeric:tabular-nums;}
+  .issue-summary{font-size:0.98rem;color:var(--ink);margin:0 0 0.5rem;}
+  .issue-deadline{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.86rem;color:var(--accent);
+    margin:0 0 0.5rem;font-variant-numeric:tabular-nums;}
+  .issue-related{list-style:none;margin:0 0 0.5rem;padding:0;font-size:0.9rem;}
+  .issue-related li{margin-bottom:0.3rem;padding-left:0.8rem;}
+  .issue-related a{color:var(--ink);}
+  .issue-related .src{color:var(--ink-soft);font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.78rem;}
+  .chip{display:inline-block;font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.72rem;
+    padding:0.12rem 0.6rem;border-radius:999px;margin-right:0.35rem;}
+  .chip-foreign{background:color-mix(in srgb, var(--accent) 10%, transparent);color:var(--accent);}
+  .chip-warn{background:color-mix(in srgb, var(--warn) 10%, transparent);color:var(--warn);}
+  .empty{color:var(--ink-soft);font-size:0.98rem;padding:1rem 0;}
+  .tile-dark{background:var(--tile-dark);color:#f5f5f7;margin:0 0 1.1rem;
+    border-radius:18px;padding:1.1rem 1.15rem;border-top:2px solid var(--core-accent);}
+  .tile-dark:last-child{margin-bottom:0;}
+  .tile-dark .block-title{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.8rem;
+    letter-spacing:0.08em;text-transform:uppercase;color:var(--core-accent);margin:0 0 0.7rem;
+    font-weight:600;}
+  .tile-dark ul{margin:0;padding-left:1.1rem;}
+  .tile-dark li{margin-bottom:0.5rem;font-size:1.02rem;line-height:1.6;}
+  .tile-dark li::marker{color:var(--core-accent);}
+  .footnote{font-size:0.85rem;color:var(--ink-soft);margin:1.3rem 1.1rem 0;
+    padding-top:0.9rem;border-top:1px solid var(--line);}
+  .footer{font-family:"SF Mono","IBM Plex Mono",monospace;font-size:0.76rem;color:var(--ink-soft);
+    margin:1.6rem 1.1rem 0;padding:0 1.1rem;background:var(--paper-parchment);padding-top:1rem;}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="hero">
+    <p class="eyebrow">정세브리핑 · 데일리</p>
+    <h1>8월 29일 정세브리핑</h1>
+    <p class="meta">발행 2026.08.30 05:30 KST</p>
+  </header>
+
+  <input type="radio" name="sec" id="tab-0" class="tab-radio" checked>
+  <input type="radio" name="sec" id="tab-1" class="tab-radio">
+  <input type="radio" name="sec" id="tab-2" class="tab-radio">
+  <input type="radio" name="sec" id="tab-3" class="tab-radio">
+  <input type="radio" name="sec" id="tab-4" class="tab-radio">
+  <input type="radio" name="sec" id="tab-5" class="tab-radio">
+  <input type="radio" name="sec" id="tab-6" class="tab-radio">
+
+  <nav class="tabbar">
+    <label for="tab-0">축약</label>
+    <label for="tab-1">01 민플러스</label>
+    <label for="tab-2">02 조선동향</label>
+    <label for="tab-3">03 미-동아시아</label>
+    <label for="tab-4">04 미-비동아시아</label>
+    <label for="tab-5">05 국내정치·美동향</label>
+    <label for="tab-6">06 내란청산</label>
+  </nav>
+
+  <div class="panels">
+
+    <section class="sec-panel" id="sec-0">
+      <h2><span class="sec-num">00</span> 축약</h2>
+      <section class="tile-dark">
+        <p class="block-title">오늘의 핵심</p>
+        <ul>
+          <li>미 전직 NSC 북한담당국장 앤서니 루지에로가 더힐 기고(8/27)에서 트럼프-김정은 회담 시 북핵 암묵적 용인·종전·한미연합훈련 중단이 논의될 수 있다고 전망 — 국내 매체 20여 곳이 하루 종일 확산 보도.</li>
+          <li>트럼프 대통령이 베네수엘라와 "세계 역사상 최대" 석유협정 체결 발표 — 매장량 650억 배럴, 실질 산출량 55% 확보. 마두로 축출(1월) 7개월 만의 자원 접수로, 국내 보도는 "휘발유값 인하" 등 트럼프 발언 중심.</li>
+          <li>내란특검, 한덕수 전 총리에 '헌법재판관 미임명' 혐의 징역 5년 구형(10/26 선고). 심우정·홍장원 9/30, 조성현 10/2 공판준비기일 확정.</li>
+        </ul>
+      </section>
+      <section class="tile-dark">
+        <p class="block-title">내일 지켜볼 지점</p>
+        <ul>
+          <li>9월 1일 정기국회 개회 — 800조 예산·종부세 개편 등 여야 100일 입법전쟁 시작.</li>
+          <li>이란전쟁 6개월째 — 미국의 우방국 겨냥 제재 확대(이집트 은행 등) 지속 여부, 이란 "저항 경제" 대응 방침 실행 추이.</li>
+          <li>9월 미중 정상회담을 앞두고 한반도 문제(한미훈련 축소)가 핵심 변수로 부상 — 시진핑 '가교' 역할 가능성.</li>
+          <li>헤즈볼라의 무장해제 합의 거부 선언 이후 로마 이-레바논 협상 향방.</li>
+          <li>내란특검 재판 일정: 홍장원·조성현 등 9/30·10/2 공판준비기일.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section class="sec-panel" id="sec-1">
+      <h2><span class="sec-num">01</span> 민플러스</h2>
+      <p class="empty">오늘은 민플러스 기사가 없습니다.</p>
+    </section>
+
+    <section class="sec-panel" id="sec-2">
+      <h2><span class="sec-num">02</span> 조선동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">트럼프-김정은 회담 전망</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">20건+</span></div>
+        <div class="rank-row"><span class="rank-label">北 스마트폰 감시기능</span><span class="rank-bar"><i style="width:75%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">러, 北에 신형미사일 요청</span><span class="rank-bar"><i style="width:50%"></i></span><span class="rank-num">10건+</span></div>
+        <div class="rank-row"><span class="rank-label">김정은 위문전문(청년절)</span><span class="rank-bar"><i style="width:40%"></i></span><span class="rank-num">8건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.hidomin.com/news/articleView.html?idxno=719015">트럼프, 김정은과 회담땐 북핵 용인·한미훈련 중단 논의 가능성</a></p>
+        <p class="issue-byline">경북도민일보 · 2026.08.29</p>
+        <p class="issue-summary">트럼프 1기 백악관 NSC 북한담당 국장 출신 앤서니 루지에로가 더힐 기고문(현지시간 8/27)에서, 트럼프-김정은 회담 시 북핵 암묵적 용인과 종전 합의, 한미연합훈련 중단 등이 논의될 수 있다고 전망. 다만 미사일·핵 프로그램 검증, 대러 군사지원 중단이 합의에 포함돼야 한다고 언급.</p>
+        <ul class="issue-related">
+          <li><a href="http://www.newstown.co.kr/news/articleView.html?idxno=714028">"트럼프, 북(北)과 '북핵용인, 종전, 한·미훈련 중단' 논의 가능성"</a> <span class="src">뉴스타운 · 8.29</span></li>
+          <li><a href="https://www.thepublic.kr/news/articleView.html?idxno=316681">'북핵 안 돼' 외치더니, 이젠 '암묵 인정' 돌변 전망</a> <span class="src">더퍼블릭 · 8.29</span></li>
+          <li><a href="https://www.youtube.com/watch?v=TeNjdCwV73Q">[유튜브] 트럼프, 김정은과 북핵용인·종전 등 논의할 듯</a> <span class="src">연합뉴스TV · 8.28</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.jnilbo.com/news/articleView.html?idxno=90000060589">250달러 北스마트폰…"한국 치면 금지어 뜨고 감시폴더 내장"</a></p>
+        <p class="issue-byline">전남일보(연합뉴스 인용) · 2026.08.29</p>
+        <p class="issue-summary">월스트리트저널이 분해·분석한 北 스마트폰 '해양701'은 글로벌 인터넷 연결 불가, 내부 인트라넷만 접속. "대한민국" 입력 시 금지어로 표시되고 "김정은"은 자동 굵게, 화면을 수시로 캡처·저장하는 감시 기능 탑재.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.wikitree.co.kr/articles/1155766">'북한이 만든 스마트폰'을 이리저리 자세히 살펴봤더니…</a> <span class="src">위키트리 · 8.29</span></li>
+          <li><a href="https://www.kbmaeil.com/article/20260829500064">250달러 北 스마트폰의 비밀…화면 수시로 찍고 삭제도 막았다</a> <span class="src">경북매일 · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.konas.net/article/article.asp?idx=64596">북, 최근 공개한 KN-30 등 신규 미사일 이상 징후</a></p>
+        <p class="issue-byline">코나스 · 2026.08.29 09:05</p>
+        <p class="issue-summary">북한전문매체 NK해석 보도(8/28)를 인용, 러시아가 우크라이나 겨울 공세를 위해 기존 KN-23·24보다 강력한 3단계 신형 미사일 KN-30 등의 추가 지원을 북한에 요청했다고 전함. 우크라이나 국방정보국(HUR)발 보도로 국내 다수 매체 동시 보도.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.obsnews.co.kr/news/articleView.html?idxno=1535737">'러, 북에 개량형 KN-30 등 더 강력한 미사일 요청'</a> <span class="src">OBS경인TV · 8.29</span></li>
+          <li><a href="https://www.cbci.co.kr/news/articleView.html?idxno=602173">'기존보다 3배 더 독하다'…러, 북한에 요구한 '괴물 미사일'의 정체</a> <span class="src">CBCi뉴스 · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="http://www.tongilnews.com/news/articleView.html?idxno=217328">김정은, 산사태로 피해 입은 중국 주석과 네팔 대통령에게 위문 보내</a></p>
+        <p class="issue-byline">통일뉴스 · 2026.08.29</p>
+        <p class="issue-summary">김정은이 네팔·중국 티베트 국경 산사태·홍수 피해(사망 580명+, 실종 2,500명+)를 입은 시진핑·파우델 네팔 대통령에게 위문전문 발송. 노동신문 1면 게재. 트럼프 관련 언급은 없어 "트럼프에 무반응" 프레임으로 해석하는 분석 보도 다수.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.youtube.com/watch?v=iyB1vLw6_hI">[유튜브][한반도브리핑] '트럼프에 무반응' 김정은, 시진핑·네팔에 위문 전문</a> <span class="src">연합뉴스TV · 8.29</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-3">
+      <h2><span class="sec-num">03</span> 미-동아시아 정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">한미훈련 중단·北核 용인 논의 전망</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">24건+</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.dt.co.kr/article/12080809?ref=naver">트럼프, 김정은과 한미훈련 중단과 북핵 암묵적 용인 논의할 듯</a></p>
+        <p class="issue-byline">디지털타임스 · 2026.08.29 12:05</p>
+        <p class="issue-summary">트럼프 1기 NSC 북한담당국장 출신 앤서니 루지에로가 더힐(8/27) 기고에서, 트럼프의 재회담이 북핵 사실상 용인으로 귀결될 가능성을 제기. 평화조약, 북미 관계 개선, 한미연합훈련 영구 중단까지 제안될 수 있다고 주장 — 논의 주체는 트럼프 행정부이며 한국 안보에 직접 영향을 미치는 미국 측 결정 사안.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.hankookilbo.com/news/article/A2026082715210004748">'즉흥적으로' 9월 美中 정상회담 핵심 변수 된 한반도 문제</a> <span class="src">한국일보 · 8.29</span></li>
+          <li><a href="https://www.hankookilbo.com/news/article/A2026082714580004536">손 내민 트럼프, 팔짱 낀 김정은, 계산하는 시진핑</a> <span class="src">한국일보 · 8.29</span></li>
+          <li><a href="https://www.thepublic.kr/news/articleView.html?idxno=316681">美서 깨지는 '한국 핵무장' 금기...확장억제 신뢰 흔들려</a> <span class="src">더퍼블릭 · 8.29</span></li>
+          <li><a href="https://www.youtube.com/watch?v=nd0BaM8XJYA">[유튜브][속보] 美 북한 담당 관료 출신 "트럼프, 김정은과 북핵용인·종전 등 논의할 듯"</a> <span class="src">연합뉴스TV · 8.29</span></li>
+        </ul>
+      </div>
+      <p class="empty">그 외 미중·미일 독자 사안: 오늘 해당 사안 없음(교차검증 결과 위 사안과 중복되거나 채택 기준 미달)</p>
+    </section>
+
+    <section class="sec-panel" id="sec-4">
+      <h2><span class="sec-num">04</span> 미국-비동아시아 국제정세</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">美-베네수엘라 석유합의</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">40건+</span></div>
+        <div class="rank-row"><span class="rank-label">이란전쟁 6개월·제재 확대</span><span class="rank-bar"><i style="width:85%"></i></span><span class="rank-num">15건+</span></div>
+        <div class="rank-row"><span class="rank-label">헤즈볼라 무장해제 거부</span><span class="rank-bar"><i style="width:35%"></i></span><span class="rank-num">소수</span></div>
+        <div class="rank-row"><span class="rank-label">美, 시리아 쿠르드 지원 중단</span><span class="rank-bar"><i style="width:30%"></i></span><span class="rank-num">6건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/047/0002527109?sid=104">트럼프 "베네수엘라와 세계 최대 석유 협정 체결"</a></p>
+        <p class="issue-byline">연합뉴스 계열 · 2026.08.29 20:11</p>
+        <p class="issue-summary">트럼프가 베네수엘라와 오리노코벨트·마라카이보호 등 17개 유전(매장량 650억 배럴)에 대한 "세계 역사상 최대" 석유거래 체결을 발표. 신설 민간회사를 통해 미국이 실질 산출량의 55%를 확보하는 구조 — 올해 1월 미국의 군사작전으로 마두로가 축출된 지 약 7개월 만에 나온 후속 조치. 국내 보도는 "휘발유값 인하" 등 트럼프 발언을 그대로 전하는 경향이 강해, 무력에 의한 정권교체 후 자원 접수라는 행위 주체(미국)를 별도로 명시함.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/293/0000089743?sid=101">트럼프 "美, 베네수 원유 과반 통제권 확보…휘발유값 낮아질 것"</a> <span class="src">· 8.29</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/021/0002814789?sid=104">트럼프, 베네수엘라 대규모 원전 확보 눈 앞…베네수 내부 '시끌'</a> <span class="src">· 8.29</span></li>
+          <li><a href="https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela">Trump announces "biggest oil deal in world history" with Venezuela</a> <span class="src">Al Jazeera · 8.29</span></li>
+          <li><a href="#">[유튜브] 트럼프, 이번엔 '석유왕' 되나…베네수엘라 650억 배럴에 과반 통제권</a> <span class="src">연합뉴스TV · 8.29</span></li>
+        </ul>
+        <span class="chip chip-warn">관점주의: 국내 보도 대부분 트럼프 발언 중심, 정권교체 후 자원접수 프레임 약함</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/437/0000508514?sid=104">"우방국도 예외 없이" 타깃…미, '이란 고립' 수위 대폭 확대</a></p>
+        <p class="issue-byline">뉴시스 계열 · 2026.08.29 20:44</p>
+        <p class="issue-summary">미국의 대이란 전쟁 개시 6개월째. 미 재무부(베선트 장관)가 이집트 2위 은행 방크미스르 UAE 지점을 이란 제재 위반 명목으로 달러 결제망에서 차단, 우방국까지 겨냥하며 경제전쟁 수위를 높임. 이란 정부는 "외교와 국방은 불가분", "저항 경제 집중" 등 5대 방침 발표하며 정면 대응. 트럼프는 "해상봉쇄가 성공적"이라 자평했지만 미 언론도 "이란 굴복 가능성 낮다"는 평가를 전함 — 양측 프레임 모두 병기.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/018/0006360035?sid=104">이란전쟁 6개월…이란 못 꺾고 호르무즈에 발목 잡힌 美</a> <span class="src">· 8.29</span></li>
+          <li><a href="https://n.news.naver.com/mnews/article/421/0009139453?sid=104">이란 정부 "외교와 국방 불가분…美 제재·음모에 단호히 맞설 것"</a> <span class="src">· 8.29</span></li>
+          <li><a href="https://www.al-monitor.com/originals/2026/08/us-hits-egyptian-bank-branches-iran-sanctions-war-marks-six-months">US hits Egyptian bank branches with Iran sanctions as war marks six months</a> <span class="src">Al-Monitor · 8.29</span></li>
+          <li><a href="#">[유튜브] 6개월 싸우고도 '이란 굴복 가능성 낮아'...트럼프 발목 잡은 '치명적 오판'</a> <span class="src">YTN · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/421/0009138980?sid=104">헤즈볼라 "무장해제 합의 폐기하라…항복하지 않을 것"</a></p>
+        <p class="issue-byline">뉴스1 · 2026.08.29 06:58</p>
+        <p class="issue-summary">헤즈볼라가 미국이 로마에서 중재 중인 이스라엘-레바논 협상의 무장해제 프레임워크(2단계, 리타니강 이북 확대 등)를 "이스라엘·미국의 이익에 봉사하는 것"으로 규정하며 전면 거부. 자신들은 합의 당사자가 아니며 외국군의 검증 참여도 인정하지 않겠다는 입장.</p>
+        <ul class="issue-related">
+          <li><a href="#">[유튜브] 미 중동 부특사 '헤즈볼라 빨리 무장 해제해야...레바논군 역할 기대'</a> <span class="src">YTN · 날짜 미확인</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/001/0016277903?sid=104">쿠르드족 또 버림받나…美, 이란전 와중에 군사지원 중단 통보</a></p>
+        <p class="issue-byline">연합뉴스 · 2026.08.29 16:26</p>
+        <p class="issue-summary">미국이 이란전 와중에 시리아 내 쿠르드 세력에 대한 군사지원을 중단하겠다고 통보. IS 격퇴전 이후 쿠르드 무장세력을 이용하고 버렸던 전례 재현 우려. 앞서(8/27) 쿠르드 주도 시리아민주군(SDF)이 시리아 정부군과 공식 합병·해체를 발표한 상황과 맞물려 파장.</p>
+        <ul class="issue-related">
+          <li><a href="https://n.news.naver.com/mnews/article/374/0000530060?sid=101">美, 이란전 와중에 군사지원 중단 통보</a> <span class="src">· 8.29</span></li>
+        </ul>
+        <span class="chip chip-warn">배경 클립 날짜 미확인·참고용</span>
+      </div>
+      <p class="empty">러시아·쿠바·니카라과·벨라루스·후티·팔레스타인-미국: 개별 키워드 조회 결과 오늘 해당 사안 없음</p>
+    </section>
+
+    <section class="sec-panel" id="sec-5">
+      <h2><span class="sec-num">05</span> 국내 정치동향 · 美 동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">김민석 "이진숙 제명" 발언</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">44건</span></div>
+        <div class="rank-row"><span class="rank-label">이재명 지지율 취임후 최저</span><span class="rank-bar"><i style="width:60%"></i></span><span class="rank-num">26건</span></div>
+        <div class="rank-row"><span class="rank-label">국수본부장 청문회 추진</span><span class="rank-bar"><i style="width:39%"></i></span><span class="rank-num">17건</span></div>
+        <div class="rank-row"><span class="rank-label">트럼프, 쿠팡 주식 매매 지속</span><span class="rank-bar"><i style="width:36%"></i></span><span class="rank-num">16건</span></div>
+        <div class="rank-row"><span class="rank-label">국힘, MB·박근혜 예방</span><span class="rank-bar"><i style="width:14%"></i></span><span class="rank-num">6건</span></div>
+        <div class="rank-row"><span class="rank-label">9월 정기국회 개회 임박</span><span class="rank-bar"><i style="width:14%"></i></span><span class="rank-num">6건</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newsworks.co.kr/news/articleView.html?idxno=851983">김민석 "이진숙 내쫓기 싫음 YS 사진 내려라"…취임 12일 부산서 '맹공'</a></p>
+        <p class="issue-byline">뉴스웍스 · 2026.08.29 19:24</p>
+        <p class="issue-summary">김민석 민주당 대표(취임 12일)가 부산 사상구에서 "국민의힘이 YS 정신을 계승했다면 이진숙 의원을 제명하든지, 아니면 YS 사진을 내려라"고 발언. 5·18 민주화운동을 '소요사태'로 규정한 토론회를 주최한 이진숙 의원 제명을 재촉구.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.cbci.co.kr/news/articleView.html?idxno=602193">김민석 "YS 계승 맞다면 이진숙 제명하라"…부산서 국힘 정조준</a> <span class="src">CBCI · 8.29</span></li>
+          <li><a href="https://www.ajunews.com/view/20260829173337161">김민석 "국민의힘 '5·18 폄훼 논란' 이진숙 내쫓거나 YS 사진 내려라"</a> <span class="src">아주경제 · 8.29</span></li>
+          <li><a href="#">[유튜브] Kim Min-seok: "If Lee Jin-sook Cannot Be Expelled, Suspend Her Instead"</a> <span class="src">채널A News · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newspim.com/news/view/20260828000998">하락 거듭 李대통령 지지율…'부동산 민심·정책 신뢰' 반등 포인트</a></p>
+        <p class="issue-byline">뉴스핌 · 2026.08.29 06:00</p>
+        <p class="issue-summary">한국갤럽 조사 긍정42%·부정50%로 취임 후 최저. 일부 조사(코리아정보리서치 36.5%, 조원씨앤아이 38.9%)는 30%대까지 하락. 여권 분열, 부동산 민심 이반, 6월 지방선거 부실, 보완수사권 폐지 논란 등이 복합 작용한 것으로 분석.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.pennmike.com/news/articleView.html?idxno=126684">2030 지지율 역대 최저...이재명, "청년 마인드로" 예산 설명회</a> <span class="src">펜앤드마이크 · 8.29</span></li>
+          <li><a href="https://www.viva100.com/article/20260828500705">[정치라떼] 이 대통령 지지율 최저…'지지층 충돌'·'경제 불안정성'</a> <span class="src">비바100 · 8.28</span></li>
+          <li><a href="#">[유튜브] President Lee's Approval Rating Drops to All-Time Low of 42%</a> <span class="src">MBN News · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.obsnews.co.kr/news/articleView.html?idxno=1535729">커지는 경찰 수사권…국수본부장 인사청문회 추진</a></p>
+        <p class="issue-byline">OBS경인TV · 2026.08.29 20:00</p>
+        <p class="issue-summary">형사소송법 개정으로 경찰 수사권 확대되자, 광주 장윤기 사건·제주 실종 허위종결 논란으로 경찰 신뢰가 흔들리는 가운데 민주당 이상식 의원이 국수본부장 인사청문회 도입 3법 발의. 현재 경찰청장과 달리 국수본부장은 청문회 대상이 아님.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.getnews.co.kr/news/articleView.html?idxno=879220">경찰 수사 총괄 '국가수사본부장'도 청문회 할까... 관련 3법 대표발의</a> <span class="src">겟뉴스 · 8.29</span></li>
+          <li><a href="https://www.asiatoday.co.kr/kn/view.php?key=20260829010009985">경찰 수사 총괄 '국수본부장'도 청문회 받나…관련 3법 발의</a> <span class="src">아시아투데이 · 8.29</span></li>
+          <li><a href="#">[유튜브] '국수본부장도 청문회'...'경찰 통제' 시도 속 수사권 공방</a> <span class="src">YTN · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.newdaily.co.kr/site/data/html/2026/08/29/2026082900007.html">트럼프, 6월에도 쿠팡 주식 매매… '이해충돌 논란 계속'</a></p>
+        <p class="issue-byline">뉴데일리 · 2026.08.29 09:44</p>
+        <p class="issue-summary">트럼프 대통령이 6월 3일 쿠팡 주식 매도(1001~1만5000달러 구간 신고) 후 3주 뒤 24일 재매수, 매수 규모가 매도보다 커 보유액 증가. 쿠팡이 한국 정부의 개인정보유출 과징금에 불복해 미 정치권 상대로 로비 중인 시점에 협상 상대국 대통령이 해당 기업 주식을 보유·거래한 것으로, 미국 언론이 윤리 문제로 지적.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.tfmedia.co.kr/news/article.html?no=206822">트럼프, 6월에도 '이해충돌 논란' 쿠팡 주식 두차례 매매</a> <span class="src">TF미디어 · 8.29</span></li>
+          <li><a href="https://www.sentv.co.kr/article/view/sentv202608290003">트럼프, 6월에도 쿠팡 주식 사고팔아…매수 비중 우세</a> <span class="src">SEN TV · 8.29</span></li>
+          <li><a href="#">[유튜브] Trump Traded Coupang Stock Again in June... "Sold, Then Bought Even More"</a> <span class="src">MBN News · 8.29</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.insight.co.kr/news/570856">내홍 속 '단결' 외친 국힘…연찬회 이어 MB 예방으로 보수 결집 모색</a></p>
+        <p class="issue-byline">인사이트 · 2026.08.29 22:02</p>
+        <p class="issue-summary">국민의힘이 내부 갈등 속에서 이명박·박근혜 전 대통령을 잇달아 예방하며 원로 정치를 통한 보수 결집을 모색.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.newscj.com/news/articleView.html?idxno=3428591">전직 대통령에 손 내민 국민의힘… '원로 정치'로 보수 결집</a> <span class="src">천지일보 · 8.29</span></li>
+        </ul>
+        <span class="chip chip-warn">클립 날짜 불일치·참고용</span>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.etoday.co.kr/news/view/2619407">9월 정기국회 막 오른다…800조 예산·쟁점법안 놓고 여야 격돌</a></p>
+        <p class="issue-byline">이투데이 · 2026.08.29</p>
+        <p class="issue-summary">9월 1일 정기국회 개회를 앞두고 800조 규모 예산안과 종부세 개편, 용산공원법, 디지털자산법 등 쟁점 법안을 놓고 여야 100일 입법전쟁 예고.</p>
+        <ul class="issue-related">
+          <li><a href="https://www.etoday.co.kr/news/view/2619488">내달 1일 정기국회 개회…종부세 개편·용산공원법·디지털자산법 심사</a> <span class="src">이투데이 · 8.29</span></li>
+          <li><a href="#">[유튜브] 9월 정기국회 하루 앞으로…강대강 격돌 예고</a> <span class="src">연합뉴스TV · 8.29</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="sec-panel" id="sec-6">
+      <h2><span class="sec-num">06</span> 내란청산 동향</h2>
+      <div class="rank">
+        <div class="rank-row"><span class="rank-label">한덕수 징역5년 구형</span><span class="rank-bar"><i style="width:100%"></i></span><span class="rank-num">10건+</span></div>
+        <div class="rank-row"><span class="rank-label">종합특검 재판 일정 확정</span><span class="rank-bar"><i style="width:70%"></i></span><span class="rank-num">다수</span></div>
+        <div class="rank-row"><span class="rank-label">서강대교 회군 공판전 공방</span><span class="rank-bar"><i style="width:50%"></i></span><span class="rank-num">다수</span></div>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/422/0000900598?sid=102">특검, '헌법재판관 미임명' 한덕수에 징역 5년 구형…10월 선고</a></p>
+        <p class="issue-byline">뉴시스 · 2026.08.29 08:43 (본문 확인: todaykorea.co.kr)</p>
+        <p class="issue-summary">내란특검(조은석)이 한덕수 전 국무총리에게 징역 5년 구형. 정진석 전 비서실장·김주현 전 민정수석은 각 징역 4년, 이원모 전 공직기강비서관은 징역 3년 구형. 혐의는 윤석열 탄핵소추 후 대통령 권한대행 신분으로 국회 추천 헌법재판관 후보 3명을 미임명(직무유기)한 것과 헌법재판관 졸속 지명. 재판부는 서울중앙지법 형사합의33부(이진관 부장판사).</p>
+        <p class="issue-deadline">⏱ 선고공판 2026.10.26</p>
+        <ul class="issue-related">
+          <li><a href="#">공소취소 특검 가능할까?…3가지 걸림돌[서리풀살롱]</a> <span class="src">· 8.29</span></li>
+          <li><a href="#">[유튜브] 한덕수 징역 5년 구형 속보</a> <span class="src">MBC뉴스 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://www.ajunews.com/view/20260828162622283">종합특검 기소 사건 본격화…심우정·홍장원 재판 내달 시작</a></p>
+        <p class="issue-byline">아주경제 · 2026.08.29 18:02</p>
+        <p class="issue-summary">심우정 전 검찰총장(박성재 전 법무부 장관 지시로 계엄 합동수사본부 검사 파견 검토 혐의), 홍장원 전 국정원 1차장(내란중요임무종사) 재판 일정 확정. 지난 8월 23일 2차 종합특검이 윤석열 전 대통령 등 58명 기소로 수사 완료.</p>
+        <p class="issue-deadline">⏱ 심우정·홍장원 9.30 · 조성현 10.2 · 경북청 간부 등 9.10 (각 공판준비기일)</p>
+        <ul class="issue-related">
+          <li><a href="#">종합특검, 수사 결과 브리핑…58명 기소</a> <span class="src">· 8.24</span></li>
+          <li><a href="#">[유튜브] 종합특검 수사결과 브리핑</a> <span class="src">KBS News · 8.24</span></li>
+        </ul>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title"><a href="https://n.news.naver.com/mnews/article/016/0002690058?sid=102">"싹 다 잡아들여" 폭로 '서강대교 회군' 다 뒤집혔다…피고인 신세</a></p>
+        <p class="issue-byline">헤럴드경제 · 2026.08.29 16:46 (본문 확인: biz.heraldcorp.com)</p>
+        <p class="issue-summary">홍장원은 "계엄 여론 수집 지시"는 평소 업무였을 뿐이라며 국헌문란 목적을 부인. 조성현은 "서강대교를 넘지 말라" 지시는 사실이며 내란을 저지한 행위라 주장, "국회의원 끌어내라" 지시 후 위법성을 인식했다고 항변.</p>
+        <p class="issue-deadline">⏱ 홍장원 9.30 · 조성현 10.2 (각 1차 공판준비기일)</p>
+        <ul class="issue-related">
+          <li><a href="#">"공소장 22쪽 중 조성현은 7쪽"…법정 공방 예고</a> <span class="src">아주경제 · 8.27</span></li>
+          <li><a href="#">[유튜브] 서강대교 회군 공판전 공방</a> <span class="src">TV조선 뉴스9 · 8.28</span></li>
+        </ul>
+      </div>
+
+      <p class="footnote" style="margin:0 0 0.7rem;border-top:none;padding-top:0;">참고: '내란 가담자' 무죄 잇따라 관련 보도(2026.08.29 00:39)는 원문 교차검증에 실패해 대상자·판결 내용을 확정하지 못함 — 확인 안 됨으로 처리.</p>
+
+      <div class="issue">
+        <p class="issue-title">한덕수 (전 국무총리)</p>
+        <p class="issue-byline">2026.08.29</p>
+        <p class="issue-summary">내란특검 재판에서 '헌법재판관 미임명' 혐의로 징역 5년 구형받음. 10월 26일 선고 예정.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">홍장원 (전 국가정보원 1차장)</p>
+        <p class="issue-byline">2026.08.29</p>
+        <p class="issue-summary">서강대교 회군·내란 가담 혐의 재판에서 "계엄 여론 수집 지시는 평소 업무였다"며 국헌문란 목적 부인. 9월 30일 첫 공판준비기일.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">조성현 (전 수도방위사령부 제1경비단장)</p>
+        <p class="issue-byline">2026.08.29</p>
+        <p class="issue-summary">"서강대교를 넘지 말라" 지시는 사실이나 내란을 저지한 행위라고 주장, "국회의원 끌어내라" 지시 후 위법성을 인식했다고 항변. 10월 2일 첫 공판준비기일.</p>
+      </div>
+
+      <div class="issue">
+        <p class="issue-title">김현태 (전 707특수임무단장·대령)</p>
+        <p class="issue-byline">2026.08.29</p>
+        <p class="issue-summary">국회 봉쇄 관련 1심(8/28 징역 12년 선고, 구형 18년)에 대해 "상관 명령 이행 군인 처벌" 비판 여론이 확산되며 관련 칼럼 게재.</p>
+      </div>
+    </section>
+
+  </div>
+
+  <p class="footnote">유튜브 클립 일부는 URL을 확보하지 못해 링크를 비워둠(#). 섹션4 헤즈볼라·시리아 쿠르드 건, 섹션5 국힘 예방 건은 대상일 정확히 일치하는 클립을 찾지 못함. 미확인 보도(내란 가담자 무죄 관련)는 섹션6에서 제외 처리.</p>
+  <p class="footer">생성 2026.08.30 05:30 KST · 정세브리핑</p>
+</div>
+</body>
+</html>
