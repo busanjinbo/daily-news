@@ -29,6 +29,7 @@
   --pill-active-bg:#f5f5f7; --pill-active-text:#000000;
 }
 *{box-sizing:border-box}
+a{color:var(--accent)}
 body{margin:0;background:var(--bg);color:var(--text);
   font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR",system-ui,sans-serif;
   min-height:100vh;display:flex;justify-content:center}
@@ -40,8 +41,9 @@ header.hero{display:flex;justify-content:space-between;align-items:flex-start;pa
 .hero-title{font-size:21px;font-weight:700;letter-spacing:-.3px}
 .hero-meta{font-size:13.5px;color:var(--text-secondary);margin-top:3px}
 .hero-actions{display:flex;gap:8px}
-.tabbar{position:sticky;top:0;background:var(--bg);z-index:2;display:flex;flex-wrap:wrap;gap:6px;
-  padding:10px 20px;border-bottom:1px solid var(--hairline)}
+.tabbar{position:sticky;top:0;background:var(--bg);z-index:2;display:flex;gap:6px;
+  padding:10px 20px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--hairline)}
+.tabbar::-webkit-scrollbar{display:none}
 .tab-btn{flex:none;white-space:nowrap;border:none;cursor:pointer;font-size:14px;font-weight:600;
   padding:7px 14px;border-radius:100px;transition:background .25s ease,color .25s ease;
   background:var(--pill-bg);color:var(--pill-text)}
@@ -276,12 +278,16 @@ footer{padding:16px 20px;border-top:1px solid var(--hairline);display:flex;flex-
     var track = document.getElementById('track');
     track.classList.remove('dragging');
     track.style.transform = 'translateX(-' + (state.tab*100) + '%)';
+    var activeBtn = null;
     Array.prototype.forEach.call(document.querySelectorAll('.tab-btn'), function(btn, idx){
-      btn.classList.toggle('active', idx === state.tab);
+      var isActive = idx === state.tab;
+      btn.classList.toggle('active', isActive);
+      if (isActive) activeBtn = btn;
     });
     Array.prototype.forEach.call(document.querySelectorAll('.dot'), function(dot, idx){
       dot.classList.toggle('active', idx === state.tab);
     });
+    if (activeBtn) activeBtn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
   }
 
   function toggleTheme(){
