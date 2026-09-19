@@ -1,0 +1,817 @@
+{
+  "targetDate": "2026-09-19",
+  "title": "9월 19일 정세브리핑",
+  "publishedText": "발행 2026.09.20 05:20 KST",
+  "generatedText": "생성 2026.09.20 05:20 KST · 정세브리핑",
+  "footnote": "민플러스는 사이트 직접 열람으로 5건을 확인했으며 누락 가능성이 있다. 섹션4는 TeleSUR·Prensa Latina·Al Jazeera·Anadolu·FDD를 개별 확인하지 못했고 다수 기사는 제목만 확인했다. 언론사 자체 도메인은 본문이 막혀 제목·링크 위주로 실었다. 섹션6 구삼회·방정환 구형일(9.18 또는 9.19)과 곽종근 구형량은 교차확인하지 못했다.",
+  "summary": {
+    "type": "summary",
+    "core": [
+      "조현-루비오 한미 외교장관 회담에서 미국은 대미투자 '신속 이행'과 미 기업 공정 환경을 압박했고, 트럼프의 호르무즈 협조 요청을 두고 미 언론은 '거절'로, 청와대는 '거절 아님'으로 엇갈렸다. 시민사회는 청해부대를 통한 우회 파병까지 반대하며 서울 도심에서 행진했다.",
+      "트럼프 대통령이 러시아 원유 구매국에 100% 관세를 물릴 수 있는 제재법에 서명했고, 24일 미중 정상회담을 앞두고 미국이 대만 무기판매 발표를 연말 이후로 미루는 방안을 검토 중이라는 SCMP 보도가 나왔다.",
+      "김승원 법무장관 후보자가 지명 20일 만에 자진사퇴했고, 김여정은 IAEA 대북 결의를 '이중기준'이라 반발했다. 미 고위당국자는 트럼프가 김정은과 통화·대면 모두 준비돼 있다고 밝혔다."
+    ],
+    "watch": [
+      "9.21 곽종근 전 특수전사령관 선고",
+      "9.24 트럼프-시진핑 정상회담: 관세 휴전 연장, 대만 무기판매 처리",
+      "청해부대 임무 확대 여부와 국회 파병 반대 결의안 논의",
+      "미국 언론이 보도한 호르무즈 요청과 청와대 해명의 후속 공방",
+      "10.30 구삼회·방정환 선고, 김승원 사퇴 후 추가 의혹 진행"
+    ]
+  },
+  "sections": [
+    {
+      "type": "issues",
+      "label": "01 민플러스",
+      "ranking": [],
+      "cards": [
+        {
+          "title": "김여정 부장, IAEA 대조선 '비핵화 결의' 비판…'편견적 시각과 이중기준'",
+          "url": "https://www.minplusnews.com/news/articleView.html?idxno=18392",
+          "media": "민플러스",
+          "time": "9.19 20:18",
+          "summary": "조선로동당 김여정 부장이 IAEA 제70차 총회의 대조선 결의를 '편견적 시각과 이중기준'이라 비판했다는 내용이다. 조선은 이미 IAEA를 탈퇴해 기구가 핵활동에 관여할 권한이 없다고 주장했고, 미국의 유럽 내 핵무기 배치·한국 핵잠수함 계획·일본의 핵물질 축적에는 IAEA가 침묵한다고 비난했다. 조선 측 주장을 전한 것이며 기사는 별도 검증하지 않았다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        },
+        {
+          "title": "'지구를 불태우는 폭주를 멈춰라'…노동·농민·시민, 기후정의 외쳤다",
+          "url": "https://www.minplusnews.com/news/articleView.html?idxno=18391",
+          "media": "민플러스",
+          "time": "9.19 18:36",
+          "summary": "9월 19일 서울 기후정의행진에 노동자·농민·시민이 참여해 개발·산업 확장 중단을 요구했다. 참가자들은 정부의 반도체·AI 중심 메가 프로젝트가 에너지·토지·노동을 재편한다고 주장했다. 선언문에는 탈화석연료, 공공재생에너지 확대, 팔레스타인 집단학살 종식 요구가 담겼다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        },
+        {
+          "title": "'전쟁 파병 없다' 했지만…청해부대 임무 확대 언급에 시민사회 거리로",
+          "url": "https://www.minplusnews.com/news/articleView.html?idxno=18390",
+          "media": "민플러스",
+          "time": "9.19 17:07",
+          "summary": "이재명 대통령이 '전쟁 개입 파병 없다'고 했지만 청해부대 임무 강화 검토 가능성이 나오면서 시민사회가 서울 종로에서 호르무즈 파병 반대 2차 시민대행진을 열었다. 김준형 조국혁신당 원내대표는 국회 동의 없이 임무가 넓어질 수 있다며 파병 반대 결의안 통과를 요구했다. 청해부대 임무 확대는 '검토 가능성' 단계로 확정된 결정이 아니다. 정부는 '개입 파병 없음', 시민사회는 '우회 파병'이라는 프레임으로 갈린다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        },
+        {
+          "title": "김정은 총비서, 선전부문일군강습회 지도…'낡은 것 답습은 위험, 새로운 것 창조해야'",
+          "url": "https://www.minplusnews.com/news/articleView.html?idxno=18389",
+          "media": "민플러스(로동신문브리핑)",
+          "time": "9.19 09:01",
+          "summary": "로동신문을 인용해 제3차 선전부문일군강습회가 9월 18일 평양에서 개강했고 김정은 총비서가 지도했다고 전한다. 김정은은 제9차 당대회 과업과 관련해 사상사업의 수단·방법 혁신을 강조하고 새 선전 방법 개발을 주문했다. 로동신문 보도를 옮긴 것이다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        },
+        {
+          "title": "대한민국에게 자주란 이토록 힘든 일인가",
+          "url": "https://www.minplusnews.com/news/articleView.html?idxno=18388",
+          "media": "민플러스(이경렬 전 대사 기고)",
+          "time": "9.19 08:41",
+          "summary": "이경렬 전 대사는 대통령의 호르무즈 파병 거부 발언이 실질적 자주성을 담보하지 못한다고 비판한다. 정부가 청해부대 임무 확대를 검토하고 조현 외무장관이 미국의 양해를 구하러 워싱턴에 갔다는 점을 짚으며, 파병의 본질은 명칭이 아니라 어디서 누구와 무엇을 하느냐에 있다고 주장한다. 국회가 동의안을 부결시켜야 한다는 필자 개인의 논평이다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "02 조선동향",
+      "ranking": [
+        {
+          "name": "김여정 IAEA 결의 반발",
+          "pct": 90,
+          "count": "약 35건"
+        },
+        {
+          "name": "트럼프 김정은 대화 용의",
+          "pct": 52,
+          "count": "약 20건"
+        },
+        {
+          "name": "김정은 군수공장 시찰",
+          "pct": 52,
+          "count": "약 20건"
+        },
+        {
+          "name": "북한 주민 러 외화벌이",
+          "pct": 31,
+          "count": "약 12건"
+        }
+      ],
+      "cards": [
+        {
+          "title": "김여정, IAEA결의에 '북한 핵 활동은 합법적‥핵 포기는 생존 포기'",
+          "url": "https://imnews.imbc.com/news/2026/world/article/6852984_36925.html",
+          "media": "MBC",
+          "time": "9.19 14:03",
+          "summary": "김여정 담화가 IAEA 총회의 '북한 핵보유국 지위 불인정' 결의에 반발했다. 담화는 IAEA가 간섭할 권한·자격이 없고 북한은 NPT를 탈퇴해 관할 밖이라며, 핵 포기는 존립·생존권 포기와 같다고 주장했다. 국내 매체는 담화가 한국 핵잠수함에는 침묵하면서 북한 핵만 문제 삼는다고 비판했다고 전했다. 본문은 뉴스1 근거이며 MBC 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "北, IAEA 비핵화 결의에 반발…'간섭할 어떤 권한·자격도 없어'",
+              "url": "https://www.news1.kr/nk/politics-diplomacy/6295961",
+              "media": "뉴스1",
+              "date": "9.19"
+            },
+            {
+              "title": "김여정 '韓 핵잠엔 아무말 안하고 왜 우리 핵무기만'…IAEA 맹비난",
+              "url": "https://www.donga.com/news/Politics/article/all/20260919/134700651/2",
+              "media": "동아일보",
+              "date": "9.19"
+            },
+            {
+              "title": "김여정, 북한 핵보유국 지위 불인정 IAEA 결의에 반발 (영상)",
+              "url": "https://www.youtube.com/watch?v=Ggqf12RQyCs",
+              "media": "유튜브·연합뉴스TV",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "美고위당국자 '트럼프, 김정은과 전화 통화도 준비돼 있어'",
+          "url": "https://www.yna.co.kr/view/AKR20260919030000071",
+          "media": "연합뉴스",
+          "time": "9.19 11:14",
+          "summary": "미 고위당국자가 브리핑에서 트럼프 대통령은 김정은과 전화로든 만나서든 대화할 준비가 돼 있고 '이제 공은 북한에 있다'고 말했다. 서울경제는 시진핑 방미를 앞두고 나온 브리핑이라고 전했고, 비핵화가 뒷전으로 밀릴 수 있다는 우려도 제기됐다. 본문은 서울경제 근거이며 연합 도메인은 열람하지 못했다. 북한의 응답은 확인되지 않았다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "트럼프, 김정은과 통화·대면 모두 열어둬…'이제 공은 북한에'",
+              "url": "https://view.asiae.co.kr/article/2026091911303915856",
+              "media": "아시아경제",
+              "date": "9.19"
+            },
+            {
+              "title": "김정은과 대화 원하는 트럼프 '대면 말고 통화도 OK'",
+              "url": "https://www.sedaily.com/article/20092942",
+              "media": "서울경제",
+              "date": "9.19"
+            },
+            {
+              "title": "'브로맨스 재회 원하나?' 美 당국자 '트럼프, 김정은과 전화든 대면이든 준비' (영상)",
+              "url": "https://www.youtube.com/watch?v=VTZSSOgEVY0",
+              "media": "유튜브·연합뉴스TV",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "김정은, 드론공장 시찰‥무기 체계 '인공지능화' 강조",
+          "url": "https://imnews.imbc.com/news/2026/world/article/6852997_36925.html",
+          "media": "MBC",
+          "time": "9.19 15:30",
+          "summary": "노동신문은 김정은 총비서가 9.16~18일 군수공업기업소를 시찰했다고 보도했다. 김정은은 군대에 압도적 전략적 힘을 끊임없이 장전하라고 지시하고 무기 생산 확대를 독려했으며, 대형 드론·자폭드론·600mm·240mm 방사포 등 신형 무기가 공개됐다. 연합뉴스TV는 대형 드론이 중국 윙룽-X와 형태가 유사하다고 전했다. 본문은 뉴스1 근거이며 MBC 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "김정은, 사흘간 군수공장 시찰…'신형 드론·방사포' 공개(종합)",
+              "url": "https://www.news1.kr/nk/politics-diplomacy/6296130",
+              "media": "뉴스1",
+              "date": "9.19"
+            },
+            {
+              "title": "北, 신형 추정 대형 드론 공개…'中 윙룽-X와 형태 유사'",
+              "url": "http://www.yonhapnewstv.co.kr/news/AKR20260919111245Mvb",
+              "media": "연합뉴스TV",
+              "date": "9.19"
+            },
+            {
+              "title": "김정은 사흘간 군수공장 시찰…포병 현대화 강조 (영상)",
+              "url": "https://www.youtube.com/watch?v=N10CweZO42g",
+              "media": "유튜브·연합뉴스TV",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "WSJ '북한, 러시아와 동맹 강화·외화 수입 위해 주민 파견…여성도 위험 지역 근무'",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667815&ref=A",
+          "media": "KBS",
+          "time": "9.19 10:34",
+          "summary": "월스트리트저널 분석에 따르면 지난해 러시아의 북한 주민 비자 발급이 3만6000건으로 전년의 4배로 늘었다. 남성은 건설 현장, 여성은 공장·물류시설에 배치됐고 이들 시설이 우크라이나 드론 공격 위험 지역이라는 문제가 제기됐다. 북한 당국이 임금의 80~90%를 가져가는 것으로 추정된다. 본문은 아시아경제 근거이며 KBS 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "男은 전쟁터, 女는 공장으로…北, 러에 주민 '외화벌이' 파견",
+              "url": "https://view.asiae.co.kr/article/2026091915570019588",
+              "media": "아시아경제",
+              "date": "9.19"
+            },
+            {
+              "title": "'북한, 러시아에 주민 외화벌이 파견...남자는 전장, 여자는 공장에'",
+              "url": "https://www.ytn.co.kr/_ln/0104_202609191209475671",
+              "media": "YTN",
+              "date": "9.19"
+            },
+            {
+              "title": "外화벌이 내몰린 북한 여성…'드론 폭격 날아드는 러 물류창고로'",
+              "url": "https://www.mk.co.kr/article/12157159",
+              "media": "매일경제",
+              "date": "9.19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "03 미-동아시아",
+      "ranking": [
+        {
+          "name": "한미 외교장관·호르무즈",
+          "pct": 90,
+          "count": "약 170건"
+        },
+        {
+          "name": "미중 회담·대만 무기판매",
+          "pct": 60,
+          "count": "약 110건"
+        },
+        {
+          "name": "한미 KIDD 전작권 가속",
+          "pct": 30,
+          "count": "약 54건"
+        },
+        {
+          "name": "트럼프 김정은 대화 용의",
+          "pct": 22,
+          "count": "약 39건"
+        }
+      ],
+      "cards": [
+        {
+          "title": "조현 '호르무즈 기여 의지'…청와대도 '트럼프 요청 거절 아냐'",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667882&ref=A",
+          "media": "KBS",
+          "time": "9.19 21:08",
+          "summary": "한미 외교수장이 7개월 만에 회담해 호르무즈 파병과 대미투자를 논의했고, 한국은 호르무즈 통항 기여 의지를 전달했다. 미 언론은 이재명 대통령이 트럼프의 요청을 거절했다고 보도했으나 청와대는 '거절이 아니다'라고 밝혔다. 프레임이 갈린다: 미 언론은 요청 거절, 청와대는 기여 검토. 미국이 파병을 요청하고 한국이 이를 소화하는 구도다. KBS 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "7개월 만에 만난 한미 외교 수장‥파병·대미투자는 어떻게?",
+              "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6853028_37004.html",
+              "media": "MBC",
+              "date": "9.19"
+            },
+            {
+              "title": "마주 앉은 한미 '빈손 종료'…'이행' 압박에 쿠팡까지 거론",
+              "url": "https://news.jtbc.co.kr/article/NB12319174?influxDiv=NAVER",
+              "media": "JTBC",
+              "date": "9.19"
+            },
+            {
+              "title": "조현 '호르무즈 기여 의지'…청와대도 '트럼프 요청 거절 아냐' [9시 뉴스] (영상)",
+              "url": "https://www.youtube.com/watch?v=xXMwgHnndE8",
+              "media": "유튜브·KBS",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "'AI 오판 탓에 전쟁 날 뻔'...미중 정상 '속도조절' 논의",
+          "url": "https://www.ytn.co.kr/_ln/0104_202609192309561302",
+          "media": "YTN",
+          "time": "9.19 23:09",
+          "summary": "다음 주 9.24 트럼프-시진핑 회담을 앞두고, AI 오판으로 미중 전쟁이 날 뻔했다는 CNN 보도가 나왔다. SCMP는 트럼프 행정부가 대만 대규모 무기판매 발표를 11월 APEC과 12월 G20 이후로 미루는 방안을 검토 중이라고 전했고, 중국은 신규 판매 보류를 비공개로 촉구했다. SCMP 인용 보도이며 확정된 결정은 아니다. YTN 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "美, 대만 무기 판매 발표 연말까지 연기할 듯 SCMP",
+              "url": "https://www.newsis.com/view/NISX20260919_0003796733",
+              "media": "뉴시스",
+              "date": "9.19"
+            },
+            {
+              "title": "시진핑과 내주 회담 트럼프, 대만 무기판매 연말까지 미룬다",
+              "url": "https://weekly.khan.co.kr/article/202609192303001",
+              "media": "주간경향",
+              "date": "9.19"
+            },
+            {
+              "title": "'AI 오판 탓에 전쟁 날 뻔'...미중 정상 '속도조절' 논의 (영상)",
+              "url": "https://www.youtube.com/watch?v=U0-koD-wlxg",
+              "media": "유튜브·YTN",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "한미, '전작권 가속화' 명문화…'동맹 현대화'도 담겨",
+          "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538045",
+          "media": "OBS",
+          "time": "9.19 12:54",
+          "summary": "한미 국방당국이 부산 통합국방협의체(KIDD)에서 전작권 전환에 속도를 내는 협력 강화에 합의하고 공동성명을 냈다. 성명에는 안보환경 변화에 대응한 동맹 현대화 평가도 담겼고, 뉴스핌 제목에 따르면 호르무즈 현안도 논의됐다. 기사 말미의 주한미군 역할 변화·중국 억제 동참 전망은 OBS 자체 전망이다. 회차 표기가 매체별로 엇갈린다(OBS 28차, 연합 사진 캡션 29차).",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "韓美 국방당국 '전작권 전환 가속화 협력'",
+              "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/19/2026091990085.html",
+              "media": "TV조선",
+              "date": "9.19"
+            },
+            {
+              "title": "한미, 부산서 KIDD 개최 '동맹 현대화' 가속",
+              "url": "https://www.fnnews.com/news/202609191057313103",
+              "media": "파이낸셜뉴스",
+              "date": "9.19"
+            },
+            {
+              "title": "South Korea and US Formalize 'Wartime OPCON Transfer Acceleration' (영상)",
+              "url": "https://www.youtube.com/watch?v=SFlJya28yOk",
+              "media": "유튜브·OBS뉴스",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "'트럼프, 김정은과 전화로든 만나서든 대화 준비돼'",
+          "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1538078",
+          "media": "OBS",
+          "time": "9.19 18:46",
+          "summary": "미 고위당국자가 전화 브리핑에서 트럼프 대통령이 김정은과 전화든 대면이든 준비돼 있고, 메시지는 이미 공개적으로 충분히 전달돼 공은 사실상 북한 쪽에 있다고 밝혔다. 북한의 응답은 확인하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "美 고위당국자 '트럼프, 김정은 통화부터 대면 만남까지 준비'",
+              "url": "https://www.hankookilbo.com/news/article/A2026091914440002298?did=NA",
+              "media": "한국일보",
+              "date": "9.19"
+            },
+            {
+              "title": "김정은과 대화 원하는 트럼프 '대면 말고 통화도 OK'",
+              "url": "https://www.sedaily.com/article/20092942?ref=naver",
+              "media": "서울경제",
+              "date": "9.19"
+            },
+            {
+              "title": "[한반도브리핑] 한미 '대미투자 결실 노력'…트럼프, 대북 러브콜",
+              "url": "http://www.yonhapnewstv.co.kr/news/MYH20260919193141tXP",
+              "media": "연합뉴스TV",
+              "date": "9.19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "04 미-비동아시아",
+      "ranking": [
+        {
+          "name": "미 러 원유 구매국 관세법",
+          "pct": 90,
+          "count": "약 184건"
+        },
+        {
+          "name": "미-이란 전쟁 중간선거 부담",
+          "pct": 84,
+          "count": "약 172건"
+        },
+        {
+          "name": "후티 리야드 공습경보",
+          "pct": 40,
+          "count": "약 81건"
+        },
+        {
+          "name": "캐나다 FBI 공조 중단",
+          "pct": 12,
+          "count": "약 13건"
+        },
+        {
+          "name": "쿠바 전력망 붕괴",
+          "pct": 5,
+          "count": "약 5건"
+        }
+      ],
+      "cards": [
+        {
+          "title": "트럼프, 새 대러 제재 법안 서명…'러 원유 구매국 100% 관세'",
+          "url": "https://www.news1.kr/world/usa-canada/6296197",
+          "media": "뉴스1",
+          "time": "9.19 18:06",
+          "summary": "트럼프 대통령이 9.19 오후 6시경 러시아 원유 구매국에 100% 관세를 부과하는 내용의 제재 법안에 서명했다. 중국과 인도가 주요 대상으로 거론된다. 미국이 관세 부과 권한을 확보했다는 뜻이며 실제 부과 여부는 확인되지 않았다. 중국은 '일방적 제재 반대'와 '필요한 모든 대응'을 밝혔다. 국내 보도 건수는 중국 반응 기사 포함 근사치다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "中, 美 '러시아 석유 구매국 제재법'에 '일방적 제재 반대'",
+              "url": "https://www.yna.co.kr/view/AKR20260919057400083?input=1195m",
+              "media": "연합뉴스",
+              "date": "9.19"
+            },
+            {
+              "title": "美 '러 수입국 100% 관세'에 中 발끈…'필요한 모든 대응 나설 것'",
+              "url": "https://www.ikbc.co.kr/article/view/kbc202609190040",
+              "media": "광주KBC",
+              "date": "9.19"
+            },
+            {
+              "title": "트럼프 대통령, 러시아 제재 법안 서명 | 인도·중국, 최대 100% 관세 부과되나? (영상, 참고용·날짜 미확인)",
+              "url": "https://www.youtube.com/watch?v=g4Fb8-klhkM",
+              "media": "유튜브·CNBC-TV18",
+              "date": "확인불가"
+            }
+          ]
+        },
+        {
+          "title": "WP '트럼프, 이란전이 중간선거에 부담 인식…지원 확대'",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667900&ref=A",
+          "media": "KBS",
+          "time": "9.19 23:15",
+          "summary": "워싱턴포스트는 트럼프 대통령이 이란전이 중간선거에 부담이 된다고 인식하고 있다고 보도했다. 아시아경제는 미국이 이란 전쟁에 451억달러를 투입했고 기지 복구비용 등은 빠졌다고 전했다. 전쟁이 7개월째 이어지는 가운데 기름값 폭등 여파가 보도됐다. KBS·SBS·아시아경제 모두 제목만 확인했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "트럼프, 중간선거 위기감 커졌나…WP '선거에 이란전 영향 인식'",
+              "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008761724&plink=ORI&cooper=NAVE",
+              "media": "SBS",
+              "date": "9.19"
+            },
+            {
+              "title": "'美, 이란 전쟁에 451억달러 투입…기지 복구비용 등 빠져'",
+              "url": "https://view.asiae.co.kr/article/2026091920373588238",
+              "media": "아시아경제",
+              "date": "9.19"
+            },
+            {
+              "title": "'감당 못해!' 경윳값 폭등 도미노 타격..이란전쟁 7개월 미국 상황 (영상)",
+              "url": "https://www.youtube.com/watch?v=73WIEdcOsoM",
+              "media": "유튜브·MBC뉴스",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "사우디 리야드 첫 공습경보…공항 인근 아람코 연료탱크 화재(종합)",
+          "url": "https://www.news1.kr/world/middleeast-africa/6296260",
+          "media": "뉴스1",
+          "time": "9.19 22:24",
+          "summary": "리야드에서 7월 후티 공세 강화 이후 처음으로 공습경보가 발령됐고 킹 칼리드 국제공항 인근 아람코 연료탱크에서 화재와 검은 연기가 났다. MBN은 파키스탄이 군사개입을 시사했다고 전했다. 민플러스(9.15)는 사우디가 미국에 후티 직접 공격을 요청했으나 트럼프가 거절했다고 주장하나 다른 매체 교차확인은 안 됐다. 미국의 반응은 본문에서 확인하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "사우디 수도에도 첫 공습경보…파키스탄, 군사개입 시사",
+              "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5220331",
+              "media": "MBN",
+              "date": "9.19"
+            },
+            {
+              "title": "사우디 수도까지 첫 화염…후티, 대규모 집회로 세 과시",
+              "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667892&ref=A",
+              "media": "KBS",
+              "date": "9.19"
+            },
+            {
+              "title": "사우디가 미국에 공격 요청까지…'후티 반군'은 누구인가 (9.15, 민플러스 주장)",
+              "url": "https://www.minplusnews.com/news/articleView.html?idxno=18357",
+              "media": "민플러스",
+              "date": "9.15"
+            }
+          ]
+        },
+        {
+          "title": "FBI, 캐나다 공영방송 9·11 보도지침 문제삼아 공조 일시 중단",
+          "url": "https://www.yna.co.kr/view/AKR20260919027800009?input=1195m",
+          "media": "연합뉴스",
+          "time": "9.19 11:02",
+          "summary": "캐시 파텔 FBI 국장이 주도해 캐나다와의 일부 협력을 일시 중단했고, 원인은 캐나다 공영방송의 9·11 테러 표현 관련 보도지침이라고 한다. 별도로 EU가 캐나다를 첫 준회원국으로 초대하자 트럼프는 밀착을 '적대 행위'라며 '매우 강력한 관세'를 위협했다(YTN). 카니 총리는 무역협상 중단 후 지지율이 66%로 올랐다고 한다. 요약은 뉴스1 동일 사안 기사 근거이며 양측 입장 세부는 확인하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "미국 등진 캐나다에 손 내민 EU…트럼프 '둘의 밀착은 적대 행위' [자막뉴스]",
+              "url": "https://www.ytn.co.kr/_ln/0134_202609190949544065",
+              "media": "YTN",
+              "date": "9.19"
+            },
+            {
+              "title": "FBI, 캐나다 9·11 표현 갈등 관련 공조 중단 (뉴스1 동일 사안)",
+              "url": "https://www.news1.kr/world/usa-canada/6296091",
+              "media": "뉴스1",
+              "date": "9.19"
+            },
+            {
+              "title": "셰인바움 멕시코 대통령 '미국과 무역협상 진전…조속 합의 모색'",
+              "url": "https://www.tfmedia.co.kr/news/article.html?no=207335",
+              "media": "티에프미디어",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "쿠바 또다시 전력망 붕괴…올해 들어 7번째 대정전",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667712&ref=A",
+          "media": "KBS",
+          "time": "9.19 05:40",
+          "summary": "쿠바 국가 전력망이 또 붕괴해 전국적 정전이 발생했다. 횟수는 KBS·뉴스1이 7번째, 뉴시스가 8번째로 엇갈린다. 미국 제재와의 연관성은 본문에서 확인하지 못했다. 제목만 확인했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "쿠바, 국가 전력망 붕괴에 전면 정전…올해만 8번째",
+              "url": "https://www.newsis.com/view/NISX20260919_0003796817",
+              "media": "뉴시스",
+              "date": "9.19"
+            },
+            {
+              "title": "쿠바 전력망 또 붕괴…올해 들어 7번째 전국적 정전 사태",
+              "url": "https://www.news1.kr/world/latin-america/6296243",
+              "media": "뉴스1",
+              "date": "9.19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "05 국내정치·美동향",
+      "ranking": [
+        {
+          "name": "김승원 후보자 자진사퇴",
+          "pct": 90,
+          "count": "약 390건"
+        },
+        {
+          "name": "한미 외교장관·美 이행압박",
+          "pct": 41,
+          "count": "약 160건"
+        },
+        {
+          "name": "靑 호르무즈 요청 거절 아냐",
+          "pct": 12,
+          "count": "약 47건"
+        },
+        {
+          "name": "장동혁 사관학교 집회",
+          "pct": 9,
+          "count": "약 36건"
+        },
+        {
+          "name": "호르무즈 파병반대 대행진",
+          "pct": 4,
+          "count": "약 15건"
+        }
+      ],
+      "cards": [
+        {
+          "title": "김승원, 李대통령 회견 하루만에 사퇴…8·30 개각 두 번째 낙마(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20260919029852001",
+          "media": "연합뉴스",
+          "time": "9.19 16:47",
+          "summary": "김승원 법무부 장관 후보자가 9월 19일 국회 기자회견에서 자진사퇴했다. 이재명 대통령이 8월 30일 지명한 지 20일 만이며 대통령 기자회견 다음 날이다. 사퇴 직후 전직 보좌진의 지명 철회 탄원서와 성추행 등 추가 의혹이 보도됐다. 야당은 '사퇴당한 것', 여당은 '고뇌에 찬 결정 존중'이라 했고, 한동훈 의원은 긴급 기자회견을 열었다. 연합 본문은 열람하지 못했고 여러 매체 제목·영상 설명 기준이다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "'김승원 폭탄' 더 터질 모양…사퇴 뒤 나온 '성추행 의혹'에 야…",
+              "url": "https://www.hani.co.kr/arti/politics/politics_general/1278609.html",
+              "media": "한겨레",
+              "date": "9.19"
+            },
+            {
+              "title": "김승원 후보자 전격 사퇴...이 대통령 기자회견 공방",
+              "url": "https://www.ytn.co.kr/_ln/0101_202609191643311857",
+              "media": "YTN",
+              "date": "9.19"
+            },
+            {
+              "title": "[이슈] 청와대에 전달된 '성추행 의혹' 탄원서...김승원 사퇴 결정적 배경 됐나? (영상)",
+              "url": "https://www.youtube.com/watch?v=SymLuMlCx7I",
+              "media": "유튜브·KBS",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "한미 외교장관 '대미투자 결실 노력'…韓 '호르무즈 기여 계속 소통'",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667737",
+          "media": "KBS",
+          "time": "9.19 06:49",
+          "summary": "조현 외교장관과 루비오 미 국무장관이 워싱턴에서 약 7개월 만에 회담했다. 한국경제에 따르면 루비오는 국무부 자료에서 투자약속 '신속 이행'을 강조해 한국 측 '결실'과 톤이 달랐다. 조선일보 제목은 '한국 내 미국 기업을 위한 공정한 사업 환경 필요', JTBC 제목은 '이행 압박에 쿠팡까지 거론'이나 본문은 확인하지 못했다. 외교부는 '美, 파병 요구 없어'라 설명했으나 NYT 등은 트럼프의 호르무즈 협조 요청이 있었다고 보도해 프레임이 엇갈린다. KBS 본문은 한국경제로 채웠다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "韓 '투자 결실 노력', 美 '신속 이행'…양국 외교장관 '미묘한 온도차'",
+              "url": null,
+              "media": "TV조선",
+              "date": "9.19"
+            },
+            {
+              "title": "7개월 만 한미 회담…'투자 결실' '신속 이행' 미묘한 온도 차",
+              "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008761618",
+              "media": "SBS",
+              "date": "9.19"
+            },
+            {
+              "title": "호르무즈 기여 밝힌 韓…美, 반도체·대미투자 압박",
+              "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=365777",
+              "media": "파이낸셜투데이",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "청와대 '이 대통령, 전쟁개입 안한다는 입장…트럼프 요청 거절 아냐'",
+          "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8667825",
+          "media": "KBS",
+          "time": "9.19 11:43",
+          "summary": "뉴욕타임스가 이 대통령이 트럼프의 제안을 거부하고 이란에 군대를 보내지 않겠다고 했다고 보도했다. 이 대통령은 18일 회견에서 전쟁에 관여·개입하는 파병은 없다면서도 상선·원유 수송로·국민 안전을 지키는 최소한의 활동은 해야 한다고 덧붙였다. 청와대는 거절이 아니라며 구체적 기여 방안을 계속 검토하겠다고 했다. NYT는 '거부', 청와대는 '거절 아님'으로 프레임이 갈린다. 본문은 경향신문 근거이며 KBS 본문은 열람하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "靑, NYT '트럼프 요청 거부' 해석 반박…'실질적 기여 방안 계속 검토'",
+              "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435752",
+              "media": "연합인포맥스",
+              "date": "9.19"
+            },
+            {
+              "title": "靑 '李대통령, 트럼프 중동 협조 요청 거절 아냐…기여방안 검토'",
+              "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5064040",
+              "media": "신아일보",
+              "date": "9.19"
+            },
+            {
+              "title": "靑 '전쟁개입 않는다 입장…트럼프 요청 거절 아냐' (영상)",
+              "url": "https://www.youtube.com/watch?v=AgDW6YRtUHs",
+              "media": "유튜브·연합뉴스TV",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "장동혁 '李, 3군 사관학교 통합 밀어붙이면 안보와 국방의 주적'",
+          "url": "https://www.newsis.com/view/NISX20260919_0003796702",
+          "media": "뉴시스",
+          "time": "9.19 16:41",
+          "summary": "국민의힘 장동혁 대표가 광화문 사관학교 폐교 저지 총궐기대회에서 3군 사관학교 통합을 밀어붙이면 안보·국방의 주적은 이재명이 될 것이라고 말했다. 전문성 없는 통합은 빈 껍데기라며 국방부 장관 후보자 강신철을 공격했다. 같은 당 김태호 의원은 '장동혁 대표, 이제는 멈춰라'라고 비판했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "사관학교 폐교 저지 총궐기… 장동혁 '안보·국방의 주적은 이재명'",
+              "url": "https://www.newscj.com/news/articleView.html?idxno=3434096",
+              "media": "뉴스저널리즘",
+              "date": "9.19"
+            },
+            {
+              "title": "김태호 경남 양산乙 의원 '장동혁 대표, 이제는 멈춰라'",
+              "url": "https://www.pressian.com/pages/articles/2026091916403721982",
+              "media": "프레시안",
+              "date": "9.19"
+            },
+            {
+              "title": "'사관학교 통합 밀어붙이면 안보와 국방 주적은 이재명 될 것'…장동혁…",
+              "url": "https://www.munhwa.com/article/11618267",
+              "media": "문화일보",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "서울 도심서 울려퍼진 '파병 반대' 시민들 '우회 파병도 어림없다'…",
+          "url": "https://vop.co.kr/A00001696783.html",
+          "media": "민중의소리",
+          "time": "9.19 16:46",
+          "summary": "서울 종로에서 호르무즈 파병 반대 2차 시민대행진이 열렸다. 민주노총 양경수 위원장은 대통령의 '전쟁 파병 없다'와 청와대의 '요청 거절 아님' 입장이 맞지 않는다고 비판했다. 조국혁신당·진보당 의원들은 국회의 파병 반대 결의안 통과를 촉구했고, 참가자들은 청와대 방향으로 행진했다. 민플러스도 주요 기사로 다뤘다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "'꼼수파병 우려 여전...국회 파병반대 결의안 촉구'",
+              "url": "http://www.tongilnews.com/news/articleView.html?idxno=217507",
+              "media": "통일뉴스",
+              "date": "9.19"
+            },
+            {
+              "title": "'This Is an Aggressive War, No Circumventing Troop Deployments Either' (영상)",
+              "url": "https://www.youtube.com/watch?v=E9xlBV9AZZM",
+              "media": "유튜브·민중의소리",
+              "date": "9.19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "issues",
+      "label": "06 내란청산",
+      "ranking": [
+        {
+          "name": "계엄 햄버거 회동 구형",
+          "pct": 90,
+          "count": "약 3건"
+        },
+        {
+          "name": "계엄 가담 군간부 징계취소",
+          "pct": 60,
+          "count": "2건"
+        },
+        {
+          "name": "곽종근 선고 앞 탄원",
+          "pct": 30,
+          "count": "1건"
+        },
+        {
+          "name": "특검 공소취소권 삭제 요청",
+          "pct": 30,
+          "count": "1건"
+        },
+        {
+          "name": "윤석열·김건희 접견 보도",
+          "pct": 30,
+          "count": "1건"
+        }
+      ],
+      "cards": [
+        {
+          "title": "[인물 구삼회·방정환] '내란'특검, '롯데리아 회동'·'제2수사단' 전직 군인들에 징역형 구형",
+          "url": "https://imnews.imbc.com/news/2026/society/article/6852959_36918.html",
+          "media": "MBC",
+          "time": "9.19 10:32",
+          "summary": "특검이 구삼회 전 2기갑여단장과 방정환 전 국방혁신기획관에게 각 징역 7년을, 다른 장교 6명에게 각 징역 5~7년을 구형했다. 특검은 두 사람이 계엄 선포 약 6시간 전 안산 패스트푸드점에서 만나 제2수사단 지휘관 임무를 받았다며 '지시를 무장 병력으로 바꾼 지휘관'이라 지적했고, 피고인들은 혐의를 부인했다. 요약은 서울경제 근거이며 MBC 본문은 막혔다. 구형일이 9.18인지 9.19인지는 확인하지 못했다.",
+          "deadline": "선고 10.30 10:00",
+          "chips": [
+            "인물"
+          ],
+          "related": [
+            {
+              "title": "'계엄 햄버거 회동' 전직 군인 …'지시를 무장 병력으로 바꾼 지휘관들'",
+              "url": "https://www.sedaily.com/article/20092878",
+              "media": "서울경제",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "'계엄 가담 혐의' 軍간부들, 무죄 이어 징계 취소",
+          "url": "https://www.chosun.com/national/court_law/2026/09/19/ZGXHYWJBFNCPFMHCQRY7OF5CWQ/",
+          "media": "조선일보",
+          "time": "9.19 00:36",
+          "summary": "계엄 가담 혐의를 받던 군 간부들이 무죄에 이어 징계도 취소됐다는 보도다. 조선일보 사설은 '계엄 적극 가담이 아니면 징계 취소'는 당연한 판결이라고 평가했다. 본문이 막혀 제목만 확인했고 대상 인원·법원은 확인하지 못했다.",
+          "deadline": null,
+          "chips": [],
+          "related": [
+            {
+              "title": "[사설] 너무나 당연한 '계엄 적극 가담 아니면 징계 취소' 판결",
+              "url": "https://www.chosun.com/opinion/editorial/2026/09/19/JPF6SS3T2VEVRN6W734COH5NKA/",
+              "media": "조선일보",
+              "date": "9.19"
+            }
+          ]
+        },
+        {
+          "title": "[인물 곽종근] 5·18어머니회, '곽종근 사령관 선처' 탄원",
+          "url": "https://news.tf.co.kr/read/national/2367793.htm",
+          "media": "더팩트",
+          "time": "9.19 10:50",
+          "summary": "5·18어머니회와 광주시의회 의원들이 선고를 앞둔 곽종근 전 특수전사령관의 선처를 탄원했다. 이들은 곽 전 사령관이 헌법재판소와 재판에서 계엄의 위법성을 일관되게 증언하고 반성문도 냈다고 밝혔다. 기사에는 검찰이 징역 20년을 구형했다고 나오나 다른 매체로 교차확인하지 못했다.",
+          "deadline": "선고 9.21",
+          "chips": [
+            "인물",
+            "단일매체"
+          ],
+          "related": []
+        },
+        {
+          "title": "李 '특검의 공소취소권 삭제해달라'… '퇴임 후 재판'은 언급 없었다",
+          "url": "https://www.chosun.com/politics/politics_general/2026/09/19/U2PH7B7IPJCRRH5J3G4L",
+          "media": "조선일보",
+          "time": "9.19 00:39",
+          "summary": "이재명 대통령이 기자회견에서 특검의 공소취소권 삭제를 요청했고 '퇴임 후 재판'에 대한 언급은 없었다는 제목의 보도다. 본문이 막혀 제목만 확인했다.",
+          "deadline": null,
+          "chips": [],
+          "related": []
+        },
+        {
+          "title": "[단독] 윤석열·김건희, 올여름 '냉방' 구치소 접견실 하루 4∼7회 …",
+          "url": "https://www.hani.co.kr/arti/politics/politics_general/1278569.html",
+          "media": "한겨레",
+          "time": "9.19 07:02",
+          "summary": "윤석열·김건희 부부의 구치소 접견 실태를 다룬 한겨레 단독 보도다. 본문 열람이 차단돼 제목만 확인했다. 두 사람의 재판 출석 등 그날 동향은 확인하지 못했다.",
+          "deadline": null,
+          "chips": [
+            "인물"
+          ],
+          "related": []
+        }
+      ]
+    }
+  ]
+}
