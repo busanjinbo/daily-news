@@ -1,0 +1,1436 @@
+{
+ "targetDate": "2026-09-24",
+ "title": "9월 24일 정세브리핑",
+ "publishedText": "발행 2026.09.25 07:13 KST",
+ "generatedText": "생성 2026.09.25 07:13 KST · 정세브리핑",
+ "footnote": "수집 오류 0건. 섹션 3~6은 사안 수가 많아 상위 사안 위주로 편집해 하위 사안은 다루지 못했다. 일부 카드는 클립 미확인 또는 날짜 불일치 참고용.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "조(북) 최선희 외무상·외무성 대변인이 핵보유 불변 입장을 밝히고 개량 240㎜ 방사포 시험사격을 진행했으며, 김선경 외무성 부상이 유엔총회 참석차 뉴욕에 도착했다.",
+   "트럼프-시진핑 미중 정상 소통이 이어지는 가운데 대만·안보·기술 의제와 이란·러시아 관련 미국 행보가 병행됐고, 젤렌스키의 북한군 포로 2명 한국 이송 발언으로 한국 정부 대응이 쟁점이 됐다.",
+   "추석 연휴에도 조희대 대법원장의 재제청 거부와 이 대통령의 내란 특수본 구성 검토를 둘러싼 여야 공방이 계속됐다."
+  ],
+  "watch": [
+   "김선경 북 외무성 부상 유엔총회 연설(28일)",
+   "12월 G20에서 트럼프-푸틴 회동 여부(미 국무 기대 표명 후속)",
+   "우크라이나 북한군 포로 2명 한국행 관련 정부 공식 입장·관련국 소통",
+   "조희대 대법원장 재제청 거부 후속 — 민주당 항의·탄핵 논의와 내란 특수본 구성 여부",
+   "미·이란 카타르 경유 메시지 교환 및 국제유가(브렌트 100달러선) 동향"
+  ]
+ },
+ "sections": [
+  {
+   "type": "issues",
+   "label": "01 민플러스",
+   "ranking": [],
+   "cards": [
+    {
+     "title": "김정은 총비서, 미사일총국-제2경제위원회 축구경기 관람…군수부문 성과 격려",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18410",
+     "media": "민플러스",
+     "time": "9.24 10:24",
+     "summary": "김정은 총비서가 지난 22일 미사일총국과 제2경제위원회의 축구경기를 관람하고 국방과학연구·군수생산 성과자들을 격려했다고 로동신문이 24일 보도했다. 김 총비서는 이번 경기가 이들의 수고를 격려하고 감사를 표하는 자리라고 밝혔다.\n최근 행보로 16~18일 군수기업소 현지점검, 20일 신형 전투무기체계 시험 참관이 소개됐다. 경기는 '화성'팀이 4대 1로 이겼고 시상식이 이어졌다.\n김 총비서는 국방과학·군수부문의 기여가 국가 안전과 발전에 고귀하다며 계속 성과를 내라고 강조했다. 이상은 북측 매체 보도를 인용한 내용이다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "조선, 240㎜ 조종방사포 최대 115㎞로 연장…‘남부국경 화력준비태세 변화’",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18411",
+     "media": "민플러스",
+     "time": "9.24 10:25",
+     "summary": "조선중앙통신이 24일 보도한 바에 따르면 북측 국방과학연구부문이 지난 22일 갱신형 240㎜ 조종방사포탄 시험사격을 진행했다. 자치정밀유도체계를 도입했고 탄도비행 100㎞, 활공비행복합방식 115㎞를 타격할 수 있다는 것이 북측 주장이다.\n민플러스는 2024년 67㎞, 올해 6월 90㎞에서 최대 115㎞로 늘었다고 정리했다. 활공비행복합방식과 자치정밀유도체계의 구체 방식은 공개되지 않았고 기사도 추정으로 서술했다.\n이번 시험에서 북측이 '남부국경'을 거듭 언급했고 남부국경 공격능력 강화를 전쟁억제력 강화의 맥락에서 강조했다고 전했다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "단군 이래 최대 투자 ‘메가프로젝트’의 허상과 위험",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18409",
+     "media": "민플러스",
+     "time": "9.24 10:33",
+     "summary": "민플러스는 정부가 추진하는 '메가프로젝트'의 실체와 위험을 비판적으로 짚었다. 정부는 반도체·AI 데이터센터·피지컬 AI를 3대 축으로 전 지역 거점을 구축한다는 구상이다.\n반도체 14개 팹에 2,131조 원, 데이터센터 1단계 8.4GW에 550조 원, 2단계 SK 10GW에 1,000조 원 투자가 제시됐다고 소개했다.\n기사는 투자 규모가 불분명하고 과잉투자 위험, 이익의 사유화, 노동·생태계 파괴 문제가 있다고 주장한다. 민간 계획까지 합친 데이터센터 20GW 중 17.5GW는 수요처가 확보되지 않았다는 점도 짚었다(민플러스 주장).",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "02 조선동향",
+   "ranking": [
+    {
+     "name": "미일한 3자회담 비핵화 성명 반박",
+     "pct": 100,
+     "count": "2건"
+    },
+    {
+     "name": "조선 외무성 CTBT 성명 규탄",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "갱신형 240㎜ 조종방사포탄 시험",
+     "pct": 100,
+     "count": "2건"
+    },
+    {
+     "name": "김정은 군수부문 축구경기 관람",
+     "pct": 100,
+     "count": "2건"
+    },
+    {
+     "name": "북한군 포로 한국행 주장",
+     "pct": 50,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "최선희외무상담화 〈조선민주주의인민공화국의 핵보유의지는 영원하다〉",
+     "url": "https://minzokilbo.com/wp/%ec%b5%9c%ec%84%a0%ed%9d%ac%ec%99%b8%eb%ac%b4%ec%83%81%eb%8b%b4%ed%99%94-%e3%80%88%ec%a1%b0%ec%84%a0%eb%af%bc%ec%a3%bc%ec%a3%bc%ec%9d%98%ec%9d%b8%eb%af%bc%ea%b3%b5%ed%99%94%ea%b5%ad%ec%9d%98-%ed%95%b5/",
+     "media": "21세기민족일보",
+     "time": "9.24 22:45",
+     "summary": "최선희 외무상이 24일 담화를 내어, 유엔총회 계기로 열린 미국·일본·한국 3자회담에서 비핵화 의지를 재확인한 것을 '대조선적대시'의 표현이라며 반박했다. 조선 측은 핵보유 의지를 '영원불변'으로 재천명하고, 미국과 동맹국이 비핵화를 거론할수록 대미 대적 입장만 강경해진다고 주장했다. 이는 조선 측 주장이며, 3자회담 공동성명 원문은 후보 기사에서 확인되지 않는다. 조선중앙통신 전문 전재.",
+     "deadline": null,
+     "chips": [
+      "조선 성명"
+     ],
+     "related": [
+      {
+       "title": "[전문] 최선희 외무상, “북 비핵화 열창에 대미 대적 입장 강경해질 뿐”",
+       "url": "http://www.jajusibo.com/70994",
+       "media": "자주시보",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "조선외무성대변인담화 〈조선의 자위적인 핵활동을 비난하는 〈공동성명〉 조작발표〉",
+     "url": "https://minzokilbo.com/wp/%ec%a1%b0%ec%84%a0%ec%99%b8%eb%ac%b4%ec%84%b1%eb%8c%80%eb%b3%80%ec%9d%b8%eb%8b%b4%ed%99%94-%e3%80%88%ec%a1%b0%ec%84%a0%ec%9d%98-%ec%9e%90%ec%9c%84%ec%a0%81%ec%9d%b8-%ed%95%b5%ed%99%9c%eb%8f%99/",
+     "media": "21세기민족일보",
+     "time": "9.24 22:46",
+     "summary": "조선 외무성 대변인이 24일 담화로, 뉴욕 상급회의에서 자위적 핵활동을 비난하는 '공동성명'이 발표된 것을 '조작발표'이자 정치적 도발이라며 규탄했다. 조선 측은 포괄적핵시험금지조약(CTBT) 미발효의 책임이 미국과 추종세력에 있다며, 미국 주도의 핵공유·핵잠수함 기술 전파와 일본의 재무장을 문제 삼았다. 성명 주최국 구성 등은 조선 측 서술이며 별도 확인되지 않았다. 조선중앙통신 전문 전재.",
+     "deadline": null,
+     "chips": [
+      "조선 성명"
+     ],
+     "related": []
+    },
+    {
+     "title": "조선 국방과학연구부문, 갱신형 240㎜조종방사포탄시험사격 진행",
+     "url": "https://minzokilbo.com/wp/%ec%a1%b0%ec%84%a0-%ea%b5%ad%eb%b0%a9%ea%b3%bc%ed%95%99%ec%97%b0%ea%b5%ac%eb%b6%80%eb%ac%b8-%ea%b0%b1%ec%8b%a0%ed%98%95-240%e3%8e%9c%ec%a1%b0%ec%a2%85%eb%b0%a9%ec%82%ac%ed%8f%ac%ed%83%84%ec%8b%9c/",
+     "media": "21세기민족일보",
+     "time": "9.24 21:48",
+     "summary": "조선중앙통신은 국방과학연구부문이 22일 갱신형 240㎜ 조종방사포탄 시험사격을 했다고 24일 보도했다. 통신은 탄도비행 100㎞, 활공비행 복합 115㎞ 사거리와 명중 정확성 검증을 주장했고, 박정천 군사위 부위원장은 '남부국경'에 공격능력을 집중하고 장거리타격수단 갱신을 적이 알게 해야 한다고 말했다. 성능은 조선 측 발표이며 독립 확인은 없다. 남측을 겨냥한 화력 강화 언급이 문제.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "“장거리 타격 수단 갱신, 적이 알게 해야”…북, 갱신형 조종방사포탄 시험 사격",
+       "url": "http://www.jajusibo.com/70992",
+       "media": "자주시보",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "김정은위원장, 미사일총국과 제2경제위원회사이의 축구경기 관람",
+     "url": "https://minzokilbo.com/wp/%ea%b9%80%ec%a0%95%ec%9d%80%ec%9c%84%ec%9b%90%ec%9e%a5-%eb%af%b8%ec%82%ac%ec%9d%bc%ec%b4%9d%ea%b5%ad%ea%b3%bc-%ec%a0%9c2%ea%b2%bd%ec%a0%9c%ec%9c%84%ec%9b%90%ed%9a%8c%ec%82%ac%ec%9d%b4%ec%9d%98/",
+     "media": "21세기민족일보",
+     "time": "9.24 07:50",
+     "summary": "조선중앙통신은 김정은 위원장이 22일 미사일총국과 제2경제위원회 간 축구경기를 관람하고 군수공업 부문에 감사와 격려를 전했다고 24일 보도했다. 김 위원장은 국방력 강화로 주권안전을 보위해야 한다고 언급했고, 경기는 미사일총국 팀이 4대1로 이겼다. 같은 날 22일 방사포탄 시험사격과 맞물린 군수부문 격려 행보다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "김정은 위원장, 군수 부문에 감사 표시…자제와 함께 축구 경기 관람",
+       "url": "http://www.jajusibo.com/70988",
+       "media": "자주시보",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "젤렌스키 “북한군 포로 2명 한국 보냈다”...청와대 “관련국과 소통”",
+     "url": "http://www.tongilnews.com/news/articleView.html?idxno=217540",
+     "media": "통일뉴스",
+     "time": "9.24 11:58",
+     "summary": "젤렌스키 우크라이나 대통령이 북한군 포로 2명을 한국으로 보냈다고 밝힌 것과 관련해, 청와대는 24일 당사자 자유의사 존중과 국제법·인도주의 원칙에 부합하는 해결이라는 입장을 밝히고 관련국과 소통해 왔다고 했다. 다만 신병 처리 여부와 시기·경로, 협의 내용은 확인해 줄 수 없다고 해 이송 사실은 정부 측에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-동아시아",
+   "ranking": [
+    {
+     "name": "미중 정상회담·무역휴전 연장",
+     "pct": 100,
+     "count": "387건"
+    },
+    {
+     "name": "북한군 포로 한국행 공개",
+     "pct": 64,
+     "count": "246건"
+    },
+    {
+     "name": "북 외무상 핵보유 불변 담화",
+     "pct": 11,
+     "count": "42건"
+    },
+    {
+     "name": "북 김선경 뉴욕 도착·유엔연설",
+     "pct": 4,
+     "count": "14건"
+    },
+    {
+     "name": "북 개량 240㎜ 방사포 시험",
+     "pct": 3,
+     "count": "13건"
+    },
+    {
+     "name": "백악관 국빈환영식 현장",
+     "pct": 2,
+     "count": "9건"
+    },
+    {
+     "name": "러, 김정은 방러 초청",
+     "pct": 2,
+     "count": "7건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "[속보] 트럼프 \"시진핑과 안보·기술·슈퍼지능 논의‥평화·번영 증진\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853999_36925.html",
+     "media": "MBC",
+     "time": "9.24 23:34",
+     "summary": "트럼프 미국 대통령이 백악관에서 시진핑 중국 국가주석과 정상회담을 하며 안보·기술·슈퍼지능 문제를 논의하겠다고 밝혔다. 시 주석은 11년 만의 국빈 방미로, 트럼프 대통령은 공항에서 1시간 기다리며 영접했다. 베선트 미 재무장관은 11월 만료되는 미중 무역 휴전을 2개월 연장하기로 합의했다고 밝혔다. 방송사들의 '레드카펫'·'황제 의전' 표현은 미국이 어떤 양보를 했는지를 가리기 쉬워, 무역 휴전 연장 등 실질 합의 내용 확인이 필요하다.",
+     "deadline": null,
+     "chips": [
+      "미중 정상회담"
+     ],
+     "related": [
+      {
+       "title": "[속보] 시진핑 , 백악관 도착‥국빈 방미 환영식 시작",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6853995_36925.html",
+       "media": "MBC",
+       "date": "9.24"
+      },
+      {
+       "title": "미국 재무장관 \"미·중 무역 휴전 두 달 연장하기로 합의\"",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6853903_36925.html",
+       "media": "MBC",
+       "date": "9.24"
+      },
+      {
+       "title": "트럼프 \"시진핑과 안보·기술 논의…평화번영 증진\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=NSazep1Nnnw",
+       "media": "연합뉴스TV",
+       "date": "9.25"
+      }
+     ]
+    },
+    {
+     "title": "우크라이나 \"북한군 포로 한국 행, 한국 과 직접 대화\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853976_36925.html",
+     "media": "MBC",
+     "time": "9.24 21:35",
+     "summary": "젤렌스키 우크라이나 대통령이 유엔총회 연설에서 생포한 북한군 포로 2명을 최근 한국에 보냈다고 공개했다. 한국 정부는 이를 부인하지 않고 소통·협의를 진행해 왔다고 사실상 시인했다. 우크라이나는 한국과 직접 대화 중이라고 밝혔다. 포로들은 언론 인터뷰 등에서 한국행 의사를 밝혀 왔다. 공개 경위를 둘러싼 한국 정부와 우크라이나 측 입장 차는 후보 기사만으로는 확인되지 않는다.",
+     "deadline": null,
+     "chips": [
+      "북한군 포로 한국행"
+     ],
+     "related": [
+      {
+       "title": "\"북한군 포로 한국 으로\"‥젤렌스키 '공개'에 정부도 '인정'",
+       "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6853972_37004.html",
+       "media": "MBC",
+       "date": "9.24"
+      },
+      {
+       "title": "우크라 “북한군 포로 한국 행. 한국 과 직접 대화”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671365&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "[지금뉴스] 북한군 포로 한국행 ‘깜짝 공개’…“3~4일 전 한국에 도착” / KBS 2026.09.24.",
+       "url": "https://www.youtube.com/watch?v=uqz77OvzU3s",
+       "media": "KBS News",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "북 외무상 \"핵보유 의지는 백년·천년이 지나도 절대불변\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853996_36925.html",
+     "media": "MBC",
+     "time": "9.24 23:22",
+     "summary": "최선희 북한 외무상이 한미일 외교장관 공동성명의 '완전한 북한 비핵화' 표현에 반발해 핵보유 의지는 백년·천년이 지나도 불변이라고 담화를 냈다. 연합뉴스는 트럼프 대통령의 북미대화 추진 속에서 협상 우위를 점하려는 의도로 해석했다. 한미일이 비핵화를 재확인한 데 대한 북한의 정면 거부라는 점이 핵심이다.",
+     "deadline": null,
+     "chips": [
+      "북 비핵화 거부"
+     ],
+     "related": [
+      {
+       "title": "북한 \"핵보유 의지는 백년 천년 지나도 절대 불변‥비핵화 실현불가\"",
+       "url": "https://imnews.imbc.com/news/2026/politics/article/6853917_36911.html",
+       "media": "MBC",
+       "date": "9.24"
+      },
+      {
+       "title": "북 외무상 “백년·천년 지나도 절대불변…확고부동한 핵보유 의지 재확...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671185&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "北 외무상 \"핵보유 의지는 절대 불변...비핵화 망상\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=ZXq7BLNI51U",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "김선경 北외무성 부상 뉴욕 도착…28일 유엔총회서 연설",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671224&ref=A",
+     "media": "KBS",
+     "time": "9.24 13:20",
+     "summary": "김선경 북한 외무성 부상이 제81차 유엔총회 참석차 뉴욕에 도착했으며 28일 연설할 예정이다. 트럼프 대통령이 김정은 위원장을 만나겠다며 공개 구애한 직후여서 북미대화 메시지가 나올지 주목된다. 연합뉴스는 핵보유 정당성을 재차 강조할 것으로 내다봤다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "김선경 北외무성 부상 뉴욕 도착…28일 유엔총회서 연설(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20260924026851072?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "북한 김선경 부상 뉴욕 도착…28일 유엔총회 연설",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20260924192542i7D",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      },
+      {
+       "title": "북한 김선경 부상 뉴욕 도착…28일 유엔총회 연설 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=6Sx97lhrjf4",
+       "media": "연합뉴스TV",
+       "date": "9.25"
+      }
+     ]
+    },
+    {
+     "title": "북, 개량 240㎜방사포 시험사격…“치명적 무력 남부국경 집중”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671297&ref=A",
+     "media": "KBS",
+     "time": "9.24 21:19",
+     "summary": "북한이 개량 240㎜ 방사포탄 시험사격을 하고 '가장 치명적 무력을 남부국경에 집중'한다고 밝혔다. 연합뉴스는 타격 범위가 서울을 넘어 오산·평택 등 주한미군 기지까지 확장된 것으로 분석했다. 북한이 김정은의 남부국경 요새화 지시에 따라 전방 화력 현대화를 진행 중이라는 설명이다. 우리 군은 22일 평안남도 일대에서 서해상으로 방사포 사격이 있었다고 파악했다.",
+     "deadline": null,
+     "chips": [
+      "방사포 시험사격"
+     ],
+     "related": [
+      {
+       "title": "北, 개량 240㎜방사포탄 시험…\"가장치명적 무력 남부국경 집중\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20260924011751504?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "북한, 개량 240mm 방사포탄 시험…\"가장 치명적 무력 남부국경에 집중\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008769019&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.24"
+      },
+      {
+       "title": "북, 개량 240㎜방사포 시험사격…“치명적 무력 남부국경 집중” [9시 뉴스] / KBS 2026.09.24.",
+       "url": "https://www.youtube.com/watch?v=jLt2xiGWv_w",
+       "media": "KBS News",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "러 외무차관 “ 김정은 방러 초청…일정 조율 예정”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671368&ref=A",
+     "media": "KBS",
+     "time": "9.24 22:36",
+     "summary": "러시아 외무차관이 김정은 위원장의 방러를 초청했으며 일정은 외교 채널로 조율하겠다고 밝혔다. 연합뉴스는 트럼프 대통령의 연내 북미대화 추진 속에 김정은 방러가 성사될지 주목된다고 전했다. 백악관 당국자는 이달 1일 미국의 대북정책은 변하지 않았고 전제조건 없이 김정은과 대화할 용의가 있다고 했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "러 외무차관 \"김정은 방러 초청…일정 조율 예정\"(종합2보)",
+       "url": "https://www.yna.co.kr/view/AKR20260924048154109?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "러시아, 김정은 방러 초청… \"일정은 외교 채널 통해 조율\"",
+       "url": "https://www.newscj.com/news/articleView.html?idxno=3435477",
+       "media": "www.newscj.com",
+       "date": "9.24"
+      },
+      {
+       "title": "러 외무차관 \"김정은 방러 초청…일정 조율 예정\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=gHshq9IOllw",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "중 국방부 \"대만 문제, 미중 관계서 중요‥미, 신중히 처리해야\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853949_36925.html",
+     "media": "MBC",
+     "time": "9.24 18:40",
+     "summary": "중국 국방부가 미중 정상회담을 앞두고 대만 문제는 미중 관계에서 중요하며 미국이 신중히 처리해야 한다고 거듭 밝혔다. 장빈 대변인은 미국의 대만 무기 판매 등에 관한 질문에 답했다. 대만 무기 판매를 둘러싼 미국 행위에 대한 중국의 압박이 회담 의제로 오를지가 관건이다.",
+     "deadline": null,
+     "chips": [
+      "대만 무기 판매"
+     ],
+     "related": [
+      {
+       "title": "중국 국방부 “대만 문제, 미중 관계서 중요…미 신중히 처리해야”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671252&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "中국방부 \"대만 문제, 미중 관계서 중요…美 신중히 처리해야\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924044900083?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "Trump-Xi: The Meeting of the Century… How Much Will the 'Taiwan Issue' Be Discussed? | Lee Ga-hye...",
+       "url": "https://www.youtube.com/watch?v=KR0JRCbXd70",
+       "media": "JTBC News",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 \"슈퍼지능 문제 현상태 유지‥중국도 마찬가지 입장\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853989_36925.html",
+     "media": "MBC",
+     "time": "9.24 22:26",
+     "summary": "트럼프 대통령이 미중 정상회담 당일 AI가 주요 의제라며 AI 가속 개발 의지를 거듭 강조하고, 슈퍼지능 문제는 현 상태를 유지하길 원하며 중국도 같은 입장이라고 말했다. 규제 대신 개발을 밀겠다는 미국 행정부의 선택이며, 중국 입장은 트럼프 발언을 통해서만 전해져 확인이 필요하다. 미국 측은 AI 사고 통보 체계 등을 논의해 왔다.",
+     "deadline": null,
+     "chips": [
+      "미중 AI 논의",
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "트럼프 \"슈퍼지능 문제 현상태 유지…中도 마찬가지 입장\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924051500071?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "트럼프 \"AI, 시진핑 회담 서 주요 의제…있는 그대로 두길 원해\"",
+       "url": "https://www.news1.kr/world/usa-canada/6301362",
+       "media": "뉴스1",
+       "date": "9.24"
+      },
+      {
+       "title": "[NNP 뉴스 생방송] 2026년 9월 24일(목)",
+       "url": "https://www.youtube.com/watch?v=48lE1c38Vsw",
+       "media": "NNP 뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "미 국 무 “미중정상 소통 중요”…미 무기 대만 판매엔 “균형 맞춰야”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8670822&ref=A",
+     "media": "KBS",
+     "time": "9.24 04:01",
+     "summary": "루비오 미 국무장관이 뉴욕 유엔본부 브리핑에서 미중 정상 소통의 중요성을 강조하고, 대만 무기 판매는 미국 내 수요와 균형을 고려해야 한다는 입장을 밝혔다. 파이낸셜뉴스는 시 주석이 회담에서 대만 무기 판매 중단을 요구할 것이라고 전했다. 무기 판매가 협상 카드가 될 수 있다는 신호인지는 확인되지 않는다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "대만 무기 판매"
+     ],
+     "related": [
+      {
+       "title": "美국무 \"미중정상 소통 중요\"…美무기 대만 판매엔 \"균형 맞춰야\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924005000071?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "美 국무장관 \" 미중 정상 대화 필수\"…대만 무기 판매엔 \"균형 맞춰야\"",
+       "url": "https://www.fnnews.com/news/202609240829421709",
+       "media": "www.fnnews.com",
+       "date": "9.24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 미-비동아시아",
+   "ranking": [
+    {
+     "name": "이란 최고지도자 고문 인도양 경고",
+     "pct": 100,
+     "count": "13건"
+    },
+    {
+     "name": "국제유가 이란 긴장에 반등",
+     "pct": 62,
+     "count": "8건"
+    },
+    {
+     "name": "트럼프·푸틴 12월 G20 회동",
+     "pct": 62,
+     "count": "8건"
+    },
+    {
+     "name": "캐나다 총리 미 군사행동 대비",
+     "pct": 62,
+     "count": "8건"
+    },
+    {
+     "name": "미-이란 카타르 메시지 교환",
+     "pct": 46,
+     "count": "6건"
+    },
+    {
+     "name": "이란 대통령 유엔연설 미국 테러",
+     "pct": 8,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "이란 대통령, 전쟁 중 적국에서 연설‥\"우린 美 테러의 희생자\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853870_36925.html",
+     "media": "MBC",
+     "time": "9.24 04:12",
+     "summary": "페제시키안 이란 대통령이 유엔총회 연단에서 자국에 대한 공격을 테러로 규정하고, 미국과 이스라엘의 공습으로 숨진 하메네이 전 최고지도자와 초등학생 150여 명의 사진을 들어 보였다. 미국의 지속적 대이란 제재도 문제 삼았다. 이란은 미국을 가해 주체로 명시한 반면 트럼프는 전날 연설에서 '합의'와 '전멸' 중 택일을 압박해 프레임이 정면으로 갈린다. 양측은 그런 가운데 중재국을 통한 간접 대화는 재개했다(MBC).",
+     "deadline": null,
+     "chips": [
+      "프레임 대립",
+      "클립 날짜 미확인·참고용"
+     ],
+     "related": [
+      {
+       "title": "이란 대통령, 유엔총회서 \"우린 테러의 희생자\"",
+       "url": "https://www.youtube.com/watch?v=D9NqAEivpSE",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      },
+      {
+       "title": "\"우린 미국 테러의 희생자\"‥장외 물밑접촉 계속",
+       "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6853884_37012.html",
+       "media": "MBC",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "이란 \"카타르 중재로 美와 메시지 교환‥외교복원 조건 전달\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853871_36925.html",
+     "media": "MBC",
+     "time": "9.24 04:17",
+     "summary": "이란 외무부 바가이 대변인은 카타르 중재로 미국과 메시지를 주고받았다며 조건을 공개했다. 해상 봉쇄·경제 테러 등 미국의 적대행위 중단, 모든 전선의 전쟁 종식, 동결 자산 반환, 양 연안국 합의에 따른 호르무즈 항로 보장이다. 이는 이란 측 발표이며 미국 측 확인은 후보 기사에 없다. 호르무즈 합의는 불발 상태다.",
+     "deadline": null,
+     "chips": [
+      "이란 측 발표·미 확인 안 됨",
+      "클립 날짜 미확인·참고용"
+     ],
+     "related": [
+      {
+       "title": "이란 \"중재국 통해 미국과 메시지 지속 교환\"",
+       "url": "https://www.youtube.com/watch?v=dtZuAAcNCEk",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      },
+      {
+       "title": "이란 \"카타르 중재로 미국과 메시지 교환…외교복원 조건 전달\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924002100079?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "이란 \"카타르 중재로 미국과 메시지 교환…외교 복원 조건 전달\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008768574&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "이란 최고지도자 고문 \"미 재공격 땐 인도양으로 전선 확대 가능성\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853954_36925.html",
+     "media": "MBC",
+     "time": "9.24 19:48",
+     "summary": "모즈타바 하메네이 최고지도자의 고문 사파비가 미국이 다시 이란을 공격하면 전선이 인도양까지 확대될 수 있다고 경고했다. 미국과 이란은 유엔총회를 계기로 접촉을 재개했고, 트럼프는 22일 쿠슈너·윗코프가 아라그치 외무장관과 만났다고 밝혔다(연합). 이란의 경고는 미국의 '재공격'이 전제이며, 미국의 선행 공격(이란 전쟁)이 갈등의 출발점이라는 점을 함께 봐야 한다. 이란 발언의 실행 능력은 기사에서 확인되지 않는다.",
+     "deadline": null,
+     "chips": [
+      "이란 측 주장"
+     ],
+     "related": [
+      {
+       "title": "[속보] 이란 \"인도양까지 전선 확대\" 피의 경고",
+       "url": "https://www.youtube.com/watch?v=kJZuggBfx-8",
+       "media": "KBS News",
+       "date": "9.24"
+      },
+      {
+       "title": "이란 최고지도자 고문 \"美 재공격 땐 인도양으로 전선 확대 가능성\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924048300099?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "A New Attack on Iran Could Spread the War to the Indian Ocean",
+       "url": "https://www.telesurenglish.net/a-new-attack-on-iran-could-spread-the-war-to-the-indian-ocean/",
+       "media": "teleSUR",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "국제유가, 美·이란 긴장에 반등‥브렌트 3.9% 급등해 100달러선",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853874_36925.html",
+     "media": "MBC",
+     "time": "9.24 06:42",
+     "summary": "23일 브렌트유 11월물이 3.86% 올라 배럴당 103.08달러로 마감했다. 미국과 이란의 외교적 해결 가능성을 둘러싼 불확실성이 원인으로 꼽혔다. 트럼프는 유엔 연설에서 이란에 '합의'와 '전멸' 중 택일을 압박했다(연합). 미국 경유 소비자가격도 갤런당 6달러대로 올랐다(KBS). 전쟁 당사자인 미국의 군사·외교 압박이 에너지 가격 부담으로 이어진다는 점이 핵심이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국제유가, 미·이란 긴장에 반등…브렌트 3.9% 급등해 100달러선",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8670828&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "국제유가, 美·이란 긴장에 반등…브렌트 3.9% 급등해 100달러선",
+       "url": "https://www.yna.co.kr/view/AKR20260924007700072?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "12월 G20서 트럼프·푸틴 만나나‥美국무 \"푸틴 참석 기대\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6853872_36925.html",
+     "media": "MBC",
+     "time": "9.24 04:25",
+     "summary": "루비오 국무장관이 23일 뉴욕 유엔본부 브리핑에서 12월 미국 개최 G20에 푸틴 대통령을 초청했으며 수락을 기대한다고 밝혔다. 트럼프와 푸틴이 우크라이나 전쟁 종식 담판을 벌일 수 있다는 취지다. 연합뉴스는 '푸틴이 APEC엔 참석하고 G20엔 불참할 것'이라는 보도도 있다고 전했으나 확인된 사실은 아니다.",
+     "deadline": null,
+     "chips": [
+      "푸틴 수락 미확인"
+     ],
+     "related": [
+      {
+       "title": "트럼프·푸틴 12월 만나나…미 국무 \"수락 기대\"",
+       "url": "https://www.youtube.com/watch?v=vyvuQyZRrOw",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      },
+      {
+       "title": "12월 G20서 트럼프·푸틴 만나나…美국무 \"푸틴 참석 기대\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20260924001351071?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "“러-우크라, 제한적 휴전에 관심”…젤렌스키 “북한 포로 한국에”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671039&ref=A",
+     "media": "KBS",
+     "time": "9.24 09:45",
+     "summary": "미국과 러시아 외교 수장이 두 달 만에 뉴욕에서 다시 만나 휴전 방안을 논의한 것으로 알려졌다. 종전 협상 재개를 위해 미국이 다시 중재에 나섰지만 돌파구는 없다. 러-우 양측이 제한적 휴전에 관심이 있다는 언급은 KBS 보도 내용이며 합의된 것은 아니다. 젤렌스키의 북한군 포로 한국행 발표는 한반도 사안으로 별도 섹션 소관이며, 크렘린은 관련 정보가 없다고 했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "제한적 휴전 미합의"
+     ],
+     "related": [
+      {
+       "title": "러시아 “북한군 포로 한국행 관련 정보 없어”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671263&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "캐나다 총리, 美 군사행동 대비 시사…\"극단적 위험 살펴야\"",
+     "url": "https://www.news1.kr/world/usa-canada/6301325",
+     "media": "뉴스1",
+     "time": "9.24 18:21",
+     "summary": "카니 캐나다 총리가 미국의 침공 가능성 질문에 극단적 위험도 대비한다고 답했다. 배경은 지난달 무역협상 결렬 뒤 이어진 보복 관세, 그리고 미국의 베네수엘라 기습 공격·이란 전쟁·그린란드 병합 추진이다(뉴스1). 트럼프가 캐나다 대신 러시아 동맹 벨라루스에서 칼륨 비료를 사겠다고 밝힌 점도 언급됐다. 카니는 협상 재개 문은 열려 있고 트럼프와 자주 대화한다고 했다. 클립 미확인이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "캐나다 총리, 美 침공 가능성 질문에 \"극단적 위험 대비\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924037700009?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "트럼프와 갈등 캐나다 총리 “美 군사행동 가능성 대비 중”",
+       "url": "https://www.donga.com/news/Inter/article/all/20260924/134731848/1",
+       "media": "동아일보",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "Venezuela’s Acting Pres. Rodriguez Meets Chile’s Kast on Sidelines of UNGA",
+     "url": "https://www.telesurenglish.net/venezuelas-acting-pres-rodriguez-meets-chiles-kast-on-sidelines-of-unga/",
+     "media": "teleSUR",
+     "time": "9.24 16:12",
+     "summary": "베네수엘라 로드리게스 대통령 권한대행이 유엔총회 계기에 칠레 카스트 대통령과 만났다는 teleSUR 보도다. 별도로 로드리게스는 유엔총회에서 대화와 평화를 호소했다. 국내 후보 기사에서는 확인되지 않은 해외단독이며, 세부 내용은 확인하지 못했다.",
+     "deadline": null,
+     "chips": [
+      "해외단독",
+      "teleSUR"
+     ],
+     "related": [
+      {
+       "title": "Venezuelan Acting President Delcy Rodriguez Calls for Dialogue, Peace at UNGA",
+       "url": "https://www.telesurenglish.net/venezuela-rodriguez-dialogue-peace-unga/",
+       "media": "teleSUR",
+       "date": "9.24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "李대통령 北포로 송환 공개 유감",
+     "pct": 100,
+     "count": "98건"
+    },
+    {
+     "name": "청와대·유시민 검찰개혁 충돌",
+     "pct": 84,
+     "count": "82건"
+    },
+    {
+     "name": "DMZ 지뢰폭발 조사 공방",
+     "pct": 52,
+     "count": "51건"
+    },
+    {
+     "name": "시진핑 방미·미중 정상회담",
+     "pct": 32,
+     "count": "31건"
+    },
+    {
+     "name": "한미 정상회담 조선·전작권",
+     "pct": 26,
+     "count": "25건"
+    },
+    {
+     "name": "조희대 재제청 거부 공방",
+     "pct": 24,
+     "count": "24건"
+    },
+    {
+     "name": "젤렌스키 北포로 한국행 공개",
+     "pct": 9,
+     "count": "9건"
+    },
+    {
+     "name": "장동혁 공소취소 탄핵 발언",
+     "pct": 9,
+     "count": "9건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "李 대통령 \"北포로 송환, 우크라가 비공개 합의 어기고 공개\"",
+     "url": "https://www.yna.co.kr/view/AKR20260924055000001?input=1195m",
+     "media": "연합뉴스",
+     "time": "9.24 23:41",
+     "summary": "젤렌스키 우크라이나 대통령이 23일(현지시간) 유엔총회 연설에서 북한군 포로 2명을 한국에 보냈다고 공개하자, 이재명 대통령이 비공개 합의를 어기고 공개했다며 유감을 표했다. 우크라이나 대통령실은 한국과의 직접 대화로 진행된 사안이라고 밝혔다. 국민의힘 유용원 의원은 이들이 3~4일 전 국내에 도착한 것으로 안다고 했고, 청와대는 구체적 협의 내용은 확인이 어렵다면서도 사실상 인정했다. 송환 경위와 공개 주체를 둘러싼 한-우크라 간 설명이 엇갈리는 점을 짚어야 한다.",
+     "deadline": null,
+     "chips": [
+      "한-우크라 설명 엇갈림"
+     ],
+     "related": [
+      {
+       "title": "[지금뉴스] 북한군 포로 한국행 ‘깜짝 공개’…“3~4일 전 한국에 도착” / KBS 2026.09.24.",
+       "url": "https://www.youtube.com/watch?v=uqz77OvzU3s",
+       "media": "KBS News",
+       "date": "9.24"
+      },
+      {
+       "title": "이 대통령 “‘북한포로 국내송환’ 매우 예민한 문제…합의 어기고 공...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671376&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "우크라이나 \"북한군 포로 한국행, 한국과 직접 대화\"",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6853976_36925.html",
+       "media": "MBC",
+       "date": "9.24"
+      },
+      {
+       "title": "\"한국 가고 싶다\"던 북한군 포로 송환…청와대, 사실상 인정",
+       "url": "https://news.jtbc.co.kr/article/NB12319948?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "청와대, 유시민 \"이 대통령이 국민 속인 것\" 발언에 \"검찰개혁 의지 왜곡\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6853941_36911.html",
+     "media": "MBC",
+     "time": "9.24 17:04",
+     "summary": "유시민 작가가 22일 미디어오늘 유튜브에서 이 대통령이 생각한 검찰개혁은 민주당 입장·대통령 공약과 완전히 다른 것이었다는 취지로 말하자, 청와대가 대통령의 검찰개혁 의지를 왜곡한 것이라며 유감을 표했다. 연합뉴스는 청와대가 법적 대응을 검토한다고 전했다. 여권 지지층 내부의 검찰개혁 방향 갈등이 청와대와 유 작가의 공개 충돌로 번진 점이 쟁점이다.",
+     "deadline": null,
+     "chips": [
+      "여권 내부 충돌"
+     ],
+     "related": [
+      {
+       "title": "\"국민을 속였다\" 유시민 발언에 청와대 \"왜곡, 유감\" (자막뉴스) / SBS",
+       "url": "https://www.youtube.com/watch?v=d3nB8P6noyQ",
+       "media": "SBS 뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "청와대 “유시민, 대통령 검찰개혁 의지 왜곡에 유감…근거없는 비난성...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671248&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "靑, 유시민에 법적대응 검토…\"李대통령 檢개혁 의지 왜곡 유감\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20260924035351001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "野, 'DMZ 지뢰 폭발' 현장조사 촉구‥\"고의 지연은 이적 행위\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6853940_36911.html",
+     "media": "MBC",
+     "time": "9.24 16:59",
+     "summary": "비무장지대(DMZ) 내 지뢰 추정 폭발 사고를 두고 국민의힘이 즉각 현장조사를 촉구하며 연휴 이후로 미루는 것은 고의 지연이자 이적 행위라고 주장했다. 장동혁 대표는 이 대통령에게 사고 조사·북한 도발 대응에 한마디가 없다고 비판했고, 한동훈 의원은 국방부 앞에서 1인시위를 했다. 채널A는 유엔사가 즉각 조사를 요청했고 군은 사고 대비를 먼저 언급했다고 전했다. 군·정부의 공식 해명은 후보 기사에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "정부 해명 미확인"
+     ],
+     "related": [
+      {
+       "title": "🔴LIVE 한동훈, DMZ 지뢰폭발 현장조사 촉구.. / SBS 뉴스",
+       "url": "https://www.youtube.com/watch?v=QBrK1S0l0no",
+       "media": "SBS 뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "한동훈, 국방부 앞 1인시위…\"DMZ 폭발 즉각 조사해야\"",
+       "url": "https://news.jtbc.co.kr/article/NB12319955?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "9.24"
+      },
+      {
+       "title": "유엔사 “지뢰 폭발 사고 즉각 조사”…군 “사고 대비 먼저”",
+       "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000552134",
+       "media": "채널A",
+       "date": "9.24"
+      },
+      {
+       "title": "한동훈 “추석 비 오면 지뢰 증거 쓸려간다”…현장조사 촉구 1인 시위",
+       "url": "https://www.donga.com/news/Politics/article/all/20260924/134731842/1",
+       "media": "동아",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "[뉴스와이드] 트럼프, 시진핑에 '황제 의전'…오늘 미중 정상회담",
+     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260924190430yUI",
+     "media": "연합뉴스TV",
+     "time": "9.24 19:06",
+     "summary": "시진핑 중국 국家주석이 11년 만에 2박3일 국빈 방미에 나섰고 트럼프 대통령이 공항에서 직접 영접했다. 척 슈머 미 상원 민주당 원내대표는 중국이 미국 AI 반도체·제조 장비에 접근하지 못하게 해야 한다고 주장했다. 국가안보전략연구원은 북미대화 재개를 위한 중국 역할론이 논의될 가능성을 언급했다(뉴시스). 한국 관련 의제 포함 여부는 후보 기사에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "한국 의제 미확인"
+     ],
+     "related": [
+      {
+       "title": "시진핑, 11년 만에 미국 국빈 방문 / KBS 2026.09.24.",
+       "url": "https://www.youtube.com/watch?v=W8-YFCZpNIU",
+       "media": "KBS News",
+       "date": "9.24"
+      },
+      {
+       "title": "시진핑, 11년 만에 미국 국빈 방문…잠시 뒤 도착",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8670838&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "국가안보전략연 \"미중정상회담, 북미대화 재개 위한 中역할론 논의 가능성\"",
+       "url": "https://www.newsis.com/view/NISX20260923_0003801874",
+       "media": "뉴시스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "한미 30분 정상회담…트럼프, 북미대화·조선 협력 강한 의지",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8670842&ref=A",
+     "media": "KBS",
+     "time": "9.24 06:27",
+     "summary": "이재명 대통령이 유엔총회 참석차 방문한 뉴욕에서 트럼프 대통령과 계획에 없던 30분 회담을 가졌고, 러트닉 미 상무부 장관이 배석해 대미투자 협의 진전을 논의했다. 이 대통령은 군함 건조 협력을 논의했다고 밝혔고, SBS는 전시작전권 전환 논의도 처음 있었다고 전했다. 조선 협력·대미투자·전작권을 미국이 어떤 조건으로 요구·논의했는지 구체 내용은 후보 기사에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "회담 구체 조건 미확인",
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "한미 30분 정상회담…트럼프, 북미대화·조선 협력 강한 의지 [9시 뉴스] / KBS",
+       "url": "https://www.youtube.com/watch?v=JKNU8IhaigM",
+       "media": "KBS News",
+       "date": "9.23"
+      },
+      {
+       "title": "李대통령 \"트럼프와 군함건조 논의…韓 가장 신뢰가능한 파트너\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20260923199551001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      },
+      {
+       "title": "트럼프와 첫 전작권 논의…\"군함 건조 협력도 논의\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008768617&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "민주당 “조희대 재제청 거부는 ‘헌법 위반’이자 ‘자기 정치’”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671086&ref=A",
+     "media": "KBS",
+     "time": "9.24 10:57",
+     "summary": "조희대 대법원장이 대통령의 대법관 후보 재제청 요청을 거부한 것을 두고 민주당은 명백한 월권이자 헌법 위반, 노골적인 자기 정치라고 비판했다. 국민의힘은 재제청 압박과 국정감사 증인 거론을 사법부 길들이기이자 정권 호위무사를 대법원에 꽂으려는 횡포라고 맞받았다. 연합뉴스에 따르면 여당은 내란 사건 후속 수사기구 언급으로 압박한다는 야당 주장도 나왔다. 임명 절차 권한을 둘러싼 프레임이 여야 간에 정반대로 갈린다.",
+     "deadline": null,
+     "chips": [
+      "프레임 상충: 헌법 위반 vs 사법부 길들이기"
+     ],
+     "related": [
+      {
+       "title": "민주당 \"주권자 국민과 싸우려는 선전포고\"··· 조희대 / MBCNEWS",
+       "url": "https://www.youtube.com/watch?v=10SoTkL61cs",
+       "media": "MBCNEWS",
+       "date": "9.24"
+      },
+      {
+       "title": "국민의힘 “위헌적 재제청 압박 중단하라…명백한 사법부 길들이기”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671074&ref=A",
+       "media": "KBS",
+       "date": "9.24"
+      },
+      {
+       "title": "與 \"曺 '제제청 거부', 정치행위\"…국힘 \"사법부 길들이기 안돼\"",
+       "url": "https://www.yna.co.kr/view/AKR20260924033800001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "젤렌스키 “북한 포로 2명 한국 보내”…정부, 사실상 확인",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671286&ref=A",
+     "media": "KBS",
+     "time": "9.24 21:17",
+     "summary": "젤렌스키 대통령이 유엔에서 북한군 포로 2명을 한국에 보냈다고 밝혔고, 정부는 사실상 확인했다. 두 포로가 한국행을 원했고 정부가 헌법상 한국 국민인 북한 포로를 받아들였다는 취지다. 유용원 의원은 정부 발표가 아닌 젤렌스키의 입으로 먼저 알려진 점을 문제 삼았다. 뉴시스는 북한이 아직 공식 입장을 내지 않았다고 전했다.",
+     "deadline": null,
+     "chips": [
+      "북한 반응 미확인"
+     ],
+     "related": [
+      {
+       "title": "[속보] 젤렌스키 \"북한군 포로 2명, 한국에 보내\"..정부, 사실상 확인 / MBCNEWS",
+       "url": "https://www.youtube.com/watch?v=z03v-iHxo78",
+       "media": "MBCNEWS",
+       "date": "9.25"
+      },
+      {
+       "title": "북한 포로 2명 한국으로…\"3~4일 전 도착\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008769292&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "장동혁 \"李 공소취소, 탄핵 트리거 될 것 … 이정현 인선 너무 노골적\"",
+     "url": "https://www.khan.co.kr/article/202609240905001",
+     "media": "경향",
+     "time": "9.24 09:05",
+     "summary": "국민의힘 장동혁 대표가 이 대통령의 특검 공소취소 조항 관련 기자회견 발언을 두고 공소취소가 탄핵의 트리거가 될 것이라고 주장했다. 최근 여론조사에서 공소취소가 지지율 하락 원인 1위라는 점과 이정현 검찰총장 대행 인선을 연결해 비판했다. 대통령실·여당의 반박은 후보 기사에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "야당 주장·반박 미확인"
+     ],
+     "related": [
+      {
+       "title": "장동혁 \"李 '공소취소' 탄핵 트리거…하고 싶은 대로 다 해보라\"",
+       "url": "https://www.news1.kr/politics/assembly/6301140",
+       "media": "뉴스1",
+       "date": "9.24"
+      },
+      {
+       "title": "장동혁 “공소취소가 탄핵 트리거 될 것”…이재명 대통령 관련 공방 확대 / 경원일보 TV",
+       "url": "https://www.youtube.com/watch?v=QA4US92P_OE",
+       "media": "경원일보 TV",
+       "date": "9.24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "06 내란청산",
+   "ranking": [
+    {
+     "name": "[김종석의 왜]李, 내란 특수본",
+     "pct": 100,
+     "count": "9건"
+    },
+    {
+     "name": "윤석열 ·김건희 두번째 옥중 추",
+     "pct": 89,
+     "count": "8건"
+    },
+    {
+     "name": "박지원 \"조희대, 제2의 윤석열",
+     "pct": 67,
+     "count": "6건"
+    },
+    {
+     "name": "홍준표 \"명령 따른 군인들 내란",
+     "pct": 44,
+     "count": "4건"
+    },
+    {
+     "name": "여야, 추석 연휴에도 '대법관 ",
+     "pct": 44,
+     "count": "4건"
+    },
+    {
+     "name": "조희대 대법원장 재제청 거부에 ",
+     "pct": 44,
+     "count": "4건"
+    },
+    {
+     "name": "與, 추석 연휴 첫날 조희대 맹",
+     "pct": 22,
+     "count": "2건"
+    },
+    {
+     "name": "“조희대, 판사는 출퇴근 관리도",
+     "pct": 22,
+     "count": "2건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "李대통령 ' 내란 특수본 구성 검토'에...野 \"조희대 협박용\"",
+     "url": "http://www.joseilbo.com/news/news_read.php?uid=576332&class=32&grp=",
+     "media": "www.joseilbo.com",
+     "time": "09.24 18:23",
+     "summary": "이재명 대통령이 귀국 직후 내란 사건 특별수사본부 구성을 검토 중이라는 보도에 국민의힘 정점식 원내대표는 3대 특검과 종합특검을 거치고도 또 내란 타령이라며 조희대 대법원장 공개 협박이라고 반발했다. 채널A는 종합특검이 예산 약 98억·인력 271명·180일을 투입하고도 재판에 넘긴 58명 중 구속 인원이 적다는 점을 짚었다. 청와대의 공식 입장은 후보 본문에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림",
+      "특수본 조희대 겨냥 여부는 야당 주장"
+     ],
+     "related": [
+      {
+       "title": "[김종석의 왜]李, 내란 특수본 검토…조희대 겨냥? / 채널A / 뉴스A CITY LIVE",
+       "url": "https://www.youtube.com/watch?v=QBl0XV_6Tgo",
+       "media": "채널A News",
+       "date": "9.24"
+      },
+      {
+       "title": "이 대통령, ' 내란 특수본' 검토…국힘 \"조희대 공개 협박\"",
+       "url": "http://www.newstomato.com/ReadNews.aspx?no=1314735&inflow=N",
+       "media": "www.newstomato.com",
+       "date": "9.24"
+      },
+      {
+       "title": "李대통령 ‘ 내란 특수본 검토’에 “사골처럼 우려먹는 내란 타령…대법...",
+       "url": "https://www.munhwa.com/article/11619365?ref=naver",
+       "media": "www.munhwa.com",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "윤석열 ·김건희, 두 번째 옥중 추석…명절 특식 없고, 접견도 불가",
+     "url": "https://news.jtbc.co.kr/article/NB12319923?influxDiv=NAVER",
+     "media": "JTBC",
+     "time": "09.24 15:02",
+     "summary": "윤석열 전 대통령 부부가 구치소에서 두 번째 옥중 추석을 맞았다. 명절 특식은 없고 접견도 불가하며, 윤 전 대통령은 아침으로 떡국을 먹은 것으로 전해졌다. 재판은 추석 연휴 뒤 재개된다.",
+     "deadline": "공판기일 연휴 후 재개(일자 미확인)",
+     "chips": [
+      "공판 연휴 후 재개"
+     ],
+     "related": [
+      {
+       "title": "Yoon Suk-yeol and Kim Keon-hee spend their second Chuseok behind bars… No holiday special meals o...",
+       "url": "https://www.youtube.com/watch?v=0X9xdwB6ufA",
+       "media": "JTBC News",
+       "date": "9.24"
+      },
+      {
+       "title": "특식도 접견도 없이…윤석열 옥중서 두번째 추석, 아침은 떡국",
+       "url": "https://www.hani.co.kr/arti/society/society_general/1279399.html",
+       "media": "한겨레",
+       "date": "9.24"
+      },
+      {
+       "title": "윤석열 ·김건희 두번째 옥중 추석···특식·접견 없다",
+       "url": "https://weekly.khan.co.kr/article/202609241947001",
+       "media": "weekly.khan.co.kr",
+       "date": "9.24"
+      },
+      {
+       "title": "'옥중 두번째 추석' 윤석열 ·김건희 부부…특식·접견 없는 연휴",
+       "url": "https://news.tf.co.kr/read/life/2369642.htm",
+       "media": "news.tf.co.kr",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "박지원 \"조희대는 제2의 윤석열 , 대통령으로 나오려 할지도\"",
+     "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00006&news_seq_no=5221310",
+     "media": "mbn.mk.co.kr",
+     "time": "09.24 16:10",
+     "summary": "박지원 의원이 24일 오마이TV에 출연해 조희대 대법원장을 제2의 윤석열이라 부르며 탄핵을 주장했다. 헌재에서 인용될지는 알 수 없다면서도 김민석 대표의 탄핵 언급에 동의했다. 대법관 재제청 거부를 둘러싼 여당의 대법원장 압박이 계엄·내란 프레임과 결합하는 사례다.",
+     "deadline": null,
+     "chips": [
+      "여권 프레임"
+     ],
+     "related": [
+      {
+       "title": "[Park Jung-ho's Hotspot] Park Jie-won explodes: \"Cho Hee-dae has lost his mind! A Seocho-dong pol...",
+       "url": "https://www.youtube.com/watch?v=ILGfUbuQsnc",
+       "media": "오마이TV",
+       "date": "9.24"
+      },
+      {
+       "title": "박지원 \"조희대, 제2의 윤석열 …서초동 정치꾼\"",
+       "url": "https://www.imaeil.com/page/view/2026092416395000759",
+       "media": "www.imaeil.com",
+       "date": "9.24"
+      },
+      {
+       "title": "박지원 “조희대, 윤석열 처럼 대통령 나오려 할지도”",
+       "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000552122",
+       "media": "www.ichannela.com",
+       "date": "9.24"
+      },
+      {
+       "title": "박지원 \"조희대, ' 윤석열 '처럼 대통령 나올지도…서초동 정치꾼\"",
+       "url": "https://www.pressian.com/pages/articles/2026092416481696669?utm_source=naver&utm_medium=search",
+       "media": "프레시안",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "홍준표 \"계엄 명령 따른 군인까지 내란 범 몰아… 가슴 아파\"",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303303",
+     "media": "www.daejonilbo.com",
+     "time": "09.24 22:06",
+     "summary": "홍준표 전 시장이 24일 페이스북에서 군인들을 내란 가담으로 징역 30년 중형에 법정구속한 판결을 두고 명령에 따랐을 뿐이라며 바른 세상이냐고 비판했다. 판결은 국회·선관위 병력 투입과 정치인 체포조 편성 혐의를 근거로 한 것으로 보도됐다. 명령 이행이 면책 사유인지 여부는 재판부 판단과 부딪히는 쟁점이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "홍준표 \"명령 따른 군인들 내란 범으로 몰아…이게 바른 세상인가\"",
+       "url": "https://news.tf.co.kr/read/ptoday/2369683.htm",
+       "media": "news.tf.co.kr",
+       "date": "9.24"
+      },
+      {
+       "title": "홍준표 “명령 따른 군인들 내란 범 몰아 중형…이게 바른 세상인가”",
+       "url": "https://www.kyeonggi.com/article/20260924580131",
+       "media": "www.kyeonggi.com",
+       "date": "9.24"
+      },
+      {
+       "title": "홍준표 “‘ 내란 가담했다’고 군인들에 중형·법정구속, 참 가슴 아프...",
+       "url": "https://biz.heraldcorp.com/article/10884246?ref=naver",
+       "media": "biz.heraldcorp.com",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "여야, 추석 연휴에도 '대법관 재제청 거부' 놓고 공방",
+     "url": "https://www.fnnews.com/news/202609241441416224",
+     "media": "www.fnnews.com",
+     "time": "09.24 14:46",
+     "summary": "여야가 추석 연휴에도 조희대 대법원장의 대법관 재제청 거부를 두고 월권 대 사법독립으로 맞섰다. 민주당은 12·3 당시 대법원장·대법관의 긴급회의 대응과 서부지법 난입 때의 침묵을 거론했고, 국민의힘은 내란 사건 특별수사본부가 조 대법원장을 겨냥한 것이라고 주장했다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "[뉴스1번지] \"농지 전수조사 꼭 필요\"…추석 민심 최대 화두? / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=f7HZExMtcYE",
+       "media": "연합뉴스TV",
+       "date": "9.24"
+      },
+      {
+       "title": "여야, 조희대 ‘대법관 재제청 거부’ 정면충돌...“월권” vs “사법독...",
+       "url": "https://www.m-economynews.com/news/article.html?no=71043",
+       "media": "www.m-economynews.com",
+       "date": "9.24"
+      },
+      {
+       "title": "추석 밥상 오른 '조희대 재제청 거부'…與 \"월권\" vs 野 \"사법장악\"",
+       "url": "https://www.dailian.co.kr/news/view/1694345/?sc=Naver",
+       "media": "www.dailian.co.kr",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "조희대 대법원장 재제청 거부에 민주당 총공세",
+     "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003270090&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+     "media": "www.ohmynews.com",
+     "time": "09.24 14:31",
+     "summary": "민주당이 조희대 대법원장의 재제청 거부를 두고 총공세에 나섰다. 윤석열 내란 우두머리 1심 무기징역, 서부지법 폭동 당시 침묵, 이재명 대통령 공직선거법 사건 처리 속도를 대비시키며 노골적 자기 정치라고 규정했다. 장동혁 측은 이재명 재판 재개가 국민의 명령이라 주장한 것으로 소개됐다.",
+     "deadline": null,
+     "chips": [
+      "여당발 주장"
+     ],
+     "related": [
+      {
+       "title": "김민석 \"조희대, 재제청 거부...질책할 것\"      #뉴스 #김민석 #더불어민주당 #정치 #이슈 #조희대 #대법원장",
+       "url": "https://www.youtube.com/watch?v=i5u98m5Rwmg",
+       "media": "신아일보(강원·제천)",
+       "date": "9.24"
+      },
+      {
+       "title": "민주당 \"대법관 재제청 요청 거부 조희대, 노골적인 자기 정치\"",
+       "url": "https://www.gobalnews.com/news/articleView.html?idxno=202835",
+       "media": "www.gobalnews.com",
+       "date": "9.24"
+      },
+      {
+       "title": "조희대, 대법관 재제청 거부 후폭풍…與 '압박' vs 野 '엄호'",
+       "url": "http://www.sisafocus.co.kr/news/articleView.html?idxno=365404",
+       "media": "www.sisafocus.co.kr",
+       "date": "9.24"
+      },
+      {
+       "title": "민주당 \"조희대, 대법관 재제청 거부는 노골적 자기 정치\"",
+       "url": "https://www.hidomin.com/news/articleView.html?idxno=722529",
+       "media": "www.hidomin.com",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "與, 추석 연휴 첫날 조희대 맹공…\"정치꾼\" 비판에 탄핵 주장까지(종합...",
+     "url": "https://www.news1.kr/politics/assembly/6301296",
+     "media": "뉴스1",
+     "time": "09.24 17:52",
+     "summary": "민주당이 추석 연휴 첫날 조희대 대법원장을 희대의 난, 정치꾼으로 공격했고 박지원 의원은 탄핵을 거론했다. 다른 의원은 헌재 인용 여부와 별개로 업무정지라도 시키자고 말했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "여당발 주장"
+     ],
+     "related": []
+    },
+    {
+     "title": "與 \"조희대, 판사는 출퇴근 관리도 독립인가…尹 가짜출근 떠올라\"",
+     "url": "https://www.news1.kr/politics/assembly/6301241",
+     "media": "뉴스1",
+     "time": "09.24 15:42",
+     "summary": "이용우 민주당 대변인이 조희대 대법원장이 출근 시간을 지키지 않았다는 의혹을 들어 윤석열의 가짜 출근이 떠오른다고 비판했다. 출근 의혹의 사실 여부는 후보 자료에서 확인되지 않는다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "확인 안 된 의혹"
+     ],
+     "related": [
+      {
+       "title": "“조희대, 판사는 출퇴근 관리도 독립인가... 윤석열 '가짜 출근' 떠올라...",
+       "url": "https://www.wikitree.co.kr/articles/1161852",
+       "media": "www.wikitree.co.kr",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "민주 \"조희대, 전형적 정치꾼 모습…법전 뒤 숨어 모사 꾸며\"",
+     "url": "https://www.news1.kr/politics/assembly/6301098",
+     "media": "뉴스1",
+     "time": "09.24 09:50",
+     "summary": "민주당 박 수석대변인은 조희대 대법원장이 법전 뒤에 숨어 모사를 꾸민다며 12·3 당시 긴급회의에서 무엇을 했는지 밝히라고 요구했다. 사법권 침해 순간에는 침묵하고 대통령 권한에는 사법권 독립을 내세운다는 논리다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "여당발 주장"
+     ],
+     "related": [
+      {
+       "title": "與, '추석 민심 밥상'에 대법원장...\"정치꾼, 법전 뒤 모사 꾸며\"",
+       "url": "http://www.inews24.com/view/2009008",
+       "media": "www.inews24.com",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "김유정 \"조희대, 대통령인 줄 아나? 청와대 협의는 관행\"[한판승부]",
+     "url": "https://www.nocutnews.co.kr/news/6582999?utm_source=naver&utm_medium=article&utm_campaign=20260924070043",
+     "media": "www.nocutnews.co.kr",
+     "time": "09.24 07:01",
+     "summary": "김유정 전 의원이 CBS 라디오에서 대통령이 제청 대상을 고르는 관행을 들어 대법원장이 대통령인 줄 아느냐고 비판했다. 한덕수 전 총리가 헌법재판관 임명을 미룬 혐의로 내란 특검에서 징역 5년을 구형받은 사례를 대비시켰다.",
+     "deadline": null,
+     "chips": [
+      "여당 측 주장"
+     ],
+     "related": [
+      {
+       "title": "[Replay] President-Chief Justice Clash Head-on… Unprecedented Personnel Appointments Halted | Sep...",
+       "url": "https://www.youtube.com/watch?v=1I-_WQiWFHI",
+       "media": "채널A News",
+       "date": "9.22"
+      },
+      {
+       "title": "\"조희대, 대통령인 줄 알았다\"",
+       "url": "https://www.wikitree.co.kr/articles/1161787",
+       "media": "www.wikitree.co.kr",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "민주, 대법원 항의방문…\" 내란 잔불\" vs \"내로남불\"",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008768622&plink=ORI&cooper=NAVER",
+     "media": "SBS",
+     "time": "09.24 07:34",
+     "summary": "조희대 재제청 거부를 사법쿠데타 내란으로 규정한 민주당이 대법원을 항의 방문했다. 국민의힘은 원인이 재판을 안 받으려는 이재명 대통령에 있다며 내로남불 적반하장이라 반박했다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "Democratic Party visits Supreme Court in protest.. \"Remnants of insurrection\" vs. \"Hypocrisy\" / SBS",
+       "url": "https://www.youtube.com/watch?v=7dMUxNIS72A",
+       "media": "SBS 뉴스",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "'연이틀 입장문' 조희대 연휴에 '숙고'… 내란 특수본에 법조계 \"사법부 ...",
+     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/24/2026092490179.html",
+     "media": "TV조선",
+     "time": "09.24 22:45",
+     "summary": "TV조선은 조희대 대법원장이 이틀 연속 입장문을 낸 뒤 연휴 숙고에 들어갔다고 전했다. 조 대법원장의 비상계엄 연루 의혹은 내란 특검이 불기소, 종합특검이 각하했다고 짚으며 법조계 우려를 전했다. 내란 특수본이 실제 구성된다는 확인은 후보에 없다.",
+     "deadline": null,
+     "chips": [
+      "확인 안 된 사안"
+     ],
+     "related": [
+      {
+       "title": "'연이틀 입장문' 조희대 연휴에 '숙고'…내란특수본에 법조계 \"사법부 탄압\" [뉴스9]",
+       "url": "https://www.youtube.com/watch?v=ERu8JD9CVE4",
+       "media": "뉴스TVCHOSUN",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "인물 · 윤석열 (전 대통령, 내란 우두머리)",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1279399.html",
+     "media": "한겨레",
+     "time": "09.24 16:06",
+     "summary": "서울구치소에서 두 번째 옥중 추석을 맞았다. 특식과 접견 없이 아침은 떡국이었다. 1심에서 무기징역을 선고받았고 체포 방해로는 징역 7년이 확정됐다. 재판은 연휴 뒤 재개된다.",
+     "deadline": "공판기일 연휴 후(일자 미확인)",
+     "chips": [],
+     "related": [
+      {
+       "title": "Yoon Suk-yeol and Kim Keon-hee spend their second Chuseok behind bars… No holiday special meals o...",
+       "url": "https://www.youtube.com/watch?v=0X9xdwB6ufA",
+       "media": "JTBC News",
+       "date": "9.24"
+      }
+     ]
+    },
+    {
+     "title": "인물 · 추경호 (대구시장, 내란 중요임무 종사 혐의)",
+     "url": "https://www.hani.co.kr/arti/area/yeongnam/1279420.html",
+     "media": "한겨레",
+     "time": "09.24 22:40",
+     "summary": "한겨레는 추 시장이 매주 수요일 서울중앙지법 재판에 출석 중이며 윤석열 무기징역, 김용현 징역 30년 선고로 사법 리스크가 커졌다고 짚었다. 24일 자체 신병 변동은 후보에서 확인되지 않는다. (클립 미확인)",
+     "deadline": "공판기일 매주 수요일",
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 홍준표 (전 대구시장, 계엄 관련 발언)",
+     "url": "https://news.tf.co.kr/read/ptoday/2369683.htm",
+     "media": "news.tf.co.kr",
+     "time": "09.24 23:12",
+     "summary": "페이스북에서 계엄 명령을 따른 군인들을 내란범으로 몬다며 징역 30년 법정구속을 비판했다. 본인 혐의는 없고 발언 동향이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 조희대 (대법원장, 계엄 연루 의혹 제기)",
+     "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/24/2026092490179.html",
+     "media": "TV조선",
+     "time": "09.24 22:45",
+     "summary": "연이틀 입장문 후 연휴 숙고 중이다. 계엄 연루 의혹은 내란 특검 불기소, 종합특검 각하 처분이 났다. 여당은 12·3 당시 대응을 문제 삼는다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "'연이틀 입장문' 조희대 연휴에 '숙고'…내란특수본에 법조계 \"사법부 탄압\" [뉴스9]",
+       "url": "https://www.youtube.com/watch?v=ERu8JD9CVE4",
+       "media": "뉴스TVCHOSUN",
+       "date": "9.24"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
