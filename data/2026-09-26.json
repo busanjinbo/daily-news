@@ -1,0 +1,1307 @@
+{
+ "targetDate": "2026-09-26",
+ "title": "9월 26일 정세브리핑",
+ "publishedText": "발행 2026.09.27 07:12 KST",
+ "generatedText": "생성 2026.09.27 07:12 KST · 정세브리핑",
+ "footnote": "수집 오류 0건. 섹션 3~6 일부 카드는 유튜브 클립을 찾지 못했고, 조선동향·민플러스 카드는 본문 미확인 부분이 있어 제목·요약 기준으로만 정리했다.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "미중 정상회담 후 백악관·중국 측이 AI 대화채널 등 합의를 각각 발표했고, 대만 문제는 트럼프가 '입장을 이해한다'고 언급하는 데 그쳐 양측 발표의 온도차가 남았다.",
+   "우크라이나가 공개한 북한군 포로 한국행 문제를 두고 우크라 정부 내 '비공개 합의' 공방이 벌어졌고 청와대는 '일관된 원칙'을 강조, 국내 여야는 DMZ 지뢰 사고와 함께 충돌했다.",
+   "국민의힘이 '내란 특수본' 검토에 반발하며 여권 갈등과 내란청산 공방이 이어졌다."
+  ],
+  "watch": [
+   "북한군 포로 한국행 관련 우크라이나·청와대 입장 추가 확인 여부",
+   "DMZ 지뢰폭발 현장조사 진행 및 여야 안보 공방",
+   "미중 합의(AI 대화채널 등)의 후속 실무 조치와 중국 측 해석 차이",
+   "이란 호르무즈 재개방 평화안 진행 상황",
+   "내란 특수본 검토를 둘러싼 국민의힘 대응"
+  ]
+ },
+ "sections": [
+  {
+   "type": "issues",
+   "label": "01 민플러스",
+   "ranking": [],
+   "cards": [
+    {
+     "title": "메가프로젝트와 진보적 AI 산업정책",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18419",
+     "media": "민플러스",
+     "time": "9.26 07:02",
+     "summary": "정부의 AI·반도체 메가프로젝트가 세금 감면·전력·용수·부지·교통망 등 막대한 특혜를 기업에 주는 반면 기업의 사회적 책임은 찾기 어렵다고 짚는다. 성공하면 이익은 대기업이 갖고, 데이터센터 전력 설비 증설 비용은 전기요금 인상으로 국민에게 전가되며, 실패하면 선투자 인프라가 매몰비용이 돼 한전 재무 악화와 세수 손실로 이어진다는 문제 제기다. 원천 반대가 아니라 국내 투자 확대 방향은 옳되 불평등한 특혜 구조를 바로잡는 '진보적·자립적 산업정책'이 필요하다고 주장하며, 미국 빅테크 의존 탈피(소버린·공공 AI)와 'AI-인간 증강모델' 등을 방향으로 든다(수집된 본문은 4가지 방향 중 첫째까지만 확인됨).",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "[연재 10] 불패의 바다: 이순신과 이름 없는 민중들이 만든 기적",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18417",
+     "media": "민플러스",
+     "time": "9.26 07:18",
+     "summary": "조선을 다시 읽는 연재 10회로, 이순신 무적 신화를 지휘관 한 사람의 천재성만이 아니라 '위민이천' 정신과 남해안 민중의 '군민일치'로 설명한다. 수군 주력이 양반 지배층에게 천대받던 '신량역천' 계층(어부·사공·염전 노동자 등)이었고, 판옥선 밑바닥에서 노를 젓던 격군들이 진짜 동력이었다고 짚는다. 영웅 서사에 가려진 이름 없는 민중의 노고를 복원해야 한다는 문제의식이다(수집 본문은 중간까지만 확인됨).",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "[조선의 오늘] 평양종합병원서 지방 의료인력 530여명 전습…함흥시 1천세대 살림집 건설",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18416",
+     "media": "민플러스",
+     "time": "9.26 07:18",
+     "summary": "로동신문 보도를 인용해 지난 한 주 조선(북한) 소식을 전하는 정례 코너다. 평양종합병원이 '지방발전 20×10 정책'에 따라 새로 짓는 시·군병원 의료인력을 대상으로 올해 1월부터 3차례 기술전습을 진행해 530여 명이 참가했다고 전한다. 함흥시에서는 1천세대 살림집 건설과 공공건물·상업봉사시설 개건이 진행 중이며, 24일 함흥불고기전문식당이 준공됐다는 내용이다. 로동신문발 내용을 그대로 전한 것이며 민플러스가 독자 검증했다는 언급은 수집 본문에서 확인되지 않는다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "포로교환 대신 한국행, 수상한 20개월…조선인민군 포로 둘러싼 5가지 의혹",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18418",
+     "media": "민플러스",
+     "time": "9.26 09:11",
+     "summary": "우크라이나군에 생포됐던 조선인민군 포로 2명이 생포 약 20개월 만에 한국에 들어왔고, 한국·우크라이나 정부가 비공개로 추진하던 것을 젤렌스키 대통령이 23일 유엔총회 연설에서 공개했다고 전한다. 한국 정부는 당사자 자유의사와 국제법·인도주의 원칙에 따랐다는 입장이나, 기사는 풀리지 않는 의문을 짚는다. 첫째 의혹은 러시아가 교환을 요구했다는 우크라이나 당국자 5월 발언과, 9월 대통령실의 '러시아는 관심이 없었다'는 설명이 충돌한다는 점이며, 둘째는 20개월간 협의 경과와 교환에서 한국행으로 방향이 정해진 시점, '자유의사' 확인 방식이 공개되지 않았다는 점이다(나머지 의혹은 수집 본문에서 확인되지 않음).",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "02 조선동향",
+   "ranking": [
+    {
+     "name": "노동신문 사설 선전부문 강습회",
+     "pct": 100,
+     "count": "2건"
+    },
+    {
+     "name": "북 대러 조용원 축전",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "북 서해곡창 풍작 보도",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "북 여자축구 아시안게임 4강",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "석고 제품 개발 호평",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "국민주권당 전작권 4대 제언",
+     "pct": 50,
+     "count": "1건"
+    },
+    {
+     "name": "북한군 포로 한국행 공개",
+     "pct": 50,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "[노동신문] 자립경제의 생명선을 지켜선 책임감을 백배하며",
+     "url": "https://minzokilbo.com/wp/%eb%85%b8%eb%8f%99%ec%8b%a0%eb%ac%b8-%ec%9e%90%eb%a6%bd%ea%b2%bd%ec%a0%9c%ec%9d%98-%ec%83%9d%eb%aa%85%ec%84%a0%ec%9d%84-%ec%a7%80%ec%bc%9c%ec%84%a0-%ec%b1%85%ec%9e%84%ea%b0%90%ec%9d%84-%eb%b0%b1/",
+     "media": "21세기민족일보",
+     "time": "9.26 08:00",
+     "summary": "노동신문 사설은 김정은 지도 아래 열린 조선로동당 제3차 선전부문일군강습회를 사상사업의 획기적 전환점으로 규정하며 전당 선전일군의 책임을 강조했다. 자주시보는 같은 사설에서 '사람 심리를 다루는 선전일꾼은 모두 인재가 돼야 한다'며 정치적 자질·폭넓은 지식·필력과 언변을 주문한 대목을 부각했다. 두 매체 모두 전문 전재·요약 형태이며 논평은 없다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "북 “사람 심리 다루는 선전일꾼들은 다 인재가 돼야”",
+       "url": "http://www.jajusibo.com/70998",
+       "media": "자주시보",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "北 조용원, 러시아 총선 78% 의석 차지한 통합러시아당 위원장에 축전",
+     "url": "http://www.tongilnews.com/news/articleView.html?idxno=217562",
+     "media": "통일뉴스",
+     "time": "9.26 14:01",
+     "summary": "조용원 조선로동당 비서가 러시아 국가두마 선거에서 승리한 통합러시아당 메드베데프 위원장에게 축전을 보내 두 집권당 협력 심화를 약속했다. 노동신문 26일 전문 공개를 통일뉴스가 전했으며, 통일뉴스 제목의 '78% 의석' 수치는 후보 본문에서 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "[아시안게임] 북한 여자축구, 대만 5대1로 꺾고 준결승 진출",
+     "url": "http://www.tongilnews.com/news/articleView.html?idxno=217577",
+     "media": "통일뉴스",
+     "time": "9.26 22:16",
+     "summary": "조선신보 보도를 통일뉴스가 전했다. 북한 여자축구가 아시안게임 8강전에서 대만을 5대1로 꺾고 준결승에 올랐다. 25일 시즈오카 경기장에서 열렸다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "북, 재해성 기후 불구 '전례없는 풍작'",
+     "url": "http://www.tongilnews.com/news/articleView.html?idxno=217563",
+     "media": "통일뉴스",
+     "time": "9.26 14:45",
+     "summary": "노동신문 보도를 통일뉴스가 전했다. 평안남도 열두삼천리벌(안주평야)에 전례없는 풍작이 들어 논벼 정보당 평균 1t 넘는 증수가 예상된다는 내용이다. 지난달 태풍 대비를 강조했던 곡창지대라는 점을 짚었다. 수치는 북 측 주장이며 독립 확인은 없다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "북, 석고를 이용해 개발한 제품들 호평",
+     "url": "http://www.tongilnews.com/news/articleView.html?idxno=217578",
+     "media": "통일뉴스",
+     "time": "9.26 22:43",
+     "summary": "조선신보 보도를 통일뉴스가 전했다. 평양철도건물관리사업소 건축기술개발소가 석고로 개발한 제품이 사용자들에게 호평받고 있다는 내용이다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "‘병렬형 구조·유엔사 해체’ 등 주권당 전작권 환수 4대 제언",
+     "url": "http://www.jajusibo.com/70997",
+     "media": "자주시보",
+     "time": "9.26 11:10",
+     "summary": "국민주권당 정책위원회가 전작권 환수 4대 제언을 내놨다. 한미연합사를 해체하고 한국군·미군이 독립 존재하는 병렬형 구조로 전환, 자체 작전계획·교전수칙 마련, 유엔사 해체, 주한미군 활동 통제와 SOFA 개정을 요구한다. 군사주권 침해 소지를 없애야 한다는 문제의식이다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "‘북한군 포로’ 한국행 왜 이 시점에 공개됐을까?",
+     "url": "http://www.jajusibo.com/71000",
+     "media": "자주시보",
+     "time": "9.26 17:28",
+     "summary": "젤렌스키 우크라이나 대통령이 유엔 연설에서 북한군 포로 2명의 한국행을 공개했고, 한국 정부는 비공개 합의가 있었다며 아쉬움을 표했다. 기사는 이 공개가 한국·우크라이나 모두에게 불리하다고 보고, 미국이 호르무즈 파병 등 압박을 위해 시점을 유도했을 가능성을 제기한다. 이 미국 유도설은 기사의 추정이며 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-동아시아",
+   "ranking": [
+    {
+     "name": "미중 정상회담 AI 채널 합의",
+     "pct": 100,
+     "count": "111건"
+    },
+    {
+     "name": "中 미중 8개 성과 합의 발표",
+     "pct": 93,
+     "count": "103건"
+    },
+    {
+     "name": "시진핑 방미 종료·귀국",
+     "pct": 30,
+     "count": "33건"
+    },
+    {
+     "name": "北 포로 송환 논란 확산",
+     "pct": 25,
+     "count": "28건"
+    },
+    {
+     "name": "DMZ 지뢰·北포로 여야 충돌",
+     "pct": 23,
+     "count": "26건"
+    },
+    {
+     "name": "트럼프 시진핑과 대만 논의",
+     "pct": 10,
+     "count": "11건"
+    },
+    {
+     "name": "中 이란에 美제재 불참 전달",
+     "pct": 5,
+     "count": "6건"
+    },
+    {
+     "name": "北포로 공방 靑 일관된 원칙",
+     "pct": 5,
+     "count": "6건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "백악관 \" 미중 , AI 대화채널 구축 합의‥사고 때도 소통\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6854214_36925.html",
+     "media": "MBC",
+     "time": "9.26 14:15",
+     "summary": "백악관은 25일(현지시간) 홈페이지를 통해 트럼프-시진핑 정상회담에서 AI의 위험과 혜택을 논의하고 AI 관련 사고에 대응할 대화 채널을 구축하기로 했다고 밝혔다. 시 주석은 2박 3일 방미를 마쳤고 트럼프는 11월 중국, 12월 미국에서 또 만난다고 공식 확인했다. 다만 이는 백악관 발표이며 채널의 구체 내용은 후보 기사에 없다. 연합뉴스TV는 화려한 환대에 비해 성과가 의문이라는 평가를 전했다.",
+     "deadline": null,
+     "chips": [
+      "미중 정상회담",
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "미중 정상회담 종료…\"AI 대화채널 구축 합의\" / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=Vf5MvbW4Hfc",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      },
+      {
+       "title": "트럼프 \"시진핑과 11월 중국·12월 미국에서 또 만날 것\"",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6854153_36925.html",
+       "media": "MBC",
+       "date": "9.26"
+      },
+      {
+       "title": "시진핑 방미 종료‥\"올해 두 차례 더 만난다\"",
+       "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6854161_37012.html",
+       "media": "MBC",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "中 \" 미중 , 8개 성과 합의…존중·공정·호혜 기반 전략적 안정 관계\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671882&ref=A",
+     "media": "KBS",
+     "time": "9.26 18:58",
+     "summary": "중국은 성과 발표문에서 양국이 건설적 전략 안정 관계 구축 입장을 재확인하고 이란전쟁·무역·마약 등에서 합의했다고 밝혔다. 반면 KBS는 같은 회담이 공동합의문 없이 끝났고 결과물 없이 외교적 수사만 오갔다고 평가했다. 미 무역대표부(USTR) 그리어 대표는 무역 협상에 진전이 있었고 결과를 월요일에 발표하겠다고 했다. 중국 발표는 중국 측 주장이고 미국의 확인 내용은 아직 나오지 않았다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림",
+      "중국 발표 vs 합의문 없음"
+     ],
+     "related": [
+      {
+       "title": "시진핑 \"미중 새 무역합의 도달\"..\"이란전쟁 이슬라마바드 MOU 복귀지지\"",
+       "url": "https://www.youtube.com/watch?v=0MX5-3f3xl4",
+       "media": "MBCNEWS",
+       "date": "9.26"
+      },
+      {
+       "title": "미중 정상회담 종료…공동합의문 없이 끝나",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671847&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "미중 정상 넉달만의 담판 종료…결과물 없이 외교적 수사만",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671778&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "미 무역대표 \"중국과 협상 진전…내주 월요일 발표할 것\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671770&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "시진핑, 美국빈방문 마치고 귀국…트럼프와 무역·대만·AI 논의",
+     "url": "https://www.yna.co.kr/view/AKR20260926038700083?input=1195m",
+     "media": "연합뉴스",
+     "time": "9.26 16:46",
+     "summary": "시진핑 주석이 국빈 방미를 마치고 귀국했다. 트럼프와 무역·대만·AI를 논의했고, 중국 관영매체는 미중 관계가 새 출발점에 섰다며 건설적 전략 안정 관계를 구상에서 행동으로 옮겨야 한다고 강조했다. 관영매체 평가를 그대로 옮긴 것이며 실제 이행 여부는 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "시진핑 방미 종료…트럼프 \"엄청난 진전 이뤘다\" / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=gAkWj5R_dWM",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      },
+      {
+       "title": "[그래픽] 미국-중국 정상회담 주요 내용",
+       "url": "https://www.yna.co.kr/view/GYH20260926000100044?input=1363m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "\"시진핑, 美 국빈 방문 마치고 귀국…트럼프와 AI·무역 논의\"",
+       "url": "https://www.news1.kr/world/northeast-asia/6302016",
+       "media": "뉴스1",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 \"시진핑과 대만 문제 논의…내 입장 이해하고 있어\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8672004&ref=A",
+     "media": "KBS",
+     "time": "9.26 23:47",
+     "summary": "트럼프는 시진핑과 대만 문제를 논의했고 시 주석이 자신의 입장을 이해한다고 말했다. 중국 관영매체에 따르면 시 주석은 미국이 대만 독립에 반대하는 올바른 입장을 취하라고 요구했다. 미국은 대만 독립을 지지하지 않고 무력 변경에 반대해 왔는데, 중국은 '반대'를 명시하라고 한발 더 나갔다. 트럼프가 말한 '내 입장'의 구체 내용은 후보 기사에 없다.",
+     "deadline": null,
+     "chips": [
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "트럼프 \"시진핑과 매우 좋은 회담\"…\"한반도 문제도 논의\" / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=WPUo-XzXo6Q",
+       "media": "연합뉴스TV",
+       "date": "9.25"
+      },
+      {
+       "title": "트럼프 \"시진핑과 대만 문제 논의…내 입장 이해하고 있어\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926048600071?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "트럼프 \"시진핑과 대만 문제 논의…내 입장 이해\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20260926232128gRo",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "日언론 “中, 이란에 ‘美경제제재 동참 안해’ 입장 전달”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671884&ref=A",
+     "media": "KBS",
+     "time": "9.26 18:59",
+     "summary": "교도통신이 이란 고위 관계자를 인용해, 중국이 트럼프 행정부의 대이란 경제 제재를 따르지 않겠다는 입장을 이란에 전달했고 미중 정상회담 이후에도 변함없다고 보도했다. 이 관계자는 미국의 대이란 압박 정책이 실패했다고 주장했다. 이란 익명 당국자발 일본 언론 보도를 재인용한 것으로 중국·미국 정부의 확인은 없다. 정상회담 성과를 강조한 중국 발표와 어긋날 수 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "미확인·익명 인용"
+     ],
+     "related": [
+      {
+       "title": "日언론 \"中, 이란에 '美경제제재 동참 안해' 입장 전달\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926041200073?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "日언론 \"中, 이란에 '美 제재 따르지 않을 것' 입장 전달…원유 수입 지...\"",
+       "url": "https://www.news1.kr/world/middleeast-africa/6302034",
+       "media": "뉴스1",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "“젤렌스키 정치쇼” vs “합의 없었다” 북한 포로에 우크라 정계도 시끌",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671838&ref=A",
+     "media": "KBS",
+     "time": "9.26 11:15",
+     "summary": "젤렌스키 대통령이 23일 유엔총회 연설에서 북한군 포로 2명의 한국 송환을 공개했다. 이재명 대통령은 우크라이나가 비공개 합의를 어겼다는 취지로 문제를 제기했고, 우크라이나 정계에서는 정치쇼라는 비판과 비공개 합의는 없었다는 반론이 맞선다. 송환 자체는 젤렌스키 공개로 확인됐으나 비공개 합의의 존재는 양측 주장이 갈려 확인되지 않았다. 국내에서는 야당이 국제사회 망신, 여당이 매국적 인식이라며 충돌했다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림",
+      "비공개 합의 존재 미확인"
+     ],
+     "related": [
+      {
+       "title": "\"젤렌스키 정치쇼\" vs \"합의 없었다\" 우크라 정가도 시끌 / YTN",
+       "url": "https://www.youtube.com/watch?v=2bGvCuV9Wlk",
+       "media": "YTN",
+       "date": "9.26"
+      },
+      {
+       "title": "\"젤렌스키 정치쇼\"vs\"합의 없었다\" 北포로에 우크라 정계도 시끌",
+       "url": "https://www.yna.co.kr/view/AKR20260926024200009?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "北 포로 송환 공개에 野 \"국제사회 망신\" vs 與 \"매국적 인식\"",
+       "url": "https://www.news1.kr/politics/assembly/6301840",
+       "media": "뉴스1",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "北포로 '비공개 합의' 공방에…靑 \"일관된 원칙\" 강조",
+     "url": "http://www.yonhapnewstv.co.kr/news/MYH20260926194723k8d",
+     "media": "연합뉴스TV",
+     "time": "9.26 19:48",
+     "summary": "젤렌스키의 유엔총회 공개 이후 논란이 이어지자 청와대는 그동안 해온 일관된 원칙에 따라 대응하겠다며 기본 입장에는 흔들림이 없다고 밝혔다. 우크라이나 측은 비밀 합의는 없었다고 반박하고 있다. 청와대가 말한 원칙의 구체 내용과 비공개 합의 여부는 후보 기사에서 확인되지 않는다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "'우크라 북 포로송환 공개' 논란에 \"일관된 원칙 따라 대응\" / YTN",
+       "url": "https://www.youtube.com/watch?v=eYgz8MB5LrE",
+       "media": "YTN",
+       "date": "9.26"
+      },
+      {
+       "title": "‘우크라이나 북한 포로 송환 공개’ 논란 관련…청와대 “원칙 따라 대응”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671869&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "\"우크라, 북한 포로 '비밀 합의 없었다\"…청 \"일관된 원칙 따라 대응\"",
+       "url": "http://www.mbn.co.kr/pages/news/newsView.php?news_seq_no=5221562",
+       "media": "MBN",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "DMZ 지뢰폭발·북한군 포로 송환...'안보·외교' 여야 충돌",
+     "url": "https://www.ytn.co.kr/_ln/0101_202609262311004253",
+     "media": "YTN",
+     "time": "9.26 23:11",
+     "summary": "DMZ 지뢰 사고와 북한군 포로 송환 공개를 둘러싸고 안보·외교 문제로 여야가 충돌했다. YTN 영상 제목 기준으로 한쪽은 안보 불안 음모론이라 하고 다른 쪽은 조사 고의 지연을 주장한다. 여당 박지원 의원까지 정부에 설명을 요구했다. 사고 원인은 후보 기사에서 확인되지 않는다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림"
+     ],
+     "related": [
+      {
+       "title": "여야 지뢰사고 공방 격화...\"안보 불안 음모론\" vs. \"조사 고의 지연\" / YTN",
+       "url": "https://www.youtube.com/watch?v=eBKbSwPLHnQ",
+       "media": "YTN",
+       "date": "9.26"
+      },
+      {
+       "title": "박지원, '지뢰 사고·북 포로 비공개' 비판…\"왜 닥치고 설명 못하나\"",
+       "url": "https://news.jtbc.co.kr/article/NB12320066?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "9.26"
+      },
+      {
+       "title": "박지원 \"정부, DMZ·北포로 송환, 설명하라\" 정면 비판",
+       "url": "https://www.edaily.co.kr/News/Read?newsId=02023766645584056&mediaCodeNo=257",
+       "media": "이데일리",
+       "date": "9.26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 미-비동아시아",
+   "ranking": [
+    {
+     "name": "트럼프-이란 호르무즈 7일 계획",
+     "pct": 100,
+     "count": "285건"
+    },
+    {
+     "name": "이란 호르무즈 재개방 평화안",
+     "pct": 4,
+     "count": "12건"
+    },
+    {
+     "name": "中 이란 대상 美제재 불참",
+     "pct": 3,
+     "count": "8건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "트럼프, '호르무즈→트럼프 해협' 이름 바꾼 지도 올려",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6854233_36925.html",
+     "media": "MBC",
+     "time": "9.26 17:36",
+     "summary": "트럼프 대통령이 호르무즈 해협을 '트럼프 해협'으로 표기한 지도를 올렸다. MBC는 해협에 대한 이란의 통제권을 인정하지 않겠다는 뜻으로 분석했고, 지난 8월에도 '새 미국 영토'로 표시한 지도를 올린 바 있다. 같은 날 WSJ 인용 보도는 트럼프가 이란의 '7일 계획' 휴전안을 거부했고 11월 미국 선거 뒤 폭격 가능성이 거론된다고 전했다. 유엔총회에서 간접 대화가 시도됐으나 진전이 없다는 것이 핵심이다. 해상 봉쇄를 유지한 채 해협 통제권을 주장하는 미국 쪽 행위가 협상 교착의 배경인지가 쟁점이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 이란 '7일 계획' 제안 거부‥선거 후 폭격 가능성",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6854196_36925.html",
+       "media": "MBC",
+       "date": "9.26"
+      },
+      {
+       "title": "유엔총회에도 중동해법 난항‥ 이란 '7일 계획'에 트럼프 침묵",
+       "url": "https://imnews.imbc.com/news/2026/world/article/6854209_36925.html",
+       "media": "MBC",
+       "date": "9.26"
+      },
+      {
+       "title": "호르무즈 7일 만에 열겠다는 이란 제안 거부한 트럼프 최후",
+       "url": "https://www.youtube.com/watch?v=AMpO-vvw9ZI",
+       "media": "이슈컷",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "이란 대통령 \"호르무즈 재개방 평화안, 최고지도자가 승인\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6854269_36925.html",
+     "media": "MBC",
+     "time": "9.26 23:01",
+     "summary": "이란 페제시키안 대통령이 호르무즈 재개방 평화안을 최고지도자가 승인했다고 밝혔다. 이란은 재개방 조건으로 해외 동결자산 최소 120억 달러 해제, 이란산 원유 제재 해제, 미국의 대이란 해상 봉쇄 종료를 미국에 요구했다. 해협 위기는 7개월 가까이 이어지는 미국-이란 군사 긴장의 핵심이다. 해외 매체 teleSUR는 이란이 적대행위·제재 종식 등을 정상회담 조건으로 내걸었다고 전했다. 트럼프는 이 제안을 거절했다는 보도와 맞물려 이란 조건의 수용 여부가 관건이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이란 대통령 \"호르무즈 재개방 평화안, 최고지도자가 승인\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926043500079?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "이란 대통령 “호르무즈 재개방 평화안, 최고지도자가 승인”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671897&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "강혜신의 오늘의 미국 2026.9.25 미중회담 승자는?",
+       "url": "https://www.youtube.com/watch?v=Fa9J2Ku6rh0",
+       "media": "강혜신의 오늘의 미국",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "日언론 “中, 이란에 ‘美경제제재 동참 안해’ 입장 전달”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671884&ref=A",
+     "media": "KBS",
+     "time": "9.26 18:59",
+     "summary": "일본 언론(교도통신) 인용 보도로, 중국이 이란에 미국의 경제제재에 동참하지 않겠다는 입장을 전했다. 중국 관계자는 24일 미중 정상회담 이후에도 방침이 같다며 미국의 대이란 압박 정책은 실패했다고 주장했다. 미국은 지난달 말 이란의 석유 수익을 돕는 단체·개인·선박을 신규 제재 대상으로 지정했고, 중국은 이란산 원유의 80% 이상을 사는 최대 구매국이다. 중국 관계자 발언을 일본 매체가 전한 것으로 중국 정부의 직접 발표는 아니다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "日언론 \"中, 이란에 '美경제제재 동참 안해' 입장 전달\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926041200073?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "日언론 \"中, 이란에 '美 제재 따르지 않을 것' 입장 전달\"",
+       "url": "https://www.news1.kr/world/middleeast-africa/6302034",
+       "media": "뉴스1",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "Mexico Reaffirms Support For Cuba at UN, Condemns Embargo",
+     "url": "https://www.telesurenglish.net/mexico-support-cuba-un-condemns-embargo/",
+     "media": "teleSUR",
+     "time": "9.26 19:08",
+     "summary": "teleSUR 보도로, 멕시코 외교장관이 유엔총회에서 미국의 대쿠바 봉쇄를 규탄하고 인도적 지원을 계속하겠다고 밝혔다. 같은 매체는 쿠바 외교장관이 유엔 인권최고대표를 만나 봉쇄 비판에 사의를 표했고, 미국이 쿠바를 공격할 명분을 찾지 못할 것이라 말했다고 전했다. 쿠바 정부 측 주장이 다수이며 국내 언론에는 보도가 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "해외단독",
+      "teleSUR"
+     ],
+     "related": [
+      {
+       "title": "Cuban FM Thanks UN High Commissioner for Denouncing the U.S. Blockade",
+       "url": "https://www.telesurenglish.net/cuban-fm-thanks-un-high-commissioner-for-human-rights-for-denouncing-the-u-s-blockade/",
+       "media": "teleSUR",
+       "date": "9.26"
+      },
+      {
+       "title": "The U.S. Will Never Find a Justification to Attack Cuba: FM Rodriguez",
+       "url": "https://www.telesurenglish.net/the-u-s-will-never-find-a-justification-to-attack-cuba-fm-rodriguez/",
+       "media": "teleSUR",
+       "date": "9.26"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "DMZ 지뢰·北포로 송환 여야 충돌",
+     "pct": 100,
+     "count": "108건"
+    },
+    {
+     "name": "군·유엔사 DMZ 현장조사 착수",
+     "pct": 96,
+     "count": "104건"
+    },
+    {
+     "name": "이 대통령 멕시코 K팝 행보",
+     "pct": 69,
+     "count": "75건"
+    },
+    {
+     "name": "우크라 北포로 비공개 합의 논란",
+     "pct": 31,
+     "count": "33건"
+    },
+    {
+     "name": "김현지 부속실장 부친상",
+     "pct": 29,
+     "count": "31건"
+    },
+    {
+     "name": "한동훈-이 대통령 유시민 공방",
+     "pct": 14,
+     "count": "15건"
+    },
+    {
+     "name": "박지원 정부 대응 질타",
+     "pct": 11,
+     "count": "12건"
+    },
+    {
+     "name": "AI 인재 美 대신 中 선택",
+     "pct": 11,
+     "count": "12건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "\"'北포로 비공개' 韓과 합의 없었다\" \"있었다\"‥우크라 정부 내 설전",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6854200_36925.html",
+     "media": "MBC",
+     "time": "9.26 11:16",
+     "summary": "우크라이나 대통령실 소통보좌관은 '비공개하기로 한 합의는 없었다'고 밝혔고, 한국 청와대는 원칙에 따라 대응했다는 입장이라 양측 주장이 엇갈린다. 국내에서는 국민의힘이 정부가 북한 눈치를 보며 송환을 은폐하려 했다고 주장하는 반면 민주당은 귀순자 안전을 고려한 조치를 정쟁화한다고 반박했다. 박지원 의원도 정부가 왜 뒤로 숨느냐고 비판했다. 합의 유무는 확인되지 않았고 DMZ 지뢰 사고와 겹쳐 안보·외교 공방으로 번졌다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림: 은폐 vs 안전 고려",
+      "합의 유무 미확인"
+     ],
+     "related": [
+      {
+       "title": "‘북한군 포로 송환 공개’ 여야 충돌…“김정은 심기 경호”·“안전 ...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671871&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "박지원, '北포로 비공개' 정부 직격‥\"대통령만 보지 말고 정신 차려야...",
+       "url": "https://imnews.imbc.com/news/2026/politics/article/6854190_36911.html",
+       "media": "MBC",
+       "date": "9.26"
+      },
+      {
+       "title": "“비공개 합의 없었다” vs “있었다”…북한군 포로 송환, 한·우크라 정면충돌",
+       "url": "https://www.youtube.com/watch?v=OAadQWCUogg",
+       "media": "파란물결이롭게",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "軍·유엔사, DMZ 현장조사 기동로 확보‥당시 작전수행 장병도 참가",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6854244_36911.html",
+     "media": "MBC",
+     "time": "9.26 20:19",
+     "summary": "군과 유엔사가 지뢰 추정 폭발 닷새 만에 DMZ 현장조사 기동로를 확보했다. 한동훈 무소속 의원은 군이 유엔사의 신속한 현장조사 요청을 거절했다고 주장했으나 이는 주장 단계다. 국민의힘은 늑장 대응이자 북한 소행 은폐라고 비판했고, 민주당은 안보 정쟁화라고 맞섰다. 민주당 김병주 의원은 28일 국방위 현장조사를 제안했으나 국민의힘이 불참을 통보했다고 밝혔다. 유엔사가 조사 주체로 참여하는 구도가 쟁점이다.",
+     "deadline": null,
+     "chips": [
+      "프레임 갈림: 은폐 vs 정쟁화"
+     ],
+     "related": [
+      {
+       "title": "한동훈 \"군, 유엔사 '신속한 현장조사' 요청 거절‥태생적 한계\"",
+       "url": "https://imnews.imbc.com/news/2026/politics/article/6854231_36911.html",
+       "media": "MBC",
+       "date": "9.26"
+      },
+      {
+       "title": "군·유엔사, ‘DMZ 폭발’ 현장 조사 착수…여야는 “은폐” “음모론”...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671908&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "[🔴속보] 군,\"유엔사와 DMZ 진입\" 지뢰 폭발 추정 사고 현장 조사 절차 착수/2026년 9월 26일(토)/KBS",
+       "url": "https://www.youtube.com/watch?v=fwBuHC8-K64",
+       "media": "KBS News",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "이 대통령 , 스트레이키즈 콘서트서 멕시코 청년들 만나‥\"K팝 사랑에 감...",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6854229_36911.html",
+     "media": "MBC",
+     "time": "9.26 17:25",
+     "summary": "이재명 대통령 내외가 멕시코 국빈방문 중 스트레이키즈 콘서트를 멕시코 청소년 10명과 함께 관람하고 K팝 사랑에 감사를 표했다. 한·멕 문화교류 행사로 순방 성과 홍보 성격이 강한 보도다. 같은 시각 국내에서는 북한군 포로 송환 논란과 DMZ 사고 공방이 진행돼 순방 의제와의 대비가 야권 비판 소재가 됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이 대통령 , 스트레이 키즈 콘서트서 멕시코 청소년들 만나 “K-팝 사랑해...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671870&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "李 대통령 내외, 멕시코서 스트레이키즈 공연관람…\"K팝사랑에 감사\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926034900001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "멕시코 청년들과 콘서트 관람…'K컬처' 홍보 나선 이 대통령 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=MvFsJuuhny0",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "'우크라 북한군 포로 송환' 논란에 청와대 \"일관된 원칙 따라 대응\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6854222_36911.html",
+     "media": "MBC",
+     "time": "9.26 15:32",
+     "summary": "우크라이나 대통령실 소식통이 포로 송환을 비밀로 하겠다고 약속하지 않았다고 밝힌 데 대해 청와대는 소식통 발언에 일일이 대응하지 않고 일관된 원칙에 따라 대응한다고 밝혔다. 청와대는 이 대통령의 발언이 우크라이나 측이 공개한 데 대한 아쉬움이라고 부연했다. 우크라이나 정계에서도 젤렌스키 정치쇼라는 반응과 합의가 없었다는 반응이 갈린다. 비공개 합의의 실재 여부는 양측 진술이 달라 확인되지 않았다.",
+     "deadline": null,
+     "chips": [
+      "합의 유무 미확인"
+     ],
+     "related": [
+      {
+       "title": "‘우크라이나 북한 포로 송환 공개’ 논란 관련…청와대 “원칙 따라 대...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671869&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "'우크라 북한 포로 송환 공개' 논란…청와대 \"원칙 따라 대응\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770725&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      },
+      {
+       "title": "\"젤렌스키 정치쇼\" vs \"합의 없었다\" 북한군 포로에 우크라 정계도 시끌",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770702&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      },
+      {
+       "title": "우크라 \"北 포로 이송, 비공개 합의 없었다\"…野 \"대북 굴종\" 與서도 쓴소리 [TV조선 뉴스]",
+       "url": "https://www.youtube.com/watch?v=qDaV7FTGzMo",
+       "media": "뉴스TVCHOSUN",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "김현지 청와대 제1부속실장 부친상…'부고 없이' 광주서 가족장",
+     "url": "https://www.yna.co.kr/view/AKR20260926037400054?input=1195m",
+     "media": "연합뉴스",
+     "time": "9.26 16:22",
+     "summary": "김현지 청와대 제1부속실장이 부친상을 당해 광주에서 부고 없이 가족장으로 치르며 28일 발인한다. 김 실장은 부친 건강 문제로 이 대통령의 미국·멕시코 순방에 동행하지 않았다. 청와대는 대규모 조문을 자제한 것으로 알려졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "김현지 靑 제1부속실장 부친상…광주서 조용히 가족장 치러",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20260926170442x04",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      },
+      {
+       "title": "김현지 청와대 제1부속실장 부친상…광주서 가족들과 장례",
+       "url": "https://www.news1.kr/local/gwangju-jeonnam/6301945",
+       "media": "뉴스1",
+       "date": "9.26"
+      },
+      {
+       "title": "김현지 청와대 제1부속실장 부친상…오는 28일 발인",
+       "url": "https://www.g-enews.com/view.php?ud=20260926205924676b065b72042_1",
+       "media": "www.g-enews.com",
+       "date": "9.26"
+      },
+      {
+       "title": "(속보)🔥김현지 제1부속실장 부친상...고향이 전라도?",
+       "url": "https://www.youtube.com/watch?v=Hs9aCkMLFMA",
+       "media": "오늘도 대한민국",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "\"당신은 유시민 못 이깁니다\"…한동훈이 직격 날린 이유는",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770741&plink=ORI&cooper=NAVER",
+     "media": "SBS",
+     "time": "9.26 14:38",
+     "summary": "무소속 한동훈 의원이 이 대통령과 유시민 작가의 검찰개혁 공방에 대해 당신은 유시민을 못 이긴다고 직격하고 해외에 나갔으면 외교를 하라고 했다. 발단은 유 작가가 이 대통령의 검찰개혁 구상을 두고 국민을 속인 것이라 비판하자 청와대가 근거 없는 비난성 주장이라며 유감을 표하고 사실관계를 확인 중이라 밝힌 것이다. 청와대의 법적 대응 여부는 후보 자료에서 확인되지 않는다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한동훈 \"李대통령, 유시민 못 이긴다…멘탈 꽉 잡고 외교하라\"",
+       "url": "https://www.news1.kr/politics/assembly/6301907",
+       "media": "뉴스1",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 \"당신은 유시민 못 이긴다\"…직격 날린 이유?",
+       "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00006&news_seq_no=5221513",
+       "media": "mbn.mk.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 \"이 대통령, 멘탈 깨졌나… 유시민 못 이긴다\"",
+       "url": "https://www.newscj.com/news/articleView.html?idxno=3435684",
+       "media": "www.newscj.com",
+       "date": "9.26"
+      },
+      {
+       "title": "\"You can't beat Rhyu Si-min\".. Why Han Dong-hoon fired back (Subtitled News) / SBS",
+       "url": "https://www.youtube.com/watch?v=kDfdzfgs1Qk",
+       "media": "SBS 뉴스",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "박지원, DMZ 지뢰·북한군 포로 대응 질타…\"정부가 왜 숨나\"",
+     "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303426",
+     "media": "www.daejonilbo.com",
+     "time": "9.26 22:34",
+     "summary": "박지원 민주당 의원이 DMZ 지뢰 폭발 사고와 우크라이나 북한군 포로 국내 이송을 둘러싼 정부 대응을 비판하며 정부가 왜 숨나라고 질타했다. 여당 의원이 정부를 정면 비판한 점이 특징이다. 청와대는 일관된 원칙에 따라 대응한다는 입장을 재확인했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "'우크라 北 포로송환 공개' 논란에…靑 \"일관된 원칙따라 대응\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926028000001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "靑 \"'北 포로 비밀 유지' 원칙 따라 대응\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH2026092613170377v",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      },
+      {
+       "title": "'우크라 북 포로 송환' 논란에...청와대 \"일관된 원칙 따라 대응\"",
+       "url": "https://www.ytn.co.kr/_ln/0101_202609261321561004",
+       "media": "YTN",
+       "date": "9.26"
+      },
+      {
+       "title": "'우크라 북 포로송환 공개' 논란에 \"일관된 원칙 따라 대응\" / YTN",
+       "url": "https://www.youtube.com/watch?v=eYgz8MB5LrE",
+       "media": "YTN",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "\"최상위 AI 인재들, 美보다 中 많이 선택…韓 4위 부상\"",
+     "url": "https://www.yna.co.kr/view/AKR20260926036500083?input=1195m",
+     "media": "연합뉴스",
+     "time": "9.26 16:31",
+     "summary": "최상위 AI 인재들이 미국보다 중국을 더 많이 선택하고 한국이 4위로 부상했다는 분석이다. 보도는 원인으로 미국의 비자 제한 강화로 중국 STEM 대학원생의 미국 유학이 어려워진 점을 든다. 미국 정부의 이민·비자 정책이 인재 유출입 구도를 바꾸고 있다는 점을 짚는다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "미국 비자 정책 영향"
+     ],
+     "related": [
+      {
+       "title": "\"최상위 AI 인재들, 미국 보다 중국 많이 선택… 한국 4위 부상\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770829&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      },
+      {
+       "title": "최상위 AI 인재들, 미국 보다 중국 더 많이 간다…韓 4위 부상",
+       "url": "https://www.nocutnews.co.kr/news/6583334?utm_source=naver&utm_medium=article&utm_campaign=20260926082514",
+       "media": "www.nocutnews.co.kr",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "수사지휘역량 '부적절' 평가받은 경찰 과·팀장 3년간 338명",
+     "url": "https://www.yna.co.kr/view/AKR20260926021700004?input=1195m",
+     "media": "연합뉴스",
+     "time": "9.26 10:06",
+     "summary": "조국혁신당 정춘생 의원실이 경찰청에서 받은 자료에서 수사부서 과·팀장 지휘역량평가 부적절 판정이 3년간 338명, 서울이 76명으로 최다였다. 검경 수사권 조정 논쟁에서 경찰 수사지휘 역량 문제를 짚는 자료다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "수사지휘역량 '부적절' 평가받은 경찰 과·팀장 3년간 338명",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770626&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      },
+      {
+       "title": "수사지휘 ‘부적절 경찰’ 3년간 338명…서울 76명 최다",
+       "url": "https://www.hani.co.kr/arti/society/society_general/1279521.html",
+       "media": "한겨레",
+       "date": "9.26"
+      },
+      {
+       "title": "수사지휘 '부적절' 경찰 과·팀장 3년간 338명…서울 3년 연속 최다",
+       "url": "https://www.news1.kr/society/incident-accident/6301879",
+       "media": "뉴스1",
+       "date": "9.26"
+      },
+      {
+       "title": "경찰 수사부서 지휘관 338명 '부적절' 판정 받은 이유",
+       "url": "https://www.youtube.com/watch?v=uYnqyPEBH5M",
+       "media": "스페셜타임스",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "올해들어 7월까지 10대 이하 마약 밀수범 16명",
+     "url": "https://www.ytn.co.kr/_ln/0102_202609261012222310",
+     "media": "YTN",
+     "time": "9.26 10:12",
+     "summary": "민주당 문진석 의원이 관세청에서 받은 자료에 따르면 올해 7월까지 10대 이하 마약 밀수 적발이 16명으로 급증했다. 국정감사 자료 기반 보도다. 청소년 마약 유통 대응이 과제로 제기된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "10대 마약 밀수범 급증⋯올 7월까지 적발 16명",
+       "url": "http://www.inews24.com/view/2009144",
+       "media": "www.inews24.com",
+       "date": "9.26"
+      },
+      {
+       "title": "10대 마약 밀수 급증…7개월 만에 16명",
+       "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=868086",
+       "media": "www.hansbiz.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "[2026 국감] 10대 이하 마약 밀수 급증…올해 7월까지 16명 적발",
+       "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5065848",
+       "media": "www.shinailbo.co.kr",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "아파트 하자 판정 3년 새 2.4배 급증… '보수 범위' 갈등 속출",
+     "url": "http://www.srtimes.kr/news/articleView.html?idxno=213287",
+     "media": "www.srtimes.kr",
+     "time": "9.26 21:02",
+     "summary": "민주당 염태영 의원이 국토부에서 받은 자료에서 아파트 하자 판정이 2022년부터 올해 6월까지 3년 새 2.4배로 늘었다. 하자 보수 범위를 둘러싼 입주자와 시공사 갈등이 속출한다는 내용이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "급증하는 아파트 하자판정… 3년 새 2.4배↑",
+       "url": "https://www.newscj.com/news/articleView.html?idxno=3435693",
+       "media": "www.newscj.com",
+       "date": "9.26"
+      },
+      {
+       "title": "“벽 갈라지고 물 새고”... 아파트 하자 판정 3년새 2.4배 늘어",
+       "url": "https://vop.co.kr/A00001696864.html",
+       "media": "vop.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "건설기술 좋아졌다는데 아파트 하자판정은 급증…3년 새 2.4배",
+       "url": "https://www.m-i.kr/news/articleView.html?idxno=1418074",
+       "media": "www.m-i.kr",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "\"유시민 얘기 말고 외교를 하라\" 한동훈 나경원도 가세한 여권 갈등",
+     "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=337368",
+     "media": "www.mediatoday.co.kr",
+     "time": "9.26 20:57",
+     "summary": "한동훈 의원이 유시민 얘기 말고 외교를 하라고 하자 나경원 국민의힘 의원도 SNS에서 이 대통령을 향해 가세했다. 검찰개혁 발언을 둘러싼 청와대와 유시민 작가의 공개 설전이 야권 공세로 확대됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한동훈, 李대통령에 \"유시민 못 이겨\"",
+       "url": "https://www.sisajournal.com/news/articleView.html?idxno=388319",
+       "media": "www.sisajournal.com",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 “李, 유시민 못 이겨… 해외 나갔으면 외교를 하라”",
+       "url": "https://www.chosun.com/politics/politics_general/2026/09/26/27OVN35EBFFYTMNVX7MJWWPF3E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+       "media": "조선",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 \"李대통령, 유시민 못 이깁니다…해외 나갔으면 외교하라\"",
+       "url": "https://www.ikbc.co.kr/article/view/kbc202609260015",
+       "media": "www.ikbc.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 “유시민 얘기 말고 외교하라”…대통령, 지금 싸울 때인가? #한동훈 #이재명 #정치쇼츠",
+       "url": "https://www.youtube.com/watch?v=8M4Um0qCizc",
+       "media": "자유시선",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "與, 韓 공세에 맞불 \"막말 대상에 여야 없어…당게 사건 수사나 받으라...",
+     "url": "https://www.news1.kr/politics/assembly/6301915",
+     "media": "뉴스1",
+     "time": "9.26 13:10",
+     "summary": "민주당 조계원 대변인은 서면 브리핑에서 한동훈 의원의 막말 대상에는 여야가 없다며 국민의힘 복당을 원하면 당원게시판 사건 수사부터 받으라고 했다. 한 의원은 북한군 포로 송환을 국제망신이라 비판한 바 있다. 여야와 무소속 한동훈이 얽힌 공방이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "민주 “한동훈 여야 모두에 막말···당게 수사나 받아라”",
+       "url": "https://weekly.khan.co.kr/article/202609262034001",
+       "media": "weekly.khan.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "민주 \"한동훈, 국힘 복당 원한다면 당게 사건 수사 받아라\"",
+       "url": "https://www.pressian.com/pages/articles/2026092617001466332?utm_source=naver&utm_medium=search",
+       "media": "프레시안",
+       "date": "9.26"
+      },
+      {
+       "title": "한동훈 \"北포로 송환 국제망신\"…민주 \"당게 수사나 받으라\"",
+       "url": "https://news.tvchosun.com/site/data/html_dir/2026/09/26/2026092690080.html",
+       "media": "TV조선",
+       "date": "9.26"
+      },
+      {
+       "title": "\"깡패야\"vs\"양아치같은\"...여야 막말 충돌 / YTN",
+       "url": "https://www.youtube.com/watch?v=zLe7o7kJ93U",
+       "media": " YTN",
+       "date": ""
+      }
+     ]
+    },
+    {
+     "title": "신현송 한은 총재가 알려주는 투자법?…유명인 사칭 SNS 주의보",
+     "url": "http://www.yonhapnewstv.co.kr/news/AKR20260926142951rgE",
+     "media": "연합뉴스TV",
+     "time": "9.26 14:30",
+     "summary": "서일준 국민의힘 의원이 금감원에서 받은 자료에서 올해 1분기 투자사기형 피싱 피해가 6769건, 1817억원이다. 신현송 한은 총재를 사칭한 SNS 계정이 불법 리딩방으로 유인하는 사례가 확인돼 주의보가 나왔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "신현송 한은 총재까지 사칭…SNS 판치는 불법 투자 리딩방 주의",
+       "url": "https://www.news1.kr/economy/trend/6301931",
+       "media": "뉴스1",
+       "date": "9.26"
+      },
+      {
+       "title": "\"신현송 총재입니다\" SNS 사칭 계정 등장… 불법 리딩방 주의보",
+       "url": "https://www.hankookilbo.com/news/article/A2026092618130004329?did=NA",
+       "media": "www.hankookilbo.com",
+       "date": "9.26"
+      },
+      {
+       "title": "\"주식 비법 알려준다\" 신현송 한은 총재 사칭 SNS…불법 리딩방 주의보",
+       "url": "https://thetracker.co.kr/View.aspx?No=4241886",
+       "media": "thetracker.co.kr",
+       "date": "9.26"
+      },
+      {
+       "title": "\"주식 투자법 알려주겠다\"…신현송 한은 총재 사칭 SNS 주의보 #Shorts",
+       "url": "https://www.youtube.com/watch?v=JLWes2yF6W8",
+       "media": "daily-brief",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "보호무역 확산에 한국 수출품 수입규제 241건‥반년 새 11건 늘어",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6854239_36932.html",
+     "media": "MBC",
+     "time": "9.26 18:51",
+     "summary": "한국 제품에 대한 수입규제가 상반기 241건으로 작년 하반기보다 11건 늘었다. 보고서는 미국 트럼프 2기 행정부의 관세 조치로 각국의 무역구제조치 활용이 강화되는 가운데 대한국 신규 조사 개시가 25건으로 늘었다고 짚는다. 미국의 관세 조치가 제3국 규제로 번지는 구도다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "한국 제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8671872&ref=A",
+       "media": "KBS",
+       "date": "9.26"
+      },
+      {
+       "title": "한국 제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어",
+       "url": "https://www.yna.co.kr/view/AKR20260923164700003?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "한국 제품 수입규제 상반기 241건…작년 하반기보다 11건 늘어",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770736&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      },
+      {
+       "title": "올해 1분기 한국 대상 수입규제 5건 추가 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=moSWPA86Qgo",
+       "media": "연합뉴스TV",
+       "date": ""
+      }
+     ]
+    },
+    {
+     "title": "이준석 '기자 도시락 오찬' 불송치…\"청탁금지법 위반 인정 부족\"",
+     "url": "https://www.newsis.com/view/NISX20260926_0003803711",
+     "media": "뉴시스",
+     "time": "9.26 11:02",
+     "summary": "이준석의 기자 도시락 오찬 건이 청탁금지법 위반 인정이 부족하다는 이유로 불송치됐다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "클립 날짜 불일치·참고용"
+     ],
+     "related": [
+      {
+       "title": "기자들한테 도시락 돌렸다가 고발당한 이준석… 경찰 결론 나왔다 #뉴스요약",
+       "url": "https://www.youtube.com/watch?v=4_INqxaX1a0",
+       "media": "이러타구",
+       "date": ""
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "06 내란청산",
+   "ranking": [
+    {
+     "name": "대법관 재제청 거부 공방",
+     "pct": 100,
+     "count": "22건"
+    },
+    {
+     "name": "법정모독 급증·감치 제자리",
+     "pct": 23,
+     "count": "5건"
+    },
+    {
+     "name": "국힘, 내란 특수본 검토 반발",
+     "pct": 9,
+     "count": "2건"
+    },
+    {
+     "name": "홍준표발 군 지휘관 책임론",
+     "pct": 5,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "국민의힘 \"이 대통령 ' 내란 특수본' 검토?‥노골적인 보복 선언\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6854189_36911.html",
+     "media": "MBC",
+     "time": "9.26 09:55",
+     "summary": "이재명 대통령이 '내란 특별수사본부' 구성을 검토하는 가운데, 조희대 대법원장의 대법관 재제청 거부를 둘러싼 여야 공방이 연휴에도 이어졌다. 국민의힘은 대법원장을 '내란'으로 몰아 국정조사·특검·대법원 예산 삭감으로 압박한다며 '사법부 겁박'이라 하고, 민주당은 '법복 입고 정치질'이라며 조 대법원장이 윤석열 몰락의 길을 따라간다고 맞섰다. 재제청 거부의 헌법적 근거 유무와, 내란 후속 수사 기구가 사법부 압박 수단인지 여부가 프레임 충돌 지점이다. 양측 주장은 각 당 논평 기준이며 사실 확인된 것은 아니다.",
+     "deadline": null,
+     "chips": [
+      "프레임 충돌",
+      "여야 공방"
+     ],
+     "related": [
+      {
+       "title": "曺 '재제청 거부' 여진…與 \"법복입고 정치질\" 野 \"사법부 겁박\"",
+       "url": "https://www.yna.co.kr/view/AKR20260926036600001?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "조희대 ‘재제청 거부’ 파장…민주 “사법부 망가뜨려” 국힘 “겁박 ...",
+       "url": "https://www.hani.co.kr/arti/politics/politics_general/1279522.html",
+       "media": "한겨레",
+       "date": "9.26"
+      },
+      {
+       "title": "與, 연휴에도 조희대 향해 “정치질”…野 “李 뜻 거부하면 내란인가”",
+       "url": "https://www.joongang.co.kr/article/25464894",
+       "media": "중앙일보",
+       "date": "9.26"
+      },
+      {
+       "title": "연휴 뒤 국정감사…재제청·안보 전방위 충돌 예고 / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=0tcak6QpHJ8",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "법정 모독 등 2배 늘어‥감치·과태료 처분 연간 10명 제자리",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6854218_36918.html",
+     "media": "MBC",
+     "time": "9.26 15:12",
+     "summary": "지난해부터 윤석열 전 대통령·김건희 씨 재판과 3대 특검 기소 사건에 지지자가 몰리면서, 특히 선고 당일 방청객이 구호·욕설로 제지당하는 일이 꾸준히 발생했다. 법정모독은 2~3배로 늘었지만 감치·과태료 처분은 연 10여 명에 머문다는 점을 짚는다. 조선일보는 김용현 전 장관 변호인이던 이하상 변호사가 한덕수 전 총리 공판에서 소란으로 감치 15일 처분을 받은 사례를 들었다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"이게 사법부냐\" 법정모독 3배 늘었는데, 감치·과태료 연간 10여명",
+       "url": "https://www.yna.co.kr/view/AKR20260925042100004?input=1195m",
+       "media": "연합뉴스",
+       "date": "9.26"
+      },
+      {
+       "title": "법정모독 3배 늘었는데, 감치·과태료 연간 10여 명",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008770428&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "국힘 내란 특수본 검토에 \"李대통령 충견 조직…불길한 흉기 내려 놓으라\"",
+     "url": "https://www.news1.kr/politics/assembly/6301831",
+     "media": "뉴스1",
+     "time": "9.26 10:06",
+     "summary": "국민의힘 박성훈 수석대변인은 이미 검·경 수사와 두 차례 '빈손 특검'이 있었는데 또 '내란 사건 특별수사본부'를 띄우겠다는 것은 기가 찰 노릇이라고 논평했다. 데일리안은 같은 논평에서 이 대통령 지지율 하락 국면 타개용이라는 주장도 전한다. 정부가 계엄 가담자 수사를 위한 특수본을 검토 중이라는 것은 보도 기준이며 구성이 확정된 것은 아니다. 국힘의 '빈손 특검' 평가는 여당 측과 평가가 갈리는 프레임이다.",
+     "deadline": null,
+     "chips": [
+      "프레임 충돌"
+     ],
+     "related": [
+      {
+       "title": "국민의힘, 李정부 ' 내란 특수본' 검토에 \"대통령 뜻 거부하면 내란?…기...",
+       "url": "https://www.dailian.co.kr/news/view/1694574/?sc=Naver",
+       "media": "데일리안",
+       "date": "9.26"
+      },
+      {
+       "title": "연휴 뒤 국정감사…재제청·안보 전방위 충돌 예고 / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=0tcak6QpHJ8",
+       "media": "연합뉴스TV",
+       "date": "9.26"
+      }
+     ]
+    },
+    {
+     "title": "[강철수의 정치 칼럼] 홍준표가 쏘아 올린 '책임의 화두'",
+     "url": "https://www.bzeronews.com/news/articleView.html?idxno=823108",
+     "media": "비즈니스제로뉴스",
+     "time": "9.26 19:40",
+     "summary": "칼럼은 홍준표 전 시장이 군인들을 내란 가담으로 30년 중형·법정구속한 것이 가슴 아팠다고 언급한 것을 계기로, 군 지휘관 재판에서 직책·행위·위법성 인식·명령 수행 정도를 세밀히 구분해야 한다고 주장한다. 칼럼 필자 견해이며 개별 재판 결과에 대한 확인된 보도는 아니다. (클립 미확인)",
+     "deadline": null,
+     "chips": [
+      "칼럼"
+     ],
+     "related": []
+    }
+   ]
+  }
+ ]
+}
