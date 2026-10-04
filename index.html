@@ -77,6 +77,7 @@ header.hero{display:flex;justify-content:space-between;align-items:flex-start;pa
 .related{display:flex;flex-direction:column;gap:6px;margin-top:4px;border-top:1px solid var(--hairline);padding-top:9px}
 .related-item{font-size:14px;color:var(--text-secondary)}
 .related-item b{color:var(--text);font-weight:400}
+.yt-tag{display:inline-block;font-size:11px;font-weight:600;color:#c4302b;border:1px solid currentColor;border-radius:4px;padding:0 5px;margin-right:6px;line-height:1.5;vertical-align:1px}
 .empty-state{padding:80px 0;text-align:center;font-size:14px;color:var(--text-secondary)}
 footer{padding:16px 20px;border-top:1px solid var(--hairline);display:flex;flex-direction:column;gap:3px;font-size:12px;color:var(--text-secondary);line-height:1.5}
 
@@ -167,7 +168,8 @@ footer{padding:16px 20px;border-top:1px solid var(--hairline);display:flex;flex-
   function renderCard(c){
     var chips = (c.chips||[]).map(function(x){ return '<span class="chip">'+esc(x)+'</span>'; }).join('');
     var related = (c.related||[]).map(function(r){
-      return '<div class="related-item">' + linkOrSpan('', r.url, r.title) +
+      var yt = /youtu\.?be/.test(r.url || '') ? '<span class="yt-tag">▶ 유튜브</span>' : '';
+      return '<div class="related-item">' + yt + linkOrSpan('', r.url, r.title) +
         ' — ' + esc(r.media) + ' · ' + esc(r.date) + '</div>';
     }).join('');
     return '<div class="card">' +
