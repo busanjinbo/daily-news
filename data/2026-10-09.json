@@ -1,0 +1,834 @@
+{
+ "targetDate": "2026-10-09",
+ "title": "10월 9일 정세브리핑",
+ "publishedText": "발행 2026.10.10 07:21 KST",
+ "generatedText": "생성 2026.10.10 07:21 KST · 정세브리핑",
+ "footnote": "21세기민족일보 RSS 피드가 오류(HTTP 410)로 수집되지 않아 해당 매체 기사가 누락됐을 수 있다. 섹션3 5건(한일 국방차관회담·AI 용어 발언·안철수 비자 발언·인신매매보고서·북 의료장비 반발)과 섹션4 2건(이란전 군용기 피해·사우디-후티 충돌)은 대상일 방송사 공식 유튜브 클립을 확인하지 못했다.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "트럼프는 11월 중간선거 전 이란 공격을 않겠다고 밝혔지만, 美 국방부가 '3일 집중공격' 계획을 세웠고 앞선 공습으로 이란 군용기 81대가 파괴·손상돼 중동 긴장은 여전히 고조된 상태다.",
+   "정청래 민주당 대표의 美 비자 보류 논란이 한미관계 전반으로 번지며 외교부·국민의힘·여당 강경파 간 공방이 격화됐고, 러트닉 美 상무장관이 국정원 불신을 전달했다는 보도를 정부는 부인했다.",
+   "김여정 조선로동당 부부장은 한국을 향해 '더 분명히 외면·무시하겠다'는 입장을 이틀 연속 발표했고, 한일 국방차관은 도쿄에서 北 핵·미사일 대응 공조를 재확인했다."
+  ],
+  "watch": [
+   "명태균 게이트 무죄 선고 재판부의 오세훈 2심 선고 기일(10.23) — 같은 재판부의 판단 일관성 쟁점",
+   "美 국방부의 이란 '3일 집중공격' 계획이 중간선거(11월) 전후로 재점화될지 여부",
+   "정청래 비자 보류를 둘러싼 한미 외교 갈등이 추가 조치로 번질지",
+   "노벨평화상(나비 필라이) 선정 이후 트럼프 반응 및 관련 외교 파장"
+  ]
+ },
+ "sections": [
+  {
+   "type": "issues",
+   "label": "01 민플러스",
+   "ranking": [],
+   "cards": [
+    {
+     "title": "미국이 원하는 한미동맹에 언제까지 복종하고 살 것인가",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18469",
+     "media": "민플러스",
+     "time": "10.09 08:02",
+     "summary": "미 하원 중국공산당특위 위원장 존 물레나르가 9월 28일 루비오 국무장관에게 서한을 보내, 이재명 정부의 대중국 접근과 삼성·SK하이닉스의 중국 내 반도체 생산까지 문제 삼으며 미국 정부의 감시·대응을 요구했다. 한국의 국방비 증액과 전작권 전환을 '미국 의존 축소'로 설명하는 것도 문제라며, 중국과 가까워지지 말고 미국으로부터 군사적으로 독립하려 하지 말라고 압박했다. 이 서한은 한동훈 의원이 국정감사에서 조현 외교장관에게 추궁하는 근거로 쓰였으나, 조 장관은 특정 의원의 견해를 미국 정부 전체 입장으로 볼 수 없다고 반박했다. 민플러스는 이를 2008년 버시바우 주한대사의 비밀전문과 같은 맥락의 대한 압박으로 해석했다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "[연재⑨] 우리 천문학의 뿌리, 5,000년 전 고조선의 고인돌 별자리",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18468",
+     "media": "민플러스",
+     "time": "10.09 08:03",
+     "summary": "평안남도 증산군 용덕리 고인돌 뚜껑돌에는 용별자리 알파별을 중심으로 별 80여 개가 새겨져 있으며, 세차운동에 따라 5,000년 전에는 지금의 북극성이 아닌 이 별이 북극을 지켰다는 연재 기사다. 대동강 유역에는 이런 별그림이 새겨진 고인돌 뚜껑돌이 200여 기 확인되며, 한반도 전체 고인돌은 4만여 기로 추산된다. 고조선 사람들은 별자리 관찰로 1년을 24절기로 나누어 농사 시기를 정했다고 설명한다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "02 미-동아시아",
+   "ranking": [
+    {
+     "name": "DMZ 지뢰 사과요구 유엔 설전",
+     "pct": 100,
+     "count": "51건"
+    },
+    {
+     "name": "한일 국방차관 회담 북핵공조",
+     "pct": 31,
+     "count": "16건"
+    },
+    {
+     "name": "러트닉 국정원 불신설 부인",
+     "pct": 29,
+     "count": "15건"
+    },
+    {
+     "name": "미국인 58% 핵잠개발 찬성",
+     "pct": 24,
+     "count": "12건"
+    },
+    {
+     "name": "트럼프 AI→SI 용어 압박",
+     "pct": 18,
+     "count": "9건"
+    },
+    {
+     "name": "안철수 정청래 비자 균열론",
+     "pct": 8,
+     "count": "4건"
+    },
+    {
+     "name": "北 인신매매국 24년 연속",
+     "pct": 2,
+     "count": "1건"
+    },
+    {
+     "name": "北 의료장비 지원에 반발",
+     "pct": 2,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "韓, 유엔서 'DMZ 지뢰' 사과요구‥北 \"불순 행동\" 발뺌 일관",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856734_36925.html",
+     "media": "MBC",
+     "time": "10.09 06:40",
+     "summary": "한국 정부가 유엔총회 제1위원회에서 비무장지대(DMZ) 지뢰 폭발 사건을 정전협정 위반으로 규정하고 북한에 공식 사과를 요구했다. 차지훈 주유엔대사는 지뢰 폭발로 군인 3명이 다쳤다며 책임 있는 조치를 촉구했다. 북한 대표는 이를 '불순 행동'이라며 책임을 한국 측에 떠넘기는 모습을 보였다. 합참은 조기 종료됐던 한미 연합훈련의 야외기동 훈련도 곧 시작한다고 밝혔다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "군 \"북 지뢰, 고의 여부 떠나 명백한 도발\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8681568&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "차지훈 주유엔 한국대사 \"DMZ 지뢰 폭발 사고, 명백한 정전협정 위반\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8681560&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "韓, 유엔서 'DMZ지뢰' 사과요구…北 발뺌 일관 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=I00Wrksz0wo",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "한일 국방차관 도쿄서 회담‥北 핵·미사일 대응 공조 재확인",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856838_36911.html",
+     "media": "MBC",
+     "time": "10.09 19:38",
+     "summary": "한일 국방차관이 도쿄에서 회담을 갖고 고도화되는 북한의 핵·미사일 위협에 대응하기 위한 한일·한미일 간 공조의 중요성을 재확인했다. 양 차관은 AI·무인체계 등 첨단 분야 협력도 논의했다. 한미일 3국 안보 공조 강화 흐름 속에 이뤄진 회담이다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한일 국방차관, 일본서 회동…“북 핵·미사일 대응 공조 중요”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682007&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "한일 국방차관, 일본서 회담…北 핵·미사일 대응 공조 재확인",
+       "url": "https://www.yna.co.kr/view/AKR20261009050500504?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "정부, '러트닉, 김정관에 국정원 불신 전달' 보도에 \"사실 아냐\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856790_36911.html",
+     "media": "MBC",
+     "time": "10.09 11:21",
+     "summary": "하워드 러트닉 미 상무장관이 김정관 국방장관에게 한국 국가정보원에 대한 불신을 전달했다는 보도가 나왔으나, 산업부와 국정원은 일제히 '사실이 아니다'라고 부인했다. 앞서 지난 6월 미국 측 요구로 북한 사이버 위협 대응 한미일 실무그룹 회의에서 국정원이 배제된 사실이 뒤늦게 알려지며 한미 정보 갈등 논란이 불거진 바 있다. 이번 보도 내용은 정부가 공식 부인하고 있어 사실 여부가 확인되지 않은 상태다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "정부, '러트닉, 김정관에 국정원 불신 전달' 보도에 \"사실 아냐\"",
+       "url": "https://www.yna.co.kr/view/AKR20261009025900504?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.9"
+      },
+      {
+       "title": "정부, '러트닉, 김정관에 국정원 불신 전달' 보도에 \"사실 아니다\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790365&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.9"
+      },
+      {
+       "title": "산업부 \"러트닉 '국정원 불신' 발언, 사실무근\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=A4hH6dGrfe0",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "美국민 58% \"한국 핵잠 개발 찬성\"‥韓 핵개발 반대는 71%",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856699_36925.html",
+     "media": "MBC",
+     "time": "10.09 00:17",
+     "summary": "미국 여론조사에서 응답자 58%가 한국의 핵잠수함 개발에 찬성한다고 답했으나, 한국의 자체 핵무기 개발에는 71%가 반대했다. 주한미군을 현 수준 유지·증원해야 한다는 응답은 56%였고 완전 철수 응답은 6%에 그쳤다. 한미동맹이 미국의 국가안보 이익에 부합한다는 응답은 64%, 한국에 대한 호감도는 68%로 나타났다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "미국인 58% “한국 핵잠 개발 찬성”…‘한국 핵개발 반대’ 71%",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8681530&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "미국민 58% \"한국 핵잠수함 개발에 찬성\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20261009103717jQ1",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      },
+      {
+       "title": "미국민 58% \"한국 핵잠수함 개발에 찬성\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=IspvJcbJYcs",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 \"슈퍼지능 아니라 인공지능 용어 쓰면 적으로 간주\"",
+     "url": "https://www.yna.co.kr/view/AKR20261009002800071?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.09 01:55",
+     "summary": "도널드 트럼프 미 대통령이 '인공지능(AI)' 대신 '슈퍼지능(SI)'이라는 용어를 쓰지 않으면 적으로 간주하겠다고 밝혔다. 트럼프는 지난달 시진핑 중국 국가주석과의 정상회담에서도 AI 명칭을 SI로 바꾸는 문제를 논의한 바 있다. 중국은 미국의 SI 용어 사용 방침을 존중한다는 입장이지만, 실제 공개 발언과 문서에서는 여전히 AI라는 용어를 쓰고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 \"'슈퍼지능' 아니라 '인공지능' 용어 쓰면 적으로 간주\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790011&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.9"
+      },
+      {
+       "title": "트럼프 \"슈퍼지능 아니라 인공지능 용어 쓰면 적으로 간주\"",
+       "url": "https://www.ytn.co.kr/_ln/0104_202610090230379505",
+       "media": "YTN",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "안철수 \"美, 정청래 입국 퇴짜는 李정부 비자 거부\"… 정부 설명 요구",
+     "url": "https://www.news1.kr/politics/assembly/6315107",
+     "media": "뉴스1",
+     "time": "10.09 09:52",
+     "summary": "안철수 의원이 정청래 전 더불어민주당 대표의 미국 비자 발급 불발을 두고 '동맹국 미국이 이재명 정부의 입국을 거부한 것'이라며 정부에 설명을 요구했다. 그는 이재명 정부 출범 이후 한미연합훈련 축소, 국정원장과 국정원 요원의 미국 입국·비자 거부 의혹에 이어 이번 사태까지 이어진 점을 두고 한미 간 신뢰에 균열이 생긴 것 아니냐는 의혹을 제기했다. 정부 차원의 공식 확인은 아직 없는 상태다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "안철수 \"정청래 미국 비자 불발은 이재명 정부 입국 거부\"",
+       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3717214",
+       "media": "www.gukjenews.com",
+       "date": "10.9"
+      },
+      {
+       "title": "안철수 “정청래 美비자 지연, 동맹국 미국이 정부 입국 거부한 것”",
+       "url": "https://www.kyeonggi.com/article/20261009580053",
+       "media": "www.kyeonggi.com",
+       "date": "10.9"
+      },
+      {
+       "title": "정청래 '美비자 보류'…\"깊은 유감\"·\"동맹 파탄\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=jWhYbxqFcts",
+       "media": "연합뉴스TV",
+       "date": "10.09"
+      }
+     ]
+    },
+    {
+     "title": "美 \"北 24년 연속 최악 인신매매국…강제노동으로 정부 수익\"",
+     "url": "https://www.yna.co.kr/view/AKR20261009006100071",
+     "media": "연합뉴스",
+     "time": "10.09 05:00",
+     "summary": "미국이 북한을 24년 연속 '최악의 인신매매국'으로 지정하고, 강제노동이 북한 정부의 수익원이 되고 있다고 평가했다. 제목 기준 보도로 세부 본문은 확인되지 않았다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "미 국무부 \"북한, 24년 연속 최악 인신매매국\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=dAqbcStN7Og",
+       "media": "연합뉴스TV",
+       "date": "10.09"
+      }
+     ]
+    },
+    {
+     "title": "北, 의료장비 지원 계획에 거듭 반발…\"韓, 외면하고 무시할것\"",
+     "url": "https://www.yna.co.kr/view/AKR20261009003800504",
+     "media": "연합뉴스",
+     "time": "10.09 02:53",
+     "summary": "북한이 한국 정부의 대북 의료장비 지원 계획에 대해 거듭 반발하며 '외면하고 무시할 것'이라는 입장을 밝혔다. 제목 기준 보도로 세부 본문은 확인되지 않았다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "[🔴이슈를 켜라] [속보] 김여정 “한국 인간쓰레기 외면하고 무시할 것”/ 채널A",
+       "url": "https://www.youtube.com/watch?v=ITPNb_8KDZI",
+       "media": "채널A News",
+       "date": "10.09"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-비동아시아",
+   "ranking": [
+    {
+     "name": "트럼프 \"이란 공격 보류\" 선언",
+     "pct": 100,
+     "count": "95건"
+    },
+    {
+     "name": "노벨평화상 나비 필라이 선정",
+     "pct": 27,
+     "count": "26건"
+    },
+    {
+     "name": "필레이 \"트럼프와 상 나눠야\"",
+     "pct": 23,
+     "count": "22건"
+    },
+    {
+     "name": "美국방부 이란 3일공습 계획",
+     "pct": 15,
+     "count": "14건"
+    },
+    {
+     "name": "노벨위, 트럼프 보복 눈치",
+     "pct": 11,
+     "count": "10건"
+    },
+    {
+     "name": "마두로 부부 고문 혐의 기소",
+     "pct": 7,
+     "count": "7건"
+    },
+    {
+     "name": "美 이란전 군용기 81대 손상",
+     "pct": 7,
+     "count": "7건"
+    },
+    {
+     "name": "사우디-후티 충돌, 푸틴 중재",
+     "pct": 6,
+     "count": "6건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "트럼프 \"11월 중간선거 전 이란 공격 안 해\"",
+     "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6856801_36967.html",
+     "media": "MBC",
+     "time": "10.9 12:44",
+     "summary": "트럼프가 11월 중간선거 전까지는 이란을 공격하지 않겠다고 밝혔다. 그는 이란의 군사력이 '무너졌다'고 주장하며 자신의 군사작전을 자평했다. 같은 시점 미국의 추가 공격 가능성과 중동 유조선 피격 우려로 국제유가는 급등했다. 공격을 미뤘을 뿐 종전이나 철군을 선언한 것은 아니라는 점에 주목할 필요가 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 \"11월 중간선거 전 이란 공격 안 해\" #Shorts (MBC뉴스)",
+       "url": "https://www.youtube.com/watch?v=m7pjGVKm5k0",
+       "media": "MBCNEWS",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "\"미 국방부, 이란 '3일 집중공격' 계획 수립‥트럼프 일단 제동\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856832_36925.html",
+     "media": "MBC",
+     "time": "10.9 17:38",
+     "summary": "미국 국방부가 이란의 미사일·드론 전력과 에너지 시설을 사흘간 집중 타격하는 새 작전계획을 마련해둔 사실이 뉴욕타임스 보도로 드러났다. 트럼프는 중간선거를 이유로 일단 공격을 보류시켰지만 계획 자체는 폐기되지 않았다. '공격 안 한다'는 발언과 달리 군 수뇌부는 재개를 준비해온 셈이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"미 국방부, 이란 '3일 집중공격' 계획했지만 트럼프 일단 제동\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682000&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "[속보] \"사흘간 짧고 굵게 이란 친다\"…美 수뇌부 극비 회의 내용 공개됐다",
+       "url": "https://www.youtube.com/watch?v=EvBRYeTWOxc",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "美, 이란전서 군용기 81대 파괴·손상‥최대 4.4조원 피해",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856712_36925.html",
+     "media": "MBC",
+     "time": "10.9 04:12",
+     "summary": "미국이 이란과의 전쟁에서 군용 항공기 81대를 파괴·손상당해 최대 4조4천억원의 피해를 입었다는 의회조사국 보고서가 CNN을 통해 공개됐다. 전문가들은 이란전뿐 아니라 예멘 후티 반군과의 교전까지 포함한 중동 전역 소모전이 미군에 상당한 부담이 되고 있다고 분석했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "美, 이란전서 군용기 81대 파괴·손상…최대 4.4조원 피해",
+       "url": "https://www.yna.co.kr/view/AKR20261009000200071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.9"
+      },
+      {
+       "title": "미군 '첨단 전력' 타격…4조 원 전쟁 청구서에 피해 '눈덩이' [에디터픽] / YTN",
+       "url": "https://www.youtube.com/watch?v=rFGU11vBSoY",
+       "media": "YTN",
+       "date": "10.09"
+      }
+     ]
+    },
+    {
+     "title": "사우디-후티 충돌 격화...푸틴 \"중동전 종식 위해 모든 노력\"",
+     "url": "https://www.ytn.co.kr/_ln/0104_202610092317159160",
+     "media": "YTN",
+     "time": "10.9 23:17",
+     "summary": "예멘 후티 반군과 사우디 간 충돌이 격화되는 가운데 푸틴 러시아 대통령이 투르크메니스탄에서 이란 대통령과 만나 중동전 종식을 돕겠다고 밝혔다. 푸틴은 이번 분쟁이 이란의 잘못과 무관하게 벌어졌다고 두둔했고, 페제시키안 이란 대통령은 미국이 협상 중에도 군사적 압박을 이어가고 있다고 지적했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "사우디-후티 충돌 격화...푸틴 \"중동전 종식 위해 모든 노력\" / YTN",
+       "url": "https://www.youtube.com/watch?v=NUD_lWduG_c",
+       "media": "YTN",
+       "date": "10.09"
+      }
+     ]
+    },
+    {
+     "title": "노벨평화상에 나비 필라이…전쟁범죄 심판 앞장선 국제법률가(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261009052253009?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.9 20:14",
+     "summary": "올해 노벨평화상은 전쟁범죄 심판에 앞장선 남아공 출신 국제법률가 나비 필라이에게 돌아갔다. 스스로 수상 자격이 있다고 주장해온 트럼프 미국 대통령은 올해도 수상이 불발됐으며, 필라이의 수상은 트럼프와 국제형사재판소(ICC) 간 갈등에 다시 이목을 집중시키고 있다. 트럼프는 ICC를 '불량 기관'이라 칭하며 회원국 탈퇴를 종용해온 바 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "노벨평화상에 나비 필라이…남아공 출신 인권운동가",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20261009201803caP",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      },
+      {
+       "title": "노벨평화상에 나비 필라이‥트럼프, 올해도 수상 불발 (2026.10.09/뉴스데스크/MBC)",
+       "url": "https://www.youtube.com/watch?v=Uo9feBPZxxQ",
+       "media": "MBCNEWS",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "노벨평화상 필라이 \"박수 더 치면 트럼프와 상 나눠야\" 농담",
+     "url": "https://www.yna.co.kr/view/AKR20261009057400108?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.9 19:34",
+     "summary": "나비 필레이는 노벨평화상 수상 발표 후 박수가 계속되자 '박수를 더 치면 트럼프 미국 대통령과 상을 나눠 가져야 할지도 모른다'고 꼬집었다. 스스로 평화상을 받을 자격이 있다고 주장해온 트럼프를 비꼬는 발언이다. 필레이는 유엔 가자지구 독립조사위원장으로 가자 상황을 집단학살(제노사이드)로 규정한 인물이기도 하다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "“박수 더 받으면 트럼프와 노벨평화상 나눠야”…필라이의 ‘웃픈’ 수상",
+       "url": "https://www.hani.co.kr/arti/international/europe/1281715.html",
+       "media": "한겨레",
+       "date": "10.9"
+      },
+      {
+       "title": "\"박수 더 치면 트럼프와 상 나눠야할지도\" 노벨평화상 필라이의 '뼈있는 농담'｜지금 이 뉴스",
+       "url": "https://www.youtube.com/watch?v=S93i1EknSj0",
+       "media": "JTBC News",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 노벨평화상 욕심 줄였다지만…노르웨이는 여전히 '눈치'",
+     "url": "https://www.yna.co.kr/view/AKR20261009017500009?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.9 08:43",
+     "summary": "노벨평화상 위원회가 트럼프 미국 대통령의 수상 욕심과 보복 가능성을 의식해 몸을 사리고 있다는 보도가 나왔다. 일부에서는 트럼프 퇴임 때까지 3년간 평화상 시상을 중단하자는 주장까지 제기됐다. 가자전쟁과 우크라이나 전쟁이 격화되는 상황에서 위원회가 트럼프의 반발을 우려해 선택을 제약받고 있다는 지적이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 눈치 보는 노벨평화상 위원회…평화상 3년 중단론",
+       "url": "https://news.jtbc.co.kr/article/NB12322246?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.9"
+      },
+      {
+       "title": "트럼프 욕심에 눈치보더니 급기야..\"트럼프 퇴임할 때까지 평화상 중단하자\" (자막뉴스)",
+       "url": "https://www.youtube.com/watch?v=bF8vS16cUig",
+       "media": "SBS 뉴스",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "미 검찰, 베네수 마두로 미국인 고문 혐의로 추가 기소",
+     "url": "https://www.yna.co.kr/view/AKR20261009046700009?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.9 16:29",
+     "summary": "미국 검찰이 베네수엘라 마두로 전 대통령 부부를 미국인 수감자 고문 혐의로 추가 기소했다. 뉴욕남부연방지검은 마두로 정권이 구금 중이던 미국인 10여명을 불법 고문하도록 했다고 주장하며 마약테러 공모 등 기존 혐의에 이를 더했다. 이는 미국이 마두로 정권을 겨냥해 벌여온 사법·군사적 압박의 연장선으로 볼 수 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "미국인 10여명 불법 고문…미 검찰, 베네수 마두로 추가 기소",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261009163801JHJ",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      },
+      {
+       "title": "美 검찰, 마두로 부부에 '고문 공모' 혐의 추가…피해자 9명 중 미국인",
+       "url": "https://www.news1.kr/world/usa-canada/6315088",
+       "media": "뉴스1",
+       "date": "10.9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "정청래 美비자 보류 여야 공방",
+     "pct": 100,
+     "count": "153건"
+    },
+    {
+     "name": "이대통령, 강경파에 작심 경고",
+     "pct": 70,
+     "count": "107건"
+    },
+    {
+     "name": "나경원 젤렌스키 감사서한 논란",
+     "pct": 28,
+     "count": "43건"
+    },
+    {
+     "name": "조경태 노무현 묘역 참배",
+     "pct": 23,
+     "count": "35건"
+    },
+    {
+     "name": "이재명 지지율 37% 최저치",
+     "pct": 15,
+     "count": "23건"
+    },
+    {
+     "name": "러트닉 국정원 불신 발언 논란",
+     "pct": 14,
+     "count": "22건"
+    },
+    {
+     "name": "외교부 정청래 비자 선 긋기",
+     "pct": 11,
+     "count": "17건"
+    },
+    {
+     "name": "강경파 겨냥 이대통령 재차 경고",
+     "pct": 10,
+     "count": "15건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "정청래, '美 비자 보류' 공방 자제 촉구‥\"국익에 도움 안 돼\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856825_36911.html",
+     "media": "MBC",
+     "time": "10.9 15:16",
+     "summary": "더불어민주당 정청래 의원의 미국 비자 발급이 보류된 사실을 두고 여야가 공방을 벌이자, 정 의원 본인이 SNS를 통해 \"지나치게 극단적인 주장은 자제해야 한다\"며 국익에 도움이 안 된다고 밝혔다. 국민의힘은 이를 \"한국을 향한 재앙의 경고장\"이라며 정부·여당 책임론을 제기했다. 미국 측이 비자를 보류한 구체적 이유는 아직 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국힘, 정청래 美 비자 보류에 \"한국 향한 재앙의 경고장\"",
+       "url": "https://imnews.imbc.com/news/2026/politics/article/6856788_36911.html",
+       "media": "MBC",
+       "date": "10.9"
+      },
+      {
+       "title": "정청래 '美비자 보류'…\"깊은 유감\"·\"동맹 파탄\"",
+       "url": "https://www.youtube.com/watch?v=jWhYbxqFcts",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "이 대통령 \"능력도 안 되면서 큰 자리 요구‥개혁 내세워 내부 공격\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856810_36911.html",
+     "media": "MBC",
+     "time": "10.9 13:50",
+     "summary": "이재명 대통령이 자신의 SNS에 조희연 전 서울시교육감의 기고문을 공유하며 \"능력도 안 되면서 큰 자리를 요구하고, 안 되니 급진 개혁을 내세워 내부 공격을 한다\"고 여권 내 일부 세력을 비판했다. 특정인을 지목하진 않았지만 검찰개혁 문제로 갈등 중인 당내 강경파를 겨냥한 것으로 해석됐다. 더불어민주당 전당대회 전후 내부 분열 양상을 분석한 글이 계기가 됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이 대통령 “능력 안 되면서 큰 자리 요구, 개혁 내세우며 내부 공격 문제”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8681965&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "李대통령 \"능력 안되면서 큰자리 요구, 개혁 명분으로 내부공격(종합)\"",
+       "url": "https://www.yna.co.kr/view/AKR20261009034251001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.9"
+      },
+      {
+       "title": "[뉴스1번지] 李 \"능력 안되면서 큰자리 요구\"…與강경파 작심 비판",
+       "url": "https://www.youtube.com/watch?v=ELcFeqS86Q0",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "나경원 “젤렌스키에 서한…북 포로 한국행 허용 결정 감사”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682003&ref=A",
+     "media": "KBS",
+     "time": "10.9 17:31",
+     "summary": "국민의힘 나경원 의원이 우크라이나 젤렌스키 대통령에게 북한군 포로의 한국행 허용 결정에 감사를 표하는 서한을 보냈다. 정부가 북한의 지뢰 매설 도발에 대응해 주우크라이나 대사 소환을 결정한 직후여서, 더불어민주당은 나 의원을 향해 \"대체 어느 나라 국회의원이냐\"고 비판했다. 여야 간 외교 기조를 둘러싼 프레임 충돌로 번졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "민주당, 우크라 ‘감사 서한’ 나경원에 “어느 나라 국회의원인가”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682004&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "나경원, 젤렌스키에 서한…\"북한군 포로 한국행 허용 감사\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261009142648blY",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      },
+      {
+       "title": "[LIVE] 나경원 \"젤렌스키에 감사 서한\"...우크라에 '사과'도 못 받았는데",
+       "url": "https://www.youtube.com/watch?v=qjHZuO53XlU",
+       "media": "JTBC News",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "조경태, 노무현 전 대통령 묘역 참배 \"정치가 지킬 금도 무너져\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856833_36911.html",
+     "media": "MBC",
+     "time": "10.9 18:16",
+     "summary": "당원권 정지 처분을 받은 국민의힘 조경태 의원이 경남 봉하마을을 찾아 노무현 전 대통령 묘역을 참배했다. 조 의원은 같은 당 김태규 의원의 국회 법사위 발언을 겨냥해 \"정치가 지킬 금도가 무너졌다\"며 고인의 죽음을 정쟁 대상으로 삼지 말아야 한다고 밝혔다. 국민의힘 지도부는 개별 의원 활동이라며 공식 입장을 자제했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "조경태, 노무현 전 대통령 묘역 참배…“협치 정신 이어받겠다”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682027&ref=A",
+       "media": "KBS",
+       "date": "10.9"
+      },
+      {
+       "title": "\"대신 사죄\" 조경태 봉하마을 참배…국힘 이탈 신호? #비하인드뉴스",
+       "url": "https://www.youtube.com/watch?v=km66rW80LGU",
+       "media": "JTBC News",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "\"이 대통령 지지율 37%\"…지지도 내림세 진정",
+     "url": "http://www.yonhapnewstv.co.kr/news/MYH20261009114119hGd",
+     "media": "연합뉴스TV",
+     "time": "10.9 11:42",
+     "summary": "한국갤럽 조사에서 이재명 대통령 국정 지지율이 취임 후 최저치인 37%로 직전 조사와 동률을 기록했다. 부정 평가는 5%p 감소한 51%였고, DMZ 지뢰 폭발 사건 이후 '국방·안보·대북 정책'에 대한 부정 여론이 주요 원인으로 꼽혔다. 더불어민주당 지지율(35%)도 이 대통령 취임 후 최저치로 함께 떨어졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이 대통령 지지율 37%로 직전과 동률…부정평가는 5%p 감소한 51%",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790364&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.9"
+      },
+      {
+       "title": "李 대통령 지지율 37% '최저치' 머물러…與 지지율도 35%로 최저(종합)",
+       "url": "https://www.news1.kr/politics/president/6315275",
+       "media": "뉴스1",
+       "date": "10.9"
+      },
+      {
+       "title": "\"이 대통령 지지율 37%\"…지지도 내림세 진정",
+       "url": "https://www.youtube.com/watch?v=C-Jh3MzVCW4",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "산업부, '러트닉, 김정관에 국정원 불신 전달' 보도에 \"사실 아냐\"",
+     "url": "https://imnews.imbc.com/news/2026/econo/article/6856792_36932.html",
+     "media": "MBC",
+     "time": "10.9 11:35",
+     "summary": "동아일보는 2천억 달러 규모 대미 전략투자 협상 과정에서 하워드 러트닉 미국 상무장관이 김정관 산업통상자원부 장관에게 \"한국 국정원은 도대체 왜 그러느냐\"며 트럼프 행정부의 불만을 전달했다고 보도했다. 이에 산업부와 국정원은 해당 내용이 사실이 아니라고 공식 부인했다. 지난 3월 대북 정보 공유 제한 등으로 불거진 한미 정보 분야 갈등이 다시 부각됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "정부, '러트닉, 김정관에 국정원 불신 전달' 보도에 \"사실 아냐\"",
+       "url": "https://www.yna.co.kr/view/AKR20261009025900504?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.9"
+      },
+      {
+       "title": "'트럼프 측근' 러트닉, 국가정보원 불신? 언론보도 파장에 정부 반응 [PICK]",
+       "url": "https://www.youtube.com/watch?v=886OL-kPZes",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "외교부 “정청래 미국비자 사안, 한미관계 전반과 연계 적절치 않아”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8681983&ref=A",
+     "media": "KBS",
+     "time": "10.9 15:55",
+     "summary": "외교부가 정청래 의원의 미국 비자 발급 지연을 한미관계 전반과 연계하는 시각에 선을 그으며 \"개별 비자 사안을 한미관계 전반과 연계하는 것은 적절치 않다\"고 밝혔다. 국민의힘은 \"정부·여당의 대미 외교 실패와 한미동맹 신뢰 균열이 이번 사태에 영향을 미친 것 아니냐\"는 논평을 내 반박했고, 민주당은 동맹국 간 비자 문제의 정치화를 경계했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "외교부 \"정청래 비자, 한미관계와 연계 적절치 않아\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20261009173348BqY",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      },
+      {
+       "title": "외교부 \"정청래 비자, 한미관계와 연계 적절치 않아\"",
+       "url": "https://www.youtube.com/watch?v=4b1Q_6qA7uc",
+       "media": "연합뉴스TV",
+       "date": "10.9"
+      }
+     ]
+    },
+    {
+     "title": "\"능력도 안 되면서 큰 자리 요구\"‥강경파 향해 '직격탄'",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6856858_37004.html",
+     "media": "MBC",
+     "time": "10.9 20:23",
+     "summary": "이재명 대통령이 \"능력도 안 되면서 큰 자리를 요구하고 개혁을 내세워 내부 공격을 한다\"고 밝힌 메시지의 파장이 이어졌다. 더불어민주당 김민석 대표가 지난 6일 \"대통령 리더십 훼손 우려가 있으면 당에서 제어할 때가 됐다\"고 말한 것과 맞물려, 검찰개혁 문제로 갈등 중인 당내 강경파에 대한 재차 경고로 해석됐다. 초대 중수청장 후보자 인사청문회를 앞둔 시점이라 긴장감이 더해졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"능력도 안 되면서 큰 자리 요구\"…강경파 겨냥?",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790660&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.9"
+      },
+      {
+       "title": "이 대통령 \"능력 안 되면서 큰 자리 요구\"...청문회 목전 강경파 직격",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610092152313561",
+       "media": "YTN",
+       "date": "10.9"
+      },
+      {
+       "title": "\"능력도 안 되면서 큰 자리 요구\"‥강경파 향해 '직격탄' (2026.10.09/뉴스데스크/MBC)",
+       "url": "https://www.youtube.com/watch?v=rZE83cGxQhk",
+       "media": "MBCNEWS",
+       "date": "10.9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 내란청산",
+   "ranking": [
+    {
+     "name": "윤석열 부부 영치금 22억 논란",
+     "pct": 100,
+     "count": "12건"
+    },
+    {
+     "name": "尹무죄 재판부 오세훈 2심 주목",
+     "pct": 58,
+     "count": "7건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "尹 부부 영치금 22억‥\"부자 되겠어요\"",
+     "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6856859_37004.html",
+     "media": "MBC",
+     "time": "10.09 20:26",
+     "summary": "구속 수감 중인 윤석열 전 대통령이 지난해 7월 재구속된 이후 지난달까지 14개월간 받은 영치금이 19억 5천만 원에 달하는 것으로 나타났다. 부인 김건희 씨도 지난해 8월 구속 이후 영치금을 받아 부부 합산 금액이 대통령 연봉의 8배 수준으로 집계됐다. 더불어민주당 이성윤 의원이 법무부 국정감사에서 이를 공개했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "윤석열 김건희 부부 21억원 영치금…“무기징역이니 천억대 부자 되겠다...",
+       "url": "https://www.hani.co.kr/arti/politics/politics_general/1281697.html",
+       "media": "한겨레",
+       "date": "10.09"
+      },
+      {
+       "title": "尹 부부 영치금 22억‥\"부자 되겠어요\" (2026.10.09/뉴스데스크/MBC)",
+       "url": "https://www.youtube.com/watch?v=gZWONhvuDCE",
+       "media": "MBCNEWS",
+       "date": "10.09"
+      }
+     ]
+    },
+    {
+     "title": "‘무죄→무죄→유죄→무죄’ 명태균 게이트…오세훈 재판은?[뉴스분석]",
+     "url": "https://www.khan.co.kr/article/202610090600091",
+     "media": "경향",
+     "time": "10.09 06:00",
+     "summary": "윤석열 전 대통령의 '명태균 여론조사 무상 제공' 사건 항소심에서 무죄를 선고한 재판부가 오는 23일 오세훈 서울시장의 정치자금법 위반 사건 항소심 선고도 맡는다. 두 사건 모두 명태균 씨의 여론조사 제공이 정치자금에 해당하는지, 양측의 '의사합치'가 있었는지가 핵심 쟁점이어서 오세훈 재판 결과에도 영향이 주목된다.",
+     "deadline": "공판기일 10.23 · 구속기한 null",
+     "chips": [],
+     "related": [
+      {
+       "title": "尹 '명태균 여론조사' 2심 무죄…오세훈 재판도 뒤집히나",
+       "url": "https://www.news1.kr/local/seoul/6314830",
+       "media": "뉴스1",
+       "date": "10.09"
+      },
+      {
+       "title": "여론조사 무죄로 뒤집힌 尹…오세훈 2심 '촉각' / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=qdsaMSoBb3U",
+       "media": "연합뉴스TV",
+       "date": "10.09"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
