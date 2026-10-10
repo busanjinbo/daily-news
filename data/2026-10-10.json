@@ -1,0 +1,939 @@
+{
+ "targetDate": "2026-10-10",
+ "title": "10월 10일 정세브리핑",
+ "publishedText": "발행 2026.10.11 07:18 KST",
+ "generatedText": "생성 2026.10.11 07:18 KST · 정세브리핑",
+ "footnote": "민플러스(minzokilbo.com) 피드가 HTTP 410 오류로 수집 실패해 섹션1이 공란이다. 유튜브 자동 매칭에서 17개 카드 중 11개는 방송사 공식 클립을 끝내 찾지 못해 '(클립 미확인)'으로 표시했다.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "트럼프가 노벨평화상 불발에 격노하며 '내가 남북한 전쟁을 막고 있다'고 주장한 가운데, 미국은 한국에 정보·방첩 분야에서 '동맹 기준'을 지키라고 압박했다.",
+   "북한은 조선로동당 창건 81돌을 자축하면서도 미 국무부의 '인신매매 최하위국' 지정에 '정치적 도발'이라며 대미 강경 대응을 예고했다.",
+   "윤석열 전 대통령이 내란 우두머리 혐의 항소심에 출석해 직접 발언했고, 그의 영치금 22억원 규모와 종합특검의 전 소방청장 재판 공소장 부실 문제가 함께 불거졌다."
+  ],
+  "watch": [
+   "트럼프의 노벨상 불만과 한반도 '분쟁 해결' 자처 발언이 한미·북미 관계에 미칠 후속 파장",
+   "미국의 한국 정보·방첩 '동맹 기준' 요구 구체 내용 공개 여부",
+   "북한의 대미 인신매매국 지정 반발이 실제 조치로 이어질지",
+   "윤석열 항소심 다음 공판 일정과 영치금·특검 공소장 부실 논란의 확산 여부",
+   "러시아-우크라이나 경유 공급 합의 이후 젤렌스키 측 대응 및 노벨평화상 수상자(나비 필라이) 선정에 따른 ICC 제재 추이"
+  ]
+ },
+ "sections": [
+  {
+   "type": "empty",
+   "label": "01 민플러스",
+   "text": "오늘은 민플러스 기사가 없습니다."
+  },
+  {
+   "type": "issues",
+   "label": "02 미-동아시아",
+   "ranking": [
+    {
+     "name": "트럼프 노벨상 불발에 격노 표출",
+     "pct": 100,
+     "count": "60건"
+    },
+    {
+     "name": "미국 한국 정보방첩 동맹기준 요구",
+     "pct": 40,
+     "count": "24건"
+    },
+    {
+     "name": "북한 미 인신매매국 지정 반발",
+     "pct": 25,
+     "count": "15건"
+    },
+    {
+     "name": "대만 총통 종속 거부 중국 반발",
+     "pct": 12,
+     "count": "7건"
+    },
+    {
+     "name": "중국계 업체 보잉 에어버스 구매",
+     "pct": 10,
+     "count": "6건"
+    },
+    {
+     "name": "극초음속 미사일 발사 장면 공개",
+     "pct": 5,
+     "count": "3건"
+    },
+    {
+     "name": "여권 백악관 동맹준수 요구 반응",
+     "pct": 5,
+     "count": "3건"
+    },
+    {
+     "name": "일본 총리 미 ICC제재 우려 표명",
+     "pct": 5,
+     "count": "3건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "트럼프, '노벨상 불발' 불만 폭발 \"남북한 전쟁 내가 막고 있다\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856959_36925.html",
+     "media": "MBC",
+     "time": "10.10 15:44",
+     "summary": "트럼프 미국 대통령이 올해 노벨평화상을 받지 못한 데 대해 \"지울 수 없는 오점\"이라며 노벨위원회를 비판했다. 자신이 한국-북한, 일본-북한, 중국-대만 간 전쟁까지 끊임없이 막고 있다고 주장했는데, 본인 주장일 뿐 제3자 확인은 없다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 노벨상 불발 맹비판 “내가 한국-북한 전쟁도 막고 있어”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682261&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "트럼프, 노벨상 불발 비판하며 \"내가 남북한 전쟁도 막고있어\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010023200071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "\"남북한 전쟁도 내가 막음\"…4절까지 간 트럼프 노벨상 타령 [이슈ZIP] / 연합뉴스TV(YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=ioZcMg8QmRs",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "미국 “한국, 정보·방첩서 ‘동맹 기준’ 지켜야”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682354&ref=A",
+     "media": "KBS",
+     "time": "10.10 21:02",
+     "summary": "트럼프 행정부 고위 관계자가 북한 사이버위협 대응 한미일 회의에 국정원 배제를 요청한 이유를 묻는 KBS 질의에 \"모든 동맹국이 정보·방첩 사안을 적절히 처리하기를 기대한다\"고 답했다. 지난 6월 미국 요구로 국정원이 한미일 실무회의에서 배제된 사실이 뒤늦게 알려졌고, 국정원은 \"오해가 있었으나 이미 지난 일\"이라고 해명했다. 미국의 발언 의도를 두고 불만 표출인지 길들이기인지 해석이 엇갈린다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "미국 “한국, 정보·방첩 분야 수십년 동맹 기준 준수 기대”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682286&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "美 \"韓, 정보·방첩 분야서 수십년 된 동맹 기준 준수 기대\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010009600071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "[🔴이슈] 미국 \"한국, 정보·방첩서 '동맹 기준' 지켜야\"/2026년 10월 10일(토)/KBS",
+       "url": "https://www.youtube.com/watch?v=BBMvddt1-bk",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "北, 美 '최악 인신매매국' 지정에 \"중상모독 정치적 도발\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856900_36925.html",
+     "media": "MBC",
+     "time": "10.10 06:51",
+     "summary": "미국 정부가 북한의 인신매매 대응에 24년째 최하위 등급을 매긴 보고서를 내자, 북한 외무성 대변인이 \"악랄하게 중상모독하는 정치적 도발\"이라며 \"인권을 정치화, 무기화해 대조선 적대시 정책에 이용한다\"고 반발했다. 북한 측 주장으로, 미국 보고서의 구체 내용은 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "북한, ‘최악 인신매매국’ 미 보고서에 “중상모독 정치적 도발”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682248&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "北, 美 '최악 인신매매국' 지정에 \"중상모독 정치적 도발\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010009800504?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "北, 인신매매 대응 최하위 등급에 \"악랄한 정치도발\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=-w9F5yA6pwE",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "대만 총통 “종속 용납 않을 것”…중국 “독립 추구 본색 드러나”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682358&ref=A",
+     "media": "KBS",
+     "time": "10.10 21:08",
+     "summary": "대만 라이칭더 총통이 중국에 대한 \"종속을 용납하지 않을 것\"이라고 밝히자 중국은 \"독립 추구 본색이 드러났다\"고 반발했다. 지난달 24일 백악관 미중 정상회담에서 시진핑 주석은 미국의 '대만 독립 반대' 입장 견지를 요구했으나, 백악관이 정상회담 후 발표한 공식 입장과는 차이가 있어 양측 해석이 갈린다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "대만 총통 \"종속 용납 않을 것\"…中 \"독립 추구 본색 드러나\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010044200083?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "대만 총통 \"종속 용납 않을 것\"…中 \"민중 오도 불순한 의도\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261010204227U2c",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      },
+      {
+       "title": "트럼프 \"내가 남북한 전쟁도 막고 있어\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=LfT-8iQq5W4",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "'中자본 지배' 항공기 임대업체, 보잉·에어버스 250대 구매",
+     "url": "https://www.yna.co.kr/view/AKR20261010030000083?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.10 15:01",
+     "summary": "중국 민간 자본이 지배하는 항공기 임대업체가 보잉·에어버스 여객기 250대(추가 100대 옵션)를 구매, 인도 물량을 선점했다. 지난 5월 베이징 미중 정상회담에서 트럼프 대통령이 \"중국이 대형 항공기 200대를 주문하기로 했다\"고 밝힌 데 따른 후속 거래로 풀이되지만, 중국 정부는 아직 구체적 합의 내용을 공개하지 않아 공식 확인은 안 됐다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "중국계 항공기 임대업체, 보잉·에어버스 250대 구매",
+       "url": "https://www.news1.kr/world/northeast-asia/6315685",
+       "media": "뉴스1",
+       "date": "10.10"
+      },
+      {
+       "title": "'중국 자본 지배' 항공기 임대업체, 보잉·에어버스 250대 구매",
+       "url": "https://www.ytn.co.kr/_ln/0104_202610101511479212",
+       "media": "YTN",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "국산 극초음속 미사일 발사 사진 공개…북한 겨냥?",
+     "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790795&plink=ORI&cooper=NAVER",
+     "media": "SBS",
+     "time": "10.10 06:09",
+     "summary": "청와대가 국산 극초음속 미사일 시험발사 장면과 이재명 대통령의 참관 영상을 공개했다. 이 대통령은 \"평화를 지키는 힘도 강력한 국방력에서 나온다\"고 언급했고, 청와대는 이를 \"한반도 전장 환경 속 새로운 억제 수단 확보\"라고 설명해 북한을 겨냥한 것이라는 해석이 나온다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "극초음속 미사일 발사 장면 전격 공개...목표 지점 '명중'",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610102316037985",
+       "media": "YTN",
+       "date": "10.10"
+      },
+      {
+       "title": "국산 극초음속 미사일 발사 사진 공개..북한 겨냥? / SBS",
+       "url": "https://www.youtube.com/watch?v=kviEXz1LkvQ",
+       "media": "SBS 뉴스",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "여권 고위 관계자, 백악관 '동맹 준수' 언급에 \"간단한 문제 아냐\"",
+     "url": "https://www.ytn.co.kr/_ln/0101_202610102204081902",
+     "media": "YTN",
+     "time": "10.10 22:04",
+     "summary": "여권 고위 관계자가 백악관의 '동맹 기준 준수' 요구 발언에 \"간단한 문제가 아니다\"라고 반응했다. 지난 6월 한미일 북한 사이버위협 대응 실무회의에 미국 요구로 국정원이 배제된 사실이 뒤늦게 알려졌고, 정동영 통일부 장관이 지난 3월 북한 우라늄 농축시설 위치를 언급한 이후 미국이 반년 넘게 핵심 대북정보 공유를 제한해온 것으로 전해졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "여권 고위 관계자, 백악관 '동맹 준수' 언급에 \"간단한 문제 아냐\"",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610101759388466",
+       "media": "YTN",
+       "date": "10.10"
+      },
+      {
+       "title": "여권 고위 관계자, 백악관 '동맹 준수' 언급에 \"간단한 문제 아냐\" / YTN",
+       "url": "https://www.youtube.com/watch?v=9vevRhDXXYQ",
+       "media": "YTN",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "일 총리, 미 ICC 제재 직후 “깊은 우려…ICC 역할 지원”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682259&ref=A",
+     "media": "KBS",
+     "time": "10.10 11:52",
+     "summary": "일본 다카이치 총리가 미국의 국제형사재판소(ICC) 제재 조치 직후 X에 \"깊은 우려\"를 표명하며 \"ICC 역할을 지원하겠다\"고 밝혔다. 지난 미일 정상회담 합의에 따라 루비오 미국 국무장관과 모테기 외무상이 긴밀히 소통하며 미국 측에 계속 의견을 개진하겠다고 말해, 미국의 ICC 제재에 공개적으로 우려를 표한 것이 눈길을 끈다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "다카이치, 美 ICC 제재 직후 \"깊은 우려…ICC 역할 지원\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010022700073?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "다카이치, 미 ICC 제재 직후 \"깊은 우려…ICC 역할 지원\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008791084&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-비동아시아",
+   "ranking": [
+    {
+     "name": "트럼프·푸틴 경유공급 빅딜",
+     "pct": 100,
+     "count": "154건"
+    },
+    {
+     "name": "트럼프 노벨상 불발 ICC제재",
+     "pct": 66,
+     "count": "102건"
+    },
+    {
+     "name": "트럼프, 젤렌스키 무시 거래",
+     "pct": 25,
+     "count": "39건"
+    },
+    {
+     "name": "푸틴, 우크라 긴장완화 '이해'",
+     "pct": 8,
+     "count": "12건"
+    },
+    {
+     "name": "국제유가 호르무즈·허리케인",
+     "pct": 5,
+     "count": "7건"
+    },
+    {
+     "name": "호르무즈 선박피격 이란경고",
+     "pct": 4,
+     "count": "6건"
+    },
+    {
+     "name": "사우디, 예멘 후티 대규모공습",
+     "pct": 3,
+     "count": "5건"
+    },
+    {
+     "name": "우크라, 모스크바 공항 드론공격",
+     "pct": 3,
+     "count": "5건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "젤렌스키, 트럼프·푸틴 경유 공급 합의 비난‥\"푸틴 생일선물\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856958_36925.html",
+     "media": "MBC",
+     "time": "10.10 15:43",
+     "summary": "트럼프 대통령이 러시아산 경유를 미국·세계시장에 즉시 30만톤 이상, 11월 50만톤, 이후 100만톤을 추가 공급하기로 푸틴 대통령과 합의하고 대러 제재를 완화했다. 중간선거를 앞두고 국내 유가 부담을 낮추려는 트럼프의 행보로, 젤렌스키 대통령은 이를 전쟁을 장기화하는 \"전쟁 투자\"이자 \"푸틴에게 주는 생일선물\"이라 비난했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "젤렌스키, ‘경유 합의’ 맹비난…“푸틴 생일 선물” / KBS 2026.10.10.",
+       "url": "https://www.youtube.com/watch?v=61s1umecESo",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "노벨 평화상에 나비 필라이‥ICC 고강도 제재",
+     "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6856906_37012.html",
+     "media": "MBC",
+     "time": "10.10 07:05",
+     "summary": "노벨위원회가 가자지구 집단학살 규정과 르완다 내전 성폭력의 전쟁범죄화를 주도해온 남아공 출신 나비 필라이를 올해 평화상 수상자로 선정했다. 수상을 희망했던 트럼프 대통령은 올해도 불발되자 SNS에 필라이를 \"미국과 이스라엘을 노골적으로 증오하는 인물\"이라 비난하는 글을 공유했고, 미국 정부는 발표 직후 국제형사재판소(ICC)에 고강도 제재를 가했다. 수상자 발표 직후 제재가 나오면서 \"의도적 보복\" 논란이 제기된다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 노벨상 불발 맹비판 “내가 한국-북한 전쟁도 막고 있어”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682261&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "미국, 노벨평화상 발표 직후 ICC 고강도 제재…의도적? [9시 뉴스] / KBS 2026.10.10.",
+       "url": "https://www.youtube.com/watch?v=ZZrNZBxwVBc",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "\"트럼프, 젤렌스키가 요청 무시하자 푸틴과 경유 거래 결정\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856970_36925.html",
+     "media": "MBC",
+     "time": "10.10 17:14",
+     "summary": "악시오스 보도에 따르면 트럼프 대통령은 러시아 정유시설 공격을 멈추라는 미국 측 요구를 젤렌스키 대통령이 거듭 무시하자 푸틴과 직접 경유 거래를 결정했다. 같은 시점 미국·우크라이나·유럽은 마이애미에서 종전 후 안전보장·영토 문제를 논의했으나 접점을 찾지 못했다. 미국이 러시아와의 경제적 밀착을 거래 명분으로 활용하며 우크라이나를 압박하는 모양새라는 지적이 나온다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "악시오스 “트럼프, 젤렌스키가 거듭 요청 무시하자 푸틴과 거래 결정”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682291&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "'러시아 정유시설 공격 멈춰' 미국 6차례 요구 무시한 젤렌스키.. 트럼프 러시아와 전격 '경유딜' - MBC뉴스",
+       "url": "https://www.youtube.com/watch?v=i0vDm5oG9qA",
+       "media": "MBCNEWS",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "\"푸틴, 트럼프의 우크라전 긴장 완화 제안에 '이해' 표명\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857003_36925.html",
+     "media": "MBC",
+     "time": "10.10 22:06",
+     "summary": "트럼프 대통령이 러시아산 경유를 미국·세계시장에 공급하기로 푸틴과 합의한 가운데, 푸틴은 트럼프의 우크라이나전 긴장 완화 제안에 '이해'를 표했다고 전해졌다. 그러나 같은 날에도 우크라이나와 러시아의 상호 공습은 계속돼, 러시아는 자포리자 주거용 건물에 활공폭탄 5발을 투하해 어린이 등 사망자가 발생했다. 디젤 제재 완화가 실제 긴장 완화로 이어지는지는 확인되지 않았다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "“푸틴, 트럼프의 우크라전 긴장 완화 제안에 ‘이해’ 표명”",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682450&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "국제유가, 미 멕시코만 원유 생산 차질 속 상승‥WTI 0.39%↑",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856898_36925.html",
+     "media": "MBC",
+     "time": "10.10 06:08",
+     "summary": "국제유가가 호르무즈 해협의 해상운송 불안과 허리케인에 따른 미국 멕시코만 원유 생산 차질(생산 72% 중단) 우려로 소폭 상승했다. 트럼프 대통령이 11월 미국 중간선거 전에는 이란을 공격하지 않겠다고 밝히면서 장 초반 유가는 하락세를 보였으나, 호르무즈 해협 등 페르시아만 일대에서 유조선 공격이 이어지며 다시 상승 전환했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국제유가, 美 멕시코만 원유 생산 차질 속 상승…WTI 0.39%↑",
+       "url": "https://www.yna.co.kr/view/AKR20261010005100072?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "호르무즈 해협서 선박 피격‥혁명수비대 \"항로 위반 시 처벌\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856879_36925.html",
+     "media": "MBC",
+     "time": "10.10 00:10",
+     "summary": "호르무즈 해협을 지나던 선박이 미상의 발사체에 맞았다고 영국 해사무역기구(UKMTO)가 밝혔다. 이란 이슬람혁명수비대는 해당 선박이 \"호르무즈 해협 남쪽의 불법 항로를 통과하려다\" 공격당했다며 항로 위반 시 엄중 처벌하겠다고 밝혔다. 이란이 호르무즈 해협 통항 통제를 강화하려는 행보로, 미국·동맹국과의 긴장을 자극할 수 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "호르무즈 해협서 선박 피격…혁명수비대 \"항로 위반시 처벌\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790773&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "사우디 \"후티 상대 대규모 작전 수행…군사 목표물 136개 파괴\"",
+     "url": "https://www.khan.co.kr/article/202610101510001",
+     "media": "경향",
+     "time": "10.10 15:10",
+     "summary": "사우디아라비아가 예멘의 친이란 무장세력 후티 반군을 상대로 대대적 공습을 벌여 군사 목표물 136곳을 파괴했다고 밝혔다. 후티는 미국-이란 전쟁을 틈타 지난 7월부터 사우디·예멘 정부군에 대한 공세를 재개했으며, 미국은 중간선거를 앞두고 중동 분쟁에 직접 개입을 꺼리는 상황이다. 사우디·후티 간 무력 충돌이 격화하는 가운데 미국의 소극적 대응이 공백을 키운다는 지적이 나온다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "사우디 연합군, 예멘 후티 반군 대규모 공습…군사 목표물 136곳 파괴",
+       "url": "https://www.news1.kr/world/middleeast-africa/6315638",
+       "media": "뉴스1",
+       "date": "10.10"
+      },
+      {
+       "title": "[속보] 후티, 공항 집중 타격...유혈 낭자 '생지옥'사우디 반격, 예멘 '전면전'...중동 대확전/2026년 10월 9일(금)/KBS",
+       "url": "https://www.youtube.com/watch?v=enyHLWtcVUI",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "우크라, 푸틴 귀국 맞춰 드론 폭격…공항 4곳 마비",
+     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554483",
+     "media": "www.ichannela.com",
+     "time": "10.10 18:53",
+     "summary": "우크라이나가 푸틴 대통령의 귀국길에 맞춰 모스크바 공항에 대규모 드론 공격을 가해 공항 4곳 운항이 마비됐다. 러시아 정부 전용기들도 모스크바 상공에서 선회하거나 상트페테르부르크로 우회하는 등 차질을 겪었다. 이는 미국·러시아 간 경유 거래 등 밀착 행보에 대한 우크라이나의 반발 성격으로 해석된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "우크라 드론에 모스크바 공항 4곳 마비… 푸틴 귀국길도 차질",
+       "url": "https://www.newscj.com/news/articleView.html?idxno=3439169",
+       "media": "www.newscj.com",
+       "date": "10.10"
+      },
+      {
+       "title": "[다시보기] 2층 천장 와르르…대구 상가 천장 붕괴로 38명 부상 | 2026년 10월 10일 뉴스A",
+       "url": "https://www.youtube.com/watch?v=ivJ4EpFZj_I",
+       "media": "채널A News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "美, 쿠바 의료인력 해외파견 축소에 외교압박 영향 인정",
+     "url": "https://www.telesurenglish.net/u-s-admitts-diplomatic-pressure-on-cuban-labor-missions/",
+     "media": "teleSUR",
+     "time": "10.10 05:03",
+     "summary": "미국 국무부가 쿠바의 해외 노동(주로 의료인력) 파견 감소에 미국의 외교적 압박이 기여했다고 인정했다. 비자 제한과 국제사회에 대한 문제제기로 쿠바의 해외 파견 인력은 2025년 초 약 2만4천명에서 2026년 1만5천~1만8천명으로 25~37.5% 줄었다고 국무부는 밝혔다. 미국 정치권은 쿠바 의료 파견을 \"강제노동\"이라 주장하지만 근거는 제시하지 않았다.",
+     "deadline": null,
+     "chips": [
+      "해외단독"
+     ],
+     "related": []
+    },
+    {
+     "title": "베네수엘라, 스타링크에 전국 사업 허가",
+     "url": "https://www.telesurenglish.net/venezuela-starlink-to-operate-nationwide/",
+     "media": "teleSUR",
+     "time": "10.10 16:27",
+     "summary": "베네수엘라 정부가 미국 스페이스X의 자회사 스타링크에 전국 단위 위성 인터넷 사업 일반 허가와 Ku밴드 사업권 7건을 부여했다. 반미 노선을 유지해온 베네수엘라에서 스타링크는 올해 2월부터 이미 서비스를 운영 중이었으며, 이번 조치로 정식 규제 체계 안에 편입된다.",
+     "deadline": null,
+     "chips": [
+      "해외단독"
+     ],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "트럼프 노벨상 불발에 격노 표출",
+     "pct": 100,
+     "count": "87건"
+    },
+    {
+     "name": "한동훈 딸 허위스펙 수사 논란",
+     "pct": 75,
+     "count": "65건"
+    },
+    {
+     "name": "미국, 한국에 동맹기준 요구",
+     "pct": 37,
+     "count": "32건"
+    },
+    {
+     "name": "국민의힘, 정동영 사퇴 압박",
+     "pct": 26,
+     "count": "23건"
+    },
+    {
+     "name": "추미애 비공개일정 요구 반발",
+     "pct": 25,
+     "count": "22건"
+    },
+    {
+     "name": "정청래 비자·나경원 서한 공방",
+     "pct": 25,
+     "count": "22건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "트럼프, '노벨상 불발' 불만 폭발 \"남북한 전쟁 내가 막고 있다\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6856959_36925.html",
+     "media": "MBC",
+     "time": "10.10 15:44",
+     "summary": "트럼프 대통령이 노벨평화상을 받지 못한 데 격노하며, 자신이 한국-북한, 일본-북한, 중국-대만 등 8개 분쟁을 막았다고 주장했다. 상을 주지 않은 노르웨이를 \"잊지 않겠다\"고도 했다. 남북전쟁까지 자신이 막고 있다는 주장은 트럼프 본인의 발언일 뿐 사실로 확인된 것은 아니다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 노벨상 불발 맹비판 \"내가 한국-북한 전쟁도 막고 있어\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682261&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "트럼프, 노벨상 불발 비판하며 \"내가 남북한 전쟁도 막고있어\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010023200071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "\"남북한 전쟁도 내가 막음\"…4절까지 간 트럼프 노벨상 타령 [이슈ZIP]",
+       "url": "https://www.youtube.com/watch?v=ioZcMg8QmRs",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "민주당 \"한동훈, 딸 사건 덮었나\"‥연일 '딸 허위 스펙' 수사 개입 의혹",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856952_36911.html",
+     "media": "MBC",
+     "time": "10.10 12:49",
+     "summary": "더불어민주당이 한동훈 전 법무부 장관 재직 당시 딸의 '허위 스펙' 의혹 수사에 개입했는지 진상규명을 거듭 촉구했다. 한동훈 측은 \"민주당의 망상\"이자 \"떼거지 마타도어\"라며 문제될 것이 없다고 반박했다. 여야가 책임 소재를 놓고 정면 충돌하는 양상이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "민주당 \"한동훈, 딸 사건 덮었나\"…한동훈 \"민주당의 망상\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682276&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "與 \"딸 사건 수사 덮었나\"…한동훈 \"망상이자 떼거지 마타도어\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20261010023551001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "\"한동훈이 딸 사건 덮었나\" 민주당 연일 맹공…검찰이 막은 '미국 수사공조' 논란 [PICK]",
+       "url": "https://www.youtube.com/watch?v=iwRrmu4LNzE",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "미국 \"한국, 정보·방첩서 '동맹 기준' 지켜야\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682354&ref=A",
+     "media": "KBS",
+     "time": "10.10 21:02",
+     "summary": "미국 정부가 한국에 정보·방첩 분야에서 수십 년간 이어진 '동맹 기준'을 지키라고 요구했다. 구체적으로 어떤 기준을 위반했는지는 밝히지 않았으나, 최근 한미 당국 간 정보공유 제한과 협력 차질 문제가 불거진 가운데 나온 발언으로 풀이된다. 앞서 국정감사에서는 북핵 관련 미국의 핵심정보 공유가 일부 제한돼 있다는 사실이 확인됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "미국 \"한국, 정보·방첩서 '동맹 기준' 지켜야\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682309&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "미국 \"한국, 정보·방첩 분야 수십년 동맹 기준 준수 기대\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682286&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "[풀영상] 뉴스9 : 미국 \"한국, 정보·방첩 동맹 기준 지켜야\"…'잠재된 불만 표출·길들이기' 해석 분분",
+       "url": "https://www.youtube.com/watch?v=I2eJ4VBJDdI",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "국민의힘 \"김여정 조롱에도 저자세 정동영, 사퇴해야\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856953_36911.html",
+     "media": "MBC",
+     "time": "10.10 12:52",
+     "summary": "국민의힘이 김여정 북한 노동당 총무부장의 막말 조롱에도 정동영 통일부 장관이 저자세로 대응한다며 사퇴·경질을 거듭 촉구했다. 박성훈 수석대변인은 \"북한이 모욕해도 저자세, 장병이 중상을 입어도 '사고'라 말하는 장관\"이라고 비판했다. 민주당·통일부 측 반응은 확인되지 않았다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국힘 \"김여정 조롱에도 정동영은 저자세\"…경질·사퇴 촉구",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682280&ref=A",
+       "media": "KBS",
+       "date": "10.10"
+      },
+      {
+       "title": "국힘 \"北김여정 조롱에도 저자세 정동영, 사퇴해야…안보 해악\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010023100001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "민주당의 비공개 일정 국감자료 요구에 추미애 \"대략난감\"",
+     "url": "https://www.yna.co.kr/view/AKR20261010018500061?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.10 09:02",
+     "summary": "민주당이 국정감사를 앞두고 추미애 경기지사에게 비공개 일정 자료를 요구하자 추 지사가 \"대략난감\"이라며 반발했다. 추 지사는 \"비공개 일정은 비밀일정이 아니다\"라고 밝혔다. 일각에서는 검찰개혁 강경파로 분류돼 특정 후보자 인사에 반대해온 추 지사를 겨냥한 정치적 의도가 있다는 해석도 나온다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"명색이 집권당인데\" 여당과 싸우는 추미애…\"비공개 일정 자료요구, 대략난감\"",
+       "url": "https://news.jtbc.co.kr/article/NB12322325?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.10"
+      },
+      {
+       "title": "민주당의 비공개 일정 국감자료 요구에 추미애 \"대락난감\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008790996&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.10"
+      },
+      {
+       "title": "여당과 싸우는 추미애 \"비공개 일정 자료요구, 대략난감\"｜지금 이 뉴스",
+       "url": "https://www.youtube.com/watch?v=vL8AfghQO0Y",
+       "media": "JTBC News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "\"정청래 비자, 외교 참사\"…\"나경원 서한, 매국 행위\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8682356&ref=A",
+     "media": "KBS",
+     "time": "10.10 21:05",
+     "summary": "국민의힘은 정청래 전 더불어민주당 대표의 미국 비자가 보류된 것을 두고 \"외교 참사\"라며 정부를 비판했다. 동시에 민주당은 나경원 국민의힘 의원이 우크라이나 젤렌스키 대통령에게 보낸 감사서한(북한군 포로 송환 관련)을 \"매국 행위\"라고 공격했고, 나경원 의원은 \"참 지독한 친북정권\"이라고 맞받았다. 정청래 비자 보류의 구체적 이유는 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "與 \"젤렌스키에 감사서한은 매국\"…나경원 \"참 지독한 친북정권\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010037600001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "민주당 \"젤렌스키에 감사 서한은 매국\"…나경원 \"참 지독한 친북정권\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008791253&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.10"
+      },
+      {
+       "title": "\"정청래 비자, 외교 참사\"…\"나경원 서한, 매국 행위\" [9시 뉴스]",
+       "url": "https://www.youtube.com/watch?v=6Pc2o-jloUE",
+       "media": "KBS News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "李 대통령 \"품격·권위 없다 비난하겠지만 SNS 소통 계속할 것\"",
+     "url": "https://www.yna.co.kr/view/AKR20261010047000001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.10 23:08",
+     "summary": "이재명 대통령이 SNS 메시지 정치에 대한 비판에 \"품격 없다, 권위 없다는 비난을 받더라도 경호를 최소화한 뒷골목 삶의 현장 방문과 SNS 소통을 계속하겠다\"고 밝혔다. 노무현 전 대통령이 댓글 소통을 하다 조롱당했던 일을 떠올리며 \"그분들의 언어로 교감하겠다\"고 했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261010225620cWE",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      },
+      {
+       "title": "李 대통령 \"품격없다 비난해도 SNS 소통·삶의 현장 방문 계속할 것\"",
+       "url": "https://www.news1.kr/politics/president/6315709",
+       "media": "뉴스1",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "안철수 \"해수욕장 인근까지 北지뢰…李, 굴종 광대극 즉각 멈춰야\"",
+     "url": "https://www.news1.kr/politics/assembly/6315518",
+     "media": "뉴스1",
+     "time": "10.10 11:17",
+     "summary": "안철수 국민의힘 의원이 인천 강화군 해수욕장 인근에서 북한에서 유실된 것으로 추정되는 대인지뢰가 발견된 것을 두고 \"대한민국 바다까지 지뢰밭으로 만드는 북한, 이재명 대통령은 언제까지 침묵하려 하느냐\"며 \"굴종 광대극을 즉각 멈춰야 한다\"고 촉구했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "해수욕장 인근서 발견된 지뢰...안철수 \"이재명, 굴종 광대극 멈춰야\"",
+       "url": "https://www.pennmike.com/news/articleView.html?idxno=129278",
+       "media": "www.pennmike.com",
+       "date": "10.10"
+      },
+      {
+       "title": "안철수 \"인천 해수욕장 인근까지 北지뢰…李, 굴종 광대극 멈춰야\"",
+       "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610100024&t=NN",
+       "media": "www.wowtv.co.kr",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "박균택 \"李정부 인사적체 주장 허위…상반기 244명 고공단 승진\"",
+     "url": "https://www.yna.co.kr/view/AKR20261010036900001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.10 16:38",
+     "summary": "더불어민주당 박균택 의원이 이재명 정부의 인사 적체가 심각하다는 일각의 주장을 \"허위\"라고 반박했다. 올 상반기 3급에서 고위공무원단으로 승진한 인원이 늘었고, 승진 소요기간도 윤석열 정부 대비 7개월 단축됐다고 주장했다. 여성 승진 비율도 증가했다고 밝혔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "박균택 \"李정부 인사 적체? 승진인원 늘고 승진기간 7개월 단축\"",
+       "url": "https://www.news1.kr/politics/assembly/6315573",
+       "media": "뉴스1",
+       "date": "10.10"
+      },
+      {
+       "title": "민주 박균택 \"이재명 정부 '인사 적체' 주장 허위...올해 상반기 244명 승",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610101813347613",
+       "media": "YTN",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "김한규 \"이화영은 개인 비리도 있어‥이 대통령 사건과 달라\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6856941_36911.html",
+     "media": "MBC",
+     "time": "10.10 11:05",
+     "summary": "대북송금 사건으로 복역 중인 이화영 전 경기도 평화부지사 측이 이재명 대통령에게 \"서운하다\"며 공개적으로 가석방을 요구하고 나서자 민주당 내에서 비판이 나왔다. 김한규 원내정책수석부대표는 \"이화영은 개인 비리도 있어 이 대통령 사건과 다르다\"고 선을 그었다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "與김한규 \"이화영은 개인 비리도 있어…李 대통령 사건과 달라\"",
+       "url": "https://www.yna.co.kr/view/AKR20261010020000001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.10"
+      },
+      {
+       "title": "민주 김한규 \"이화영은 개인 비리도 있어…이 대통령 사건과 달라\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261010155105DCN",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      },
+      {
+       "title": "[LIVE] 가석방 요구 꺼냈다가 역풍?…이화영 측에 선 긋는 민주당 / JTBC News",
+       "url": "https://www.youtube.com/watch?v=Hu0zuFuFmEw",
+       "media": "JTBC News",
+       "date": "10.10"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 내란청산",
+   "ranking": [
+    {
+     "name": "윤석열·김건희 영치금 22억 논란",
+     "pct": 100,
+     "count": "3건"
+    },
+    {
+     "name": "윤석열 내란 항소심 재판서 발언",
+     "pct": 33,
+     "count": "1건"
+    },
+    {
+     "name": "특검, 전 소방청장 재판 공소장 부실",
+     "pct": 33,
+     "count": "1건"
+    },
+    {
+     "name": "인권위, 사형제 폐지 논의 재점화",
+     "pct": 33,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "\"윤석열 교도관들이 하루 400만원 두번씩 출금\"...19억 영치금 알뜰하게...",
+     "url": "https://www.fnnews.com/news/202610100858359048",
+     "media": "fnnews",
+     "time": "10.10 09:15",
+     "summary": "윤석열 전 대통령과 김건희씨가 지난해 7월 재구속된 이후 1년여간 받은 영치금이 21억9천만~22억원에 달하는 것으로 나타났다. 이성윤 더불어민주당 의원실에 따르면 두 사람은 하루 두 차례씩 400만원 한도로 출금해왔다. 대통령 연봉의 8배에 이르는 금액이 비과세로 들어온 점을 두고 증여세 등 과세가 필요하다는 지적이 나온다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"하루 두번씩 출금\"…尹부부 영치금만 22억원",
+       "url": "https://www.munhwa.com/article/11622461?ref=naver",
+       "media": "문화일보",
+       "date": "10.10"
+      },
+      {
+       "title": "尹부부 영치금 1년간 21억원",
+       "url": "https://www.chosun.com/politics/politics_general/2026/10/10/NYBNLZ7P5BBT3ONKREESVE6PCQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+       "media": "조선",
+       "date": "10.10"
+      },
+      {
+       "title": "감옥에서 22억 '옥테크'? 윤석열 부부 영치금의 비밀 [지금이뉴스]",
+       "url": "https://www.youtube.com/watch?v=1icriLUq7u8",
+       "media": "YTN",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "尹 \"선관위 특검 간 구모 검사랑 그렇게 다퉜다\" [현장영상]",
+     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554456",
+     "media": "채널A",
+     "time": "10.10 16:15",
+     "summary": "윤석열 전 대통령이 내란 우두머리 혐의 항소심 재판에 출석해 직접 마이크를 잡고 발언했다. 지난 1일 항소심에서 1심 재판 과정 중 12월3일 밤 국회가 봉쇄됐는지를 두고 치열하게 다퉜다며 선관위 특검팀 소속 구모 검사와의 신문 공방을 언급했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "尹 “선관위 특검 간 구모 검사랑 그렇게 다퉜다” [현장영상] / 채널A",
+       "url": "https://www.youtube.com/watch?v=QE0h_JknJUE",
+       "media": "채널A News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "인물 · 윤석열 (전 대통령, 내란 우두머리 혐의)",
+     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554456",
+     "media": "채널A",
+     "time": "10.10 16:15",
+     "summary": "윤석열 전 대통령은 내란 우두머리 혐의 항소심 재판에 출석해 선관위 특검 소속 구모 검사와의 신문 공방을 직접 언급했다. 같은 날 그와 김건희씨가 구속 수감 중 받은 영치금이 1년여간 22억원에 달한다는 사실도 드러나 영치금 특혜 논란이 불거졌다. 구속 상태는 계속 유지되고 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "종합특검, 前 소방청장 재판서 '공소장 부실' 쩔쩔 맸다 [현장영상]",
+     "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000554457",
+     "media": "채널A",
+     "time": "10.10 16:17",
+     "summary": "내란 혐의를 수사 중인 종합특검이 전직 소방청장 재판에서 공소장이 부실하다는 지적을 받았다. 권영빈 특검보는 내란에 대한 기초적 판결이 이미 법원에서 나왔다며 공소장을 간략히 작성했다고 해명했지만, 재판부는 변호인 측이 제기한 내용의 상세성 문제에 의문을 제기했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "종합특검, 前 소방청장 재판서 '공소장 부실' 쩔쩔 맸다 [현장영상] / 채널A",
+       "url": "https://www.youtube.com/watch?v=5L7W4I8pa8A",
+       "media": "채널A News",
+       "date": "10.10"
+      }
+     ]
+    },
+    {
+     "title": "마지막 사형 집행은 1997년 12월30일…\"폐지 논의 진전시키자\"",
+     "url": "https://www.segye.com/newsView/20261010504791?OutUrl=naver",
+     "media": "세계일보",
+     "time": "10.10 19:02",
+     "summary": "국가인권위원회가 사형집행 중단 30년을 맞아 폐지 논의를 진전시켜야 한다고 밝혔다. 특검이 올해 1월 13일 '12·3 비상계엄' 내란 우두머리 혐의로 윤석열 전 대통령에게 사형을 구형하면서 사형제 존폐 논쟁에 다시 관심이 쏠렸고, 헌법재판소는 현재 세 번째 헌법소원 사건을 심리 중이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "인권위 \"사형집행 중단 30년…폐지 검토해야\"",
+       "url": "https://www.youtube.com/watch?v=Uf5BKEQrtMo",
+       "media": "연합뉴스TV",
+       "date": "10.10"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
