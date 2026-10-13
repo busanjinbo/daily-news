@@ -1,0 +1,1292 @@
+{
+ "targetDate": "2026-10-13",
+ "title": "10월 13일 정세브리핑",
+ "publishedText": "발행 2026.10.14 07:20 KST",
+ "generatedText": "생성 2026.10.14 07:20 KST · 정세브리핑",
+ "footnote": "수집 단계 오류 1건 발생(통계 errors=1, 세부 미조사). 섹션3~6 유튜브 미확인 카드 다수 중 8건은 --fill로 보충, 나머지는 클립 미확인으로 남음.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "북, 당 창건 81주년에 국방혁명박물관 개관·전술 탄도미사일 시험발사를 겹쳐 내부 결속과 군사력 과시를 동시에 보였다.",
+   "중동에서는 네타냐후가 사우디 승인을 타진하며 후티 공습 확대를 추진하는 동시에 트럼프는 러-우크라 '에너지 휴전'을 거론해 전선이 중첩됐다.",
+   "국내에서는 특검이 윤석열 2심에 당선무효형을 구형했고, 한미 정상 골프회동을 앞둔 물밑 TF 구성이 확인됐다."
+  ],
+  "watch": [
+   "윤석열 선거법 2심 선고 10.27 예정 — 당선무효형 구형대로 갈지 주시",
+   "한미정상 골프회동 일정과 청와대 TF 준비 상황",
+   "후티-사우디-미국 간 공습 확대 여부, 네타빈야후 승인 타진 결과",
+   "이란의 '중간선거 이후 전쟁 재개' 대비 발언 이후 호르무즈 긴장 추이",
+   "중수청의 임은정 감찰 속도, 추미애 김지용 청문회 증인 요구 공방"
+  ]
+ },
+ "sections": [
+  {
+   "type": "issues",
+   "label": "01 민플러스",
+   "ranking": [],
+   "cards": [
+    {
+     "title": "조선, 당 창건 81주년 맞아 국방혁명박물관 개관",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18473",
+     "media": "민플러스",
+     "time": "10.13 13:33",
+     "summary": "조선이 당 창건 81주년을 맞아 2026년 10월 11일 국방혁명박물관 개관식을 열었고, 김정은 국무위원장이 개관 테이프를 끊고 박물관을 돌아봤다. 개관식에는 당 중앙지도기관 성원, 국방공업 간부, 국방성 지휘관 등이 참석했다. 김정식 당 중앙위원회 제1부부장은 기념연설에서 박물관을 국방 발전사의 성과와 방위력을 보여주는 공간이라 소개했다. 김정은은 박물관이 국가의 존엄과 안전을 지켜온 기록이라 평가하며 무장 장비 개발을 계속하겠다고 밝혔다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "진보당 손솔 의원, 낙태죄 헌법불합치 7년 반…안전한 임신중지 보장은 뒷전 비판",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18475",
+     "media": "민플러스",
+     "time": "10.13 16:54",
+     "summary": "낙태죄 헌법불합치 결정(2019.4.11) 이후 7년 반이 지났지만 안전한 임신중지를 보장할 후속 입법은 마무리되지 않았다고 손솔 진보당 의원이 지적했다. 형법상 자기낙태죄 조항은 2021년부터 효력을 잃었으나, 위헌·헌법불합치 결정 후 개정된 다른 조항들(73.3%가 2년 내 개정)과 달리 가장 오래 미개정 상태다. 정부는 임신중지 약물을 2027년 1분기 도입하겠다고 밝혔으나 건강보험 적용 여부는 확정하지 않았다. 국정감사에서는 산부인과 없는 시군구가 22곳이라는 지적과 함께 처방 의료기관 지정, 건강보험 적용 요구가 나왔지만 복지부 장관은 법적 요건 검토가 필요하다고 답했다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "02 미-동아시아",
+   "ranking": [
+    {
+     "name": "트럼프, 김정은 만남 가능성 언급",
+     "pct": 100,
+     "count": "117건"
+    },
+    {
+     "name": "강경화, 한미정보협력 한계 지적",
+     "pct": 44,
+     "count": "51건"
+    },
+    {
+     "name": "한화, 한미동맹재단 후원 연장",
+     "pct": 31,
+     "count": "36건"
+    },
+    {
+     "name": "주한미군, 분산훈련 필요 제기",
+     "pct": 23,
+     "count": "27건"
+    },
+    {
+     "name": "한미일, 北미사일 대응 협의",
+     "pct": 12,
+     "count": "14건"
+    },
+    {
+     "name": "靑, 한미정상 골프회동 준비",
+     "pct": 11,
+     "count": "13건"
+    },
+    {
+     "name": "장동혁, 대미굴종 공방 가열",
+     "pct": 7,
+     "count": "8건"
+    },
+    {
+     "name": "한화 필리조선소 사업성 우려",
+     "pct": 6,
+     "count": "7건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "트럼프, 김정은과 회담 계획 묻자 \"그럴 수도\"",
+     "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6857555_36967.html",
+     "media": "MBC",
+     "time": "10.13 12:17",
+     "summary": "트럼프 미국 대통령이 백악관에서 취재진에게 다음 달 아시아 방문(중국 포함) 중 김정은 북한 국무위원장을 만날 계획이냐는 질문을 받고 \"그럴 수도 있다\"고 답했다. 구체적 일정이나 장소는 언급하지 않아 실제 성사 여부와 방식은 불확실한 발언 수준이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 김정은과 회담 계획 묻자 \"그럴 수도\" (2026.10.13/12MBC뉴스)",
+       "url": "https://www.youtube.com/watch?v=sfkjQ7SmXS4",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "강경화 주미대사 \"한미 정보기관 간 소통 진전‥백악관 소통은 한계\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857427_36925.html",
+     "media": "MBC",
+     "time": "10.13 05:48",
+     "summary": "강경화 주미대사가 워싱턴에서 한미 정보기관 간 소통은 진전되고 있지만 백악관과의 소통은 한계가 있다고 밝혔다. 트럼프 대통령이 추진 중인 북미 대화 개최 가능성에 대해서는 \"수치로 말하긴 어렵지만 구체적 진전은 없다\"고 선을 그었다. 이재명 대통령의 '북핵 동결' 발언 관련 질의도 있었으나 답변 내용은 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "강경화 \"미, 한미정보협력에 문제 제기...백악관 소통도 한계\" / YTN",
+       "url": "https://www.youtube.com/watch?v=uXHYV9IAeFw",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "한화 방산3사, 한미동맹재단·주한미군 전우회 후원 5년 연장",
+     "url": "https://www.yna.co.kr/view/AKR20261013123000003?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 14:44",
+     "summary": "한화에어로스페이스·한화시스템·한화오션 등 한화 방산 3사가 워싱턴DC에서 한미동맹재단, 주한미군 전우회와 제3차 후원 협약을 맺고 후원을 5년 더 연장해 2031년까지 이어가기로 했다. 2017년 두 단체 창립 이후 누적 후원 기간을 총 15년으로 늘리는 것으로, 한미 양국 군·민간 교류 활성화를 목표로 내세웠다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한화 방산3사, 한미동맹재단·주한미군 전우회 후원 연장",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261013145802DcT",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      },
+      {
+       "title": "한화 방산 3사, 한미동맹재단·주한미군 전우회 2031년까지 후원",
+       "url": "https://www.news1.kr/industry/general-industry/6318309",
+       "media": "뉴스1",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "주한미군 사령관 \"대규모 지휘소연습서 벗어나 분산형훈련 필요\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857487_36925.html",
+     "media": "MBC",
+     "time": "10.13 09:27",
+     "summary": "제이비어 브런슨 주한미군사령관이 워싱턴 미 육군협회 행사에서 북한군의 우크라전 실전경험 축적을 거론하며 한미연합훈련을 대규모 지휘소연습 중심에서 분산형 훈련으로 바꿀 필요가 있다고 밝혔다. 소식통은 지휘소연습 자체를 변경하자는 게 아니라 추가로 분산훈련이 필요하다는 취지라고 설명했다. 실제 훈련 방식 변경 여부는 아직 확정되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "주한미군 사령관 \"대규모 지휘소연습서 벗어나 분산형훈련 필요\"(종합2보)",
+       "url": "https://www.yna.co.kr/view/AKR20261013025752071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "주한미군사령관 '의미심장' 언급…한미연합훈련 대대적 개편 신호탄? [지금이뉴스] / YTN",
+       "url": "https://www.youtube.com/watch?v=z6pthziWODQ",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "한미일, 북한 탄도미사일 발사에 유선 협의…대응방안 논의",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684148&ref=A",
+     "media": "KBS",
+     "time": "10.13 11:02",
+     "summary": "한미일 외교당국이 북한이 전날(12일) 발사한 탄도미사일에 대한 대응 방안을 유선으로 협의했다. 외교부에 따르면 한미일은 북한의 탄도미사일 발사가 있을 때마다 관련 정보와 상황 평가를 신속히 공유하는 채널을 운영하고 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한미일, 北 탄도미사일 발사에 유선 협의…대응 논의",
+       "url": "https://www.yna.co.kr/view/AKR20261013061500504?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "한미일, 北 탄도미사일 발사에 유선 협의…대응 논의",
+       "url": "https://www.youtube.com/watch?v=lTB1ndH4sWk",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "靑, '한미정상 골프회동' 대비 TF 구성…물밑 준비 착수",
+     "url": "https://www.yna.co.kr/view/AKR20261013134800001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 15:56",
+     "summary": "청와대가 이재명 대통령과 트럼프 미국 대통령 간 골프 회동에 대비해 외교·안보 실무대응팀(TF)을 구성해 물밑 준비에 들어갔다. 트럼프 대통령이 지난달 23일 한미정상회담 중 백악관 비서실장 수지 와일스에게 이 대통령과의 골프 일정을 잡으라고 지시한 데 따른 것으로, 오는 12월 미국에서 열리는 G20을 계기로 성사될 가능성이 거론되나 일정은 확정되지 않았다. 청와대는 이를 '외교 행사'로 규정했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "청와대, 트럼프와 '골프 회동' 대비 실무대응팀 꾸려…\"외교 행사\"",
+       "url": "https://news.jtbc.co.kr/article/NB12322794?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.13"
+      },
+      {
+       "title": "일정도 확정 안됐는데…靑 '트럼프와 골프 회동 TF' 꾸렸다",
+       "url": "https://www.donga.com/news/Politics/article/all/20261013/134835372/1",
+       "media": "동아",
+       "date": "10.13"
+      },
+      {
+       "title": "靑, 한미 정상 골프회동 준비 실무팀 가동 / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=HcT_sdL-6xU",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "장동혁 \"굴종·사대는 李대통령이 해…국익·자존심 짓밟아\"",
+     "url": "https://www.news1.kr/politics/assembly/6318489",
+     "media": "뉴스1",
+     "time": "10.13 16:07",
+     "summary": "이재명 대통령이 한미관계 이상기류와 관련해 \"국가 간 이견은 있을 수 있다\"며 \"굴종적·사대적 태도는 지양해야 한다\"고 말한 것을 두고, 국민의힘 장동혁 대표는 거꾸로 \"굴종·사대는 이 대통령이 하고 있다\"고 반박했다. 장 대표는 대미투자협상에서 알래스카 LNG 사업 등 구체적 성과 없이 '국익에 부합한 결론'이라 자평한 것을 문제삼았다. 여야가 같은 표현을 두고 정반대 프레임으로 충돌하는 양상이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "장동혁 \"굴종·사대는 李대통령이 하는 중…국민 부끄럽게 말아야\"",
+       "url": "https://www.mt.co.kr/politics/2026/10/13/2026101314471928120",
+       "media": "www.mt.co.kr",
+       "date": "10.13"
+      },
+      {
+       "title": "이 대통령, 한미 이상 기류에 \"이견 있기 마련...굴종·사대는 지양\" / YTN",
+       "url": "https://www.youtube.com/watch?v=x_hK3i7RNWc",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "WSJ \"트럼프 美제조업 부흥 구상 시험대…필리조선소 등 난관\"",
+     "url": "https://www.yna.co.kr/view/AKR20261013011800072?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 07:41",
+     "summary": "월스트리트저널(WSJ)이 트럼프 대통령의 '미국 제조업 부흥' 구상이 시험대에 올랐다고 보도하며, 한화의 필리조선소와 아이오와 제철소 계획에 의구심을 제기했다. 과거 대만 폭스콘의 위스콘신 공장 사례처럼 공급망 문제와 높은 비용으로 계획이 축소될 가능성을 지적했다. 필리조선소에는 한미가 합의한 1500억 달러 규모 조선산업 협력투자펀드 등이 투입되는 핵심 사업이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한화 미국 필리조선소 성과가 트럼프 제조업 부흥 바로미터, 경제성 확보가 관건",
+       "url": "https://www.businesspost.co.kr/BP?command=article_view&num=449187",
+       "media": "www.businesspost.co.kr",
+       "date": "10.13"
+      },
+      {
+       "title": "자신만만하던 트럼프 '시험대'…예상 밖 복병 등장 [지금이뉴스] / YTN",
+       "url": "https://www.youtube.com/watch?v=uk6OZRTsz1Y",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "방사청 \"북핵 대응·전작권 회복 위해 3축체계 전력 적기도입\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6857583_36911.html",
+     "media": "MBC",
+     "time": "10.13 14:15",
+     "summary": "방위사업청이 북핵 대응과 전시작전통제권(전작권) 회복을 위해 3축체계 전력을 적기에 도입하겠다고 밝혔다. 장사정포요격체계 시험평가, F-35A 2차분 1호기 내년 도입, 핵추진잠수함 추진체계 개발·건조 계획 수립 등을 추진 중이라고 설명했다. 미국과는 함정 해외건조사업 등 방산 수출 분야 협력도 논의하고 있다고 덧붙였다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "방사청 \"북핵 대응·전작권 회복 위해 3축체계 전력 적기도입\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684306&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "AI '해킹 공포' 대비 태세는..국회 국방위 국정감사 / SBS 실시간 뉴스속보",
+       "url": "https://www.youtube.com/watch?v=k5IXaUNVFns",
+       "media": "SBS 뉴스",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "中경제수장 허리펑, '퇴임' 팀쿡과 회동…협력 심화 강조",
+     "url": "https://www.yna.co.kr/view/AKR20261013045800083?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 09:47",
+     "summary": "퇴임을 앞둔 팀 쿡 애플 의장이 중국 경제수장 허리펑과 회동해 미중 경제협력 심화를 강조했다. 쿡 의장은 애플이 중국에서 장기적 사업 발전에 자신감을 갖고 있다며, 기업계의 소통 가교 역할을 통해 미중 경제·무역 관계의 안정적 발전에 기여하겠다고 밝혔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "중 경제수장 허리펑, '퇴임' 팀 쿡과 회동…협력 심화 강조",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008794685&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-비동아시아",
+   "ranking": [
+    {
+     "name": "네타냐후 후티타격 사우디승인타진",
+     "pct": 100,
+     "count": "39건"
+    },
+    {
+     "name": "트럼프 에너지휴전 러 확답회피",
+     "pct": 36,
+     "count": "14건"
+    },
+    {
+     "name": "후티 사우디공격 미개입시보복경고",
+     "pct": 36,
+     "count": "14건"
+    },
+    {
+     "name": "젤렌스키 러 휴전파기 비판",
+     "pct": 31,
+     "count": "12건"
+    },
+    {
+     "name": "이란 중간선거후 전쟁대비 지상전",
+     "pct": 28,
+     "count": "11건"
+    },
+    {
+     "name": "트럼프 중러 이란지원설 일축",
+     "pct": 23,
+     "count": "9건"
+    },
+    {
+     "name": "후티공격 사우디유가 공급우려",
+     "pct": 23,
+     "count": "9건"
+    },
+    {
+     "name": "마크롱 러 그림자함대 나포",
+     "pct": 21,
+     "count": "8건"
+    },
+    {
+     "name": "러 폴란드 스타링크 방화의혹",
+     "pct": 3,
+     "count": "1건"
+    },
+    {
+     "name": "백악관 그리스대사 사퇴요구",
+     "pct": 3,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "\"네타냐후, 후티 공습에 개입 추진‥사우디 승인 타진\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857649_36925.html",
+     "media": "MBC",
+     "time": "10.13 17:38",
+     "summary": "네타냐후 이스라엘 총리가 예멘 후티에 대한 공습을 위해 미국의 중재를 거쳐 사우디아라비아의 승인을 추진하고 있다고 MBC가 보도했다. 사우디 실권자 무함마드 빈살만은 여론 악화와 팔레스타인 문제 등을 이유로 난색을 보이는 것으로 전해졌다. 사우디 승인 여부는 아직 확정되지 않은 사안이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"네타냐후, '후티 타격' 사우디 승인 타진\"",
+       "url": "https://www.youtube.com/watch?v=jH5eXuurHXI",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 \"러·우크라, 에너지 휴전 동의…후티 잘못 처신\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684146&ref=A",
+     "media": "KBS",
+     "time": "10.13 11:00",
+     "summary": "트럼프 미국 대통령이 러시아와 우크라이나가 에너지 시설 공격을 중단하는 '휴전'에 동의했다고 중간선거 지원 유세 중 재차 주장했다. 그러나 크렘린궁은 이틀째 이를 공식 확인하지 않고 있고, 연합뉴스는 트럼프의 압박에도 러시아가 우크라이나 공격을 계속했다고 보도해 트럼프 주장의 실효성에 의문을 제기했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 \"러·우크라, 에너지 휴전 동의했다…후티 잘못 처신\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013069200071?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "트럼프 '에너지 휴전' 압박에도…\"러, 우크라 공격 계속\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20261012169551109?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "눈 뒤집힌 젤렌스키 '금시초문'…러시아, 트럼프 휴전 선언 직후 '쾅' [에디터픽] / YTN",
+       "url": "https://www.youtube.com/watch?v=N6pONLEtgaM",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "사우디 \"후티 미사일 요격\"‥ 후티 \"미국 개입 말라\"",
+     "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6857554_36967.html",
+     "media": "MBC",
+     "time": "10.13 12:16",
+     "summary": "사우디아라비아가 후티 반군이 발사한 미사일을 요격했다고 밝혔다. 후티 측 정치국원 무함마드 알부카이티는 미국이 예멘 공격에 가담할 경우 미국과 역내 미국 시설을 겨냥한 보복이 뒤따를 것이라고 경고했다. 미국의 무력개입 여부는 아직 결정되지 않은 것으로 전해졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "후티 또 공격, 사우디는 요격…\"미국 개입하면 보복\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684436&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "사우디 \"후티 미사일 요격\"‥후티 \"미국 개입 말라\" (2026.10.13/뉴스투데이/MBC)",
+       "url": "https://www.youtube.com/watch?v=4mAaLEJlbFE",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 아냐\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857699_36925.html",
+     "media": "MBC",
+     "time": "10.13 20:28",
+     "summary": "젤렌스키 우크라이나 대통령은 트럼프 미국 대통령의 '에너지 분야 휴전' 언급 이후 이틀간 러시아의 정유시설·에너지 시설을 공격하지 않았지만, 러시아는 이를 따르지 않고 공격을 계속했다고 밝혔다. 트럼프가 주장한 휴전 합의의 실효성에 의문이 제기된다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "젤렌스키 \"트럼프 '휴전' 언급에 공격 자제했지만 러는 계속\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013186300108?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "젤렌스키 \"트럼프 '에너지 휴전' 언급에도 러 공격 계속\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR202610132013431Qz",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      },
+      {
+       "title": "눈 뒤집힌 젤렌스키 '금시초문'…러시아, 트럼프 휴전 선언 직후 '쾅' [에디터픽] / YTN",
+       "url": "https://www.youtube.com/watch?v=N6pONLEtgaM",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "이란, 인접국 지상군 투입 시사…美중간선거 이후 전쟁 재개 대비",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684414&ref=A",
+     "media": "KBS",
+     "time": "10.13 16:45",
+     "summary": "이란이 미국 중간선거 이후 전쟁이 재개될 가능성에 대비해 인접국에 지상군을 투입할 수 있다는 관측이 나온다고 KBS가 보도했다. 이란은 미국의 첨단 전투기·순항미사일 공격을 방어할 능력이 제한적이어서 위협으로 미국의 추가 공격 자체를 억제하려는 것으로 분석된다. 이란 측은 교전 재개 시 사우디 석유시설 공격 가능성도 시사한 것으로 전해졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이란, 인접국 지상군 투입도 시사…美중간선거 이후 공세 대비",
+       "url": "https://www.yna.co.kr/view/AKR20261013142400009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "'美선거 후 공세 퍼부을라'… 이란, 핵시설 등 방어 강화",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261013162113ezP",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      },
+      {
+       "title": "이란, 인접국 지상군 투입도 시사…美중간선거 이후 공세 대비｜핵시설 방어 강화, 사우디 석유시설 공격 위협도…\"억지력 확보\"/ 연합뉴스TV(YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=86h0W7jv-pA",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "트럼프, 중·러 대이란 지원설 일축 \"잃을 게 너무 많아\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857652_36925.html",
+     "media": "MBC",
+     "time": "10.13 17:55",
+     "summary": "트럼프 미국 대통령이 중국과 러시아가 이란을 돕고 있다는 일각의 주장을 일축하며, 중국과 러시아는 이란을 전혀 돕고 있지 않다고 밝혔다. 트럼프는 두 나라가 이란을 지원하면 '잃을 것이 너무 많다'고 주장하며 선을 그었다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 '중·러, 대이란 지원설' 일축…\"지원 전혀 없어\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684385&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "트럼프 대놓고 중·러 두둔하나…\"이란에 지원 전혀 없어\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013134300009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "트럼프, 이번엔 중·러 두둔?…\"이란 전혀 안 도와\" 지원 의혹에 선 그은 이유 [이슈ZIP]/ 연합뉴스TV(YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=UQkhJbOA_Ao",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "사우디 피격에 공급 우려‥브렌트유 1.8%↑, 9월15일 이후 최고",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857433_36925.html",
+     "media": "MBC",
+     "time": "10.13 06:10",
+     "summary": "사우디아라비아에 대한 후티의 연쇄 공격으로 원유 공급 우려가 커지며 브렌트유가 1.8% 오르며 9월 15일 이후 최고치를 기록했다. 트럼프 대통령이 발표한 러시아산 경유 수출 확대 및 러시아·우크라이나 에너지시설 공격 중단 합의도 유가에 영향을 미쳤다. 호르무즈 해협과 오만 인근 해역을 지나는 유조선들도 잇따라 드론 공격을 받아 중동 원유 수출길의 불확실성이 커졌다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "사우디 피격에 브렌트유 1.8%↑…9월 15일 이후 최고",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR202610130558545X0",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      },
+      {
+       "title": "브렌트유 1.8%↑, 9월 15일 이후 최고치",
+       "url": "https://www.ytn.co.kr/_ln/0104_202610130606164090",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "'경유딜' 트럼프 보란 듯‥마크롱, 러 그림자 함대 나포 발표",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857582_36925.html",
+     "media": "MBC",
+     "time": "10.13 14:14",
+     "summary": "프랑스 마크롱 대통령이 러시아 '그림자 함대' 소속 선박을 나포했다고 발표했다. 이번 조치는 트럼프 미국 대통령이 러시아산 경유의 대규모 공급에 합의하며 대러 제재 완화 움직임을 보인 가운데 나왔다. EU는 미국의 움직임과 무관하게 러시아 제재를 계속 강화하겠다는 입장을 밝혔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "프랑스, 러시아 그림자 함대 나포",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684226&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "'경유딜' 트럼프 보란 듯…마크롱, 러 그림자 함대 나포 발표",
+       "url": "https://www.yna.co.kr/view/AKR20261013093700009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "이란 혁명수비대 \"호르무즈서 초대형 유조선 타격‥경고 무시\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6857510_36925.html",
+     "media": "MBC",
+     "time": "10.13 10:13",
+     "summary": "이란 이슬람혁명수비대(IRGC)가 호르무즈 해협에서 이틀 사이 세 번째 초대형 유조선을 타격했다고 밝혔다. IRGC는 호르무즈 해협과 페르시아만 일대에서 상선·유조선이 '미국 테러군'과 협력하는 어떠한 행위도 좌시하지 않겠다고 경고했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이란 혁명수비대 \"호르무즈서 초대형 유조선 타격…경고 무시\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8683925&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "이란 혁명수비대 \"호르무즈서 초대형 유조선 타격…경고 무시\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013000500079?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "[속보] 유조선 피의 불길 '콸콸'...영상 공개 '경악'/최악 치닫는 호르무즈...미국 최후의 일격 예고/2026년 10월 12일(월)/KBS",
+       "url": "https://www.youtube.com/watch?v=e_oMDeXZbHo",
+       "media": "KBS News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 '경유 딜'에‥러-우 종전 논의 '제동'",
+     "url": "https://imnews.imbc.com/replay/2026/nw1700/article/6857639_36981.html",
+     "media": "MBC",
+     "time": "10.13 17:00",
+     "summary": "뉴욕타임스 보도에 따르면 미국과 러시아 간 경유 거래로 미국이 중재해온 러시아·우크라이나 종전 논의가 사실상 중단됐다. 트럼프 대통령의 특사 윗코프와 쿠슈너가 이달 말 계획했던 회담도 보류된 것으로 전해졌다. 지난 9일 미·러 경유 거래 발표 이후 우크라이나가 반발하며 분위기가 급격히 냉각됐고, 젤렌스키 대통령은 이를 '전쟁 투자'라고 비판했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 경유딜에 러-우 종전논의 올스톱…美특사 회담 보류",
+       "url": "https://www.yna.co.kr/view/AKR20261013063800009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "트럼프 '경유 딜'에‥러-우 종전 논의 '제동' (2026.10.13/5시뉴스와경제/MBC)",
+       "url": "https://www.youtube.com/watch?v=9n7uMA4dS3g",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "Putin Discusses Russia-U.S. Diesel Deal with United Arab Emirates",
+     "url": "https://www.telesurenglish.net/putin-discusses-russia-u-s-diesel-deal-with-united-arab-emirates/",
+     "media": "teleSUR",
+     "time": "10.13 22:27",
+     "summary": "teleSUR(해외단독) 보도에 따르면 푸틴 러시아 대통령이 아랍에미리트(UAE) 대통령 무함마드 빈 자이드와 전화 통화에서 트럼프 미국 대통령과 합의한 러시아산 경유의 미국 공급 건을 논의했다. 크렘린궁 대변인 페스코프는 이 경유 거래가 우크라이나 평화안과는 무관한 별개의 러-미 협력이라고 밝혔다. 국내 매체는 트럼프의 경유 거래 발표만 다뤘을 뿐 이 푸틴-UAE 통화와 페스코프 발언은 보도하지 않았다.",
+     "deadline": null,
+     "chips": [
+      "해외단독"
+     ],
+     "related": []
+    },
+    {
+     "title": "폴란드 스타링크 통신시설에 방화공작…러시아 의심(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261013159051082",
+     "media": "연합뉴스",
+     "time": "10.13 23:54",
+     "summary": "폴란드에서 스타링크 위성인터넷 통신시설에 대한 방화공작이 발생했고, 연합뉴스는 러시아가 배후로 의심된다고 보도했다. 앞선 보도에서는 방화범이 체포됐으며 러시아가 배후라는 조사 결과가 나왔다고 전해졌다. 피해 규모나 수사 경위 등 세부 사항은 제목 이상으로 확인되지 않는다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "폴란드 스타링크 통신시설 방화범 체포…\"러시아가 배후\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013159000082",
+       "media": "연합뉴스",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "백악관, '각종 비위 의혹' 그리스 대사에 \"사퇴 요구했다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261013194300071",
+     "media": "연합뉴스",
+     "time": "10.13 23:32",
+     "summary": "백악관이 각종 비위 의혹이 제기된 그리스 대사에게 사퇴를 요구했다고 연합뉴스가 보도했다. 의혹의 구체적 내용과 대사의 신원 등 세부 경위는 제목 이상으로 확인되지 않는다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "[단독] 김병기 보좌관이 참고인 변호사 소개...\"진술 감시?\" / YTN",
+       "url": "https://www.youtube.com/watch?v=FDSycXk3g3A",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "정부기관 2차 세종 이전 확정",
+     "pct": 100,
+     "count": "290건"
+    },
+    {
+     "name": "윤석열 항소심 당선무효형 구형",
+     "pct": 65,
+     "count": "189건"
+    },
+    {
+     "name": "한미 이상기류 강경화 발언",
+     "pct": 65,
+     "count": "189건"
+    },
+    {
+     "name": "이재명 인천 흉기난동 현장방문",
+     "pct": 20,
+     "count": "59건"
+    },
+    {
+     "name": "추미애 김지용 인선 공방",
+     "pct": 16,
+     "count": "45건"
+    },
+    {
+     "name": "헌재 대법관 재제청 공방",
+     "pct": 14,
+     "count": "40건"
+    },
+    {
+     "name": "최민희 지지율 위기 발언",
+     "pct": 10,
+     "count": "30건"
+    },
+    {
+     "name": "주진우 사이버레커 발언 공방",
+     "pct": 8,
+     "count": "24건"
+    },
+    {
+     "name": "한미 재무장관 화상면담",
+     "pct": 0,
+     "count": "1건"
+    },
+    {
+     "name": "한미정상 골프회동 TF 구성",
+     "pct": 0,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "정부 \"내년 27개 정부 기관 세종 이전‥금융위·방미통위 등 대상\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6857581_36911.html",
+     "media": "MBC",
+     "time": "10.13 14:07",
+     "summary": "정부가 내년부터 금융위원회·방위사업청 등 27개 중앙행정기관을 세종으로 이전하고, 하반기에는 19개 기관을 추가 이전한다고 밝혔다. 법무부·성평등가족부는 행복도시법 개정 시점에 맞춰 이전 시기를 별도로 정하기로 했다. 대통령 세종집무실(2029년)과 국회 세종의사당(2033년) 완공 전까지는 '왕복 근무·반쪽 이주' 문제가 불가피해 행정 비효율이 과제로 지적된다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "2차 중앙행정기관 세종 이전…44곳 내년부터 순차 이동",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684532&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "내년 금융위·방미통위 등 27개 정부 기관 세종 이전 (2026.10.13/뉴스외전/MBC)",
+       "url": "https://www.youtube.com/watch?v=39hwzuAGm6Y",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "특검, 尹 2심 당선무효형 구형‥27일 선고",
+     "url": "https://imnews.imbc.com/replay/2026/nw1700/article/6857643_36981.html",
+     "media": "MBC",
+     "time": "10.13 17:06",
+     "summary": "민중기 특별검사팀이 윤석열 전 대통령의 공직선거법 위반(대선후보 시절 허위 발언) 혐의 항소심에서 1심과 같은 당선무효형(징역 1년6개월, 집행유예)을 구형했다. 2심 선고는 오는 27일 오후 2시로 예정됐다. 형이 최종 확정되면 국민의힘은 지난 대선 선거비용 397억 원을 국가에 반환해야 한다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "특검, 尹 2심 당선무효형 구형‥27일 선고 (2026.10.13/5시뉴스와경제/MBC)",
+       "url": "https://www.youtube.com/watch?v=ryIhWIaVj9Q",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "\"한미 정보협력, 어려운 현안‥백악관 소통 한계\"",
+     "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6857548_36967.html",
+     "media": "MBC",
+     "time": "10.13 12:05",
+     "summary": "강경화 주미대사가 국회 외통위 국정감사에서 한미 정보협력이 '가장 어려운 현안'이며 백악관과의 소통에 한계가 있다고 밝혔다. 무소속 한동훈 의원이 비무장지대 지뢰 폭발의 고의성 여부를 거듭 캐묻자, 합참 결과로는 '불의의 사고가 아니다'라고 답했다. 이는 앞서 이재명 대통령이 해당 사건을 '불의의 사고'로 표현한 것과 배치돼, 한미 간 소통 한계와 정부 내 프레임 차이가 함께 노출됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "주미대사 \"한미 정보협력 제일 어려워…백악관과 소통 답답\" [9시 뉴스] / KBS 2026.10.13.",
+       "url": "https://www.youtube.com/watch?v=sflqw_saM80",
+       "media": "KBS News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "이 대통령, 인천경찰청 찾아 흉기 난동 사건 보고받아…\"신속 엄정 수사\"",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684753&ref=A",
+     "media": "KBS",
+     "time": "10.13 21:38",
+     "summary": "이재명 대통령이 부산 일정을 마치자마자 상경해 인천경찰청을 방문, 인천 대형 상업시설 흉기 난동 사건 경위를 보고받고 신속하고 엄정한 수사를 당부했다. 사회적 약자 피해가 심각하다며 특단 대책을 강구하라고 지시했고, 강력범죄 예방에 모든 역량을 집중하라고 주문했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "李 대통령, 인천경찰청 방문…흉기난동 사건에 \"특단 대책 강구\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013190900001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "이 대통령, 인천경찰청 방문...흉기 난동 사건 보고받아 / YTN",
+       "url": "https://www.youtube.com/watch?v=m6SP4C_KwIk",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "추미애, 김지용 인선 묻는 野에 \"국감장서 답변 적절치 않아\"",
+     "url": "https://www.yna.co.kr/view/AKR20261013090900061?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 11:46",
+     "summary": "추미애 경기도지사가 국정감사에서 김지용 중수청장 후보자 인선에 대한 국민의힘 의원의 질의에 '국감장에서 답변하는 것은 적절치 않다'며 즉답을 피했다. 추 지사는 주말·심야 SNS로 검찰개혁 관련 의견을 낸 데 대해서는 '도정에 소홀함이 없었다'고 해명했다. 국민의힘은 김 후보자 임명 지연 책임을 추 지사에게 돌리며 공방을 이어갔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "행안위 경기도 국감, '재정위기·관사' 최대 쟁점 전망",
+       "url": "https://www.yna.co.kr/view/AKR20261012176000061?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "추미애 \"김지용은 친윤, 중수청장 부적합\"...국감서 작심발언 / YTN",
+       "url": "https://www.youtube.com/watch?v=kig2QihR6TE",
+       "media": "YTN",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "헌재 국감 '대법관 재제청' 대립‥\"조희대 헌법 부정\"·\"재제청 근거 없어\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6857605_36911.html",
+     "media": "MBC",
+     "time": "10.13 15:20",
+     "summary": "국회 법사위의 헌법재판소 국정감사에서 대법관 재제청 문제를 두고 여야가 정면 충돌했다. 더불어민주당은 조희대 대법원장이 대통령의 제청권을 침해한 것처럼 주장하고 있다고 비판했고, 국민의힘은 재제청 요구에 헌법적 근거가 없다고 맞섰다. 헌재 사무처장은 국민의힘이 낸 권한쟁의심판에 대해 '선례를 보면 각하 판단도 가능하다'고 밝혀 논란이 이어졌다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "헌재사무처장, 대법관 재제청 권한쟁의에 \"선례보면 각하도 가능\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013082900004?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "\"조희대 직무유기\" \"헌법 근거 있나\"…'대법관 재제청' 2라운드 / JTBC 뉴스룸",
+       "url": "https://www.youtube.com/watch?v=GUCSUsDmiZY",
+       "media": "JTBC News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "친청계 최민희 \"당 지지율 처참…전통적 지지층 박탈감이 원인\"",
+     "url": "https://www.yna.co.kr/view/AKR20261013120300001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 14:56",
+     "summary": "더불어민주당 최민희 최고위원이 '당 지지율이 처참하다'며 전통적 지지층의 박탈감이 원인이라고 공개 자평했다. 지지율 회복 방안으로 '조작기소 특검법'을 빨리 처리해야 한다고 제언했고, 조희대 대법원장 탄핵 추진도 거론하며 당 지도부를 향해 작심 발언을 쏟아냈다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "최민희 \"당 지지율 처참, 죄송…원인은 지지층 박탈감·상처 때문\"",
+       "url": "https://news.jtbc.co.kr/article/NB12322738?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.13"
+      },
+      {
+       "title": "최민희 \"당 지지율 처참, 죄송…원인은 지지층 박탈감·상처 때문\"｜지금 이 뉴스",
+       "url": "https://www.youtube.com/watch?v=cIdlZB3rQbk",
+       "media": "JTBC News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "\"사이버 레커\" 민주당 공격에 주진우 \"버르장머리 고칠 것\" [지금뉴스]",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684400&ref=A",
+     "media": "KBS",
+     "time": "10.13 16:35",
+     "summary": "국회 법사위 국정감사에서 더불어민주당 의원들이 국민의힘 주진우 의원을 '사이버 레커'라고 공격하자, 주 의원은 '버르장머리를 고치겠다'고 맞받아 여야가 10여 분간 고성을 주고받았다. 앞서 더불어민주당 초선 의원들은 주진우·김태규·이진숙 의원을 '패륜 3인방'으로 규정하며 의원직 제명을 요구한 상태였다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "한병도 \"국힘 주진우 조회수 안달 난 '사이버 렉카' 수준…이진숙, ...\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684129&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "[지금뉴스] \"사이버 레커\" 민주당 공격에 주진우 \"버르장머리 고칠 것\" / KBS 2026.10.13.",
+       "url": "https://www.youtube.com/watch?v=UEGfZaahjTc",
+       "media": "KBS News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "이형일-베선트 화상면담…\"한미 경제·금융협력 중요성 재확인\"(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261013193951002",
+     "media": "연합뉴스",
+     "time": "10.13 23:43",
+     "summary": "이형일 경제부총리 겸 기획재정부 장관이 스콧 베선트 미국 재무장관과 화상면담을 갖고 한미 경제·금융협력의 중요성을 재확인했다. 구체적 의제나 성과는 확인되지 않았고, 양측이 원론적 입장을 재확인한 수준으로만 보도됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이형일, 베선트와 화상면담…\"힌미 경제·금융 협력 중요성 재확인\"",
+       "url": "https://www.newsis.com/view/NISX20261013_0003824721",
+       "media": "뉴시스",
+       "date": "10.13"
+      },
+      {
+       "title": "한미재무장관 화상면담…\"경제·금융협력 중요성 재확인\" / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=85XcynT1K1A",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "靑, '한미정상 골프회동' 대비 TF 구성…물밑 준비 착수",
+     "url": "https://www.yna.co.kr/view/AKR20261013134800001",
+     "media": "연합뉴스",
+     "time": "10.13 15:56",
+     "summary": "청와대가 이재명 대통령과 트럼프 미국 대통령의 골프 회동에 대비한 태스크포스(TF)를 구성해 물밑 준비에 착수했다. 지난달 뉴욕 정상회담에서 트럼프 대통령이 먼저 골프 회동을 제안한 데 따른 후속 조치로, 구체적 일정이나 장소는 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "靑, 이 대통령-트럼프 '골프 회동' 대비 대응팀 구성…실무 준비 착수",
+       "url": "https://www.newsis.com/view/NISX20261013_0003824404",
+       "media": "뉴시스",
+       "date": "10.13"
+      },
+      {
+       "title": "청와대, 이재명·트럼프 골프 회동 대비 TF 구성…박세리·리디아고도 동반?",
+       "url": "https://www.youtube.com/watch?v=sAQ2YTkjFqA",
+       "media": "서울경제",
+       "date": "10.13"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 내란청산",
+   "ranking": [
+    {
+     "name": "尹 선거법 2심 당선무효형 구형",
+     "pct": 100,
+     "count": "125건"
+    },
+    {
+     "name": "김지용·임은정 조직기강 갈등",
+     "pct": 26,
+     "count": "33건"
+    },
+    {
+     "name": "尹 관저 공사비 국가배상 판결",
+     "pct": 15,
+     "count": "19건"
+    },
+    {
+     "name": "尹 체포방해 의원 혐의부인",
+     "pct": 13,
+     "count": "16건"
+    },
+    {
+     "name": "명태균 여론조사 무죄 상고",
+     "pct": 12,
+     "count": "15건"
+    },
+    {
+     "name": "이화영 퇴정 검사 징계 결정",
+     "pct": 11,
+     "count": "14건"
+    },
+    {
+     "name": "李대통령 골프공방 국감충돌",
+     "pct": 6,
+     "count": "7건"
+    },
+    {
+     "name": "목현태 계엄봉쇄 보석 인용",
+     "pct": 6,
+     "count": "7건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "특검, 윤석열 선거법 2심 '당선무효형 유지' 요청",
+     "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6857606_36974.html",
+     "media": "MBC",
+     "time": "10.13 15:21",
+     "summary": "민중기 특별검사팀이 윤석열 전 대통령의 공직선거법위반(대선후보 시절 허위사실 공표) 혐의 항소심 결심공판에서 1심과 같은 당선무효형 유지를 재판부에 요청했다. 선고는 10월27일 오후 2시. 이 사건은 국민의힘이 보전받은 선거비용 397억원의 반환 여부와 직결돼 있다.",
+     "deadline": "공판기일 10.27 · 구속기한 null",
+     "chips": [],
+     "related": [
+      {
+       "title": "특검, 윤석열 선거법 2심 '당선무효형 유지' 요청 (2026.10.13/뉴스외전/MBC)",
+       "url": "https://www.youtube.com/watch?v=h5n_wE8lTHM",
+       "media": "MBCNEWS",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "중수청, '김지용 비판' 임은정 감찰 속도…자체 훈령도 마련",
+     "url": "https://www.yna.co.kr/view/AKR20261013099900004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 12:56",
+     "summary": "김지용 중수청장 후보자가 임은정 검사의 공개 비판을 \"조직 기강 훼손\"으로 규정하며 실효성 있는 대책 마련을 거론했고, 중수청은 임은정에 대한 감찰에 속도를 내며 자체 훈령까지 마련했다. 임은정은 한명숙 전 총리 사건 감찰 배제 등 과거 윤석열 관련 논란을 제기해온 인물로, 비판 대상에 대한 감찰 강화가 보복성이라는 우려도 나온다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "김지용 중수청장 후보 \"임은정 인사 공개비판, 조직기강 무너뜨려\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013058500004?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "김지용 \"임은정 공개비판, 조직 기강 훼손\"…중수청, 감찰 본격화",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH2026101318333557Z",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      },
+      {
+       "title": "김지용 \"임은정 인사 공개비판, 기강 무너뜨려\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=zwB1lvu_4Ww",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "법원 \"대통령실 공사비 못 받은 업체에 국가가 5억 8천만 원 지급\"",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6857609_36918.html",
+     "media": "MBC",
+     "time": "10.13 15:29",
+     "summary": "서울중앙지법은 윤석열 정부 시절 한남동 관저 등 대통령실 공사에 참여했으나 대금을 다 받지 못한 업체에 국가가 5억8천만원을 지급하라고 판결했다. 정식 계약 절차가 없었더라도 국가가 공사로 이익을 얻은 만큼 돌려줘야 한다는 취지로, 관저 공사를 둘러싼 부실 행정의 또 다른 단면이 드러났다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "尹 '대통령실 공사비' 소송 업체 승소…\"5억 8,000만 원 지급해야\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684383&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "법원 \"尹관저 공사비 떼인 업체에 국가가 5억8천만원 배상해야\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013135000004?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "법원 \"尹 관저 공사비 떼인 업체, 국가가 배상해야\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=CTJx2w4TrJ0",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "'尹 체포방해' 국힘 의원들 첫 재판‥법원 \"공소장 흠결\" 지적",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6857658_36918.html",
+     "media": "MBC",
+     "time": "10.13 18:08",
+     "summary": "윤석열 전 대통령 체포영장 집행을 방해한 혐의로 기소된 국민의힘 중진 의원들(나경원 등)의 첫 공판준비기일이 열려 전원 혐의를 부인했다. 재판부는 조은석 내란 특별검사팀(종합특검)의 공소장에 \"중대한 흠결\"이 있다고 직접 지적했다. 앞서 내란 특검팀은 같은 고발 사안을 혐의 입증이 어렵다고 보고 불기소했다가 뒤집어 기소한 경위다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국힘 의원들 '尹 체포방해' 혐의 부인…법원 \"공소장에 중대한 흠결...\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8684336&ref=A",
+       "media": "KBS",
+       "date": "10.13"
+      },
+      {
+       "title": "나경원 등 '尹 체포방해' 혐의 부인…\"폭행·협박 없었다\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013102700004?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "국힘 권한쟁의심판 따져물은 김한규 \"각하 선레 명확해\"…헌재 사무처장 답변은? [현장쏙] / 연합뉴스TV(YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=80sDZJQdtxU",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "특검, '명태균 여론조사' 尹 무죄 판결에 상고",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6857664_36918.html",
+     "media": "MBC",
+     "time": "10.13 18:25",
+     "summary": "윤석열·명태균 여론조사 무상수수 혐의 사건 2심에서 무죄가 선고되자 민중기 특별검사팀이 \"납득하기 어렵다\"며 대법원에 상고했다. 특검은 같은 공소사실로 별도 기소돼 대법원 전원합의체에 회부된 김건희씨 사건 재판부에도 이번 판결에 대한 참고자료를 전달할 계획이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "특검, 尹 '여론조사 무상수수' 무죄 판결에 상고…\"납득 어려워\"",
+       "url": "https://www.yna.co.kr/view/AKR20261013165400004?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.13"
+      },
+      {
+       "title": "'윤석열·명태균 무죄' 불복…김건희 특검, 대법원에 상고장 제출",
+       "url": "https://news.jtbc.co.kr/article/NB12322820?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.13"
+      },
+      {
+       "title": "특검, 尹 '명태균 여론조사' 2심 무죄에 상고…\"납득 어려워\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=0noeKAePZ9c",
+       "media": "연합뉴스TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "법원, '계엄 봉쇄 가담' 목현태 전 국회경비대장 보석 인용",
+     "url": "https://www.yna.co.kr/view/AKR20261013096400004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 12:05",
+     "summary": "12·3 비상계엄 당시 국회 봉쇄에 관여한 혐의(내란 중요임무종사 등)로 1심에서 실형을 선고받았던 목현태 전 서울경찰청 국회경비대장이 법원의 보석 인용으로 불구속 상태에서 항소심 재판을 받게 됐다. 주거지 제한, 사건 관계자 접촉 금지 등 조건이 붙었다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "'계엄 봉쇄 가담' 목현태 전 국회경비대장 보석 인용",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008795274&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.13"
+      },
+      {
+       "title": "법원, '국회 봉쇄' 목현태 전 국회경비대장 보석 인용",
+       "url": "https://www.news1.kr/society/court-prosecution/6318140",
+       "media": "뉴스1",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "추미애 \"김지용 청문회, 나를 증인으로 부르라\"",
+     "url": "https://www.news1.kr/local/gyeonggi/6318687",
+     "media": "뉴스1",
+     "time": "10.13 17:00",
+     "summary": "추미애 경기도지사가 김지용 중수청장 후보자 인사청문회에 자신을 증인으로 불러달라고 요구했다. 강신철 의원이 추 지사가 법무부 장관 재직 당시 신뢰했던 인사들이 검찰총장(윤석열) 징계 국면에서 등을 돌렸다고 지적한 데 대한 반박이다. 추 지사는 김 후보자를 \"친윤석열 검사\"로 부적합하다는 입장을 밝혀왔다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "추미애 \"김지용 청문회 제대로 하려면 저를 증인으로 부르라\"",
+       "url": "https://www.mt.co.kr/politics/2026/10/13/2026101318085133164",
+       "media": "www.mt.co.kr",
+       "date": "10.13"
+      },
+      {
+       "title": "추미애 \"김지용 중수청장 후보자 청문회 증인으로 불러달라\"",
+       "url": "https://www.kyeongin.com/article/1772462",
+       "media": "www.kyeongin.com",
+       "date": "10.13"
+      },
+      {
+       "title": "추미애 \"김지용 청문회 제대로 하려면 저를 증인으로 불러달라\"",
+       "url": "https://www.youtube.com/watch?v=SiGmWmnrtyo",
+       "media": "뉴스1TV",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "'윤 방어권 사과' 안건에 안창호 기권표…인권위 안팎서 \"사퇴하라\"",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1282141.html",
+     "media": "한겨레",
+     "time": "10.13 15:08",
+     "summary": "국가인권위원회가 윤석열 전 대통령 수사·재판 과정의 방어권만을 강조한 '윤석열 방어권 보장' 권고에 대해 대국민 사과를 의결했지만, 안창호 위원장은 기권표를 던지며 반성하지 않는 태도를 보였다. 인권위 노조 등은 \"내란으로 인한 국민 피해를 외면한 처사\"라며 안 위원장 사퇴를 요구하고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "[사설]인권위의 '윤석열 방어권' 사과 기권한 안창호, 위원장 자격 없다",
+       "url": "https://www.khan.co.kr/article/202610131812011",
+       "media": "경향",
+       "date": "10.13"
+      },
+      {
+       "title": "\"인권위, '尹 방어권 보장' 사과 의결했지만…안창호 위원장은 반성 안...",
+       "url": "https://www.pressian.com/pages/articles/2026101314595665679?utm_source=naver&utm_medium=search",
+       "media": "프레시안",
+       "date": "10.13"
+      },
+      {
+       "title": "[단독] 안창호 '사과문 기권' 외부 자문…\"부정선거예요\" 그 음모론자 / JTBC 뉴스룸",
+       "url": "https://www.youtube.com/watch?v=yrkQtshKIRk",
+       "media": "JTBC News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "공수처, 尹 내란 혐의 수사 과정 담은 '내란 수사백서' 발간한다",
+     "url": "https://www.news1.kr/society/court-prosecution/6318656",
+     "media": "뉴스1",
+     "time": "10.13 16:42",
+     "summary": "공수처가 윤석열 전 대통령 내란 수사 전 과정을 담은 '내란 수사백서'를 연말 공개를 목표로 발간하기로 했다. 공수처는 수사를 직접 수행한 내부 구성원 관점만 담으면 객관성을 확보하기 어렵다고 보고 외부 전문기관과 협력하기로 했다. 공수처는 이를 설립 이후 가장 큰 사건으로 평가했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "공수처, 尹 내란 수사 백서 발간 추진…연말 공개 전망",
+       "url": "https://www.dailian.co.kr/news/view/1701125/?sc=Naver",
+       "media": "www.dailian.co.kr",
+       "date": "10.13"
+      },
+      {
+       "title": "공수처, 尹 내란 혐의 수사 과정 담은 '백서' 발간 예정",
+       "url": "https://www.newsis.com/view/NISX20261013_0003824566",
+       "media": "뉴시스",
+       "date": "10.13"
+      },
+      {
+       "title": "박은정 \"尹 키즈가 공수처 들어앉아 尹 세탁\" [현장영상] / 채널A",
+       "url": "https://www.youtube.com/watch?v=E7visCM3MFE",
+       "media": "채널A News",
+       "date": "10.13"
+      }
+     ]
+    },
+    {
+     "title": "인물 · 윤석열 (전 대통령, 내란 수괴·공직선거법위반 등 혐의)",
+     "url": "https://imnews.imbc.com/replay/2026/nw1400/article/6857606_36974.html",
+     "media": "MBC",
+     "time": "10.13 15:21",
+     "summary": "윤석열 전 대통령을 둘러싼 사법 절차가 이날 동시에 여러 갈래로 진행됐다. 선거법위반 2심은 결심공판을 마치고 특검이 당선무효형 유지를 요청했으며 선고는 27일. 명태균 여론조사 사건은 2심 무죄에 특검이 상고했고, 재임 중 관저 공사비 미지급 건은 국가의 배상 책임이 인정됐다.",
+     "deadline": "공판기일 10.27 · 구속기한 null",
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 나경원 (국민의힘 의원, 尹 체포방해 혐의)",
+     "url": "https://www.yna.co.kr/view/AKR20261013102700004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 13:19",
+     "summary": "나경원 의원 등 국민의힘 중진 의원들이 윤석열 전 대통령 체포영장 집행 방해 혐의 첫 공판준비기일에 출석해 \"폭행·협박은 없었다\"며 혐의를 전면 부인했다. 재판부는 오히려 종합특검팀의 공소장에 중대한 흠결이 있다고 지적했다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 목현태 (전 서울경찰청 국회경비대장, 내란 중요임무종사 등 혐의)",
+     "url": "https://www.yna.co.kr/view/AKR20261013096400004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.13 12:05",
+     "summary": "12·3 비상계엄 당시 국회 봉쇄를 지시한 혐의로 1심에서 실형을 선고받았던 목현태 전 국회경비대장의 신병이 법원의 보석 인용으로 구속에서 불구속으로 바뀌었다. 주거지 제한과 사건 관계자 접촉 금지 조건이 붙었다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 임은정 (검사, 중수청 감찰 대상)",
+     "url": "http://www.yonhapnewstv.co.kr/news/MYH2026101318333557Z",
+     "media": "연합뉴스TV",
+     "time": "10.13 18:34",
+     "summary": "김지용 중수청장 후보자로부터 \"조직 기강 훼손\"이라는 공개 비판을 받고 중수청의 감찰 대상이 된 임은정 검사는 이날 별다른 공개 반박 없이 침묵을 지켰다. 임은정은 한명숙 전 총리 사건 감찰 배제 등 과거 윤석열 관련 논란을 제기해온 인물이다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "인물 · 안창호 (국가인권위원장)",
+     "url": "https://www.hani.co.kr/arti/society/society_general/1282141.html",
+     "media": "한겨레",
+     "time": "10.13 15:08",
+     "summary": "국가인권위가 '윤석열 방어권 보장' 권고에 대한 대국민 사과 안건을 의결했지만, 안창호 위원장은 기권표를 던지며 반성하지 않는 태도를 보였다. 인권위 노조 등은 내란으로 인한 국민 피해를 외면했다며 사퇴를 요구하고 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  }
+ ]
+}
