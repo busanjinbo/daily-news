@@ -1,0 +1,1151 @@
+{
+ "targetDate": "2026-10-18",
+ "title": "10월 18일 정세브리핑",
+ "publishedText": "발행 2026.10.19 07:15 KST",
+ "generatedText": "생성 2026.10.19 07:15 KST · 정세브리핑",
+ "footnote": "민플러스 수집 중 자주시보 피드 1건 오류(HTTP 410)로 일부 기사가 누락됐을 수 있음. 일부 카드는 대상일 방송사 유튜브 클립을 찾지 못해 '(클립 미확인)'으로 표시됨.",
+ "summary": {
+  "type": "summary",
+  "core": [
+   "여야가 조희대 대법원장 탄핵을 놓고 정면충돌하며 국정감사 후반전이 탄핵 공방으로 뒤덮였다.",
+   "선관위 특검이 유착 업체의 입찰비리·탈세 정황을 포착해 신속 세무조사를 요청했다.",
+   "미국은 러시아 제재 유예와 우크라이나 3자 회담 제안, 이스라엘 정착민 폭력 비난, 이란 긴장 등 동시다발 대외 현안에 놓여 있다."
+  ],
+  "watch": [
+   "박성재 전 법무부 장관 항소심 공판기일 10.21",
+   "오세훈 정치자금법 2심 선고(내주)",
+   "젤렌스키-트럼프-푸틴 3자 회담 추진 여부, 12월 G20 계기 가능성",
+   "여당의 조희대 탄핵 추진 공식화 여부와 헌재 판단 기준 공방",
+   "선관위 특검 세무조사 착수 여부"
+  ]
+ },
+ "sections": [
+  {
+   "type": "issues",
+   "label": "01 민플러스",
+   "ranking": [],
+   "cards": [
+    {
+     "title": "[조선의 오늘] ‘ㅌ.ㄷ’ 결성 100주년 기념…AI 유도 신형 어뢰 시험, 온실농장 생산 확대",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18505",
+     "media": "민플러스",
+     "time": "10.18 08:51",
+     "summary": "민플러스가 로동신문·조선중앙통신 보도를 인용해 전한 조선 주간 소식 모음이다. 16일 평양에서 타도제국주의동맹(ㅌ.ㄷ) 결성 100주년 중앙보고대회가 열려 자주·반제·사회주의 노선 계승을 강조했다고 전했다. 조선중앙통신은 15일 AI 유도 신형 초고속 어뢰 ‘잠-2.0’ 수중 실탄발사시험과 잠수함발사 순항미사일 시험을 실시했다고 보도했다고 전했다. 민플러스는 이를 그대로 전달했으며, 내용은 조선 측 발표 보도로 독자적으로 확인되지 않았다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    },
+    {
+     "title": "“폭우도 우릴 막진 못한다”…‘원청과의 단협 승리’ 위해 한마음 된 택배노동자들",
+     "url": "https://www.minplusnews.com/news/articleView.html?idxno=18506",
+     "media": "민플러스",
+     "time": "10.18 19:03",
+     "summary": "10월 18일 서울에서 원청 단협 승리를 위한 전국택배노동자대회가 폭우 속에 열렸다고 전했다. CJ대한통운 원청교섭 승리 결의대회에서 소득 감소 없는 주5일제와 원청 단협 쟁취를 요구했고, 간선차(트레일러) 하차 지연 문제를 규탄했다고 보도했다. 가장 규모가 큰 로젠전주지회는 로젠본부와의 이견으로 불참해 참가 규모가 줄었다고 전했다.",
+     "deadline": null,
+     "chips": [],
+     "related": []
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "02 미-동아시아",
+   "ranking": [
+    {
+     "name": "브런슨 DMZ 발언 주권 논란",
+     "pct": 100,
+     "count": "37건"
+    },
+    {
+     "name": "대미 무역흑자 트럼프 투자압박",
+     "pct": 43,
+     "count": "16건"
+    },
+    {
+     "name": "북포로송환 비공개 공감대 논란",
+     "pct": 27,
+     "count": "10건"
+    },
+    {
+     "name": "북한 AI어뢰 시험발사 주장",
+     "pct": 16,
+     "count": "6건"
+    },
+    {
+     "name": "中선전 APEC 미중러 접촉주목",
+     "pct": 16,
+     "count": "6건"
+    },
+    {
+     "name": "중일 미국채 보유 축소",
+     "pct": 14,
+     "count": "5건"
+    },
+    {
+     "name": "여야 전작권 전환 정면충돌",
+     "pct": 8,
+     "count": "3건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "브런슨 \"한국은 DMZ 남쪽 철책선부터\" 발언 논란‥국방부 \"개인 견해\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6858802_36911.html",
+     "media": "MBC",
+     "time": "10.18 19:19",
+     "summary": "제이비어 브런슨 주한미군사령관(유엔군사령관 겸 한미연합사령관)이 지난 14일 워싱턴 세미나에서 \"한국은 DMZ 남쪽 철책선에서 시작한다\"고 말해 영토 주권 경시 논란이 불거졌다. 논란이 커지자 유엔사는 \"한국의 주권에는 의문의 여지가 없다\"고 해명했지만 발언 자체에 대한 입장은 밝히지 않았다. 국방부는 \"개인 견해\"라며 선을 그었다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "브런슨 '한국은 DMZ 이남부터' 논란…유엔사 \"한국 주권 의문 여지 없어\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688466&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "브런슨 '한국은 DMZ 이남부터' 발언 논란…유엔사 \"한국 주권 의문 여지 없어\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688422&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "브런슨 '한국은 DMZ 이남부터' 발언 논란…국방부 \"개인 견해\" [이슈PLAY] /JTBC News",
+       "url": "https://www.youtube.com/watch?v=2s-b2ViqMZE",
+       "media": "JTBC News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "대미 무역흑자 1천억불 눈앞…트럼프 투자 압박에 난감한 정부",
+     "url": "https://www.yna.co.kr/view/AKR20261017041500003?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 06:17",
+     "summary": "한국의 대미 무역흑자가 올해 1000억 달러에 근접하면서, 3500억 달러 규모 대미 투자를 약속받은 트럼프 행정부와의 관계에서 정부가 난감한 처지에 놓였다. 미국은 작년 25% 상호관세 부과를 예고했다가 한국의 투자 약속을 받고 15%로 낮췄는데, 무역흑자 확대가 재차 투자·관세 압박의 명분이 될 수 있다는 우려가 나온다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "대미 무역흑자 1천억달러 달성 유력…트럼프 투자 압박에 난감한 정부",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261018095712QqH",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      },
+      {
+       "title": "대미 무역흑자 1000억달러 눈앞…트럼프 투자 압박 '우려'",
+       "url": "http://www.inews24.com/view/2016190",
+       "media": "inews24",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "주우크라 대사대리 \"北포로 송환, 언제 공개할지 논의도 안했다\"",
+     "url": "https://www.yna.co.kr/view/AKR20261018056900082?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 20:33",
+     "summary": "윤 주우크라이나 대사대리가 지난달 23일 젤렌스키 대통령이 유엔총회 연설에서 북한군 포로의 한국 이송 사실을 일방적으로 공개한 것과 관련해, 대사관이 사전에 몰랐고 공개 시점도 논의한 적 없다고 밝혔다. 한국 정부는 우크라이나가 비공개 합의를 어겼다며 사과를 요구한 상태로, 양국 간 외교 갈등이 이어지고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "주우크라 대사대리 \"북 포로 송환, 언제 공개할지 논의도 안했다\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803207&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "주우크라 대사 대리 \"북 포로 한국 행, 양국 비공개 오래 유지 공감대\"",
+       "url": "https://www.hani.co.kr/arti/politics/diplomacy/1282956.html",
+       "media": "한겨레",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "북한, 이번엔 AI 기반 '어뢰' 시험발사 주장···한국 극초음속 미사일 대응 분석",
+     "url": "https://www.khan.co.kr/article/202610181133001",
+     "media": "경향",
+     "time": "10.18 11:33",
+     "summary": "북한이 조선중앙통신을 통해 AI 탑재 어뢰 시험발사 성공을 주장했다. 국내 전문가들은 북한이 한국의 극초음속 활공비행체(HGV) 시험발사 성과를 깎아내리면서도, 이에 대응해 신형 무기체계 공개를 연일 이어가는 행보로 분석한다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "北, 'AI 탑재' 초고속 어뢰 발사 시험발사…韓 극초음속 미사일 잇단 폄하",
+       "url": "https://www.sedaily.com/article/20102946?ref=naver",
+       "media": "서울경제",
+       "date": "10.18"
+      },
+      {
+       "title": "북한이 우리 무기 분석?...이례적인 공개 평가의 속내 [Y녹취록] / YTN",
+       "url": "https://www.youtube.com/watch?v=JUiT-vwjDu8",
+       "media": "YTN",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "中선전 APEC 한달 앞으로…미중러 3자 회담·북미 접촉 주목",
+     "url": "https://www.yna.co.kr/view/AKR20261017035600083?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 06:11",
+     "summary": "다음 달 중국 선전에서 열리는 APEC 정상회의를 앞두고 미중러 3자 회담과 북미 접촉 가능성이 주목받고 있다. 시진핑·트럼프 정상은 지난달 워싱턴 회담 이후 재회할 것으로 예상되며, 이재명 대통령도 트럼프 대통령과 만나 전작권 전환 등 한미 현안을 논의할 가능성이 거론된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "선전 APEC 한 달 앞으로… 미중 러 3자 회담·북미 회동 '촉각'",
+       "url": "https://www.news1.kr/world/northeast-asia/6323608",
+       "media": "뉴스1",
+       "date": "10.18"
+      },
+      {
+       "title": "中선전 APEC 한달 앞으로… 미중 러 3자 회담·북미 등 접촉 주목",
+       "url": "https://www.imaeil.com/page/view/2026101816311673827",
+       "media": "매일신문",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "중·일, 8월 미 국채 보유 축소…중국은 18년 만에 최저",
+     "url": "https://www.yna.co.kr/view/AKR20261018036600089?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 15:38",
+     "summary": "중국과 일본이 8월 미국 국채 보유량을 나란히 줄였다. 중국의 보유액은 18년 만에 최저치로 떨어졌고, 일본도 4개월 연속 보유를 줄였다. 미국의 재정 건전성에 대한 우려와 미중 무역 갈등 등 지정학적 요인이 영향을 미친 것으로 분석된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "중·일 나란히 미 국채 축소...중국 보유액 18년 만에 최저",
+       "url": "https://www.ytn.co.kr/_ln/0104_202610181618442704",
+       "media": "YTN",
+       "date": "10.18"
+      },
+      {
+       "title": "中, 美 국채 보유액 18년 만에 최저…日도 4개월 연속 축소",
+       "url": "https://www.ajunews.com/view/20261018155929954",
+       "media": "아주경제",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "여야, 전작권 전환 두고 공방…\"국힘 굴종적\" vs \"재검토 촉구\"",
+     "url": "https://www.news1.kr/politics/assembly/6323580",
+     "media": "뉴스1",
+     "time": "10.18 13:09",
+     "summary": "국민의힘은 전작권 전환이 \"시기가 아닌 능력\"을 기준으로 해야 한다며 대통령 임기 내 추진 중단을 요구했고, 더불어민주당은 이를 \"굴종적\"이라고 반박하며 여야 공방이 벌어졌다. 논란은 브런슨 주한미군사령관이 지난 14일 전작권 조기 전환에 신중한 입장을 밝힌 데서 촉발됐다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "여야 '전작권 조기 전환' 놓고 정면충돌",
+       "url": "https://www.newscj.com/news/articleView.html?idxno=3441169",
+       "media": "충청일보",
+       "date": "10.18"
+      },
+      {
+       "title": "여야, 국감 반환점서 '탄핵·전작권·안보' 두고 정면충돌",
+       "url": "https://www.jbnews.com/news/articleView.html?idxno=1513727",
+       "media": "전북일보",
+       "date": "10.18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "03 미-비동아시아",
+   "ranking": [
+    {
+     "name": "트럼프 대러제재 유예에 각계 반발",
+     "pct": 100,
+     "count": "34건"
+    },
+    {
+     "name": "트럼프 대러제재 완화 가능 시사",
+     "pct": 68,
+     "count": "23건"
+    },
+    {
+     "name": "트럼프 유럽에 러가스 수입 제안",
+     "pct": 35,
+     "count": "12건"
+    },
+    {
+     "name": "젤렌스키 美러 3자회담 언급",
+     "pct": 26,
+     "count": "9건"
+    },
+    {
+     "name": "이스라엘 정착민 외교관 습격",
+     "pct": 24,
+     "count": "8건"
+    },
+    {
+     "name": "美국무 우크라 위성통신 해명",
+     "pct": 18,
+     "count": "6건"
+    },
+    {
+     "name": "이란 국방장관 美군 철수 경고",
+     "pct": 12,
+     "count": "4건"
+    },
+    {
+     "name": "이란 유조선 기뢰 충돌 영상",
+     "pct": 9,
+     "count": "3건"
+    },
+    {
+     "name": "트럼프·밴스 프랑스 시위 비판",
+     "pct": 3,
+     "count": "1건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "젤렌스키 \"트럼프 러시아 제재 유예는 푸틴만 돕는 오판\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6858732_36925.html",
+     "media": "MBC",
+     "time": "10.18 07:47",
+     "summary": "트럼프 대통령이 추가 대러 제재법(그레이엄법) 시행을 유예하기로 하면서 파장이 커지고 있다. 젤렌스키 우크라이나 대통령은 \"이는 분명히 러시아에만 도움이 되는 잘못된 결정\"이라며 트럼프의 오판이라고 비판했다. 트럼프는 플로리다 자택에서 기자들에게 대러 제재와 관련해 \"미국과 세계에 좋은 결정이 있을 것\"이라고 밝혔다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프 \" 미국 ·세계에 좋은 결정 있을 것\" 대 러시아 제재 완화하나",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688401&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "\"대러 제재 유예, 러시아 만 도울 것\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688394&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "젤렌스키, 美 대러제재 유예 \"푸틴만 돕는 오판\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=_OgKP2CVj7M",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "트럼프, 대러 제재 관련해 \" 미국 ·세계에 좋은 결정 있을 것\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6858781_36925.html",
+     "media": "MBC",
+     "time": "10.18 15:25",
+     "summary": "트럼프 대통령이 대러 제재 완화 가능성을 언급하며 \"미국과 세계에 좋은 결정이 있을 것\"이라고 말했다. 그는 유럽의 러시아산 가스 수입 재개 등을 종전 협상의 마중물로 구상하고 있으며, 선거를 앞두고 유가 안정을 위해 그레이엄법 시행을 60일간 유예했다. 야당인 민주당뿐 아니라 여당 공화당에서도 푸틴에 굴복하는 처사라는 비판이 확산되고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "트럼프, 대러제재 완화 만지작…\"美·세계에 좋은 결정 있을 것\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20261018038300009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      },
+      {
+       "title": "트럼프, 대러제재 완화 만지작…\" 미국 과 세계에 좋은 결정 있을 것\"",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261018172609ORz",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      },
+      {
+       "title": "“대러 제재 유예, 러시아만 도울 것” / KBS 2026.10.18.",
+       "url": "https://www.youtube.com/watch?v=nU-rwufz5Zs",
+       "media": "KBS News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "\"트럼프 특사, 유럽에 러시아 산 천연가스 수입재개 제안\"",
+     "url": "https://www.yna.co.kr/view/AKR20261018013400009?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 09:56",
+     "summary": "트럼프 대통령의 특사가 유럽에 러시아산 천연가스 수입 재개를 제안한 것으로 전해졌다. 트럼프는 지난 9일 푸틴과 협력해 러시아산 경유를 미국·국제시장에 공급하는 '경유 딜'을 발표한 데 이어, 16일엔 추가 대러 제재(그레이엄법) 시행을 유예했다. 트럼프가 유럽에 러시아산 가스를 더 수입하라고 압박하면서 독일이 강력히 반발하고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "\"트럼프 특사, 유럽에 러시아 산 천연가스 수입재개 제안\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802742&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "트럼프, 유럽에 ‘ 러시아 산 가스 더 수입하라’…독일 강력 반발",
+       "url": "https://www.hani.co.kr/arti/international/america/1282884.html",
+       "media": "한겨레",
+       "date": "10.18"
+      },
+      {
+       "title": "[일요와이드] 미 중간선거 한달 앞…트럼프 대러 제재 유예 승부수 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=PEKcm1PC3gg",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "젤렌스키 “ 미국 , 푸틴과 3자 회담 제안…12월 G20 회의 때 만날 수도”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688442&ref=A",
+     "media": "KBS",
+     "time": "10.18 18:03",
+     "summary": "젤렌스키 우크라이나 대통령은 미국이 러시아·우크라이나 정상이 만나는 3자 회담을 추진하고 있다고 밝혔다. 그는 12월 G20 정상회의 기간에 미·러와 함께 만날 수도 있다고 전했으며, 중동이나 유럽에서 열릴 가능성도 있지만 러시아 측의 확답은 아직 없다고 덧붙였다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "젤렌스키 \"美, 푸틴과 3자회담 제안…G20 회의 때 열릴 수도\"",
+       "url": "https://www.yna.co.kr/view/AKR20261018040500109?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      },
+      {
+       "title": "\"G20 정상회의 중 미·러와 3자 회담 희망\" / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=Hn3DfAlOANk",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "이스라엘 정착민 폭력에 미국 도 \"비열한 테러\" 맹비난",
+     "url": "https://www.yna.co.kr/view/AKR20261018028700009?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 13:37",
+     "summary": "팔레스타인 서안지구에서 미국인 사진기자와 유럽 외교관 일행이 복면을 쓰고 무장한 이스라엘 정착민들에게 잇따라 공격당했다. 마이크 허커비 주이스라엘 미국 대사는 이를 \"비열한 테러\"라고 맹비난했고, 미 국무부도 \"매우 불편하다\"는 입장을 밝혔다. 네타냐후 이스라엘 총리는 용납하지 않겠다고 했지만 \"알려진 것과 실제는 다를 수 있다\"고 덧붙였다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "복면 쓰고 무장한 이스라엘 정착민들…외교관·기자 습격",
+       "url": "https://news.jtbc.co.kr/article/NB12323571?influxDiv=NAVER",
+       "media": "JTBC",
+       "date": "10.18"
+      },
+      {
+       "title": "'이스라엘 정착민 폭력'에 미 기자 중상…\"비열한 테러\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802897&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "이스라엘 정착민, 서안서 유럽 외교관 공격 / 연합뉴스TV (YonhapnewsTV)",
+       "url": "https://www.youtube.com/watch?v=YxXhQ46b0fw",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "美 국무 \"아무도 우크라군 위성통신 감속 지시한 적 없다\"",
+     "url": "https://imnews.imbc.com/news/2026/world/article/6858782_36925.html",
+     "media": "MBC",
+     "time": "10.18 15:28",
+     "summary": "마코 루비오 미국 국무장관이 최근 발생한 우크라이나군 위성통신(스타실드) 장애에 백악관이 관여하지 않았다고 해명했다. 우크라이나군은 미국 정부로부터 위성통신 서비스를 지원받아 러시아 시설 타격과 공격용 드론 격추에 활용해왔는데, 최근 단말기 접근이 끊기는 장애가 발생했다. 루비오는 우크라이나가 러시아 영토 깊숙이 타격하기 위해 접근권을 요청한 것으로 안다고 덧붙였다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "美국무 \"아무도 우크라군 위성통신 감속 지시한 적 없다\"",
+       "url": "https://www.yna.co.kr/view/AKR20261018021300009?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      },
+      {
+       "title": "미 국 무 \"아무도 우크라군 위성통신 감속 지시한 적 없다\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802889&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "우크라 압박하려다 '역풍'?…중간선거 뒤흔들 '새로운 변수' [이슈픽] / YTN",
+       "url": "https://www.youtube.com/watch?v=FtFPXJUAUfM",
+       "media": "YTN",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "이란 새 국방장관 \"미군, 중동서 무사히 철수할 방법 고민해야\"",
+     "url": "https://www.yna.co.kr/view/AKR20261018059100108?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 21:20",
+     "summary": "이란의 새 국방장관 케탑치가 \"미군이 중동에서 무사히 철수할 방법을 고민해야 한다\"고 경고했다. 그는 미국을 겨냥해 \"이란에 폭탄 한 발이라도 떨어뜨리면 미국 군인들은 누운 채로 이 지역을 떠나게 될 것\"이라고 말했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "이란 새 국방장관 \"미군 중동서 무사히 철수시킬 방법 고민해야\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008803234&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "이란 새 국방장관 \"트럼프는 미군 중동서 무사히 철수할 방법 고민해야...",
+       "url": "https://www.ytn.co.kr/_ln/0104_202610182300226626",
+       "media": "YTN",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "이란 \"유조선 2척 기뢰와 충돌해 폭발\"...관련 영상도 공개",
+     "url": "https://www.ytn.co.kr/_ln/0104_202610180237025086",
+     "media": "YTN",
+     "time": "10.18 02:37",
+     "summary": "이란 혁명수비대는 호르무즈 해협에서 200만 배럴을 실은 대형 유조선 2척이 각각 기뢰와 충돌해 폭발했다고 밝히고 관련 영상을 공개했다. TV조선은 이란이 미국 중간선거를 앞두고 국제 유가를 흔들어 트럼프 행정부를 압박하려 한다는 분석도 나온다고 전했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "200만 배럴 싣고 가다 '쾅'… 이란 \"유조선 2척 기뢰 충돌\" 영상 공개",
+       "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/18/2026101890094.html",
+       "media": "TV조선",
+       "date": "10.18"
+      },
+      {
+       "title": "이란 \" 호르무즈 서 유조선 2척 기뢰와 충돌해 폭발\"…영상 공개",
+       "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/18/2026101890023.html",
+       "media": "TV조선",
+       "date": "10.18"
+      },
+      {
+       "title": "\"호르무즈에서 또 유조선 2척 폭발\"...이집트 \"사우디 군사 지원\" / YTN",
+       "url": "https://www.youtube.com/watch?v=7lpslj65XMU",
+       "media": "YTN",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "트럼프 \"프랑스 불타…증오 품은 이민자가 나라 산산조각 내\"",
+     "url": "https://www.yna.co.kr/view/AKR20261018062000071",
+     "media": "연합뉴스",
+     "time": "10.18 22:26",
+     "summary": "트럼프 대통령이 프랑스 반정부 시위를 두고 \"증오를 품은 이민자들이 나라를 산산조각 내고 있다\"며 이민자 탓으로 돌렸다. 앞서 밴스 미국 부통령도 프랑스 시위 폭력 사태의 원인을 이민정책 탓으로 지목했다. 두 미국 고위 인사가 동맹국인 프랑스 내부 시위에 대해 이민 비판 프레임을 연이어 내놓은 것이다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "밴스 美부통령, 프랑스 시위 폭력사태에 \"이민정책 탓\"",
+       "url": "https://www.yna.co.kr/view/AKR20261018047200009",
+       "media": "연합뉴스",
+       "date": "10.18"
+      },
+      {
+       "title": "“증오 품은 자가 프랑스 산산조각”…트럼프 정책에 합법 이민 반토막 / KBS 2026.10.19.",
+       "url": "https://www.youtube.com/watch?v=2WHXYUTE_ug",
+       "media": "KBS News",
+       "date": "10.18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "04 국내정치·美동향",
+   "ranking": [
+    {
+     "name": "김민석, 순직 소방관 빈소 조문",
+     "pct": 100,
+     "count": "122건"
+    },
+    {
+     "name": "추미애 '재정 빨대' 발언 사과",
+     "pct": 32,
+     "count": "39건"
+    },
+    {
+     "name": "브런슨 'DMZ 이남' 발언 논란",
+     "pct": 31,
+     "count": "38건"
+    },
+    {
+     "name": "李 대통령, 국무회의 공개 논란",
+     "pct": 29,
+     "count": "35건"
+    },
+    {
+     "name": "국감 후반전, 조희대 탄핵 격돌",
+     "pct": 27,
+     "count": "33건"
+    },
+    {
+     "name": "김민석 조희대 탄핵 당내 이견",
+     "pct": 23,
+     "count": "28건"
+    },
+    {
+     "name": "선관위 특검, 업체 탈세 포착",
+     "pct": 20,
+     "count": "24건"
+    },
+    {
+     "name": "김민석 축제 무대 인사 논란",
+     "pct": 15,
+     "count": "18건"
+    },
+    {
+     "name": "대미 무역흑자, 트럼프 압박",
+     "pct": 14,
+     "count": "17건"
+    },
+    {
+     "name": "오세훈, 부동산정책 실패 지적",
+     "pct": 13,
+     "count": "16건"
+    },
+    {
+     "name": "오세훈 항소심 23일 선고",
+     "pct": 11,
+     "count": "14건"
+    },
+    {
+     "name": "서울시, 한강버스 의혹 반박",
+     "pct": 11,
+     "count": "13건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "민주당 김민석, 순직 소방관 조문…“소방관 안전·생명 빈틈없이 챙길...",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688553&ref=A",
+     "media": "KBS",
+     "time": "10.18 23:22",
+     "summary": "부천 공장화재로 순직한 소방관의 빈소에 여야 지도부가 나란히 조문했다. 더불어민주당 김민석 대표는 조문을 마치고 \"국민의 안전을 지키다 희생되신 소방관님께 깊은 애도를 드린다\"며 유가족에 위로를 전했다. 국민의힘 등 여야 지도부도 각각 빈소를 찾아 애도를 표했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "여야 지도부, 오늘 부천 화재 순직 소방관 빈소 조문",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688348&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "순직 소방관 빈소 조문 마친 김민석 대표",
+       "url": "https://www.yna.co.kr/view/PYH20261018097800065?input=1196m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "민주당 경기도당 긴급회의, 추미애 '재정 빨대' 논란 대응 논의",
+     "url": "https://www.yna.co.kr/view/AKR20261018060400061?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 21:53",
+     "summary": "추미애 경기지사가 소방 재정을 '빨대'에 비유한 발언으로 논란이 커지자 \"국민 여러분께 고개 숙여 사죄드린다\"며 사과했다. 그러나 국민의힘 등은 \"진정한 사과로 볼 수 없다\"며 공세를 이어가고 있어 논란이 가라앉지 않고 있다. 민주당 경기도당은 긴급회의를 열어 대응 방안을 논의했다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "공식 대응 자제하는 민주…국힘 \"추미애 사퇴\" 맹공 [MBN 뉴스센터]",
+       "url": "https://www.youtube.com/watch?v=9RDaHw-hlcc",
+       "media": "MBN News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "브런슨 \"한국은 DMZ 남쪽 철책선부터\" 발언 논란‥국방부 \"개인 견해\"",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6858802_36911.html",
+     "media": "MBC",
+     "time": "10.18 19:19",
+     "summary": "주한미군사령관 겸 유엔군사령관인 브런슨이 \"한국은 DMZ 이남부터\"라는 취지로 발언해 한국 주권을 침해했다는 논란이 일었다. 대통령 국방정책특보인 민주당 김병주 의원은 \"대한민국 영토 주권을 침해한 선을 넘은 발언\"이라고 비판했고, 유엔사는 \"한국 주권은 의문의 여지가 없다\"고 해명했다. 국방부는 해당 발언을 브런슨 개인 견해라고 밝혔다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "브런슨 '한국은 DMZ 이남부터' 논란…유엔사 \"한국 주권 의문 여지 없어\"",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688466&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "브런슨 '한국은 DMZ 이남부터' 발언 논란…국방부 \"개인 견해\" [이슈PLAY]",
+       "url": "https://www.youtube.com/watch?v=2s-b2ViqMZE",
+       "media": "JTBC News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "“공개회의라 말 못 한다는 건 거짓말”",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688431&ref=A",
+     "media": "KBS",
+     "time": "10.18 17:03",
+     "summary": "이재명 대통령은 국무회의 일부 공개 방침에 대해 \"공개회의라 국무위원이 말을 못 한다\"는 주장을 \"거짓말\"이라며 강하게 반박했다. 국민들은 국무회의 일부 공개를 환영하는데도 이를 막으려는 압박이 있다고 지적했다. 반론을 수용했던 사례를 소개하며 \"언제나 반대 의견을 존중한다\"는 입장도 밝혔다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "李 대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"(종합)",
+       "url": "https://www.yna.co.kr/view/AKR20261018030051001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      },
+      {
+       "title": "李 대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"",
+       "url": "https://www.yna.co.kr/view/AKR20261018030000001?input=1195m",
+       "media": "연합뉴스",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "후반전 시작하는 국감…‘조희대 탄핵’ 두고 정면충돌 예고",
+     "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688453&ref=A",
+     "media": "KBS",
+     "time": "10.18 19:08",
+     "summary": "국정감사 후반전에서 여야가 조희대 대법원장 탄핵 추진 여부를 놓고 정면충돌할 전망이다. 민주당은 \"국민의힘이 대체 무엇을 했냐\"고 몰아세웠고, 국민의힘은 민주당의 증인 채택 거부 등을 \"정쟁국감\"으로 규정하며 맞섰다. 전시작전통제권 전환 시점을 둘러싼 여야 공방도 함께 이어지고 있다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국감 후반전 돌입…'조희대 탄핵' 등 재격돌 예고",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20261018213731RKZ",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      },
+      {
+       "title": "후반전 시작하는 국감…'조희대 탄핵' 두고 정면충돌 예고 / KBS 2026.10.18.",
+       "url": "https://www.youtube.com/watch?v=Qm98Wi7m-nw",
+       "media": "KBS News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "조국 \"조희대 탄핵일 제시하라\"‥김민석 압박",
+     "url": "https://imnews.imbc.com/news/2026/politics/article/6858749_36911.html",
+     "media": "MBC",
+     "time": "10.18 11:45",
+     "summary": "조국혁신당 조국 원장이 더불어민주당을 향해 조희대 대법원장 탄핵 추진에 즉각 동참하라고 압박했다. 조 원장은 \"김민석 대표는 '논의 시작'이나 '공식화' 등 모호한 메시지 발신을 멈추라\"고 촉구했다. 김민석 대표도 탄핵소추 추진 논의를 언급하며 대응 수위를 높였지만, 당내에서는 \"지지층 결집 목적 아니냐\"는 떨떠름한 반응이 나온다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "김민석 “조희대 탄핵”…당내선 ‘갸웃’",
+       "url": "https://www.khan.co.kr/article/202610182154015",
+       "media": "경향",
+       "date": "10.18"
+      },
+      {
+       "title": "김민석 “조희대 탄핵 검토”, 민주당 내부는 떨떠름…“지지층 결집 위...",
+       "url": "https://www.khan.co.kr/article/202610181707001",
+       "media": "경향",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "선관위 특검, 유착 업체 '탈세 정황 포착'‥신속 세무조사 요청",
+     "url": "https://imnews.imbc.com/news/2026/society/article/6858786_36918.html",
+     "media": "MBC",
+     "time": "10.18 16:39",
+     "summary": "선관위와 유착한 의혹으로 입찰비리·수의계약 특혜를 수사 중인 특검팀이 해당 업체들의 허위 세금계산서 발급 등 탈세 정황을 추가로 포착했다. 특검팀은 입찰 들러리 업체를 가공거래에 끌어들인 정황도 확인해 국세청에 신속 세무조사를 요청했다고 밝혔다. 선관위 입찰비리 의혹 수사가 탈세 혐의로까지 확대되는 모양새다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "선관위 특검, 입찰비리 의혹 업체 탈세 정황 포착…국세청에 세무조사 ...",
+       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8688416&ref=A",
+       "media": "KBS",
+       "date": "10.18"
+      },
+      {
+       "title": "선관위특검 \"유착 의혹 업체 탈세 등 정황 발견\"",
+       "url": "https://www.youtube.com/watch?v=KGgc4ukfMDk",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "김민석 \"축제 무대 중 인사, 불편 끼쳐 죄송\"",
+     "url": "http://www.yonhapnewstv.co.kr/news/MYH20261018213304pzC",
+     "media": "연합뉴스TV",
+     "time": "10.18 21:34",
+     "summary": "김민석 대표가 지역 축제 공연 도중 무대에 올라 인사말을 한 것을 두고 \"불편을 끼쳐 죄송하다\"고 해명·사과했다. 국민의힘은 가수의 마이크를 빼앗은 \"갑질 난입\"이라며 \"시민들이 즐겨야 할 축제를 정치인 유세장으로 악용했다\"고 비판했다. 공연한 가수 측은 \"라이브 공연을 하다 보면 다양한 상황이 생긴다\"며 말을 아꼈다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국힘 \"축제 가수 마이크 빼앗아 유세\"...김민석 \"불편 끼쳐 죄송\"",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610181751564271",
+       "media": "YTN",
+       "date": "10.18"
+      },
+      {
+       "title": "갑자기 무대에 김민석이? '과잉 의전' 논란에 \"죄송\" (2026.10.18/뉴스데스크/MBC)",
+       "url": "https://www.youtube.com/watch?v=G3_cFFVujoU",
+       "media": "MBCNEWS",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "대미 무역흑자 1천억불 눈앞…트럼프 투자 압박에 난감한 정부",
+     "url": "https://www.yna.co.kr/view/AKR20261017041500003?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 06:17",
+     "summary": "반도체 수출 호조로 한국의 대미 무역흑자가 1000억 달러에 육박할 전망이다. 트럼프 행정부는 지난해 한국의 대미 무역흑자에 불만을 품고 한국산 제품에 25% 상호관세를 부과했다가, 한국이 3500억 달러 규모 대미 투자를 약속하자 관세를 15%로 낮췄다. 흑자 확대가 트럼프 행정부의 추가 투자·통상 압박으로 이어질 가능성에 정부가 난감해하고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "대미 무역흑자 1천억달러 달성 유력…트럼프 투자 압박에 난감한 정부",
+       "url": "http://www.yonhapnewstv.co.kr/news/AKR20261018095712QqH",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      },
+      {
+       "title": "대미 무역흑자 1000억달러 눈앞…트럼프 투자 압박 '우려'",
+       "url": "http://www.inews24.com/view/2016190",
+       "media": "www.inews24.com",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "오세훈 \"정부 여당, 부동산정책 실패 인정하고 방향 바로잡아야\"",
+     "url": "https://www.yna.co.kr/view/AKR20261018013900004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 09:46",
+     "summary": "오세훈 서울시장이 '서울시의 반성문' 백서를 국회 국토교통위 의원실에 배포하며 정부와 여당도 부동산 정책 실패를 인정하고 방향을 바로잡아야 한다고 촉구했다. 민주당 의원들을 향해 서울시가 과거의 잘못을 스스로 고백하고 성찰하는 것처럼 하라고 권했다. \"정부는 과거를 반성할 용기도 현실을 직시할 의지도 없어 보인다\"고 비판했다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "오세훈 \"정부 여당, 부동산정책 실패 인정하고 방향 바로잡아야\"",
+       "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008802703&plink=ORI&cooper=NAVER",
+       "media": "SBS",
+       "date": "10.18"
+      },
+      {
+       "title": "“부동산 실패 인정하고 방향 바로 잡아야” / KBS 2026.10.18.",
+       "url": "https://www.youtube.com/watch?v=XHC9oDhWxRY",
+       "media": "KBS News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "시장직·대선 출마 달린 오세훈 정치자금법 사건 2심 내주 선고",
+     "url": "https://www.yna.co.kr/view/AKR20261017043700004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 05:30",
+     "summary": "오세훈 서울시장의 정치자금법 위반(명태균 여론조사비 대납 의혹) 사건 항소심 선고가 23일로 예정돼 정치권이 촉각을 세우고 있다. 김건희 특검팀(특별검사 민중기)은 지난 2일 결심 공판에서 오 시장에게 징역 1년 6개월과 벌금 3300만 원을 구형했다. 선고 결과에 따라 오 시장의 시장직 유지와 향후 정치 행보에도 영향이 예상된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "오세훈 시장직 달린 23일…박성재도 2심 선고",
+       "url": "http://www.yonhapnewstv.co.kr/news/MYH20261018142134h0m",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      },
+      {
+       "title": "'명태균 여론조사비 대납 의혹' 오세훈, 항소심 결론[주목, 이주의 재판...",
+       "url": "https://www.news1.kr/society/court-prosecution/6323234",
+       "media": "뉴스1",
+       "date": "10.18"
+      },
+      {
+       "title": "'시장직 운명' 오세훈, 이번 주 '여론조사비 대납 의혹' 2심 선고 [이슈PLAY] /JTBC News",
+       "url": "https://www.youtube.com/watch?v=OAi7ZJokfL0",
+       "media": "JTBC News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "서울시, 한강버스 의혹에 \"'아니면 말고'식 정치공세\"",
+     "url": "https://www.pressian.com/pages/articles/2026101816173827371?utm_source=naver&utm_medium=search",
+     "media": "프레시안",
+     "time": "10.18 19:00",
+     "summary": "더불어민주당이 오세훈 시장의 한강버스 사업 리베이트 의혹을 \"게이트\"로 규정하며 공세를 펼치자, 서울시는 \"'아니면 말고'식 무책임한 정치공세\"라고 반박했다. 서울시는 수사 의뢰가 1년 넘게 걸렸다는 민주당 지적에 대해 \"진상규명 등 모든 노력을 정쟁용으로 치부하는 억지 비난\"이라고 맞섰다. 3억2000만 원 규모 리베이트 의혹을 둘러싼 여야 공방이 계속되고 있다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "여 '한강버스 의혹' 제기에... 오세훈 측 \"무책임한 정치공세\"",
+       "url": "https://www.ytn.co.kr/_ln/0115_202610181658176351",
+       "media": "YTN",
+       "date": "10.18"
+      },
+      {
+       "title": "민주, 오세훈 리베이트 의혹 맹공...\"한강버스 게이트 비화\"",
+       "url": "https://www.ytn.co.kr/_ln/0101_202610181242163740",
+       "media": "YTN",
+       "date": "10.18"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "issues",
+   "label": "05 내란청산",
+   "ranking": [
+    {
+     "name": "조국·여야 조희대 탄핵 공방",
+     "pct": 100,
+     "count": "20건"
+    },
+    {
+     "name": "국감 후반전 탄핵·ETF 격돌",
+     "pct": 45,
+     "count": "9건"
+    },
+    {
+     "name": "홍준표, 탄핵하면 정권 몰락",
+     "pct": 45,
+     "count": "9건"
+    },
+    {
+     "name": "선관위 입찰비리 탈세 정황 포착",
+     "pct": 25,
+     "count": "5건"
+    },
+    {
+     "name": "민주당, 조희대 사퇴 재촉구",
+     "pct": 20,
+     "count": "4건"
+    },
+    {
+     "name": "여당 조희대 탄핵 논의 본격화",
+     "pct": 15,
+     "count": "3건"
+    },
+    {
+     "name": "집토끼 결집·조작특검 탄핵추진",
+     "pct": 15,
+     "count": "3건"
+    },
+    {
+     "name": "박성재 항소심 21일 선고",
+     "pct": 10,
+     "count": "2건"
+    }
+   ],
+   "cards": [
+    {
+     "title": "조국 \"민주당 언제까지 조희대에 끌려다닐 건가\" 탄핵 동참 촉구",
+     "url": "https://www.news1.kr/politics/assembly/6323501",
+     "media": "뉴스1",
+     "time": "10.18 10:25",
+     "summary": "조국 전 대표가 민주당에 조희대 대법원장 탄핵 동참을 공개 촉구하며 \"내란 세력의 부역자\"라는 표현까지 썼다. 국민의힘은 탄핵 추진이 이재명 대통령 재판 재개를 막으려는 사법부 압박이라 규정하는 반면, 조 전 대표는 미루면 김건희 석방 등 역풍이 커질 것이라 경고했다. 민주당 내부에서도 역풍 우려로 신중론이 맞서 헌재 인용 가능성은 불확실하다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "조국 \"김민석, TF 정치 멈추고 행동해야\"... '조희대 탄핵' 고민 커지는...",
+       "url": "https://www.hankookilbo.com/news/article/A2026101815440005681?did=NA",
+       "media": "한국일보",
+       "date": "10.18"
+      },
+      {
+       "title": "조국 \"민주당, '조희대 탄핵' 즉각 동참하라\"",
+       "url": "https://www.pressian.com/pages/articles/2026101813224927852?utm_source=naver&utm_medium=search",
+       "media": "프레시안",
+       "date": "10.18"
+      },
+      {
+       "title": "\"조희대 탄핵 사유 차고 넘친다\"면서도 신중…민주당 속내는 / JTBC 뉴스룸",
+       "url": "https://www.youtube.com/watch?v=Vkld_Olc7NE",
+       "media": "JTBC News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "종반전 접어든 국감…여야, '조희대 탄핵론' 놓고 정면충돌 예고",
+     "url": "https://www.yna.co.kr/view/AKR20261017042800001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 07:05",
+     "summary": "국정감사 종반전에서 민주당의 조희대 탄핵론과 국민의힘의 ETF·부동산·미래기금 책임론이 정면충돌했다. 국민의힘은 탄핵 추진을 \"이재명 대통령 재판 재개를 막기 위한 사법부 압박\"이라 규정했고, 민주당은 공항공사 인사 농단 의혹 관련 김건희 여사 증인 채택으로 맞불을 놨다. 여야 모두 정쟁성 증인채택이라는 상호 비판도 가열됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "국감 후반전 돌입…조희대 탄핵론·ETF 책임론 놓고 여야 격돌",
+       "url": "https://www.econovill.com/news/articleView.html?idxno=754000",
+       "media": "econovill",
+       "date": "10.18"
+      },
+      {
+       "title": "국감 후반전 돌입…여야, 조희대 탄핵·증인채택 놓고 격돌",
+       "url": "https://www.dkilbo.com/news/articleView.html?idxno=557521",
+       "media": "dkilbo",
+       "date": "10.18"
+      },
+      {
+       "title": "후반전 시작하는 국감…'조희대 탄핵' 두고 정면충돌 예고 / KBS 2026.10.18.",
+       "url": "https://www.youtube.com/watch?v=Qm98Wi7m-nw",
+       "media": "KBS News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "홍준표 \"조희대 탄핵하면 윤석열 석방… 재판 정지→구속기간 만료\"",
+     "url": "https://www.hani.co.kr/arti/politics/politics_general/1282896.html",
+     "media": "한겨레",
+     "time": "10.18 15:12",
+     "summary": "홍준표 전 대구시장이 조희대 대법원장 탄핵 추진을 \"정권 몰락의 길\"이라 비판하며, 탄핵으로 대법원장 업무가 정지되면 대법원 모든 재판이 멈춰 윤석열 전 대통령 관련 재판도 정지되고 구속기간 만료로 석방되는 상황이 올 수 있다고 주장했다. 민주당의 탄핵 추진이 오히려 내란 수사·재판에 역효과를 낼 수 있다는 경고다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "홍준표 \"조희대 탄핵은 정권 몰락의 길\"",
+       "url": "https://www.munhwa.com/article/11624295?ref=naver",
+       "media": "문화일보",
+       "date": "10.18"
+      },
+      {
+       "title": "홍준표 \"조희대 대법원장 탄핵은 정권 몰락의 길\"",
+       "url": "https://www.newsis.com/view/NISX20261018_0003830454",
+       "media": "뉴시스",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "선관위 특검 \"입찰비리 업체, 탈세 정황도 포착\"…세무조사 요청",
+     "url": "https://www.yna.co.kr/view/AKR20261018039300004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 16:00",
+     "summary": "선관위 특검팀이 6·3 지방선거 사전투표함 납품업체 선정 입찰 비리를 수사하는 과정에서 관련 업체들의 탈세 정황을 추가로 포착해 국세청에 세무조사를 요청했다. 특검은 선관위 직원들이 업체 청탁을 받아 평가위원을 추가 투입하고 점수 산정 방식을 조작하는 등 입찰 과정에 부당 개입한 것으로 보고 있다. 전직 선관위 정당과장 등이 연루된 것으로 파악됐다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "선관위 입찰비리 업체서 탈세 정황…특검, 국세청에 세무조사 요청",
+       "url": "https://www.sedaily.com/article/20102931?ref=naver",
+       "media": "서울경제",
+       "date": "10.18"
+      },
+      {
+       "title": "특검 \"선거용품 입찰비리 업체, 탈세 포착\"…세무조사 요청",
+       "url": "https://www.jasm.co.kr/news/view/321993/?sc=Naver",
+       "media": "jasm",
+       "date": "10.18"
+      },
+      {
+       "title": "선관위특검 \"유착 의혹 업체 탈세 등 정황 발견\" / 연합뉴스TV",
+       "url": "https://www.youtube.com/watch?v=KGgc4ukfMDk",
+       "media": "연합뉴스TV",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "민주당, 조희대에 재차 사퇴 촉구 \"탄핵 사유 넘쳐... 신속히 결단하길...",
+     "url": "https://www.edaily.co.kr/News/Read?newsId=02420646645614232&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+     "media": "이데일리",
+     "time": "10.18 17:02",
+     "summary": "민주당이 조희대 대법원장에게 재차 자진 사퇴를 촉구하며 \"국민의 재판받을 권리를 중대하게 침해하고 있다\"고 주장했다. 국정감사에서 국회의 합법적 증인 출석 요구에 불응하고 증인 선서·증언을 거부한 점, 12·3 비상계엄 당시 침묵하며 헌정질서 수호 책무를 방기한 점을 사퇴 사유로 들었다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "민주당 \"조희대 대법원장 탄핵사유 차고 넘쳐\" 재차 자진 사퇴 촉구",
+       "url": "https://www.chosun.com/politics/assembly/2026/10/18/C245FLY6CFFRJL3D6TQN77FR5E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+       "media": "조선",
+       "date": "10.18"
+      },
+      {
+       "title": "민주당 \"조희대 탄핵사유 차고 넘쳐…자진 사퇴 결단하라\"",
+       "url": "https://www.donga.com/news/Politics/article/all/20261018/134861509/1",
+       "media": "동아",
+       "date": "10.18"
+      },
+      {
+       "title": "\"조희대 탄핵 사유 차고 넘친다\"면서도 신중…민주당 속내는 / JTBC 뉴스룸",
+       "url": "https://www.youtube.com/watch?v=Vkld_Olc7NE",
+       "media": "JTBC News",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "여당, 조희대 대법원장 탄핵 추진한다는데…헌재 판단 기준은",
+     "url": "https://www.yna.co.kr/view/AKR20261017045900004?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 09:00",
+     "summary": "민주당이 조희대 대법원장 탄핵 추진을 공식화하면서 헌법재판소가 공직자 파면 여부를 가르는 판단 기준에 관심이 쏠린다. 과거 박근혜·윤석열 탄핵심판에서는 비상계엄 등 헌법·법률 위반의 '중대성'이 파면 기준으로 작용했는데, 조 대법원장 사안이 이 기준을 충족할지가 쟁점이다. 여당 내부에서도 탄핵 시 재판 지연 우려로 신중론이 교차한다.",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "여당, 조희대 탄핵 논의 본격화…파면 여부 가를 '위법 중대성' 쟁점",
+       "url": "https://www.iusm.co.kr/news/articleView.html?idxno=1069274",
+       "media": "iusm",
+       "date": "10.18"
+      },
+      {
+       "title": "조희대 대법원장 탄핵 논의 본격화…헌재 파면 기준은 '중대한 법 위반...",
+       "url": "https://www.the-today.com/news/articleView.html?idxno=91920",
+       "media": "the-today",
+       "date": "10.18"
+      },
+      {
+       "title": "시한폭탄 '조희대 탄핵' 꺼내나?.. 판 흔들 승부수 vs 무리수 [뉴스.zip/MBC뉴스]",
+       "url": "https://www.youtube.com/watch?v=bDJ_WlzEg6c",
+       "media": "MBCNEWS",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "집토끼 결집 노린 與…'조작 특검'에 '曺탄핵 논의' 동시 시동(종합)",
+     "url": "https://www.yna.co.kr/view/AKR20261017043651001?input=1195m",
+     "media": "연합뉴스",
+     "time": "10.18 16:57",
+     "summary": "국민의힘이 '윤석열 정부 검찰 조작기소 특검' 추진 방침에 이어 조희대 대법원장 탄핵 논의까지 동시에 꺼내들며 지지층 결집에 나섰다. 당내에서는 탄핵안이 통과돼 대법원장 직무가 정지되면 대법원 재판 지연이 심각해질 수 있다는 우려도 나온다. 두 전략이 내란 수사·재판 국면에 미칠 영향이 주목된다. (클립 미확인)",
+     "deadline": null,
+     "chips": [],
+     "related": [
+      {
+       "title": "집토끼 결집 노린 與…'조작 특검'에 '曺탄핵 논의' 동시 추진",
+       "url": "https://www.kbsm.net/news/view.php?idx=538046",
+       "media": "kbsm",
+       "date": "10.18"
+      }
+     ]
+    },
+    {
+     "title": "인물 · 박성재 (전 법무부 장관, 내란중요임무종사 혐의)",
+     "url": "https://www.news1.kr/society/court-prosecution/6323013",
+     "media": "뉴스1",
+     "time": "10.18 07:00",
+     "summary": "박성재 전 법무부 장관의 내란 중요임무종사 혐의 항소심 선고가 21일로 확정됐다. 1심은 징역 25년을 선고했다. 박 전 장관은 비상계엄 선포 직후 법무부 간부회의를 소집해 계엄사령부 합동수사본부 검사 파견 검토, 교정시설 수용여력 점검, 출국금지 담당자 출근 지시 등을 내린 혐의를 받는다. 항소심 막바지 제출된 통화녹음 중 \"오세훈은 모른다\"는 내용을 재판부가 어떻게 판단할지도 관심사다. (클립 미확인)",
+     "deadline": "공판기일 10.21",
+     "chips": [],
+     "related": [
+      {
+       "title": "'내란 가담' 박성재 前 장관 항소심 21일 선고…1심은 징역 25년",
+       "url": "https://news.tvchosun.com/site/data/html_dir/2026/10/18/2026101890017.html",
+       "media": "TV조선",
+       "date": "10.18"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
