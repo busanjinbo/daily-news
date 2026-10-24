@@ -12,6 +12,7 @@
 :root{
   --bg:#FAF8F3; --ink:#111111; --sub:#4A443B; --rule:#D4CEC2; --red:#A01B1B;
   --box:#EFEBE2; --link:#A01B1B; --inv-bg:#111111; --inv-fg:#FAF8F3;
+  --ed:#1E3A5F; --edfill:#1E3A5F;
   --fs:1;
   --serif:"Noto Serif KR","AppleMyungjo","Nanum Myeongjo",serif;
   --sans:"Pretendard",-apple-system,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
@@ -20,11 +21,13 @@
   :root:not([data-theme="light"]){
     --bg:#15130F; --ink:#EDE6D8; --sub:#A69E8F; --rule:#3D3830; --red:#E2604B;
     --box:#1F1C17; --link:#F08A76; --inv-bg:#EDE6D8; --inv-fg:#15130F;
+    --ed:#9DBCEB; --edfill:#2B4A78;
   }
 }
 :root[data-theme="dark"]{
   --bg:#15130F; --ink:#EDE6D8; --sub:#A69E8F; --rule:#3D3830; --red:#E2604B;
   --box:#1F1C17; --link:#F08A76; --inv-bg:#EDE6D8; --inv-fg:#15130F;
+    --ed:#9DBCEB; --edfill:#2B4A78;
 }
 *{box-sizing:border-box}
 a{color:var(--link)}
@@ -107,6 +110,42 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
   .top-head{--px:26px}
 }
 
+
+/* mode switch + editorial mode (02-DESIGN) */
+.modesw{display:grid;grid-template-columns:1fr 1fr;margin-top:12px;border:1px solid var(--ed)}
+.modesw button{height:44px;border:none;background:transparent;color:var(--ed);font-family:var(--sans);font-size:15px;font-weight:700}
+.modesw button+button{border-left:1px solid var(--ed)}
+.modesw button.on{background:var(--edfill);color:#fff}
+.ed-mast h1{font-size:46px}
+.ed-mast .mast-name h1{color:var(--ink)}
+.ed-body{flex:1;padding:22px 22px 48px}
+.ed-sum{background:var(--box);padding:14px 16px;margin-bottom:26px}
+.ed-sumhead{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px;font-size:calc(13px * var(--fs));color:var(--sub)}
+.ed-sumhead b{font-family:var(--serif);font-size:calc(16px * var(--fs));color:var(--ink)}
+#papers{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.chip{display:flex;flex-direction:column;align-items:center;padding:6px 1px;border:1px solid var(--rule);background:var(--bg);font-size:calc(12px * var(--fs));word-break:keep-all;white-space:nowrap;line-height:1.3}
+.chip b{font-weight:700}
+.chip.missing{border:1px dashed var(--red);color:var(--red)}
+.chip.warn{border-color:var(--red)}
+.ed-alert{margin-top:10px;font-size:calc(13px * var(--fs));line-height:1.6;color:var(--red)}
+.ed-alert p{margin:2px 0}
+.ed-alert .tot{color:var(--sub)}
+.ed-sec{margin-bottom:30px}
+.ed-sec .sec-head{align-items:center;gap:8px}
+.ed-sec .sec-head h2{flex:1;--px:21px}
+.ed-no{font-family:var(--serif);font-size:15px;font-weight:900;color:var(--ed);margin-right:8px}
+.ed-ctx{margin:10px 0 0;font-size:calc(14px * var(--fs));line-height:1.6;color:var(--sub)}
+.ed-list{display:grid;grid-template-columns:minmax(0,1fr)}
+.ed-item{padding:14px 0;border-bottom:1px solid var(--rule)}
+.ed-badge{display:inline-block;min-width:46px;padding:3px 6px;margin-bottom:8px;background:var(--ink);color:var(--bg);text-align:center;font-size:calc(12px * var(--fs));font-weight:700}
+.ed-item.plain .ed-badge{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.ed-item .card-title{--px:16px;margin:0 0 6px}
+.ed-item p{margin:0;font-size:calc(15px * var(--fs));line-height:1.7}
+@media (min-width:700px){
+  .ed-list{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
+  .ed-mast .mast-name h1{font-size:46px}
+}
+
 /* intro: rotary-press print, then the sheet slides up */
 #intro{position:fixed;inset:0;z-index:20;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;justify-content:center;
   padding:0 24px;box-shadow:0 6px 18px rgba(0,0,0,.18);font-family:var(--serif);--t:1}
@@ -177,7 +216,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
 <div class="overlay" id="overlay" hidden>
   <div class="sheet">
     <div class="sheet-head">
-      <span class="sheet-title">지난 브리핑</span>
+      <span class="sheet-title" id="sheetTitle">지난 브리핑</span>
       <button class="icon-btn" id="closeOverlay" aria-label="닫기">✕</button>
     </div>
     <div class="cal-nav">
@@ -191,7 +230,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
 
 <script>
 (function(){
-  var state = { manifest: [], date: null, tab: 0, cache: {}, calMonth: null };
+  var state = { manifest: [], date: null, tab: 0, cache: {}, calMonth: null, mode: 'brief', ed: { manifest: null, date: null, cache: {} } };
 
   function qs(name){ return new URLSearchParams(location.search).get(name); }
 
@@ -316,6 +355,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     app.innerHTML =
       '<header class="mast">' +
         '<div class="mast-top"><span>' + esc(fmtDate(data.targetDate)) + '</span><span>' + esc(data.publishedText||'') + '</span></div>' +
+        modeSwitch() +
         '<div class="mast-name"><h1>정세브리핑</h1></div>' +
         '<p class="mast-tag">전날 하루의 정세를 아침에 한 장으로</p>' +
         '<div class="mast-rule"></div>' +
@@ -338,6 +378,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
       '<footer><div>' + esc(data.footnote||'') + '</div><div>' + esc(data.generatedText||'') + '</div></footer>';
 
     hideIntro();
+    wireModeSwitch();
     document.getElementById('fsDec').addEventListener('click', function(){ stepFs(-1); });
     document.getElementById('fsInc').addEventListener('click', function(){ stepFs(1); });
     applyFs();
@@ -412,7 +453,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
 
   function toggleTheme(){
     setTheme(isDark() ? 'light' : 'dark');
-    render();
+    rerender();
   }
 
   function loadDate(date){
@@ -421,14 +462,150 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
       state.cache[date] = data;
       state.date = date;
       state.tab = 0;
+      if (state.mode !== 'brief') return;
       render();
       history.replaceState(null, '', '?date=' + date);
     });
   }
 
+
+  // ---- editorial mode (사설 브리핑) ----
+  function modeSwitch(){
+    var ed = state.mode === 'ed';
+    return '<div class="modesw" role="group" aria-label="모드">' +
+      '<button id="modeBrief" class="' + (ed ? '' : 'on') + '" aria-pressed="' + (!ed) + '">정세브리핑</button>' +
+      '<button id="modeEd" class="' + (ed ? 'on' : '') + '" aria-pressed="' + ed + '">사설 브리핑</button></div>';
+  }
+  function wireModeSwitch(){
+    document.getElementById('modeBrief').addEventListener('click', function(){ setMode('brief'); });
+    document.getElementById('modeEd').addEventListener('click', function(){ setMode('ed'); });
+  }
+  function rerender(){ if (state.mode === 'ed') renderEd(); else render(); }
+
+  function setMode(m){
+    if (m === state.mode) return;
+    state.mode = m;
+    if (m === 'ed') enterEd(state.ed.date || qs('date'));
+    else if (state.date){ render(); history.replaceState(null, '', '?date=' + state.date); }
+    else if (state.manifest.length) loadDate(state.manifest[state.manifest.length - 1]);
+    else render();
+  }
+
+  function enterEd(requested){
+    if (state.ed.manifest){ pickEd(requested); return; }
+    renderEd('loading');
+    fetch('editorials/data/manifest.json').then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(m){
+      state.ed.manifest = m.dates || [];
+      pickEd(requested);
+    }).catch(function(){ state.ed.manifest = null; renderEd('none'); });
+  }
+  function pickEd(requested){
+    var ms = state.ed.manifest;
+    if (!ms.length){ renderEd('none'); return; }
+    loadEd((requested && ms.indexOf(requested) !== -1) ? requested : ms[ms.length - 1]);
+  }
+  function loadEd(date){
+    var ok = function(){ state.ed.date = date; if (state.mode === 'ed'){ renderEd(); history.replaceState(null, '', '?date=' + date + '#editorials'); } };
+    if (state.ed.cache[date]){ ok(); return; }
+    fetch('editorials/data/' + date + '.json').then(function(r){ if (!r.ok) throw 0; return r.json(); }).then(function(d){
+      state.ed.cache[date] = d; ok();
+    }).catch(function(){ if (state.mode === 'ed') renderEd('none'); });
+  }
+
+  function abbr(n){ return String(n || ''); } // full paper names, no abbreviation
+  function edUrl(u){ return /^https?:\/\//.test(u || '') ? u : ''; }
+  function edItem(it, plain){
+    var body = plain ? '' : '<p>' + (it.summary ? esc(it.summary) : '요약 없음 — 원문 링크 참고') + '</p>';
+    return '<article class="ed-item' + (plain ? ' plain' : '') + '"><span class="ed-badge">' + esc(abbr(it.paper)) + '</span>' +
+      linkOrSpan('card-title', edUrl(it.url), it.title) + body + '</article>';
+  }
+  function edSec(no, title, count, ctx, items, plain){
+    return '<section class="ed-sec"><div class="sec-head">' + (no ? '<span class="ed-no">' + no + '</span>' : '') +
+      '<h2>' + esc(title) + '</h2><span>' + esc(count) + '</span></div>' +
+      (ctx ? '<p class="ed-ctx">' + esc(ctx) + '</p>' : '') +
+      '<div class="ed-list">' + items.map(function(i){ return edItem(i, plain); }).join('') + '</div></section>';
+  }
+  function edTop(iso){
+    var d = new Date(iso + 'T00:00:00');
+    if (isNaN(d)) return esc(iso || '');
+    return d.getFullYear() + '.' + String(d.getMonth() + 1).padStart(2, '0') + '.' + String(d.getDate()).padStart(2, '0') +
+      ' (' + '일월화수목금토'[d.getDay()] + ') 사설';
+  }
+
+  function edBody(data){
+    var papers = data.papers || [], topics = data.topics || [], etc = data.etc || [];
+    var total = papers.reduce(function(a, p){ return a + (p.count || 0); }, 0);
+    var got = papers.filter(function(p){ return p.count > 0; }).length;
+    var chips = papers.map(function(p){
+      var miss = p.status === 'missing' || !p.count, warn = !miss && p.error;
+      return '<div class="chip' + (miss ? ' missing' : '') + (warn ? ' warn' : '') + '"><b>' + esc(abbr(p.name)) + (warn ? ' ⚠' : '') + '</b><span>' +
+        (miss ? '미수집' : esc(p.count)) + '</span></div>';
+    }).join('');
+    var alerts = papers.map(function(p){
+      if (p.status === 'missing' || !p.count) return '<p>' + esc(p.name) + ' 사설 미수집' + (p.error ? ' — ' + esc(p.error) : '') + '</p>';
+      if (p.error) return '<p>⚠ ' + esc(p.name) + ' — ' + esc(p.error) + '</p>';
+      return '';
+    }).join('');
+    var sum = '<div class="ed-sum"><div class="ed-sumhead"><b>수집 현황</b><span>' + total + '편 · ' + got + '/' + papers.length + '개 신문</span></div>' +
+      '<div id="papers">' + chips + '</div>' +
+      (alerts ? '<div class="ed-alert">' + alerts + '<p class="tot">총 ' + total + '편 (수집 편수 기준)</p></div>' : '') + '</div>';
+    var secs = topics.map(function(t, i){
+      var its = t.items || [], np = {};
+      its.forEach(function(x){ np[x.paper] = 1; });
+      return edSec(i + 1, t.title, its.length + '편 · ' + Object.keys(np).length + '개 신문', t.context, its, false);
+    }).join('');
+    if (etc.length) secs += edSec('', '그 밖의 사설', etc.length + '편', '', etc, true);
+    if (!topics.length && !etc.length) secs = '<div class="empty-state">이날 수집된 사설이 없습니다.</div>';
+    return sum + secs;
+  }
+
+  // st: undefined = render current data, 'loading', 'none'
+  function renderEd(st){
+    var app = document.getElementById('app');
+    var data = state.ed.cache[state.ed.date];
+    var body, top = '', foot = '';
+    if (st === 'loading') body = '<div class="empty-state">불러오는 중…</div>';
+    else if (st === 'none' || !data) body = '<div class="empty-state">사설 브리핑 데이터가 아직 없습니다.</div>';
+    else {
+      body = edBody(data);
+      top = esc(edTop(data.date));
+      foot = '<div>' + esc(data.footnote || '') + '</div><div>' + esc(data.generatedText || '') + '</div>' +
+        '<div>요약은 AI가 작성했습니다. 정확한 내용은 원문 링크에서 확인하세요.</div>' +
+        '<div>수집 기준: ' + esc(data.date) + ' 00:00~24:00 게시분</div>';
+    }
+    app.innerHTML =
+      '<header class="mast ed-mast">' +
+        '<div class="mast-top"><span>' + top + '</span><span class="tool-group">' +
+          '<button class="tool-btn" id="historyBtn" aria-label="지난 사설 브리핑">☰ 지난호</button>' +
+          '<button class="tool-btn" id="themeBtn" aria-label="밤낮 전환">' + (isDark() ? '☾ 밤' : '☀ 낮') + '</button></span></div>' +
+        modeSwitch() +
+        '<div class="mast-name"><h1>사설</h1></div>' +
+        '<p class="mast-tag">10개 신문 논설, 주제별로 나란히 읽기</p>' +
+        '<div class="mast-rule"></div>' +
+        '<div class="toolbar"><span></span><div class="tool-group">' +
+          '<button class="fs-btn" id="fsDec" aria-label="글자 작게">−</button><span class="fs-val" id="fsVal"></span>' +
+          '<button class="fs-btn plus" id="fsInc" aria-label="글자 크게">+</button></div></div>' +
+      '</header>' +
+      '<div class="ed-body">' + body + '</div>' +
+      (foot ? '<footer>' + foot + '</footer>' : '');
+    hideIntro();
+    wireModeSwitch();
+    document.getElementById('fsDec').addEventListener('click', function(){ stepFs(-1); });
+    document.getElementById('fsInc').addEventListener('click', function(){ stepFs(1); });
+    applyFs();
+    document.getElementById('themeBtn').addEventListener('click', toggleTheme);
+    document.getElementById('historyBtn').addEventListener('click', openHistory);
+  }
+
+  window.addEventListener('hashchange', function(){
+    setMode(location.hash === '#editorials' ? 'ed' : 'brief');
+  });
+
   // history overlay / calendar
   function openHistory(){
-    var d = state.date ? new Date(state.date + 'T00:00:00') : new Date();
+    var cur = state.mode === 'ed' ? state.ed.date : state.date;
+    var d = cur ? new Date(cur + 'T00:00:00') : new Date();
+    document.getElementById('sheetTitle').textContent = state.mode === 'ed' ? '지난 사설 브리핑' : '지난 브리핑';
     state.calMonth = { y: d.getFullYear(), m: d.getMonth() };
     renderCalendar();
     document.getElementById('overlay').hidden = false;
@@ -445,13 +622,14 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     for (var i=0;i<startDow;i++) html += '<div class="cal-day empty"></div>';
     for (var day=1; day<=daysInMonth; day++){
       var iso = y + '-' + String(m+1).padStart(2,'0') + '-' + String(day).padStart(2,'0');
-      var has = state.manifest.indexOf(iso) !== -1;
-      var sel = iso === state.date;
+      var ms = state.mode === 'ed' ? (state.ed.manifest || []) : state.manifest;
+      var has = ms.indexOf(iso) !== -1;
+      var sel = iso === (state.mode === 'ed' ? state.ed.date : state.date);
       html += '<button class="cal-day' + (has?' has-data':'') + (sel?' selected':'') + '" data-date="' + iso + '"' + (has?'':' disabled') + '>' + day + '</button>';
     }
     document.getElementById('calGrid').innerHTML = html;
     Array.prototype.forEach.call(document.querySelectorAll('.cal-day.has-data'), function(btn){
-      btn.addEventListener('click', function(){ loadDate(btn.dataset.date); closeHistory(); });
+      btn.addEventListener('click', function(){ (state.mode === 'ed' ? loadEd : loadDate)(btn.dataset.date); closeHistory(); });
     });
   }
   document.getElementById('closeOverlay').addEventListener('click', closeHistory);
@@ -463,12 +641,14 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     state.calMonth.m++; if (state.calMonth.m > 11){ state.calMonth.m = 0; state.calMonth.y++; } renderCalendar();
   });
 
+  if (location.hash === '#editorials'){ state.mode = 'ed'; enterEd(qs('date')); }
   fetch('data/manifest.json').then(function(r){ return r.json(); }).then(function(m){
     state.manifest = m.dates || [];
+    if (state.mode !== 'brief') return; // ed deep link: brief loads when the user switches back
     var requested = qs('date');
     var initial = (requested && state.manifest.indexOf(requested) !== -1) ? requested : state.manifest[state.manifest.length - 1];
     loadDate(initial);
-  });
+  }).catch(function(){ if (state.mode === 'brief') throw 0; });
 })();
 </script>
 </body>
