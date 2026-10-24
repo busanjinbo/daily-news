@@ -144,6 +144,55 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
   .ed-list{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px}
   .ed-mast .mast-name h1{font-size:46px}
 }
+.tab-n,.ed-toc{display:none}
+
+/* PC (>=1000px): left rail (mode switch, sections / collection status, toc) + wide main column */
+@media (min-width:1000px){
+  #app{max-width:1200px;padding:0 40px;display:grid;grid-template-columns:240px minmax(0,1fr);column-gap:48px;align-content:start}
+  header.mast,.ed-body{display:contents}
+  .mast-top{grid-column:1/-1;grid-row:1;height:56px;padding:0;margin-bottom:24px}
+  .mast-top span:last-child:not(:first-child){display:none}
+  .toolbar{grid-column:1/-1;grid-row:1;justify-self:end;align-self:start;margin-top:10px;padding:0;border:0;gap:12px;z-index:1}
+  .modesw{grid-column:1;grid-row:2;margin:0;align-self:center}
+  .mast-name{grid-column:2;grid-row:2;padding-top:4px}
+  .mast-name h1,.ed-mast .mast-name h1{font-size:64px}
+  .mast-tag{grid-column:2;grid-row:3;align-self:start;margin-bottom:14px}
+  .mast-rule{grid-column:2;grid-row:4}
+  .tabbar,.ed-sum{grid-column:1;grid-row:3 / span 20;align-self:start;position:sticky;top:16px;margin:0}
+  .tabbar{display:flex;flex-direction:column;border-bottom:none;margin-top:22px}
+  .tab-btn,.tab-btn:nth-child(n+5){grid-column:auto;display:flex;justify-content:space-between;align-items:center;text-align:left;
+    padding:0 12px;min-height:44px;border:none;border-bottom:1px solid var(--rule);font-size:15px}
+  .tab-n{display:inline;font-size:12px;opacity:.7}
+  .viewport{grid-column:2;grid-row:5}
+  .panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:48px;align-content:start;padding:28px 0 48px}
+  .panel>.sec-head,.panel>.rank,.panel>.watch,.panel>.top-head,.panel>.kicker,.panel>.subs,.panel>.empty-state{grid-column:1/-1}
+  .top-head{--px:30px}
+  .card{padding:24px 0}
+  footer{grid-column:2;margin:0;padding-top:20px}
+  /* editorial */
+  .ed-sum{margin-top:22px}
+  #papers{grid-template-columns:minmax(0,1fr);gap:0}
+  .chip{flex-direction:row;justify-content:space-between;align-items:center;padding:6px 0;border:none;background:none;font-size:calc(14px * var(--fs))}
+  .chip b{font-weight:500}
+  .chip span{font-weight:700}
+  .chip.missing{border:none}
+  .chip.warn b{color:var(--red)}
+  .ed-toc{display:block;margin-top:18px;padding-top:12px;border-top:1px solid var(--rule)}
+  .ed-toc b{display:block;margin-bottom:6px;font-size:calc(13px * var(--fs));color:var(--ed)}
+  .ed-toc a{display:flex;gap:10px;padding:9px 0;border-bottom:1px solid var(--rule);color:var(--ink);text-decoration:none;font-size:calc(14px * var(--fs));line-height:1.4}
+  .ed-toc a i{font-style:normal;font-family:var(--serif);font-weight:900;color:var(--ed)}
+  .ed-toc a span{flex:1}
+  .ed-sec{grid-column:2;margin:32px 0 0}
+  .ed-sec .sec-head h2{--px:28px}
+  .ed-sec .sec-head .ed-no{font-size:17px}
+  .ed-ctx{margin:12px 0 18px;max-width:760px}
+  .ed-list{grid-template-columns:repeat(3,minmax(0,1fr));column-gap:0;border-top:1px solid var(--rule)}
+  .ed-item{padding:18px 22px 22px;border-left:1px solid var(--rule)}
+  .ed-item:nth-child(3n+1){padding-left:0;border-left:none}
+  .ed-item .card-title{--px:18px}
+  .ed-list.plain{grid-template-columns:repeat(2,minmax(0,1fr));column-gap:40px;border-top:none}
+  .ed-list.plain .ed-item,.ed-list.plain .ed-item:nth-child(3n+1){padding:13px 0;border-left:none}
+}
 
 /* intro: rotary-press print, then the sheet slides up */
 #intro{position:fixed;inset:0;z-index:20;background:var(--bg);color:var(--ink);display:flex;flex-direction:column;justify-content:center;
@@ -344,7 +393,7 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     TABS = ['축약'].concat(secs.map(function(s){ return s.label; }));
 
     var tabBtns = TABS.map(function(label, i){
-      return '<button class="tab-btn' + (i===state.tab?' active':'') + '" data-tab="'+i+'" aria-pressed="' + (i===state.tab) + '">' + esc(tabLabel(label)) + '</button>';
+      return '<button class="tab-btn' + (i===state.tab?' active':'') + '" data-tab="'+i+'" aria-pressed="' + (i===state.tab) + '"><span>' + esc(tabLabel(label)) + '</span>' + (i ? '<span class="tab-n">' + ((secs[i-1].cards || []).length || '') + '</span>' : '') + '</button>';
     }).join('');
     var track = panels.map(function(p){
       return '<div class="panel">' + renderPanel(p) + '</div>';
@@ -519,10 +568,10 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
       linkOrSpan('card-title', edUrl(it.url), it.title) + body + '</article>';
   }
   function edSec(no, title, count, ctx, items, plain){
-    return '<section class="ed-sec"><div class="sec-head">' + (no ? '<span class="ed-no">' + no + '</span>' : '') +
+    return '<section class="ed-sec" id="ed-sec-' + (no || 'etc') + '"><div class="sec-head">' + (no ? '<span class="ed-no">' + no + '</span>' : '') +
       '<h2>' + esc(title) + '</h2><span>' + esc(count) + '</span></div>' +
       (ctx ? '<p class="ed-ctx">' + esc(ctx) + '</p>' : '') +
-      '<div class="ed-list">' + items.map(function(i){ return edItem(i, plain); }).join('') + '</div></section>';
+      '<div class="ed-list' + (plain ? ' plain' : '') + '">' + items.map(function(i){ return edItem(i, plain); }).join('') + '</div></section>';
   }
   function edTop(iso){
     var d = new Date(iso + 'T00:00:00');
@@ -547,7 +596,10 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     }).join('');
     var sum = '<div class="ed-sum"><div class="ed-sumhead"><b>수집 현황</b><span>' + total + '편 · ' + got + '/' + papers.length + '개 신문</span></div>' +
       '<div id="papers">' + chips + '</div>' +
-      (alerts ? '<div class="ed-alert">' + alerts + '<p class="tot">총 ' + total + '편 (수집 편수 기준)</p></div>' : '') + '</div>';
+      (alerts ? '<div class="ed-alert">' + alerts + '<p class="tot">총 ' + total + '편 (수집 편수 기준)</p></div>' : '') +
+      '<nav class="ed-toc"><b>오늘의 주제</b>' + topics.map(function(t, i){
+        return '<a href="#" data-sec="' + (i + 1) + '"><i>' + (i + 1) + '</i><span>' + esc(t.title) + '</span></a>';
+      }).join('') + (etc.length ? '<a href="#" data-sec="etc"><i>기타</i><span>그 밖의 사설</span></a>' : '') + '</nav></div>';
     var secs = topics.map(function(t, i){
       var its = t.items || [], np = {};
       its.forEach(function(x){ np[x.paper] = 1; });
@@ -574,14 +626,14 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     }
     app.innerHTML =
       '<header class="mast ed-mast">' +
-        '<div class="mast-top"><span>' + top + '</span><span class="tool-group">' +
-          '<button class="tool-btn" id="historyBtn" aria-label="지난 사설 브리핑">☰ 지난호</button>' +
-          '<button class="tool-btn" id="themeBtn" aria-label="밤낮 전환">' + (isDark() ? '☾ 밤' : '☀ 낮') + '</button></span></div>' +
+        '<div class="mast-top"><span>' + top + '</span></div>' +
         modeSwitch() +
         '<div class="mast-name"><h1>사설</h1></div>' +
         '<p class="mast-tag">10개 신문 논설, 주제별로 나란히 읽기</p>' +
         '<div class="mast-rule"></div>' +
-        '<div class="toolbar"><span></span><div class="tool-group">' +
+        '<div class="toolbar"><div class="tool-group">' +
+          '<button class="tool-btn" id="historyBtn" aria-label="지난 사설 브리핑">☰ 지난호</button>' +
+          '<button class="tool-btn" id="themeBtn" aria-label="밤낮 전환">' + (isDark() ? '☾ 밤' : '☀ 낮') + '</button></div><div class="tool-group">' +
           '<button class="fs-btn" id="fsDec" aria-label="글자 작게">−</button><span class="fs-val" id="fsVal"></span>' +
           '<button class="fs-btn plus" id="fsInc" aria-label="글자 크게">+</button></div></div>' +
       '</header>' +
@@ -594,6 +646,13 @@ footer{margin:0 22px;padding:16px 0 24px;border-top:3px double var(--ink);displa
     applyFs();
     document.getElementById('themeBtn').addEventListener('click', toggleTheme);
     document.getElementById('historyBtn').addEventListener('click', openHistory);
+    Array.prototype.forEach.call(app.querySelectorAll('.ed-toc a'), function(a){
+      a.addEventListener('click', function(e){
+        e.preventDefault(); // keep #editorials: a changed hash would switch the mode back
+        var t = document.getElementById('ed-sec-' + a.dataset.sec);
+        if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
   }
 
   window.addEventListener('hashchange', function(){
