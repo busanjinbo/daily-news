@@ -1,0 +1,216 @@
+{
+ "date": "2026-11-23",
+ "title": "11월 23일 사설 브리핑",
+ "publishedText": "발행 2026.11.24 07:11 KST",
+ "generatedText": "생성 2026.11.24 07:11 KST · 사설 브리핑",
+ "footnote": "서울신문 사설 미수집(DAY 게시 0건(휴간·미게재 가능)) / 편집 호출 실패 — 제목·링크만 게재",
+ "papers": [
+  {
+   "name": "조선일보",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "중앙일보",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "동아일보",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "한겨레",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "경향신문",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "부산일보",
+   "count": 1,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "한국일보",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "서울신문",
+   "count": 0,
+   "status": "missing",
+   "error": "DAY 게시 0건(휴간·미게재 가능)"
+  },
+  {
+   "name": "세계일보",
+   "count": 3,
+   "status": "ok",
+   "error": null
+  },
+  {
+   "name": "국민일보",
+   "count": 2,
+   "status": "ok",
+   "error": null
+  }
+ ],
+ "topics": [],
+ "etc": [
+  {
+   "paper": "조선일보",
+   "title": "[사설] 사흘 새 3번 바뀐 사유, 대법원장 탄핵이 장난인가",
+   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/VQGOVYZSLFHYNNADPCI4ULJSKE/",
+   "summary": ""
+  },
+  {
+   "paper": "조선일보",
+   "title": "[사설] 제 할 일 못하는 자격 미달 장관, 교육부뿐이겠나",
+   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/MPCNCCUBV5F6XHRPLECLNY7RZU/",
+   "summary": ""
+  },
+  {
+   "paper": "조선일보",
+   "title": "[사설] 속수무책 주가 폭락, 주식 사라고 부추긴 정책 후폭풍",
+   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/RPJKWQ7QONHX3GO7G7PZCTQM5E/",
+   "summary": ""
+  },
+  {
+   "paper": "중앙일보",
+   "title": "[사설] 강대국 정치로의 재편 예고 , 한·미 복원 더 시급해졌다",
+   "url": "https://www.joongang.co.kr/article/25480914",
+   "summary": ""
+  },
+  {
+   "paper": "중앙일보",
+   "title": "[사설] 최교진 사퇴…후임은 진영 떠나 미래 교육 이끌 인물로",
+   "url": "https://www.joongang.co.kr/article/25480915",
+   "summary": ""
+  },
+  {
+   "paper": "중앙일보",
+   "title": "[사설] 조희대 탄핵 강행은 사실상 재판 불복 아닌가",
+   "url": "https://www.joongang.co.kr/article/25480916",
+   "summary": ""
+  },
+  {
+   "paper": "동아일보",
+   "title": "[사설]예산안 따지고 깎기는커녕 묻지 마 증액 나선 與野",
+   "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077413/2",
+   "summary": ""
+  },
+  {
+   "paper": "동아일보",
+   "title": "[사설]美 “金 팽창주의 아냐” 北 “팽창 추구 안 해”… 밀당은 계속된다",
+   "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077415/2",
+   "summary": ""
+  },
+  {
+   "paper": "동아일보",
+   "title": "[사설]정동영 이종석 교체… 동맹 난기류 넘어 ‘원팀’으로 거듭나야",
+   "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077411/2",
+   "summary": ""
+  },
+  {
+   "paper": "한겨레",
+   "title": "[사설] 증안펀드는 미봉책, ‘투자자 보호’ 중심 제도 개선을",
+   "url": "https://www.hani.co.kr/arti/opinion/editorial/1288712.html",
+   "summary": ""
+  },
+  {
+   "paper": "한겨레",
+   "title": "[사설] 새 외교안보 라인, 주체적·다각적 외교 노력해야",
+   "url": "https://www.hani.co.kr/arti/opinion/editorial/1288740.html",
+   "summary": ""
+  },
+  {
+   "paper": "한겨레",
+   "title": "[사설] 국교위, 새로운 대입 평가 방식 논의 서두르길",
+   "url": "https://www.hani.co.kr/arti/opinion/editorial/1288746.html",
+   "summary": ""
+  },
+  {
+   "paper": "경향신문",
+   "title": "[사설]‘법관 행동’ 촉구한 법관회의 의장, ‘조희대 코트’는 아무 잘못이 없나",
+   "url": "https://www.khan.co.kr/article/202611231810001/",
+   "summary": ""
+  },
+  {
+   "paper": "경향신문",
+   "title": "[사설]증안펀드 가동 준비, AI 약세장 대비하되 무리한 개입 말아야",
+   "url": "https://www.khan.co.kr/article/202611231810011/",
+   "summary": ""
+  },
+  {
+   "paper": "경향신문",
+   "title": "[사설]외교안보 라인 포함 중폭 개각, 국정 심기일전 전기 되길",
+   "url": "https://www.khan.co.kr/article/202611231831001/",
+   "summary": ""
+  },
+  {
+   "paper": "부산일보",
+   "title": "[사설] 교육부 장관 사퇴 부른 AI 커닝, 국가시험 근본적 손질을",
+   "url": "https://www.busan.com/view/busan/view.php?code=2026112218002829807",
+   "summary": ""
+  },
+  {
+   "paper": "한국일보",
+   "title": "커지는 AI 거품 우려, 불안한 수출 1조 달러",
+   "url": "https://www.hankookilbo.com/news/article/A2026112213000002297",
+   "summary": ""
+  },
+  {
+   "paper": "한국일보",
+   "title": "'깜깜이' 민주유공자법, 기준 명확히 하고 명단 공개를",
+   "url": "https://www.hankookilbo.com/news/article/A2026112214590004888",
+   "summary": ""
+  },
+  {
+   "paper": "한국일보",
+   "title": "장관 경질로 끝낼 일 아냐… 국가시험 근본 쇄신해야",
+   "url": "https://www.hankookilbo.com/news/article/A2026112215210003461",
+   "summary": ""
+  },
+  {
+   "paper": "세계일보",
+   "title": "[사설] 내분·폭주로 지지율 역주행한 김민석 대표 100일",
+   "url": "https://www.segye.com/newsView/20261123515162",
+   "summary": ""
+  },
+  {
+   "paper": "세계일보",
+   "title": "[사설] 법조계 반발 부른 與 대법원장 탄핵, 이쯤에서 멈춰야",
+   "url": "https://www.segye.com/newsView/20261123515160",
+   "summary": ""
+  },
+  {
+   "paper": "세계일보",
+   "title": "[사설] 외교안보라인 ‘자주파’ 교체, 한·미 균열 해소 계기로",
+   "url": "https://www.segye.com/newsView/20261123515163",
+   "summary": ""
+  },
+  {
+   "paper": "국민일보",
+   "title": "[사설] 최교진 교육부 장관 사의⋯ 후속 입시관리 만전 기해야",
+   "url": "https://www.kmib.co.kr/article/20261122501171",
+   "summary": ""
+  },
+  {
+   "paper": "국민일보",
+   "title": "[사설] 언제는 대법원 판결이 탄핵 사유라더니",
+   "url": "https://www.kmib.co.kr/article/20261122501166",
+   "summary": ""
+  }
+ ]
+}
