@@ -1,9 +1,9 @@
 {
  "date": "2026-11-23",
  "title": "11월 23일 사설 브리핑",
- "publishedText": "발행 2026.11.24 14:20 KST",
- "generatedText": "생성 2026.11.24 14:20 KST · 사설 브리핑",
- "footnote": "서울신문 사설 미수집(DAY 게시 0건(휴간·미게재 가능)) / 편집 호출 실패 — 제목·링크만 게재",
+ "publishedText": "발행 2026.11.24 14:29 KST",
+ "generatedText": "생성 2026.11.24 14:29 KST · 사설 브리핑",
+ "footnote": "서울신문 사설 미수집(DAY 게시 0건(휴간·미게재 가능))",
  "papers": [
   {
    "name": "조선일보",
@@ -66,151 +66,176 @@
    "error": null
   }
  ],
- "topics": [],
+ "topics": [
+  {
+   "title": "조희대 대법원장 탄핵 추진",
+   "context": "민주당이 조희대 대법원장 탄핵을 추진하는 가운데, 한덕수 전 총리 사건 대법원 판결(19일)을 탄핵 사유로 삼지 않겠다고 밝혔다.",
+   "items": [
+    {
+     "paper": "조선일보",
+     "title": "[사설] 사흘 새 3번 바뀐 사유, 대법원장 탄핵이 장난인가",
+     "url": "https://www.chosun.com/opinion/editorial/2026/11/23/VQGOVYZSLFHYNNADPCI4ULJSKE/",
+     "summary": "민주당이 탄핵 사유를 사흘 새 세 번 바꾸며 오락가락한다고 비판한다. 속도전식 대법원장 탄핵 추진이 정당한지 묻는다."
+    },
+    {
+     "paper": "중앙일보",
+     "title": "[사설] 조희대 탄핵 강행은 사실상 재판 불복 아닌가",
+     "url": "https://www.joongang.co.kr/article/25480916",
+     "summary": "한덕수 판결을 사유에서 빼고 절차상 하자 등을 내세웠지만 계기는 판결이라며, 사실상 재판 불복이라고 비판한다. 사법부 독립 침해를 지적한다."
+    },
+    {
+     "paper": "경향신문",
+     "title": "[사설]‘법관 행동’ 촉구한 법관회의 의장, ‘조희대 코트’는 아무 잘못이 없나",
+     "url": "https://www.khan.co.kr/article/202611231810001/",
+     "summary": "탄핵 추진이 판결 때문이라 재판독립 침해 소지가 크다고 비판한다. 다만 조 대법원장도 재제청 거부와 계엄 당시 침묵 등 잘못이 없지 않다고 지적한다."
+    },
+    {
+     "paper": "세계일보",
+     "title": "[사설] 법조계 반발 부른 與 대법원장 탄핵, 이쯤에서 멈춰야",
+     "url": "https://www.segye.com/newsView/20261123515160",
+     "summary": "법관대표회의 의장의 행동 촉구는 정당한 문제 제기이며 법조계 우려가 확산 중이라고 본다. 정치적 이해에 따른 탄핵은 재판 독립을 위축시키므로 여당이 멈춰야 한다고 요구한다."
+    },
+    {
+     "paper": "국민일보",
+     "title": "[사설] 언제는 대법원 판결이 탄핵 사유라더니",
+     "url": "https://www.kmib.co.kr/article/20261122501166",
+     "summary": "판결을 사유로 삼지 않겠다면서도 계기라 하고, 사유 확정 전에 연내 의결 시한부터 정한 점을 비판한다. 다수 의견을 대법원장 개인 책임으로 모는 것은 온당치 않다고 주장한다."
+    }
+   ]
+  },
+  {
+   "title": "최교진 장관 사퇴와 수능 AI 부정행",
+   "context": "최교진 교육부 장관이 수능 AI 부정행위 대응 혼선의 책임을 지고 사퇴했고, 대통령이 사의를 곧바로 수용했다.",
+   "items": [
+    {
+     "paper": "조선일보",
+     "title": "[사설] 제 할 일 못하는 자격 미달 장관, 교육부뿐이겠나",
+     "url": "https://www.chosun.com/opinion/editorial/2026/11/23/MPCNCCUBV5F6XHRPLECLNY7RZU/",
+     "summary": "AI 부정행위 우려가 2년 전부터 나왔는데도 대책이 없었고 장관이 무능을 보였다고 비판한다. 자격 미달 장관이 교육부만의 문제겠느냐고 묻는다."
+    },
+    {
+     "paper": "중앙일보",
+     "title": "[사설] 최교진 사퇴…후임은 진영 떠나 미래 교육 이끌 인물로",
+     "url": "https://www.joongang.co.kr/article/25480915",
+     "summary": "뒷북 대책과 무책임한 답변으로 사퇴는 당연하다고 비판한다. 정치적 성향보다 역량을 중시해 진영을 떠나 미래 교육을 이끌 후임을 인선하라고 요구한다."
+    },
+    {
+     "paper": "부산일보",
+     "title": "[사설] 교육부 장관 사퇴 부른 AI 커닝, 국가시험 근본적 손질을",
+     "url": "https://www.busan.com/view/busan/view.php?code=2026112218002829807",
+     "summary": "졸속 뒷북 대책으로 국가시험 신뢰가 추락했으며 장관 사퇴만으론 부족하다고 지적한다. 공정성을 무너뜨린 중대범죄의 재발을 막도록 국가시험을 근본적으로 손질하라고 촉구한다."
+    },
+    {
+     "paper": "한국일보",
+     "title": "장관 경질로 끝낼 일 아냐… 국가시험 근본 쇄신해야",
+     "url": "https://www.hankookilbo.com/news/article/A2026112215210003461",
+     "summary": "장관 경질은 마땅하나 그것으로 끝낼 일이 아니라고 본다. 범정부 대응과 AI 기업 협력에 더해 국가시험제도 운영에 대한 사회적 논의를 시작하자고 요구한다."
+    },
+    {
+     "paper": "국민일보",
+     "title": "[사설] 최교진 교육부 장관 사의⋯ 후속 입시관리 만전 기해야",
+     "url": "https://www.kmib.co.kr/article/20261122501171",
+     "summary": "장관이 책임을 지고 사퇴했지만 입시는 진행 중이라며 논술·면접 등 후속 입시 관리에 만전을 기하라고 요구한다. 수능 부정행위를 낱낱이 밝히고 재발 방지책을 마련해야 한다고 한다."
+    }
+   ]
+  },
+  {
+   "title": "외교안보 라인 개각",
+   "context": "이재명 대통령이 23일 국정원장·외교부·통일부 장관 등 5개 부처 후보자를 지명했고 위성락 안보실장만 유임됐다.",
+   "items": [
+    {
+     "paper": "동아일보",
+     "title": "[사설]정동영 이종석 교체… 동맹 난기류 넘어 ‘원팀’으로 거듭나야",
+     "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077411/2",
+     "summary": "대북 유화책을 앞세운 인사들의 교체로 자주파·동맹파 이분법의 소모적 논쟁을 끝내야 한다고 본다. 한미 동맹 난기류를 넘어 외교안보팀이 원팀으로 거듭나라고 요구한다."
+    },
+    {
+     "paper": "한겨레",
+     "title": "[사설] 새 외교안보 라인, 주체적·다각적 외교 노력해야",
+     "url": "https://www.hani.co.kr/arti/opinion/editorial/1288740.html",
+     "summary": "대북 정책에서 숨을 고르고 대미 외교에 집중해 성과를 내려는 인선으로 해석한다. 한미 동맹을 강화하면서 전략적 자율성을 극대화하라고 주문한다."
+    },
+    {
+     "paper": "경향신문",
+     "title": "[사설]외교안보 라인 포함 중폭 개각, 국정 심기일전 전기 되길",
+     "url": "https://www.khan.co.kr/article/202611231831001/",
+     "summary": "외교안보 라인 재정비를 국정 심기일전의 계기로 삼으라고 주문한다. 강금실 내정자의 정보·대북 분야 이력 부재와 친이재명계·청와대 출신의 전면 배치를 짚는다."
+    },
+    {
+     "paper": "세계일보",
+     "title": "[사설] 외교안보라인 ‘자주파’ 교체, 한·미 균열 해소 계기로",
+     "url": "https://www.segye.com/newsView/20261123515163",
+     "summary": "자주파로 꼽힌 인사들의 교체를 한·미 균열을 해소하는 계기로 삼으라고 요구한다. 북·미 직접 거래 가능성을 우려하며 대북정책과 한·미 공조의 방향을 재정립하라고 한다."
+    }
+   ]
+  },
+  {
+   "title": "증시 급락과 증안펀드",
+   "context": "미국발 AI 거품 우려로 주가가 급락하자 정부가 증권시장안정펀드 가동 준비 등 긴급 조치를 내놓았다.",
+   "items": [
+    {
+     "paper": "조선일보",
+     "title": "[사설] 속수무책 주가 폭락, 주식 사라고 부추긴 정책 후폭풍",
+     "url": "https://www.chosun.com/opinion/editorial/2026/11/23/RPJKWQ7QONHX3GO7G7PZCTQM5E/",
+     "summary": "미국 증시 급락으로 코스피에 '검은 월요일' 공포가 커졌다고 짚는다. 주식 사라고 부추긴 정책의 후폭풍이라며 정부 대응을 비판한다."
+    },
+    {
+     "paper": "한겨레",
+     "title": "[사설] 증안펀드는 미봉책, ‘투자자 보호’ 중심 제도 개선을",
+     "url": "https://www.hani.co.kr/arti/opinion/editorial/1288712.html",
+     "summary": "자사주 매수 완화와 불법 공매도 감시는 추진할 만하나 증안펀드는 미봉책이라고 본다. 시장 기능이 크게 약화될 때만 예외적으로 쓰고 투자자 보호 중심으로 제도를 개선하라고 요구한다."
+    },
+    {
+     "paper": "경향신문",
+     "title": "[사설]증안펀드 가동 준비, AI 약세장 대비하되 무리한 개입 말아야",
+     "url": "https://www.khan.co.kr/article/202611231810011/",
+     "summary": "시장 안전판 마련은 필요하지만 AI 재평가에서 비롯된 하락은 인위적 자금 투입으로 막기 어렵다고 본다. 무리한 개입은 말아야 한다고 주문한다."
+    }
+   ]
+  }
+ ],
  "etc": [
-  {
-   "paper": "조선일보",
-   "title": "[사설] 사흘 새 3번 바뀐 사유, 대법원장 탄핵이 장난인가",
-   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/VQGOVYZSLFHYNNADPCI4ULJSKE/",
-   "summary": ""
-  },
-  {
-   "paper": "조선일보",
-   "title": "[사설] 제 할 일 못하는 자격 미달 장관, 교육부뿐이겠나",
-   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/MPCNCCUBV5F6XHRPLECLNY7RZU/",
-   "summary": ""
-  },
-  {
-   "paper": "조선일보",
-   "title": "[사설] 속수무책 주가 폭락, 주식 사라고 부추긴 정책 후폭풍",
-   "url": "https://www.chosun.com/opinion/editorial/2026/11/23/RPJKWQ7QONHX3GO7G7PZCTQM5E/",
-   "summary": ""
-  },
   {
    "paper": "중앙일보",
    "title": "[사설] 강대국 정치로의 재편 예고 , 한·미 복원 더 시급해졌다",
    "url": "https://www.joongang.co.kr/article/25480914",
-   "summary": ""
-  },
-  {
-   "paper": "중앙일보",
-   "title": "[사설] 최교진 사퇴…후임은 진영 떠나 미래 교육 이끌 인물로",
-   "url": "https://www.joongang.co.kr/article/25480915",
-   "summary": ""
-  },
-  {
-   "paper": "중앙일보",
-   "title": "[사설] 조희대 탄핵 강행은 사실상 재판 불복 아닌가",
-   "url": "https://www.joongang.co.kr/article/25480916",
-   "summary": ""
+   "summary": "미·중·러 정상회담으로 강대국 세력 정치 재편이 예고돼 동맹국엔 불확실성이 커진다고 진단한다. 한반도 문제에서 국익에 반하는 논의를 경계하며 한·미 관계 복원을 서두르라고 요구한다."
   },
   {
    "paper": "동아일보",
    "title": "[사설]예산안 따지고 깎기는커녕 묻지 마 증액 나선 與野",
    "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077413/2",
-   "summary": ""
+   "summary": "국회가 71조9000억 원 증액을 요구해 지난해의 4배에 달하며 지역구·선심성 예산을 밀어 넣는다고 비판한다. 예결위가 문지기 역할을 포기했다며 따져 깎는 심사를 요구한다."
   },
   {
    "paper": "동아일보",
    "title": "[사설]美 “金 팽창주의 아냐” 北 “팽창 추구 안 해”… 밀당은 계속된다",
    "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077415/2",
-   "summary": ""
-  },
-  {
-   "paper": "동아일보",
-   "title": "[사설]정동영 이종석 교체… 동맹 난기류 넘어 ‘원팀’으로 거듭나야",
-   "url": "https://www.donga.com/news/Opinion/article/all/20261123/135077411/2",
-   "summary": ""
-  },
-  {
-   "paper": "한겨레",
-   "title": "[사설] 증안펀드는 미봉책, ‘투자자 보호’ 중심 제도 개선을",
-   "url": "https://www.hani.co.kr/arti/opinion/editorial/1288712.html",
-   "summary": ""
-  },
-  {
-   "paper": "한겨레",
-   "title": "[사설] 새 외교안보 라인, 주체적·다각적 외교 노력해야",
-   "url": "https://www.hani.co.kr/arti/opinion/editorial/1288740.html",
-   "summary": ""
+   "summary": "김정은의 '팽창 불추구' 발언이 미 국무장관의 '팽창주의자 아냐' 발언과 조응하는 점에 주목한다. 북미 간 탐색전인 밀당이 계속될 것으로 본다."
   },
   {
    "paper": "한겨레",
    "title": "[사설] 국교위, 새로운 대입 평가 방식 논의 서두르길",
    "url": "https://www.hani.co.kr/arti/opinion/editorial/1288746.html",
-   "summary": ""
-  },
-  {
-   "paper": "경향신문",
-   "title": "[사설]‘법관 행동’ 촉구한 법관회의 의장, ‘조희대 코트’는 아무 잘못이 없나",
-   "url": "https://www.khan.co.kr/article/202611231810001/",
-   "summary": ""
-  },
-  {
-   "paper": "경향신문",
-   "title": "[사설]증안펀드 가동 준비, AI 약세장 대비하되 무리한 개입 말아야",
-   "url": "https://www.khan.co.kr/article/202611231810011/",
-   "summary": ""
-  },
-  {
-   "paper": "경향신문",
-   "title": "[사설]외교안보 라인 포함 중폭 개각, 국정 심기일전 전기 되길",
-   "url": "https://www.khan.co.kr/article/202611231831001/",
-   "summary": ""
-  },
-  {
-   "paper": "부산일보",
-   "title": "[사설] 교육부 장관 사퇴 부른 AI 커닝, 국가시험 근본적 손질을",
-   "url": "https://www.busan.com/view/busan/view.php?code=2026112218002829807",
-   "summary": ""
+   "summary": "국교위가 대입 개편 논의를 서둘러 재개해야 한다고 촉구한다. 수능 AI 부정행위 사태를 계기로 서·논술형 등 새 평가 방식 도입 논의를 늦추지 말라고 한다."
   },
   {
    "paper": "한국일보",
    "title": "커지는 AI 거품 우려, 불안한 수출 1조 달러",
    "url": "https://www.hankookilbo.com/news/article/A2026112213000002297",
-   "summary": ""
+   "summary": "수출 1조 달러를 돌파했지만 반도체를 빼면 세계 8위로 의존도가 지나치다고 지적한다. AI 거품론과 대중 제재 속에서 포스트 반도체 신성장 동력을 육성하라고 촉구한다."
   },
   {
    "paper": "한국일보",
    "title": "'깜깜이' 민주유공자법, 기준 명확히 하고 명단 공개를",
    "url": "https://www.hankookilbo.com/news/article/A2026112214590004888",
-   "summary": ""
-  },
-  {
-   "paper": "한국일보",
-   "title": "장관 경질로 끝낼 일 아냐… 국가시험 근본 쇄신해야",
-   "url": "https://www.hankookilbo.com/news/article/A2026112215210003461",
-   "summary": ""
+   "summary": "민주유공자법 통과를 두고 선정 기준이 모호하고 명단 비공개 등 투명성 논란이 남았다고 지적한다. 기준을 명확히 하고 명단을 공개하라고 요구한다."
   },
   {
    "paper": "세계일보",
    "title": "[사설] 내분·폭주로 지지율 역주행한 김민석 대표 100일",
    "url": "https://www.segye.com/newsView/20261123515162",
-   "summary": ""
-  },
-  {
-   "paper": "세계일보",
-   "title": "[사설] 법조계 반발 부른 與 대법원장 탄핵, 이쯤에서 멈춰야",
-   "url": "https://www.segye.com/newsView/20261123515160",
-   "summary": ""
-  },
-  {
-   "paper": "세계일보",
-   "title": "[사설] 외교안보라인 ‘자주파’ 교체, 한·미 균열 해소 계기로",
-   "url": "https://www.segye.com/newsView/20261123515163",
-   "summary": ""
-  },
-  {
-   "paper": "국민일보",
-   "title": "[사설] 최교진 교육부 장관 사의⋯ 후속 입시관리 만전 기해야",
-   "url": "https://www.kmib.co.kr/article/20261122501171",
-   "summary": ""
-  },
-  {
-   "paper": "국민일보",
-   "title": "[사설] 언제는 대법원 판결이 탄핵 사유라더니",
-   "url": "https://www.kmib.co.kr/article/20261122501166",
-   "summary": ""
+   "summary": "김민석 대표 취임 100일에 내분과 입법 폭주로 지지율이 역주행했다고 비판한다. 지도력 부재의 책임이 크다며 김 대표가 수습에 나서라고 요구한다."
   }
  ]
 }
